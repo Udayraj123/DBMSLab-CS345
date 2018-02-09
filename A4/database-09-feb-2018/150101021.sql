@@ -11,6 +11,15 @@ Strategy-
 2. Extract the tables containing schedules (remove extra clutters) and store it in a separate sheet.
 3. Remove courses in lab slots
 4. 
+
+Special cases-
+Design dept : much work (will insert later, first complete the code)
+CSE n CH : converter failed, have to copy line by line carefully
+EEE - handled the following exceptions as well-
+# OE I	Room: L1	
+* OE II/III	EE 664 (GT)	EE 671 (DS)
+	Room: 3202	Room: 2101
+
 */
 
 
