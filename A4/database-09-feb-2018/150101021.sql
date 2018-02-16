@@ -41,13 +41,14 @@ create table Course (
 Lab Slots - AL1,etc are excluded and will not be allowed in this assignment.	
 */
 create table Slot (
-	slot_id int(2) auto increment not NULL comment "Added for convenience in setting up the ScheduledIn relation",
+	-- slot_id int(2) auto increment not NULL comment "Added for convenience in setting up the ScheduledIn relation",
+	-- primary key (slot_id),
 	letter enum('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'A1', 'B1', 'C1', 'D1', 'E1') not NULL comment "Given constraint added",
 	day enum('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday') not NULL comment "Given constraint added",
 	start_time TIME not NULL comment "As its format follows SQL TIME format, it is advantageous for e.g in comparing two time entries'",
 	end_time TIME not NULL comment "As its format follows SQL TIME format, it is advantageous for e.g in comparing two time entries", 
-	primary key (slot_id)
-	-- primary key (letter,day) This one was also possible, but not needed as we added an id.
+	primary key(letter,day) -- letter_day is the unique_index
+	-- unique key letter_day(letter,day) -- letter_day is the unique_index
 );
 
 /* Room table
@@ -68,13 +69,15 @@ enum not used for department_id to allow for new depts to be added in the future
 create table Department (
 	department_id varchar(10) not NULL comment "Although found max 9 letters(Institute), 10 is taken as a margin",
 	name varchar(50) not NULL comment "varchar(50) is sufficient,an example long department name is Electronics and Electrical Engineering, which is 38 characters"
-	primary key (department_id),
+	primary key (department_id)
 );
 
 /* ScheduledIn table
 This table should contain the relationship between Course, Department, Slot, Room
 hence it should contain course_id, department_id, slot_id and room_number.
-
+Foreign key (slot_letter,slot_day) references 09feb2018.Slot(letter,day)
+-> But this may cause problem in adding NULL entries (which is apparently not an issue in this asgn), more general & reliable way is to use the extra id column in slots
+SelfNote: Good ans - https://stackoverflow.com/questions/3178709/foreign-key-referencing-a-2-columns-primary-key-in-sql-server
 */
 create table ScheduledIn (
 	
