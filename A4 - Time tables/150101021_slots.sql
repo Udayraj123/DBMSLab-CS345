@@ -19,13 +19,14 @@ INSERT into Slot (letter,day,start_time,end_time) values ('C1','Tuesday','2:00',
 INSERT into Slot (letter,day,start_time,end_time) values ('B1','Tuesday','3:00','3:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('A1','Tuesday','4:00','4:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('E1','Tuesday','5:00','5:55');
-INSERT into Slot (letter,day,start_time,end_time) values ('E1','Tuesday','5:00','5:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('I','Tuesday','12:00','1:25');
 INSERT into Slot (letter,day,start_time,end_time) values ('L','Tuesday','5:00','6:25');
 INSERT into Slot (letter,day,start_time,end_time) values ('D','Wednesday','8:00','8:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('E','Wednesday','9:00','9:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('A','Wednesday','10:00','10:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('B','Wednesday','11:00','11:55');
+INSERT into Slot (letter,day,start_time,end_time) values ('F','Wednesday','12:00','12:55');
+INSERT into Slot (letter,day,start_time,end_time) values ('G','Wednesday','1:00','1:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('B1','Wednesday','2:00','2:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('A1','Wednesday','3:00','3:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('E1','Wednesday','4:00','4:55');
@@ -40,7 +41,6 @@ INSERT into Slot (letter,day,start_time,end_time) values ('J','Thursday','1:00',
 INSERT into Slot (letter,day,start_time,end_time) values ('A1','Thursday','2:00','2:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('E1','Thursday','3:00','3:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('D1','Thursday','4:00','4:55');
-INSERT into Slot (letter,day,start_time,end_time) values ('C1','Thursday','5:00','5:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('C1','Thursday','5:00','5:55');
 INSERT into Slot (letter,day,start_time,end_time) values ('I','Thursday','12:00','1:25');
 INSERT into Slot (letter,day,start_time,end_time) values ('L','Thursday','5:00','6:25');

@@ -2,39 +2,18 @@ drop database if exists 09feb2018;
 create database 09feb2018;
 	use 09feb2018;
 -- The if not exists clauses allow to re-run this file during debugging
-/*
-CSV files-
-They have different formats, hence they have to be manually rearranged to follow a standard format. 
-Some of the depts have given in ScheduleIn format directly. Those cases need to be handled separately.
-Strategy-
-1. Converted all pdfs to xlsx (makes it easy to copy data)
-2. Extract the tables containing schedules (remove extra clutters) and store it in a separate sheet.
-3. Remove courses in lab slots
-4. 
-
-Special cases-
-Design dept : much work (will insert later, first complete the code)
-CSE n CH : converter failed, have to copy line by line carefully
-EEE - handled the following exceptions as well-
-# OE I	Room: L1	
-* OE II/III	EE 664 (GT)	EE 671 (DS)
-	Room: 3202	Room: 2101
-
-	*/
-
-
 -- SelfNote: Even for enum - MySQL will allow the value to be NULL if you do not specify NOT NULL 
 /* Course table
-course_code+division here will be primary key.
+course_id+division here will be primary key.
 division has to be in - I,  II,  III,  IV,  NA, 'NA' being the case for dept level courses.
 Semester of some courses are given in the pdfs, but ignored as not required here.
 */
 create table Course (
 	-- course_id int(3) auto increment not NULL comment "Added for convenience in setting up the ScheduledIn relation",
-	course_code varchar(6) not NULL comment "varchar(6) used as course code can be at max 6 characters",
+	course_id varchar(6) not NULL comment "varchar(6) used as course code can be at max 6 characters",
 	division enum('I','II','III','IV','NA') not NULL comment "division has to be in - I,  II,  III,  IV,  NA, 'NA' being the case for dept level courses.",
-	primary key (course_code,division),
-	check(course_code regexp '^\w\w\d\d\dM?') -- checking for valid course code
+	primary key (course_id,division),
+	check(course_id regexp '^\w\w\d\d\dM?') -- checking for valid course code
 );
 
 /* Slot table
@@ -84,16 +63,16 @@ SelfNote:
 .
 */
 create table ScheduledIn (
-	course_code varchar(6) not NULL comment "Relational Reference to respective table",
+	course_id varchar(6) not NULL comment "Relational Reference to respective table",
 	course_division enum('I','II','III','IV','NA') not NULL comment "Relational Reference to respective table",
 	slot_letter enum('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'A1', 'B1', 'C1', 'D1', 'E1') not NULL comment "Relational Reference to respective table",
 	slot_day enum('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday') not NULL comment "Relational Reference to respective table",
 	department_id varchar(10) not NULL comment "Relational Reference to respective table",
 	room_number varchar(15) not NULL comment "Relational Reference to respective table",
-	primary key (course_code, department_id, slot_letter,slot_day ,room_number),
+	primary key (course_id,course_division, department_id, slot_letter,slot_day ,room_number),
 	Foreign key (department_id) references 09feb2018.Department(department_id),
 	Foreign key (room_number) references 09feb2018.Room(room_number),
 	Foreign key (slot_letter,slot_day) references 09feb2018.Slot(letter,day),
-	Foreign key (course_code,course_division) references 09feb2018.Course(course_code,division),
-	check(course_code regexp '^\w\w\d\d\dM?')
+	Foreign key (course_id,course_division) references 09feb2018.Course(course_id,division),
+	check(course_id regexp '^\w\w\d\d\dM?')
 );

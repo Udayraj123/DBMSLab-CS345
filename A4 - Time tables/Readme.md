@@ -1,8 +1,29 @@
+#How to use
+source loadAll.sql
+
 #TODO 
 [] Restore the ignored ME654 to demonstrate insert errors (See below)
 [-] Handle "Other than Thursday" type cases (Ignored previously)
 
 #Notes made during processing 
+/*
+CSV files-
+They have different formats, hence they have to be manually rearranged to follow a standard format. 
+Some of the depts have given in ScheduleIn format directly. Those cases need to be handled separately.
+Strategy-
+1. Converted all pdfs to xlsx (makes it easy to copy data)
+2. Extract the tables containing schedules (remove extra clutters) and store it in a separate sheet.
+3. Remove courses in lab slots
+
+Special cases-
+Design dept : much work (will insert later, first complete the code)
+CSE n CH : converter failed, have to copy line by line carefully
+EEE - handled the following exceptions as well-
+# OE I	Room: L1	
+* OE II/III	EE 664 (GT)	EE 671 (DS)
+	Room: 3202	Room: 2101
+
+	*/
 
 Input csv:  Day Room Slot-A Slot-B    
 M r1 c1 c2 ..   

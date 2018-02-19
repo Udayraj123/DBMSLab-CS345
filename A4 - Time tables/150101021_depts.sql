@@ -2,7 +2,6 @@ INSERT into Department (department_id,name) values ('CS','Department of Computer
 INSERT into Department (department_id,name) values ('EE','Department of Electronics and Electrical Engineering');
 INSERT into Department (department_id,name) values ('ME','Department Of Mechanical Engineering');
 INSERT into Department (department_id,name) values ('CE','Department of Civil Engineering');
-INSERT into Department (department_id,name) values ('DD','Department of Design');
 INSERT into Department (department_id,name) values ('BT','Department Of Biosciences and Bioengineering');
 INSERT into Department (department_id,name) values ('CL','Department Of Chemical Engineering');
 INSERT into Department (department_id,name) values ('PH','Department Of Physics');
