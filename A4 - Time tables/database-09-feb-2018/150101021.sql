@@ -74,11 +74,11 @@ create table Department (
 
 /* ScheduledIn table
 This table should contain the relationship between Course, Department, Slot, Room
-hence it should contain course_id, department_id, slot_id and room_number.
+hence it should contain atleast course_id, department_id, slot_id and room_number.
 Foreign key (slot_letter,slot_day) references 09feb2018.Slot(letter,day)
 -> But this may cause problem in adding NULL entries (which is apparently not an issue in this asgn), more general & reliable way is to use the extra id column in slots
 SelfNote: Good ans - https://stackoverflow.com/questions/3178709/foreign-key-referencing-a-2-columns-primary-key-in-sql-server
 */
 create table ScheduledIn (
-	
+primary key (course_id, department_id, slot_id,room_number)
 );
