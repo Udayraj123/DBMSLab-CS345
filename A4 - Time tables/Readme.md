@@ -1,3 +1,7 @@
+#TODO 
+[] Restore the ignored ME654 to demonstrate insert errors (See below)
+[-] Handle "Other than Thursday" type cases (Ignored previously)
+
 #Notes made during processing 
 
 Input csv:  Day Room Slot-A Slot-B    
@@ -37,18 +41,47 @@ PH needs color decoding for venues ! - But fortunately they consistently follow 
 CH doesn't get converted to CSV (tried multiple sources), even Line by line copy is failing.       
 CSE got converted by another one, but had 4-6 spaces instead of tab, replacing that helped partially       
 ME seems the most inconsitent one,  multi pages, room no not in separate column, '-' instead of spaces at some places and also repeat entries of same slot-location-course       
+"Ignored the “(other than Tuesday 8-8:55) [Institute]”, ""except Monday 5-5:55"" filters"
 ** A Conflict/Typo found in ME - In 12-1 slots at 1203, ME 654 and ME 554 both place, taking ME 554       
 "** Incompatibility: DD doesn’t have a pattern of classes PER WEEK,
 Solution?
-Psble, but Nope - M1: add week numbers column in course. Which should have ‘ALL’ or a comma separated ordered list of week numbers as its value
-As the Queries in Asgn 2 also get conflicted because of this, I’ll first run my code without DD"       
-"Ignored the “(other than Tuesday
-8-8:55) [Institute]”, ""except Monday 5-5:55"" filters"       
+Psble, but Nope - M1: add week numbers column in course. Which should have ‘ALL’ or a comma separated ordered list of week numbers as its value. 
+As the Queries in Asgn 2 also get conflicted because of this, I’ll first run my code without DD"
 
 #Now I have processed csvs - Mon Tue Wed Thur Fri and Slotbased
 Steps to follow - 
-1. Write a py script that checks for slot-consistencies accross the weekday-based files, Separate inconsitent ones to highlight, put others in Slotbased.
-2. Another script that generates the sql statements for relations (some more processing may be required) (for entries, we can use mysql workbench's import)
+Done = 1. Write a py script that checks for slot-consistencies accross the weekday-based files, Separate inconsitent ones to highlight, put others in Slotbased.
+Found 99 MultiSlot Courses- in txt file in this directory
+There exist 27 multiroom courses as well.
+SelfNote: 
+	Typo found during scripting - ME321 instead of ME321M, was showing 1 class perweek, corrected
+	Also found interesting data - CE 402 has exactly one class per week.
+
+Done = 2. Another script that generates the sql statements for entries &  for relations as well(some more processing may be required)
+SelfNote: Another issue found : 
+	Slotbased.csv had 29 duplicates! Of these -
+	17(only some were duplicates) Electives from Institute were added (with added room numbers). 
+		CL dept had put core names in room numbers (eg CL639, overridden now)
+	3 Typos detected and corrected (different rooms)- 
+		(elective) "BT632	C	4210" instead of "BT632	C	xxxx" in Slotbased
+		"BT604	I	4210" instead of "BT604	B	4210"
+		"BT629	K	4207" instead of "BT629	K	4210"
+	12 common courses found in MA - had one entry each for BTech and MSc (with same rooms)
+	1 Actual Conflict for CS526 - CSE.pdf says 2204, while Institute says L4, >> taking Institute one
+
+	Significance of these 7 duplicates-
+		CE552	C	4G3
+		CE616	C	4001
+		EE657	E1	L1
+		EE664	C	3202
+		EE671	C	2102
+		PH443	C	4G4
+		PH446	E1	4005		
+	 Above are exactly the Intersection of Elective courses in Insitute.pdf and those mentioned by depts (EE,CE and PH) in their own timetable. Hence these need to be removed from one of the places, prefererring Institute one as it's easier (added count checks too).
+	 CSE has mentioned too, but they have only one intersection CS526 which was removed from dept csv coz of venue conflict.
+
+	 CH643 had "same venue as" CH438 - 4005 : manually added
+
 3. Source the sqls into DB, check for constraint errors for clean(which u thought) ones, then separately add inconsitents.
 4. Can you generate any useful visuals?
 

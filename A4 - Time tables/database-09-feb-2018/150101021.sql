@@ -1,7 +1,7 @@
-create database if not exists 09feb2018;
+drop database if exists 09feb2018;
+create database 09feb2018;
 	use 09feb2018;
 -- The if not exists clauses allow to re-run this file during debugging
-
 /*
 CSV files-
 They have different formats, hence they have to be manually rearranged to follow a standard format. 
@@ -20,7 +20,7 @@ EEE - handled the following exceptions as well-
 * OE II/III	EE 664 (GT)	EE 671 (DS)
 	Room: 3202	Room: 2101
 
-*/
+	*/
 
 
 -- SelfNote: Even for enum - MySQL will allow the value to be NULL if you do not specify NOT NULL 
@@ -30,7 +30,7 @@ division has to be in - I,  II,  III,  IV,  NA, 'NA' being the case for dept lev
 Semester of some courses are given in the pdfs, but ignored as not required here.
 */
 create table Course (
-	course_id int(3) auto increment not NULL comment "Added for convenience in setting up the ScheduledIn relation",
+	-- course_id int(3) auto increment not NULL comment "Added for convenience in setting up the ScheduledIn relation",
 	course_code varchar(6) not NULL comment "varchar(6) used as course code can be at max 6 characters",
 	division enum('I','II','III','IV','NA') not NULL comment "division has to be in - I,  II,  III,  IV,  NA, 'NA' being the case for dept level courses.",
 	primary key (course_code,division),
@@ -56,7 +56,7 @@ primary key(room_number) was not necessary, but added because it is given in the
 
 */
 create table Room (
-	room_number varchar(20) not NULL comment "Varchar seems best to support different formats of room numbers here (as they can contain letters too).",
+	room_number varchar(15) not NULL comment "Varchar seems best to support different formats of room numbers here (as they can contain letters too).",
 	location enum('Core-I', 'Core-II', 'Core-III', 'Core-IV', 'LH', 'Local')  not NULL comment "Given constraint added",
 	primary key (room_number)
 );
@@ -68,17 +68,32 @@ enum not used for department_id to allow for new depts to be added in the future
 */
 create table Department (
 	department_id varchar(10) not NULL comment "Although found max 9 letters(Institute), 10 is taken as a margin",
-	name varchar(50) not NULL comment "varchar(50) is sufficient,an example long department name is Electronics and Electrical Engineering, which is 38 characters"
+	name varchar(60) not NULL comment "varchar(60) is sufficient,an example long department name is Electronics and Electrical Engineering, which takes 52 bytes",
 	primary key (department_id)
 );
 
 /* ScheduledIn table
 This table should contain the relationship between Course, Department, Slot, Room
 hence it should contain atleast course_id, department_id, slot_id and room_number.
-Foreign key (slot_letter,slot_day) references 09feb2018.Slot(letter,day)
--> But this may cause problem in adding NULL entries (which is apparently not an issue in this asgn), more general & reliable way is to use the extra id column in slots
-SelfNote: Good ans - https://stackoverflow.com/questions/3178709/foreign-key-referencing-a-2-columns-primary-key-in-sql-server
+
+SelfNote: 
+	Foreign key (slot_letter,slot_day) references 09feb2018.Slot(letter,day)
+	(not an issue in this asgn) -> But this may cause problem in adding NULL entries, more general & reliable way is to use the extra id column in slots
+	Good ans - https://stackoverflow.com/questions/3178709/foreign-key-referencing-a-2-columns-primary-key-in-sql-server
+.
+.
 */
 create table ScheduledIn (
-primary key (course_id, department_id, slot_id,room_number)
+	course_code varchar(6) not NULL comment "Relational Reference to respective table",
+	course_division enum('I','II','III','IV','NA') not NULL comment "Relational Reference to respective table",
+	slot_letter enum('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'A1', 'B1', 'C1', 'D1', 'E1') not NULL comment "Relational Reference to respective table",
+	slot_day enum('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday') not NULL comment "Relational Reference to respective table",
+	department_id varchar(10) not NULL comment "Relational Reference to respective table",
+	room_number varchar(20) not NULL comment "Relational Reference to respective table",
+	primary key (course_code, department_id, slot_letter,slot_day ,room_number),
+	Foreign key (department_id) references 09feb2018.Department(department_id),
+	Foreign key (room_number) references 09feb2018.Room(room_number),
+	Foreign key (slot_letter,slot_day) references 09feb2018.Slot(letter,day),
+	Foreign key (course_code,course_division) references 09feb2018.Course(course_code,division),
+	check(course_code regexp '^\w\w\d\d\dM?')
 );
