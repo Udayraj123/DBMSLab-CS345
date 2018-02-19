@@ -82,7 +82,7 @@ SelfNote: Another issue found :
 
 	 CH643 had "same venue as" CH438 - 4005 : manually added
 
-3. Source the sqls into DB, check for constraint errors for clean(which u thought) ones, then separately add inconsitents.
+Done = 3. Source the sqls into DB, check for constraint errors for clean(which u thought) ones, then separately add inconsitents.
 4. Can you generate any useful visuals?
 
 My Queries when this completes -         

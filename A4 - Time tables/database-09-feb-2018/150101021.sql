@@ -67,8 +67,8 @@ department_id is taken from file names of the pdfs given.
 enum not used for department_id to allow for new depts to be added in the future.
 */
 create table Department (
-	department_id varchar(10) not NULL comment "Although found max 9 letters(Institute), 10 is taken as a margin",
-	name varchar(60) not NULL comment "varchar(60) is sufficient,an example long department name is Electronics and Electrical Engineering, which takes 52 bytes",
+	department_id varchar(5) not NULL comment "Although found max 2 letters, 5 is taken as a margin",
+	name varchar(60) not NULL comment "varchar(60) is sufficient,for longest department name is Electronics and Electrical Engineering, which takes 52 bytes",
 	primary key (department_id)
 );
 
@@ -89,7 +89,7 @@ create table ScheduledIn (
 	slot_letter enum('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'A1', 'B1', 'C1', 'D1', 'E1') not NULL comment "Relational Reference to respective table",
 	slot_day enum('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday') not NULL comment "Relational Reference to respective table",
 	department_id varchar(10) not NULL comment "Relational Reference to respective table",
-	room_number varchar(20) not NULL comment "Relational Reference to respective table",
+	room_number varchar(15) not NULL comment "Relational Reference to respective table",
 	primary key (course_code, department_id, slot_letter,slot_day ,room_number),
 	Foreign key (department_id) references 09feb2018.Department(department_id),
 	Foreign key (room_number) references 09feb2018.Room(room_number),
