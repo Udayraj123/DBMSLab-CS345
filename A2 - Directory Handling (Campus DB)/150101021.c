@@ -8,7 +8,7 @@ DIR *opendir(const char *name);
 
 #define ll long int
 #define max_num_entries  4500
-#define max_num_courses  500
+#define max_num_courses  1000
 #define MAX_STR_LEN 300
 #define SMALL_STR 11//courses, start,end etc
 #define ROLL_LEN 11
@@ -107,8 +107,10 @@ void loadCredits(creditCourse courses[], int * num_courses){
 	fgetc(fp);
 	while(!feof(fp)){
 		fseek(fp,-1,SEEK_CUR);
-
-		fscanf(fp,"%[^,],%d",courses[i].course_id, &courses[i].credits);
+		// THIS da bug! forgot to exclude \n
+		// fscanf(fp,"%[^,],%d",courses[i].course_id, &courses[i].credits);
+		fscanf(fp,"%[^\n,],%d",courses[i].course_id, &courses[i].credits);
+		// dprintf("%s",courses[i].course_id);
 		// defaults - 
 		courses[i].startNumMS = 0;
 		courses[i].startNumES = 0;
@@ -161,8 +163,8 @@ int loadExamTimeTable(creditCourse courses[], int * num_courses){
 		if(course_index==-1){
 			// new course entry
 			courses[*num_courses].credits = 0;
-
 			strcpy(courses[*num_courses].course_id, course);
+			// dprintf("*num_courses : %d, course: %s\n",*num_courses, courses[*num_courses].course_id);
 			course_index = *num_courses;
 			*num_courses = *num_courses + 1;
 		}
@@ -188,17 +190,17 @@ int checkExamOverlap(char *course1,char *course2,creditCourse courses[], int num
 	index2 = searchCourse(course2,courses,num_courses);
 	if(index1== -1){printf("Course not found : %s\n", course1);return 1;}
 	if(index2== -1){printf("Course not found : %s\n", course2);return 1;}
-	
+
 	if(strcmp(courses[index1].exam_date, "0000-00-00") != 0 && 
 		strcmp(courses[index1].exam_date, courses[index2].exam_date) == 0){
-		
+
 		if( courses[index1].startNumMS * courses[index2].startNumMS && 
 			courses[index1].endNumMS * courses[index2].endNumMS && 
 			courses[index1].startNumMS < courses[index2].endNumMS && 
 			courses[index2].startNumMS < courses[index1].endNumMS  ){
 
 			// printf("Midsem clash : %d-%d, %d-%d\n",courses[index1].startNumMS,courses[index1].endNumMS,courses[index2].startNumMS,courses[index2].endNumMS);
-		return 0;
+			return 0;
 	}
 
 	if( courses[index1].startNumES * courses[index2].startNumES && 
@@ -207,7 +209,7 @@ int checkExamOverlap(char *course1,char *course2,creditCourse courses[], int num
 		courses[index2].startNumES < courses[index1].endNumES  ){
 
 		// printf("Endsem clash : %d-%d, %d-%d\n",courses[index1].startNumES,courses[index1].endNumES,courses[index2].startNumES,courses[index2].endNumES);
-	return 0;
+		return 0;
 }
 
 }
@@ -372,13 +374,12 @@ int main(){
 	loadCredits(courses, &num_courses);
 	loadExamTimeTable(courses, &num_courses);
 	// for ( i = 0; i < num_courses; ++i) dprintf("%s - %s - %d : %d-%d, %d-%d\n",courses[i].course_id, courses[i].exam_date,courses[i].credits, courses[i].startNumMS,courses[i].endNumMS,courses[i].startNumES,courses[i].endNumES);
-	// printf("%d Courses loaded\n", num_courses);
-	
+	printf("%d Courses loaded\n", num_courses);
 	Entry* entries[max_num_entries];
 	clashCounter = 0;
 	int num_entries = 0;//initial
 	processAllEntries(entries,&num_entries,courses, num_courses);
-	// printf("%d students loaded \n", num_entries);
+	printf("%d students loaded \n", num_entries);
 	courseNode* temp;
 	int sum;
 	int crcounter = 1;
