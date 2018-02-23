@@ -7,6 +7,7 @@ drop temporary table if exists cc_temp;
 drop temporary table if exists ett_temp;
 drop temporary table if exists cwls_temp;
 
+
 /* ett table
 No defaults required as there are no missing entries in exam-time-table.csv file
 Not Null applies to all
@@ -19,6 +20,7 @@ exam_date DATE not NULL comment "used mysql DATE format as it fits the exam_date
 -- Alternative without time :  start_time varchar(5) not NULL, check(start_time like '__:__'),
 start_time TIME not NULL comment "As its format follows SQL TIME format, it is advantageous for e.g in comparing two time entries'",
 end_time TIME not NULL comment "As its format follows SQL TIME format, it is advantageous for e.g in comparing two time entries", 
+primary key(course_id,exam_date,start_time,end_time),
 check(course_id regexp '^\w\w\d\d\dM?')
 -- This charset is required to accept \xa0 character in given csv file (see bottom of .c file for more details)
 ) DEFAULT CHARACTER SET utf8mb4;
@@ -39,12 +41,12 @@ As the student-course combination should be unique, that has to be the primary k
 */ 
 create table cwls (
 -- Cannot put serial_number in columns as it is reset accross files
-cid varchar(6) not NULL comment "Will store the course_id of the entry in cc table corresponding to a course.",
+course_id varchar(6) not NULL comment "Will store the course_id of the entry in cc table corresponding to a course.",
 roll_number varchar(11) not NULL comment "Now there are roll_numbers with X as well, so we have to take them as strings",
 name varchar(80) not NULL comment "80 is a marginal limit(For future entries) for length of student name ",
 email varchar(50) default NULL comment "this one may be NULL as observed previously",
-primary key(cid,roll_number), 
-check(cid regexp '^\w\w\d\d\dM?'),-- checking for valid course code
+primary key(course_id,roll_number), 
+check(course_id regexp '^\w\w\d\d\dM?'),-- checking for valid course code
 check(roll_number regexp '^X?\d{9}')-- checking for valid roll number e.g. X170104081, 150101021
 ) DEFAULT CHARACTER SET utf8mb4;
 
@@ -54,8 +56,10 @@ course_id varchar(6) not NULL comment "varchar(6) because that is the maximum le
 exam_date DATE not NULL comment "used mysql DATE format as it fits the exam_date column and hence it will be managed efficiently in mysql. Also it can autocorrect some dates such as 29-02-2015 into 01-03-2015", 
 start_time TIME not NULL comment "As its format follows SQL TIME format, it is advantageous for e.g in comparing two time entries'",
 end_time TIME not NULL comment "As its format follows SQL TIME format, it is advantageous for e.g in comparing two time entries", 
+primary key(course_id,exam_date,start_time,end_time),
 check(course_id regexp '^\w\w\d\d\dM?')
 ) DEFAULT CHARACTER SET utf8mb4;
+
 create temporary table cc_temp (
 course_id varchar(6) primary key comment "as course code can be at max 6 characters, and it is unique and non-null throughout the table",
 number_of_credits tinyint(1) not NULL comment "The tinyint range is sufficient (0-255)",
@@ -63,12 +67,12 @@ check(course_id regexp '^\w\w\d\d\dM?')-- checking for valid course code
 ) DEFAULT CHARACTER SET utf8mb4;
 
 create temporary table cwls_temp (
-cid varchar(6) not NULL comment "Will store the course_id of the entry in cc table corresponding to a course.",
+course_id varchar(6) not NULL comment "Will store the course_id of the entry in cc table corresponding to a course.",
 roll_number varchar(11) not NULL comment "Now there are roll_numbers with X as well, so we have to take them as strings",
 name varchar(80) not NULL comment "80 is a marginal limit(For future entries) for length of student name ",
 email varchar(50) default NULL comment "this one may be NULL as observed previously",
-primary key(cid,roll_number), 
-check(cid regexp '^\w\w\d\d\dM?'),-- checking for valid course code
+primary key(course_id,roll_number), 
+check(course_id regexp '^\w\w\d\d\dM?'),-- checking for valid course code
 check(roll_number regexp '^X?\d{9}')-- checking for valid roll number e.g. X170104081, 150101021
 ) DEFAULT CHARACTER SET utf8mb4;
 

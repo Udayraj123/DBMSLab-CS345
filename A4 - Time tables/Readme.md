@@ -50,7 +50,7 @@ The weekday-based needs to be checked once for conflict of slot change (esp in M
 
 Notes A course may not necessarily stick to one slot all week e.g : EE270, me 522 (always 5-6 everyday)       
 A course can happen at multiple location at same time, e.g Tutorial courses Slot A       
-Some courses have slots, but venue undecided e.g. BSBE open electives       
+Some courses have slots, but venue undecourse_ided e.g. BSBE open electives       
 Institute courses mentioned on dept pdf are ignored, they will be picked from institute pdf only       
 
 Institute Levels  Make single sheet for institute levels as they are less in number     

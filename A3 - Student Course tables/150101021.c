@@ -153,9 +153,9 @@ CAUTION : using Append mode makes fseek of no use for writing! It always writes 
 	FILE* fp_out = fopen("150101021_cwls.sql","r+");
 	fseek(fp_out,0,SEEK_END);
 	// dprintf("scanning %s\n", course_id);
-	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls (cid, roll_number, name, email) VALUES ");
-	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ");
-	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ");
+	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls (course_id, roll_number, name, email) VALUES ");
+	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ");
+	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ");
 	fclose(fp);
 	fclose(fp_out);
 }
@@ -228,15 +228,11 @@ int main(){
 }
 /*
 
-SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
-+------------+------------+
-| table_name | table_rows |
-+------------+------------+
-| cc         |        445 | *3 = 1335
-| cwls       |      17913 | *3 = ~54000
-| ett        |        708 | *3 = 2124
-+------------+------------+
-Note : These counts will be a rough estimate of counts only according to mysql
+system wc -l 150101021_cc.sql 150101021_cwls.sql 150101021_ett.sql 
+   1335 150101021_cc.sql
+   2124 150101021_ett.sql
+  64788 150101021_cwls.sql
+  68247 total
 
 select count(*) from cwls;
 +----------+
@@ -244,7 +240,6 @@ select count(*) from cwls;
 +----------+
 |    21119 | *3 = 63357
 +----------+
-
 ^ THIS ONE HAS LESSER ENTRIES BECAUSE OF ENCODING ERROR- 
 ERROR 1366 (HY000): Incorrect string value: '\xA0\xA0TULS...' for column 'name' at row 2
 
@@ -255,12 +250,24 @@ ERROR 1366 (HY000): Incorrect string value: '\xA0\xA0TULS...' for column 'name' 
 
 Solution(Not working) - added this in create table - DEFAULT CHARACTER SET=utf8mb4;
 
+After replacing the encoding -
+  select count(*) from cwls;
++----------+
+| count(*) |
++----------+
+|    21596 | *3 = 64788 (matching)
++----------+
+1 row in set (0.02 sec)
 
-system wc -l 150101021_cc.sql 150101021_cwls.sql 150101021_ett.sql 
-   1335 150101021_cc.sql
-   2124 150101021_ett.sql
-  64788 150101021_cwls.sql
-  68247 total
+SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
++------------+------------+
+| table_name | table_rows |
++------------+------------+
+| cc         |        445 | *3 = 1335
+| cwls       |      20827 | *3 = ~63000
+| ett        |        708 | *3 = 2124
++------------+------------+
+Note : These counts will be a rough estimate of counts only according to mysql
 
 
 */

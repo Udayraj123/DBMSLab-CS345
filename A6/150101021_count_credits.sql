@@ -1,4 +1,5 @@
-use 25jan2018;
+use 150101021_23feb2018;
+
 /*
 Algorithm -
 1. Join cwls and credits table
@@ -18,7 +19,7 @@ COMMENT 'Lists the student roll number, student name and total number of credits
            Sum(number_of_credits) AS total_credits
     FROM   cwls
            JOIN cc
-             ON cwls.cid = cc.course_id
+             ON cwls.course_id = cc.course_id
     GROUP  BY roll_number,name
     HAVING total_credits > @max_credits
     ORDER  BY total_credits;
@@ -29,8 +30,8 @@ DELIMITER ; $$
 ROUGH 
 if have to use cursor, Single roll no query -
 	set @roll = '176153102';
-	select * from cwls where roll_number like @roll group by roll_number,cid;
-	select count(number_of_credits) from cc where course_id in (select cid from cwls where roll_number like @roll group by roll_number,cid);
+	select * from cwls where roll_number like @roll group by roll_number,course_id;
+	select count(number_of_credits) from cc where course_id in (select course_id from cwls where roll_number like @roll group by roll_number,course_id);
 
 SelfNotes: 
 Viewing - SELECT NAME FROM MYSQL.PROC; or SHOW PROCEDURE STATUS;

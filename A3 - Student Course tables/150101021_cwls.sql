@@ -1,4 +1,4 @@
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH212','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH212','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH212','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH212','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH212','160122002','ADDAGUDURI ANAND','anand.adda237'),
@@ -36,7 +36,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH212','150122029','RO
 ('CH212','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH212','160122044','VARUN SINGH','varun.tarun'),
 ('CH212','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH212','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH212','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH212','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH212','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH212','160122002','ADDAGUDURI ANAND','anand.adda237'),
@@ -74,7 +74,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH212','150122029
 ('CH212','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH212','160122044','VARUN SINGH','varun.tarun'),
 ('CH212','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH212','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH212','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH212','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH212','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH212','160122002','ADDAGUDURI ANAND','anand.adda237'),
@@ -112,7 +112,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH212','15012202
 ('CH212','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH212','160122044','VARUN SINGH','varun.tarun'),
 ('CH212','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH233','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH233','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH233','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH233','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH233','160122002','ADDAGUDURI ANAND','anand.adda237'),
@@ -150,7 +150,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH233','150122029','RO
 ('CH233','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH233','160122044','VARUN SINGH','varun.tarun'),
 ('CH233','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH233','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH233','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH233','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH233','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH233','160122002','ADDAGUDURI ANAND','anand.adda237'),
@@ -188,7 +188,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH233','150122029
 ('CH233','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH233','160122044','VARUN SINGH','varun.tarun'),
 ('CH233','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH233','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH233','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH233','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH233','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH233','160122002','ADDAGUDURI ANAND','anand.adda237'),
@@ -226,7 +226,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH233','15012202
 ('CH233','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH233','160122044','VARUN SINGH','varun.tarun'),
 ('CH233','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH637','140122019','LOHIYA NIHAR NISHANT','l.nishant'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH637','140122019','LOHIYA NIHAR NISHANT','l.nishant'),
 ('CH637','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH637','162122006','ARUP MONDAL','arupritha'),
 ('CH637','162122027','PRASENJIT MANDAL','mandal.prasenjit'),
@@ -237,7 +237,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH637','140122019','LO
 ('CH637','176122020','BISHWANATH MAHATO','bishw176122020'),
 ('CH637','176122035','HAOBAM KISAN SINGH','kisan176122035'),
 ('CH637','176122037','ARUNENDU DAS','arune176122037');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH637','140122019','LOHIYA NIHAR NISHANT','l.nishant'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH637','140122019','LOHIYA NIHAR NISHANT','l.nishant'),
 ('CH637','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH637','162122006','ARUP MONDAL','arupritha'),
 ('CH637','162122027','PRASENJIT MANDAL','mandal.prasenjit'),
@@ -248,7 +248,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH637','140122019
 ('CH637','176122020','BISHWANATH MAHATO','bishw176122020'),
 ('CH637','176122035','HAOBAM KISAN SINGH','kisan176122035'),
 ('CH637','176122037','ARUNENDU DAS','arune176122037');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH637','140122019','LOHIYA NIHAR NISHANT','l.nishant'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH637','140122019','LOHIYA NIHAR NISHANT','l.nishant'),
 ('CH637','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH637','162122006','ARUP MONDAL','arupritha'),
 ('CH637','162122027','PRASENJIT MANDAL','mandal.prasenjit'),
@@ -259,7 +259,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH637','14012201
 ('CH637','176122020','BISHWANATH MAHATO','bishw176122020'),
 ('CH637','176122035','HAOBAM KISAN SINGH','kisan176122035'),
 ('CH637','176122037','ARUNENDU DAS','arune176122037');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH433','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH433','172122001','AKASH RANA','akash172122001'),
 ('CH433','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH433','172122003','AMAR SARKAR','amar172122003'),
 ('CH433','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -303,7 +303,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH433','172122001','AK
 ('CH433','172122048','SUMAN','suman172122048'),
 ('CH433','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH433','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH433','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH433','172122001','AKASH RANA','akash172122001'),
 ('CH433','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH433','172122003','AMAR SARKAR','amar172122003'),
 ('CH433','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -347,7 +347,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH433','172122001
 ('CH433','172122048','SUMAN','suman172122048'),
 ('CH433','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH433','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH433','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH433','172122001','AKASH RANA','akash172122001'),
 ('CH433','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH433','172122003','AMAR SARKAR','amar172122003'),
 ('CH433','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -391,7 +391,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH433','17212200
 ('CH433','172122048','SUMAN','suman172122048'),
 ('CH433','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH433','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH418','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH418','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH418','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH418','140122006','ANJALI KANNOJIA','a.kannojia'),
 ('CH418','140122007','ANUPJOT SINGH','anupjot'),
@@ -409,7 +409,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH418','140122002','AB
 ('CH418','140122037','SUJEET SAURAV','sujeet.saurav'),
 ('CH418','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH418','140122042','UTTAM KUMAR','uttam.kumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH418','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH418','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH418','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH418','140122006','ANJALI KANNOJIA','a.kannojia'),
 ('CH418','140122007','ANUPJOT SINGH','anupjot'),
@@ -427,7 +427,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH418','140122002
 ('CH418','140122037','SUJEET SAURAV','sujeet.saurav'),
 ('CH418','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH418','140122042','UTTAM KUMAR','uttam.kumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH418','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH418','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH418','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH418','140122006','ANJALI KANNOJIA','a.kannojia'),
 ('CH418','140122007','ANUPJOT SINGH','anupjot'),
@@ -445,7 +445,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH418','14012200
 ('CH418','140122037','SUJEET SAURAV','sujeet.saurav'),
 ('CH418','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH418','140122042','UTTAM KUMAR','uttam.kumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH419','120102052','ROHIT THAOSEN','r.thaosen'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH419','120102052','ROHIT THAOSEN','r.thaosen'),
 ('CH419','140102064','TRINA NASKAR','trina'),
 ('CH419','140102069','VENGADA DIVYA TEJASWINI','vengada'),
 ('CH419','140107002','ABHAY KUMAR MISHRA','m.abhay'),
@@ -501,7 +501,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH419','120102052','RO
 ('CH419','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH419','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH419','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH419','120102052','ROHIT THAOSEN','r.thaosen'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH419','120102052','ROHIT THAOSEN','r.thaosen'),
 ('CH419','140102064','TRINA NASKAR','trina'),
 ('CH419','140102069','VENGADA DIVYA TEJASWINI','vengada'),
 ('CH419','140107002','ABHAY KUMAR MISHRA','m.abhay'),
@@ -557,7 +557,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH419','120102052
 ('CH419','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH419','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH419','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH419','120102052','ROHIT THAOSEN','r.thaosen'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH419','120102052','ROHIT THAOSEN','r.thaosen'),
 ('CH419','140102064','TRINA NASKAR','trina'),
 ('CH419','140102069','VENGADA DIVYA TEJASWINI','vengada'),
 ('CH419','140107002','ABHAY KUMAR MISHRA','m.abhay'),
@@ -613,7 +613,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH419','12010205
 ('CH419','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH419','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH419','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH417','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH417','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH417','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH417','140122004','AJAY NAGAR','ajay.nagar'),
 ('CH417','140122015','HIMANSHU MOHAN','h.mohan'),
@@ -627,7 +627,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH417','140122001','AA
 ('CH417','140122034','SHREERAM MEENA','shreeram'),
 ('CH417','140122042','UTTAM KUMAR','uttam.kumar'),
 ('CH417','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH417','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH417','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH417','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH417','140122004','AJAY NAGAR','ajay.nagar'),
 ('CH417','140122015','HIMANSHU MOHAN','h.mohan'),
@@ -641,7 +641,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH417','140122001
 ('CH417','140122034','SHREERAM MEENA','shreeram'),
 ('CH417','140122042','UTTAM KUMAR','uttam.kumar'),
 ('CH417','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH417','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH417','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH417','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH417','140122004','AJAY NAGAR','ajay.nagar'),
 ('CH417','140122015','HIMANSHU MOHAN','h.mohan'),
@@ -655,7 +655,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH417','14012200
 ('CH417','140122034','SHREERAM MEENA','shreeram'),
 ('CH417','140122042','UTTAM KUMAR','uttam.kumar'),
 ('CH417','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH438','140102024','HEMANT KUMAR','hemant.ece'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH438','140102024','HEMANT KUMAR','hemant.ece'),
 ('CH438','140102029','KUNAL GAUTAM','kunal.gautam'),
 ('CH438','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
 ('CH438','140104051','PUSHPENDRA MEENA','pushpendra.meena'),
@@ -664,7 +664,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH438','140102024','HE
 ('CH438','140107070','VIBHAV YADAV','vibhav'),
 ('CH438','140122013','CHINMAY SINGHAL','c.singhal'),
 ('CH438','140122027','RAJENDRA CHOTIYA','r.chotiya');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH438','140102024','HEMANT KUMAR','hemant.ece'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH438','140102024','HEMANT KUMAR','hemant.ece'),
 ('CH438','140102029','KUNAL GAUTAM','kunal.gautam'),
 ('CH438','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
 ('CH438','140104051','PUSHPENDRA MEENA','pushpendra.meena'),
@@ -673,7 +673,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH438','140102024
 ('CH438','140107070','VIBHAV YADAV','vibhav'),
 ('CH438','140122013','CHINMAY SINGHAL','c.singhal'),
 ('CH438','140122027','RAJENDRA CHOTIYA','r.chotiya');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH438','140102024','HEMANT KUMAR','hemant.ece'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH438','140102024','HEMANT KUMAR','hemant.ece'),
 ('CH438','140102029','KUNAL GAUTAM','kunal.gautam'),
 ('CH438','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
 ('CH438','140104051','PUSHPENDRA MEENA','pushpendra.meena'),
@@ -682,7 +682,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH438','14010202
 ('CH438','140107070','VIBHAV YADAV','vibhav'),
 ('CH438','140122013','CHINMAY SINGHAL','c.singhal'),
 ('CH438','140122027','RAJENDRA CHOTIYA','r.chotiya');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH421','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH421','172122001','AKASH RANA','akash172122001'),
 ('CH421','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH421','172122003','AMAR SARKAR','amar172122003'),
 ('CH421','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -725,7 +725,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH421','172122001','AK
 ('CH421','172122048','SUMAN','suman172122048'),
 ('CH421','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH421','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH421','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH421','172122001','AKASH RANA','akash172122001'),
 ('CH421','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH421','172122003','AMAR SARKAR','amar172122003'),
 ('CH421','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -768,7 +768,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH421','172122001
 ('CH421','172122048','SUMAN','suman172122048'),
 ('CH421','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH421','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH421','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH421','172122001','AKASH RANA','akash172122001'),
 ('CH421','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH421','172122003','AMAR SARKAR','amar172122003'),
 ('CH421','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -811,7 +811,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH421','17212200
 ('CH421','172122048','SUMAN','suman172122048'),
 ('CH421','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH421','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH600','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH600','162122001','AASHISH','aashish2016'),
 ('CH600','162122002','ABHAY GAUR','abhay2016'),
 ('CH600','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH600','162122004','ANGSHUMAN DAS','angshuman2811'),
@@ -858,7 +858,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH600','162122001','AA
 ('CH600','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH600','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH600','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH600','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH600','162122001','AASHISH','aashish2016'),
 ('CH600','162122002','ABHAY GAUR','abhay2016'),
 ('CH600','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH600','162122004','ANGSHUMAN DAS','angshuman2811'),
@@ -905,7 +905,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH600','162122001
 ('CH600','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH600','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH600','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH600','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH600','162122001','AASHISH','aashish2016'),
 ('CH600','162122002','ABHAY GAUR','abhay2016'),
 ('CH600','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH600','162122004','ANGSHUMAN DAS','angshuman2811'),
@@ -952,7 +952,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH600','16212200
 ('CH600','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH600','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH600','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH499','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH499','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH499','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH499','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH499','140122004','AJAY NAGAR','ajay.nagar'),
@@ -982,7 +982,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH499','140122001','AA
 ('CH499','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH499','140122042','UTTAM KUMAR','uttam.kumar'),
 ('CH499','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH499','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH499','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH499','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH499','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH499','140122004','AJAY NAGAR','ajay.nagar'),
@@ -1012,7 +1012,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH499','140122001
 ('CH499','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH499','140122042','UTTAM KUMAR','uttam.kumar'),
 ('CH499','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH499','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH499','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH499','140122002','ABHISHEK KHANDKIYA','a.khandkiya'),
 ('CH499','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH499','140122004','AJAY NAGAR','ajay.nagar'),
@@ -1042,7 +1042,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH499','14012200
 ('CH499','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH499','140122042','UTTAM KUMAR','uttam.kumar'),
 ('CH499','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH232','160122001','AAKASH AGRAWAL','akash2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH232','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH232','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH232','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
 ('CH232','160122004','AJINKYA PATIL','ajinkyapatil538'),
@@ -1078,7 +1078,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH232','160122001','AA
 ('CH232','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH232','160122044','VARUN SINGH','varun.tarun'),
 ('CH232','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH232','160122001','AAKASH AGRAWAL','akash2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH232','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH232','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH232','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
 ('CH232','160122004','AJINKYA PATIL','ajinkyapatil538'),
@@ -1114,7 +1114,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH232','160122001
 ('CH232','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH232','160122044','VARUN SINGH','varun.tarun'),
 ('CH232','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH232','160122001','AAKASH AGRAWAL','akash2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH232','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH232','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH232','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
 ('CH232','160122004','AJINKYA PATIL','ajinkyapatil538'),
@@ -1150,7 +1150,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH232','16012200
 ('CH232','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH232','160122044','VARUN SINGH','varun.tarun'),
 ('CH232','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH425','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH425','172122001','AKASH RANA','akash172122001'),
 ('CH425','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH425','172122003','AMAR SARKAR','amar172122003'),
 ('CH425','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -1194,7 +1194,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH425','172122001','AK
 ('CH425','172122048','SUMAN','suman172122048'),
 ('CH425','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH425','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH425','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH425','172122001','AKASH RANA','akash172122001'),
 ('CH425','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH425','172122003','AMAR SARKAR','amar172122003'),
 ('CH425','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -1238,7 +1238,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH425','172122001
 ('CH425','172122048','SUMAN','suman172122048'),
 ('CH425','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH425','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH425','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH425','172122001','AKASH RANA','akash172122001'),
 ('CH425','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH425','172122003','AMAR SARKAR','amar172122003'),
 ('CH425','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -1282,7 +1282,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH425','17212200
 ('CH425','172122048','SUMAN','suman172122048'),
 ('CH425','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH425','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH334','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH334','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH334','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH334','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH334','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -1318,7 +1318,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH334','150122001','AB
 ('CH334','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH334','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH334','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH334','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH334','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH334','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH334','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH334','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -1354,7 +1354,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH334','150122001
 ('CH334','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH334','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH334','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH334','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH334','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH334','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH334','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH334','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -1390,7 +1390,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH334','15012200
 ('CH334','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH334','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH334','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH625','162122002','ABHAY GAUR','abhay2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH625','162122002','ABHAY GAUR','abhay2016'),
 ('CH625','162122004','ANGSHUMAN DAS','angshuman2811'),
 ('CH625','162122005','ANIMESH BHUI','bhuianimesh2016'),
 ('CH625','162122009','BISWAJIT MONDAL','bishwajit.mandal'),
@@ -1406,7 +1406,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH625','162122002','AB
 ('CH625','162122036','SAYAN ATTA','sayanatta'),
 ('CH625','162122040','SUJAY PAUL','sujaypaul97'),
 ('CH625','162122044','TEJBAHADUR SINGH','arajput');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH625','162122002','ABHAY GAUR','abhay2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH625','162122002','ABHAY GAUR','abhay2016'),
 ('CH625','162122004','ANGSHUMAN DAS','angshuman2811'),
 ('CH625','162122005','ANIMESH BHUI','bhuianimesh2016'),
 ('CH625','162122009','BISWAJIT MONDAL','bishwajit.mandal'),
@@ -1422,7 +1422,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH625','162122002
 ('CH625','162122036','SAYAN ATTA','sayanatta'),
 ('CH625','162122040','SUJAY PAUL','sujaypaul97'),
 ('CH625','162122044','TEJBAHADUR SINGH','arajput');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH625','162122002','ABHAY GAUR','abhay2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH625','162122002','ABHAY GAUR','abhay2016'),
 ('CH625','162122004','ANGSHUMAN DAS','angshuman2811'),
 ('CH625','162122005','ANIMESH BHUI','bhuianimesh2016'),
 ('CH625','162122009','BISWAJIT MONDAL','bishwajit.mandal'),
@@ -1438,7 +1438,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH625','16212200
 ('CH625','162122036','SAYAN ATTA','sayanatta'),
 ('CH625','162122040','SUJAY PAUL','sujaypaul97'),
 ('CH625','162122044','TEJBAHADUR SINGH','arajput');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH322','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH322','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH322','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH322','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH322','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -1474,7 +1474,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH322','150122001','AB
 ('CH322','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH322','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH322','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH322','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH322','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH322','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH322','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH322','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -1510,7 +1510,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH322','150122001
 ('CH322','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH322','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH322','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH322','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH322','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH322','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH322','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH322','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -1546,7 +1546,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH322','15012200
 ('CH322','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH322','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH322','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH411','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH411','172122001','AKASH RANA','akash172122001'),
 ('CH411','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH411','172122003','AMAR SARKAR','amar172122003'),
 ('CH411','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -1589,7 +1589,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH411','172122001','AK
 ('CH411','172122048','SUMAN','suman172122048'),
 ('CH411','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH411','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH411','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH411','172122001','AKASH RANA','akash172122001'),
 ('CH411','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH411','172122003','AMAR SARKAR','amar172122003'),
 ('CH411','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -1632,7 +1632,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH411','172122001
 ('CH411','172122048','SUMAN','suman172122048'),
 ('CH411','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH411','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH411','172122001','AKASH RANA','akash172122001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH411','172122001','AKASH RANA','akash172122001'),
 ('CH411','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH411','172122003','AMAR SARKAR','amar172122003'),
 ('CH411','172122004','ANIMESH GHOSH','ghosh172122004'),
@@ -1675,7 +1675,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH411','17212200
 ('CH411','172122048','SUMAN','suman172122048'),
 ('CH411','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH411','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH428','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH428','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH428','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH428','140122004','AJAY NAGAR','ajay.nagar'),
 ('CH428','140122006','ANJALI KANNOJIA','a.kannojia'),
@@ -1702,7 +1702,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH428','140122001','AA
 ('CH428','140122037','SUJEET SAURAV','sujeet.saurav'),
 ('CH428','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH428','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH428','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH428','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH428','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH428','140122004','AJAY NAGAR','ajay.nagar'),
 ('CH428','140122006','ANJALI KANNOJIA','a.kannojia'),
@@ -1729,7 +1729,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH428','140122001
 ('CH428','140122037','SUJEET SAURAV','sujeet.saurav'),
 ('CH428','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH428','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH428','140122001','AAYUSH CHAUDHARY','c.aayush'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH428','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('CH428','140122003','ABHISHEK PANDEY','abhishek.pandey'),
 ('CH428','140122004','AJAY NAGAR','ajay.nagar'),
 ('CH428','140122006','ANJALI KANNOJIA','a.kannojia'),
@@ -1756,7 +1756,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH428','14012200
 ('CH428','140122037','SUJEET SAURAV','sujeet.saurav'),
 ('CH428','140122039','SURYA SHANMUGARAJA','s.shanmugaraja'),
 ('CH428','140122043','VIKAS KUMAR','vikaskumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH223','160122001','AAKASH AGRAWAL','akash2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH223','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH223','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH223','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
 ('CH223','160122004','AJINKYA PATIL','ajinkyapatil538'),
@@ -1791,7 +1791,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH223','160122001','AA
 ('CH223','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH223','160122044','VARUN SINGH','varun.tarun'),
 ('CH223','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH223','160122001','AAKASH AGRAWAL','akash2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH223','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH223','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH223','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
 ('CH223','160122004','AJINKYA PATIL','ajinkyapatil538'),
@@ -1826,7 +1826,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH223','160122001
 ('CH223','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH223','160122044','VARUN SINGH','varun.tarun'),
 ('CH223','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH223','160122001','AAKASH AGRAWAL','akash2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH223','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH223','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH223','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
 ('CH223','160122004','AJINKYA PATIL','ajinkyapatil538'),
@@ -1861,7 +1861,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH223','16012200
 ('CH223','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH223','160122044','VARUN SINGH','varun.tarun'),
 ('CH223','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH621','176122001','AVIJIT MONDAL','aviji176122001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH621','176122001','AVIJIT MONDAL','aviji176122001'),
 ('CH621','176122006','SUDIP SHIT','sudip176122006'),
 ('CH621','176122011','TIPU ALAM','tipu176122011'),
 ('CH621','176122014','BIPIN KUMAR BEHERA','bipin176122014'),
@@ -1878,7 +1878,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH621','176122001','AV
 ('CH621','176122105','Saghir Ali','abu176122050'),
 ('CH621','176122106','Ashish Kumar Sahoo ','abu176122050'),
 ('CH621','176122109','Sonbidya Banerjee','abu176122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH621','176122001','AVIJIT MONDAL','aviji176122001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH621','176122001','AVIJIT MONDAL','aviji176122001'),
 ('CH621','176122006','SUDIP SHIT','sudip176122006'),
 ('CH621','176122011','TIPU ALAM','tipu176122011'),
 ('CH621','176122014','BIPIN KUMAR BEHERA','bipin176122014'),
@@ -1895,7 +1895,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH621','176122001
 ('CH621','176122105','Saghir Ali','abu176122050'),
 ('CH621','176122106','Ashish Kumar Sahoo ','abu176122050'),
 ('CH621','176122109','Sonbidya Banerjee','abu176122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH621','176122001','AVIJIT MONDAL','aviji176122001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH621','176122001','AVIJIT MONDAL','aviji176122001'),
 ('CH621','176122006','SUDIP SHIT','sudip176122006'),
 ('CH621','176122011','TIPU ALAM','tipu176122011'),
 ('CH621','176122014','BIPIN KUMAR BEHERA','bipin176122014'),
@@ -1912,7 +1912,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH621','17612200
 ('CH621','176122105','Saghir Ali','abu176122050'),
 ('CH621','176122106','Ashish Kumar Sahoo ','abu176122050'),
 ('CH621','176122109','Sonbidya Banerjee','abu176122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH617','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH617','162122001','AASHISH','aashish2016'),
 ('CH617','162122002','ABHAY GAUR','abhay2016'),
 ('CH617','162122004','ANGSHUMAN DAS','angshuman2811'),
 ('CH617','162122008','BAISHAKHI SARKHEL','baishakhi.srkl'),
@@ -1942,7 +1942,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH617','162122001','AA
 ('CH617','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH617','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH617','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH617','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH617','162122001','AASHISH','aashish2016'),
 ('CH617','162122002','ABHAY GAUR','abhay2016'),
 ('CH617','162122004','ANGSHUMAN DAS','angshuman2811'),
 ('CH617','162122008','BAISHAKHI SARKHEL','baishakhi.srkl'),
@@ -1972,7 +1972,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH617','162122001
 ('CH617','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH617','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH617','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH617','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH617','162122001','AASHISH','aashish2016'),
 ('CH617','162122002','ABHAY GAUR','abhay2016'),
 ('CH617','162122004','ANGSHUMAN DAS','angshuman2811'),
 ('CH617','162122008','BAISHAKHI SARKHEL','baishakhi.srkl'),
@@ -2002,7 +2002,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH617','16212200
 ('CH617','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH617','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH617','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH603','176122001','AVIJIT MONDAL','aviji176122001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH603','176122001','AVIJIT MONDAL','aviji176122001'),
 ('CH603','176122003','SWARUP KUMAR TARAI','tarai176122003'),
 ('CH603','176122004','SAIKAT MIRDYA','saika176122004'),
 ('CH603','176122005','ADITYA KUMAR BHARTI','adity176122005'),
@@ -2032,7 +2032,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH603','176122001','AV
 ('CH603','176122106','Ashish Kumar Sahoo ','sourik.das'),
 ('CH603','176122110','SANTA MONDAL','sourik.das'),
 ('CH603','176152002','SHILPA BHUYAN','shilp176152002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH603','176122001','AVIJIT MONDAL','aviji176122001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH603','176122001','AVIJIT MONDAL','aviji176122001'),
 ('CH603','176122003','SWARUP KUMAR TARAI','tarai176122003'),
 ('CH603','176122004','SAIKAT MIRDYA','saika176122004'),
 ('CH603','176122005','ADITYA KUMAR BHARTI','adity176122005'),
@@ -2062,7 +2062,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH603','176122001
 ('CH603','176122106','Ashish Kumar Sahoo ','sourik.das'),
 ('CH603','176122110','SANTA MONDAL','sourik.das'),
 ('CH603','176152002','SHILPA BHUYAN','shilp176152002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH603','176122001','AVIJIT MONDAL','aviji176122001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH603','176122001','AVIJIT MONDAL','aviji176122001'),
 ('CH603','176122003','SWARUP KUMAR TARAI','tarai176122003'),
 ('CH603','176122004','SAIKAT MIRDYA','saika176122004'),
 ('CH603','176122005','ADITYA KUMAR BHARTI','adity176122005'),
@@ -2092,7 +2092,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH603','17612200
 ('CH603','176122106','Ashish Kumar Sahoo ','sourik.das'),
 ('CH603','176122110','SANTA MONDAL','sourik.das'),
 ('CH603','176152002','SHILPA BHUYAN','shilp176152002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH501','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH501','162122001','AASHISH','aashish2016'),
 ('CH501','162122002','ABHAY GAUR','abhay2016'),
 ('CH501','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH501','162122004','ANGSHUMAN DAS','angshuman2811'),
@@ -2139,7 +2139,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH501','162122001','AA
 ('CH501','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH501','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH501','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH501','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH501','162122001','AASHISH','aashish2016'),
 ('CH501','162122002','ABHAY GAUR','abhay2016'),
 ('CH501','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH501','162122004','ANGSHUMAN DAS','angshuman2811'),
@@ -2186,7 +2186,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH501','162122001
 ('CH501','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH501','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH501','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH501','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH501','162122001','AASHISH','aashish2016'),
 ('CH501','162122002','ABHAY GAUR','abhay2016'),
 ('CH501','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH501','162122004','ANGSHUMAN DAS','angshuman2811'),
@@ -2233,7 +2233,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH501','16212200
 ('CH501','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH501','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH501','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH222','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH222','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH222','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH222','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH222','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
@@ -2270,7 +2270,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH222','150122029','RO
 ('CH222','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH222','160122044','VARUN SINGH','varun.tarun'),
 ('CH222','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH222','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH222','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH222','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH222','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH222','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
@@ -2307,7 +2307,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH222','150122029
 ('CH222','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH222','160122044','VARUN SINGH','varun.tarun'),
 ('CH222','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH222','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH222','150122029','ROHIT NILESH NAGRALE','rohit.nagrale'),
 ('CH222','160122001','AAKASH AGRAWAL','akash2016'),
 ('CH222','160122002','ADDAGUDURI ANAND','anand.adda237'),
 ('CH222','160122003','ADITYA ROSHAN','myemail1adityaroshan'),
@@ -2344,7 +2344,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH222','15012202
 ('CH222','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg'),
 ('CH222','160122044','VARUN SINGH','varun.tarun'),
 ('CH222','160122045','VIVEK KUMAR','vivek.kumar2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH615','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH615','162122001','AASHISH','aashish2016'),
 ('CH615','162122007','AVISEK BERA','avisek2016'),
 ('CH615','162122011','DIPANKAR MAJI','majidipankar'),
 ('CH615','162122012','DUSHYANT YADAV','dy9187232'),
@@ -2365,7 +2365,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH615','162122001','AA
 ('CH615','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH615','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH615','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH615','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH615','162122001','AASHISH','aashish2016'),
 ('CH615','162122007','AVISEK BERA','avisek2016'),
 ('CH615','162122011','DIPANKAR MAJI','majidipankar'),
 ('CH615','162122012','DUSHYANT YADAV','dy9187232'),
@@ -2386,7 +2386,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH615','162122001
 ('CH615','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH615','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH615','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH615','162122001','AASHISH','aashish2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH615','162122001','AASHISH','aashish2016'),
 ('CH615','162122007','AVISEK BERA','avisek2016'),
 ('CH615','162122011','DIPANKAR MAJI','majidipankar'),
 ('CH615','162122012','DUSHYANT YADAV','dy9187232'),
@@ -2407,7 +2407,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH615','16212200
 ('CH615','162122046','VEDPRAKASH OLA','ved1994'),
 ('CH615','162122047','VIMAL PRATAP SINGH','vimalpratapsingh'),
 ('CH615','162122048','YATISH KHULBE','yatishkhulbe');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH333','120122021','MAHENDRA BHATI','b.mahendra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH333','120122021','MAHENDRA BHATI','b.mahendra'),
 ('CH333','140122029','ROSHAN KUMAR MEENA','roshan.meena'),
 ('CH333','140122034','SHREERAM MEENA','shreeram'),
 ('CH333','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
@@ -2446,7 +2446,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH333','120122021','MA
 ('CH333','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH333','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH333','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH333','120122021','MAHENDRA BHATI','b.mahendra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH333','120122021','MAHENDRA BHATI','b.mahendra'),
 ('CH333','140122029','ROSHAN KUMAR MEENA','roshan.meena'),
 ('CH333','140122034','SHREERAM MEENA','shreeram'),
 ('CH333','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
@@ -2485,7 +2485,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH333','120122021
 ('CH333','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH333','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH333','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH333','120122021','MAHENDRA BHATI','b.mahendra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH333','120122021','MAHENDRA BHATI','b.mahendra'),
 ('CH333','140122029','ROSHAN KUMAR MEENA','roshan.meena'),
 ('CH333','140122034','SHREERAM MEENA','shreeram'),
 ('CH333','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
@@ -2524,7 +2524,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH333','12012202
 ('CH333','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH333','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH333','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH611','176122003','SWARUP KUMAR TARAI','tarai176122003'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH611','176122003','SWARUP KUMAR TARAI','tarai176122003'),
 ('CH611','176122005','ADITYA KUMAR BHARTI','adity176122005'),
 ('CH611','176122014','BIPIN KUMAR BEHERA','bipin176122014'),
 ('CH611','176122101','Suvendu Halder','bipin176122014'),
@@ -2532,7 +2532,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH611','176122003','SW
 ('CH611','176122106','Ashish Kumar Sahoo ','bipin176122014'),
 ('CH611','176122109','Sonbidya Banerjee','bipin176122014'),
 ('CH611','176122110','SANTA MONDAL','bipin176122014');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH611','176122003','SWARUP KUMAR TARAI','tarai176122003'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH611','176122003','SWARUP KUMAR TARAI','tarai176122003'),
 ('CH611','176122005','ADITYA KUMAR BHARTI','adity176122005'),
 ('CH611','176122014','BIPIN KUMAR BEHERA','bipin176122014'),
 ('CH611','176122101','Suvendu Halder','bipin176122014'),
@@ -2540,7 +2540,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH611','176122003
 ('CH611','176122106','Ashish Kumar Sahoo ','bipin176122014'),
 ('CH611','176122109','Sonbidya Banerjee','bipin176122014'),
 ('CH611','176122110','SANTA MONDAL','bipin176122014');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH611','176122003','SWARUP KUMAR TARAI','tarai176122003'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH611','176122003','SWARUP KUMAR TARAI','tarai176122003'),
 ('CH611','176122005','ADITYA KUMAR BHARTI','adity176122005'),
 ('CH611','176122014','BIPIN KUMAR BEHERA','bipin176122014'),
 ('CH611','176122101','Suvendu Halder','bipin176122014'),
@@ -2548,7 +2548,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH611','17612200
 ('CH611','176122106','Ashish Kumar Sahoo ','bipin176122014'),
 ('CH611','176122109','Sonbidya Banerjee','bipin176122014'),
 ('CH611','176122110','SANTA MONDAL','bipin176122014');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH623','176122002','SAURAV DAS','das176122002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH623','176122002','SAURAV DAS','das176122002'),
 ('CH623','176122007','SUPRIYA   DAS','das176122007'),
 ('CH623','176122012','NILANJANA NANDI','nandi176122012'),
 ('CH623','176122021','RUPA BAI ADDANKI','rupa176122021'),
@@ -2564,7 +2564,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH623','176122002','SA
 ('CH623','176122102','Sayanta Roy','abu176122050'),
 ('CH623','176122105','Saghir Ali','abu176122050'),
 ('CH623','176122110','SANTA MONDAL','abu176122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH623','176122002','SAURAV DAS','das176122002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH623','176122002','SAURAV DAS','das176122002'),
 ('CH623','176122007','SUPRIYA   DAS','das176122007'),
 ('CH623','176122012','NILANJANA NANDI','nandi176122012'),
 ('CH623','176122021','RUPA BAI ADDANKI','rupa176122021'),
@@ -2580,7 +2580,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH623','176122002
 ('CH623','176122102','Sayanta Roy','abu176122050'),
 ('CH623','176122105','Saghir Ali','abu176122050'),
 ('CH623','176122110','SANTA MONDAL','abu176122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH623','176122002','SAURAV DAS','das176122002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH623','176122002','SAURAV DAS','das176122002'),
 ('CH623','176122007','SUPRIYA   DAS','das176122007'),
 ('CH623','176122012','NILANJANA NANDI','nandi176122012'),
 ('CH623','176122021','RUPA BAI ADDANKI','rupa176122021'),
@@ -2596,7 +2596,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH623','17612200
 ('CH623','176122102','Sayanta Roy','abu176122050'),
 ('CH623','176122105','Saghir Ali','abu176122050'),
 ('CH623','176122110','SANTA MONDAL','abu176122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH323','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH323','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH323','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH323','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH323','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -2632,7 +2632,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH323','150122001','AB
 ('CH323','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH323','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH323','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH323','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH323','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH323','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH323','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH323','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -2668,7 +2668,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH323','150122001
 ('CH323','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH323','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH323','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH323','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH323','150122001','ABHIJEET KUMAR','abhijeet.kumar'),
 ('CH323','150122002','ABHINAV PAIGWAR','abhinav.paigwar'),
 ('CH323','150122003','ANSHUL KUMAR','anshul.kumar'),
 ('CH323','150122004','ANURAG SONTHALIA','anurag.sonthalia'),
@@ -2704,16 +2704,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH323','15012200
 ('CH323','150122043','UMESH DHAKED','umesh.dhaked'),
 ('CH323','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('CH323','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH630','176122008','IBANRISHISHA MAWA','mawa176122008'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH630','176122008','IBANRISHISHA MAWA','mawa176122008'),
 ('CH630','176122037','ARUNENDU DAS','arune176122037'),
 ('CH630','176122049','MANIDEEPA PAUL','manid176122049');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH630','176122008','IBANRISHISHA MAWA','mawa176122008'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH630','176122008','IBANRISHISHA MAWA','mawa176122008'),
 ('CH630','176122037','ARUNENDU DAS','arune176122037'),
 ('CH630','176122049','MANIDEEPA PAUL','manid176122049');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH630','176122008','IBANRISHISHA MAWA','mawa176122008'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH630','176122008','IBANRISHISHA MAWA','mawa176122008'),
 ('CH630','176122037','ARUNENDU DAS','arune176122037'),
 ('CH630','176122049','MANIDEEPA PAUL','manid176122049');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH432','162122013','IMTIAZ POSWAL','imtiaz1901'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH432','162122013','IMTIAZ POSWAL','imtiaz1901'),
 ('CH432','172122001','AKASH RANA','akash172122001'),
 ('CH432','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH432','172122003','AMAR SARKAR','amar172122003'),
@@ -2757,7 +2757,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH432','162122013','IM
 ('CH432','172122048','SUMAN','suman172122048'),
 ('CH432','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH432','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH432','162122013','IMTIAZ POSWAL','imtiaz1901'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH432','162122013','IMTIAZ POSWAL','imtiaz1901'),
 ('CH432','172122001','AKASH RANA','akash172122001'),
 ('CH432','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH432','172122003','AMAR SARKAR','amar172122003'),
@@ -2801,7 +2801,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH432','162122013
 ('CH432','172122048','SUMAN','suman172122048'),
 ('CH432','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH432','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH432','162122013','IMTIAZ POSWAL','imtiaz1901'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH432','162122013','IMTIAZ POSWAL','imtiaz1901'),
 ('CH432','172122001','AKASH RANA','akash172122001'),
 ('CH432','172122002','ALISHA KAMRA','kamra172122002'),
 ('CH432','172122003','AMAR SARKAR','amar172122003'),
@@ -2845,7 +2845,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH432','16212201
 ('CH432','172122048','SUMAN','suman172122048'),
 ('CH432','172122049','SUNIL KUMAR PATEL','sunil172122049'),
 ('CH432','172122050','TRIPTI MISHRA','tript172122050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH640','162122003','AKSHAY MALIK','akshaymalik49904'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CH640','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH640','162122005','ANIMESH BHUI','bhuianimesh2016'),
 ('CH640','162122006','ARUP MONDAL','arupritha'),
 ('CH640','162122007','AVISEK BERA','avisek2016'),
@@ -2867,7 +2867,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CH640','162122003','AK
 ('CH640','162122042','SUMAN GHOSH','s.ghosh'),
 ('CH640','162122043','SUSMITA BARUAH','sushibaruah'),
 ('CH640','162122045','VARSHA YADAV','varshayadav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH640','162122003','AKSHAY MALIK','akshaymalik49904'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CH640','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH640','162122005','ANIMESH BHUI','bhuianimesh2016'),
 ('CH640','162122006','ARUP MONDAL','arupritha'),
 ('CH640','162122007','AVISEK BERA','avisek2016'),
@@ -2889,7 +2889,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CH640','162122003
 ('CH640','162122042','SUMAN GHOSH','s.ghosh'),
 ('CH640','162122043','SUSMITA BARUAH','sushibaruah'),
 ('CH640','162122045','VARSHA YADAV','varshayadav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH640','162122003','AKSHAY MALIK','akshaymalik49904'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CH640','162122003','AKSHAY MALIK','akshaymalik49904'),
 ('CH640','162122005','ANIMESH BHUI','bhuianimesh2016'),
 ('CH640','162122006','ARUP MONDAL','arupritha'),
 ('CH640','162122007','AVISEK BERA','avisek2016'),
@@ -2911,7 +2911,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CH640','16212200
 ('CH640','162122042','SUMAN GHOSH','s.ghosh'),
 ('CH640','162122043','SUSMITA BARUAH','sushibaruah'),
 ('CH640','162122045','VARSHA YADAV','varshayadav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA691','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA691','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA691','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
 ('MA691','140123005','AKUL GOEL','g.akul'),
 ('MA691','140123008','ASUTOSH M R','asutosh'),
@@ -2935,7 +2935,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA691','140123001','AA
 ('MA691','162123009','ARIJIT ROY','arijit2016'),
 ('MA691','162123016','HIMANSHU JHAMB','himanshujhamb222'),
 ('MA691','162123048','SUBHRADIP KUNDU','s.kundu');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA691','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA691','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA691','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
 ('MA691','140123005','AKUL GOEL','g.akul'),
 ('MA691','140123008','ASUTOSH M R','asutosh'),
@@ -2959,7 +2959,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA691','140123001
 ('MA691','162123009','ARIJIT ROY','arijit2016'),
 ('MA691','162123016','HIMANSHU JHAMB','himanshujhamb222'),
 ('MA691','162123048','SUBHRADIP KUNDU','s.kundu');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA691','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA691','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA691','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
 ('MA691','140123005','AKUL GOEL','g.akul'),
 ('MA691','140123008','ASUTOSH M R','asutosh'),
@@ -2983,22 +2983,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA691','14012300
 ('MA691','162123009','ARIJIT ROY','arijit2016'),
 ('MA691','162123016','HIMANSHU JHAMB','himanshujhamb222'),
 ('MA691','162123048','SUBHRADIP KUNDU','s.kundu');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA685','140123009','B CH L KAVYA','b.kavya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA685','140123009','B CH L KAVYA','b.kavya'),
 ('MA685','162123009','ARIJIT ROY','arijit2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA685','140123009','B CH L KAVYA','b.kavya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA685','140123009','B CH L KAVYA','b.kavya'),
 ('MA685','162123009','ARIJIT ROY','arijit2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA685','140123009','B CH L KAVYA','b.kavya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA685','140123009','B CH L KAVYA','b.kavya'),
 ('MA685','162123009','ARIJIT ROY','arijit2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA616','162123005','AMAN','aman2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA616','162123005','AMAN','aman2016'),
 ('MA616','162123024','MUDIT TIWARI','mudittiwari255'),
 ('MA616','162123037','SAGAR AGARWAL','sagaragarwal1995');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA616','162123005','AMAN','aman2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA616','162123005','AMAN','aman2016'),
 ('MA616','162123024','MUDIT TIWARI','mudittiwari255'),
 ('MA616','162123037','SAGAR AGARWAL','sagaragarwal1995');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA616','162123005','AMAN','aman2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA616','162123005','AMAN','aman2016'),
 ('MA616','162123024','MUDIT TIWARI','mudittiwari255'),
 ('MA616','162123037','SAGAR AGARWAL','sagaragarwal1995');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA212M','160101081','DEBANGSHU BANERJEE','debangshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA212M','160101081','DEBANGSHU BANERJEE','debangshu'),
 ('MA212M','160101082','AMEYA DAIGAVANE','ameya.daigavane'),
 ('MA212M','160101084','NITESH JINDAL','nitesh_Jindal'),
 ('MA212M','160102058','SANKALP JAIN','sankalp.jain10'),
@@ -3021,7 +3021,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA212M','160101081','D
 ('MA212M','160122001','AAKASH AGRAWAL','akash2016'),
 ('MA212M','160122017','KAILA HARSHA VARDHAN REDDY','harsha_99'),
 ('MA212M','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA212M','160101081','DEBANGSHU BANERJEE','debangshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA212M','160101081','DEBANGSHU BANERJEE','debangshu'),
 ('MA212M','160101082','AMEYA DAIGAVANE','ameya.daigavane'),
 ('MA212M','160101084','NITESH JINDAL','nitesh_Jindal'),
 ('MA212M','160102058','SANKALP JAIN','sankalp.jain10'),
@@ -3044,7 +3044,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA212M','16010108
 ('MA212M','160122001','AAKASH AGRAWAL','akash2016'),
 ('MA212M','160122017','KAILA HARSHA VARDHAN REDDY','harsha_99'),
 ('MA212M','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA212M','160101081','DEBANGSHU BANERJEE','debangshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA212M','160101081','DEBANGSHU BANERJEE','debangshu'),
 ('MA212M','160101082','AMEYA DAIGAVANE','ameya.daigavane'),
 ('MA212M','160101084','NITESH JINDAL','nitesh_Jindal'),
 ('MA212M','160102058','SANKALP JAIN','sankalp.jain10'),
@@ -3067,10 +3067,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA212M','1601010
 ('MA212M','160122001','AAKASH AGRAWAL','akash2016'),
 ('MA212M','160122017','KAILA HARSHA VARDHAN REDDY','harsha_99'),
 ('MA212M','160122043','VAISHNAVI BHARDWAJ','vaishdwajiitg');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA746','176123006','BUDDHA DEV GHOSH','ghosh176123006');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA746','176123006','BUDDHA DEV GHOSH','ghosh176123006');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA746','176123006','BUDDHA DEV GHOSH','ghosh176123006');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA699','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA746','176123006','BUDDHA DEV GHOSH','ghosh176123006');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA746','176123006','BUDDHA DEV GHOSH','ghosh176123006');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA746','176123006','BUDDHA DEV GHOSH','ghosh176123006');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA699','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA699','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA699','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA699','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3117,7 +3117,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA699','162123001','AA
 ('MA699','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA699','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA699','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA699','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA699','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA699','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA699','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA699','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3164,7 +3164,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA699','162123001
 ('MA699','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA699','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA699','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA699','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA699','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA699','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA699','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA699','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3211,7 +3211,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA699','16212300
 ('MA699','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA699','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA699','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA312M','140103004','ADITYA PARASHAR','aditya.parashar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA312M','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('MA312M','150101076','SUDHANSHU RANJAN','sudhanshu.ranjan'),
 ('MA312M','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('MA312M','150102038','NATRA SANJAY','natra'),
@@ -3223,7 +3223,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA312M','140103004','A
 ('MA312M','150121025','MUKUND KRISHNA KOTHARI','mukund.kothari'),
 ('MA312M','150205037','SIMRAN AGARWAL','simran.agarwal'),
 ('MA312M','150205047','ARPIT MATHUR','arpit.mathur');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA312M','140103004','ADITYA PARASHAR','aditya.parashar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA312M','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('MA312M','150101076','SUDHANSHU RANJAN','sudhanshu.ranjan'),
 ('MA312M','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('MA312M','150102038','NATRA SANJAY','natra'),
@@ -3235,7 +3235,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA312M','14010300
 ('MA312M','150121025','MUKUND KRISHNA KOTHARI','mukund.kothari'),
 ('MA312M','150205037','SIMRAN AGARWAL','simran.agarwal'),
 ('MA312M','150205047','ARPIT MATHUR','arpit.mathur');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA312M','140103004','ADITYA PARASHAR','aditya.parashar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA312M','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('MA312M','150101076','SUDHANSHU RANJAN','sudhanshu.ranjan'),
 ('MA312M','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('MA312M','150102038','NATRA SANJAY','natra'),
@@ -3247,13 +3247,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA312M','1401030
 ('MA312M','150121025','MUKUND KRISHNA KOTHARI','mukund.kothari'),
 ('MA312M','150205037','SIMRAN AGARWAL','simran.agarwal'),
 ('MA312M','150205047','ARPIT MATHUR','arpit.mathur');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA505','162123026','NIBEDITA ROY','nibeditaroy'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA505','162123026','NIBEDITA ROY','nibeditaroy'),
 ('MA505','162123029','PAYAL KASHYAP','payalgau2');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA505','162123026','NIBEDITA ROY','nibeditaroy'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA505','162123026','NIBEDITA ROY','nibeditaroy'),
 ('MA505','162123029','PAYAL KASHYAP','payalgau2');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA505','162123026','NIBEDITA ROY','nibeditaroy'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA505','162123026','NIBEDITA ROY','nibeditaroy'),
 ('MA505','162123029','PAYAL KASHYAP','payalgau2');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA671','140123029','SAHIL MALAV','sahil.malav'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA671','140123029','SAHIL MALAV','sahil.malav'),
 ('MA671','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA671','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA671','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3276,7 +3276,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA671','140123029','SA
 ('MA671','176123001','MRITUNJOY BARMAN','MRITYUNJOY'),
 ('MA671','176123005','AVIJIT DAS','das176123005'),
 ('MA671','176123101','Naresh Kumar ','das176123005');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA671','140123029','SAHIL MALAV','sahil.malav'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA671','140123029','SAHIL MALAV','sahil.malav'),
 ('MA671','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA671','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA671','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3299,7 +3299,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA671','140123029
 ('MA671','176123001','MRITUNJOY BARMAN','MRITYUNJOY'),
 ('MA671','176123005','AVIJIT DAS','das176123005'),
 ('MA671','176123101','Naresh Kumar ','das176123005');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA671','140123029','SAHIL MALAV','sahil.malav'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA671','140123029','SAHIL MALAV','sahil.malav'),
 ('MA671','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA671','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA671','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3322,7 +3322,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA671','14012302
 ('MA671','176123001','MRITUNJOY BARMAN','MRITYUNJOY'),
 ('MA671','176123005','AVIJIT DAS','das176123005'),
 ('MA671','176123101','Naresh Kumar ','das176123005');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA499','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA499','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA499','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA499','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA499','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
@@ -3370,7 +3370,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA499','130123042','VI
 ('MA499','140123049','DIVYAE VATS','divyae'),
 ('MA499','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA499','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA499','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA499','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA499','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA499','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA499','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
@@ -3418,7 +3418,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA499','130123042
 ('MA499','140123049','DIVYAE VATS','divyae'),
 ('MA499','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA499','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA499','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA499','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA499','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA499','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA499','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
@@ -3466,7 +3466,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA499','13012304
 ('MA499','140123049','DIVYAE VATS','divyae'),
 ('MA499','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA499','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA271','140123028','ROUNAK BARAL','rounak'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA271','140123028','ROUNAK BARAL','rounak'),
 ('MA271','150101070','SHRADHA PRUTHI','shradha'),
 ('MA271','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
 ('MA271','160123002','ABHISHEK DOGRA','abhishek.dogra25'),
@@ -3516,7 +3516,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA271','140123028','RO
 ('MA271','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA271','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA271','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA271','140123028','ROUNAK BARAL','rounak'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA271','140123028','ROUNAK BARAL','rounak'),
 ('MA271','150101070','SHRADHA PRUTHI','shradha'),
 ('MA271','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
 ('MA271','160123002','ABHISHEK DOGRA','abhishek.dogra25'),
@@ -3566,7 +3566,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA271','140123028
 ('MA271','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA271','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA271','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA271','140123028','ROUNAK BARAL','rounak'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA271','140123028','ROUNAK BARAL','rounak'),
 ('MA271','150101070','SHRADHA PRUTHI','shradha'),
 ('MA271','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
 ('MA271','160123002','ABHISHEK DOGRA','abhishek.dogra25'),
@@ -3616,7 +3616,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA271','14012302
 ('MA271','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA271','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA271','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA477','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA477','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA477','140123004','AKKALLA VENKATA NAGA KESAVA SAI CHARAN','akkalla'),
 ('MA477','140123006','AMAN KUMAR','k.aman'),
 ('MA477','140123007','ASHISH KUMAR SINGH','ashish.2014'),
@@ -3645,7 +3645,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA477','140123001','AA
 ('MA477','140123049','DIVYAE VATS','divyae'),
 ('MA477','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA477','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA477','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA477','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA477','140123004','AKKALLA VENKATA NAGA KESAVA SAI CHARAN','akkalla'),
 ('MA477','140123006','AMAN KUMAR','k.aman'),
 ('MA477','140123007','ASHISH KUMAR SINGH','ashish.2014'),
@@ -3674,7 +3674,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA477','140123001
 ('MA477','140123049','DIVYAE VATS','divyae'),
 ('MA477','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA477','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA477','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA477','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA477','140123004','AKKALLA VENKATA NAGA KESAVA SAI CHARAN','akkalla'),
 ('MA477','140123006','AMAN KUMAR','k.aman'),
 ('MA477','140123007','ASHISH KUMAR SINGH','ashish.2014'),
@@ -3703,7 +3703,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA477','14012300
 ('MA477','140123049','DIVYAE VATS','divyae'),
 ('MA477','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA477','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA561','140123029','SAHIL MALAV','sahil.malav'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA561','140123029','SAHIL MALAV','sahil.malav'),
 ('MA561','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA561','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA561','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3727,7 +3727,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA561','140123029','SA
 ('MA561','162123049','SUMAN HALDER','sumaniitg'),
 ('MA561','162123052','VIRENDRA KUMAR','virendrakumar'),
 ('MA561','176123004','KULDEEP SINGH YADAV','yadav176123004');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA561','140123029','SAHIL MALAV','sahil.malav'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA561','140123029','SAHIL MALAV','sahil.malav'),
 ('MA561','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA561','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA561','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3751,7 +3751,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA561','140123029
 ('MA561','162123049','SUMAN HALDER','sumaniitg'),
 ('MA561','162123052','VIRENDRA KUMAR','virendrakumar'),
 ('MA561','176123004','KULDEEP SINGH YADAV','yadav176123004');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA561','140123029','SAHIL MALAV','sahil.malav'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA561','140123029','SAHIL MALAV','sahil.malav'),
 ('MA561','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA561','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA561','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -3775,7 +3775,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA561','14012302
 ('MA561','162123049','SUMAN HALDER','sumaniitg'),
 ('MA561','162123052','VIRENDRA KUMAR','virendrakumar'),
 ('MA561','176123004','KULDEEP SINGH YADAV','yadav176123004');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA641','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA641','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA641','162123012','CHANDAN PRADHAN','chandan.math'),
 ('MA641','162123013','DEV KARAN SINGH','devkaran'),
 ('MA641','162123022','MRITYUNJOY CHARAN','mrityunjoycharanmath'),
@@ -3786,7 +3786,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA641','162123001','AA
 ('MA641','162123045','SOURAV MAHATA','souravmahata'),
 ('MA641','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA641','176123006','BUDDHA DEV GHOSH','ghosh176123006');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA641','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA641','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA641','162123012','CHANDAN PRADHAN','chandan.math'),
 ('MA641','162123013','DEV KARAN SINGH','devkaran'),
 ('MA641','162123022','MRITYUNJOY CHARAN','mrityunjoycharanmath'),
@@ -3797,7 +3797,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA641','162123001
 ('MA641','162123045','SOURAV MAHATA','souravmahata'),
 ('MA641','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA641','176123006','BUDDHA DEV GHOSH','ghosh176123006');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA641','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA641','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA641','162123012','CHANDAN PRADHAN','chandan.math'),
 ('MA641','162123013','DEV KARAN SINGH','devkaran'),
 ('MA641','162123022','MRITYUNJOY CHARAN','mrityunjoycharanmath'),
@@ -3808,7 +3808,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA641','16212300
 ('MA641','162123045','SOURAV MAHATA','souravmahata'),
 ('MA641','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA641','176123006','BUDDHA DEV GHOSH','ghosh176123006');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA321','140101035','LONGKIRI BEY','longkiri'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA321','140101035','LONGKIRI BEY','longkiri'),
 ('MA321','150101001','ABHAY KUMAR','abhay.2015'),
 ('MA321','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('MA321','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -3941,7 +3941,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA321','140101035','LO
 ('MA321','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA321','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA321','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA321','140101035','LONGKIRI BEY','longkiri'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA321','140101035','LONGKIRI BEY','longkiri'),
 ('MA321','150101001','ABHAY KUMAR','abhay.2015'),
 ('MA321','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('MA321','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -4074,7 +4074,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA321','140101035
 ('MA321','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA321','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA321','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA321','140101035','LONGKIRI BEY','longkiri'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA321','140101035','LONGKIRI BEY','longkiri'),
 ('MA321','150101001','ABHAY KUMAR','abhay.2015'),
 ('MA321','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('MA321','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -4207,7 +4207,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA321','14010103
 ('MA321','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA321','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA321','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA473','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA473','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA473','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA473','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA473','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
@@ -4255,7 +4255,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA473','130123042','VI
 ('MA473','140123049','DIVYAE VATS','divyae'),
 ('MA473','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA473','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA473','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA473','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA473','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA473','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA473','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
@@ -4303,7 +4303,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA473','130123042
 ('MA473','140123049','DIVYAE VATS','divyae'),
 ('MA473','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA473','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA473','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA473','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA473','140123001','AAYUSHI KHANDELWAL','aayushi.khandelwal'),
 ('MA473','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA473','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
@@ -4351,7 +4351,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA473','13012304
 ('MA473','140123049','DIVYAE VATS','divyae'),
 ('MA473','140123050','CHANDAN KUMAR','chandan.2014'),
 ('MA473','140123051','PRAKHAAR BHARGAVA','prakhaar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA542','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA542','172123001','AAKASH','aakas172123001'),
 ('MA542','172123002','AANAND KUMAR','kumar172123002'),
 ('MA542','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA542','172123004','ANOOP KUMAR','anoop172123004'),
@@ -4395,7 +4395,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA542','172123001','AA
 ('MA542','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA542','172123045','TUSHAR DAS','das172123045'),
 ('MA542','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA542','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA542','172123001','AAKASH','aakas172123001'),
 ('MA542','172123002','AANAND KUMAR','kumar172123002'),
 ('MA542','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA542','172123004','ANOOP KUMAR','anoop172123004'),
@@ -4439,7 +4439,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA542','172123001
 ('MA542','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA542','172123045','TUSHAR DAS','das172123045'),
 ('MA542','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA542','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA542','172123001','AAKASH','aakas172123001'),
 ('MA542','172123002','AANAND KUMAR','kumar172123002'),
 ('MA542','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA542','172123004','ANOOP KUMAR','anoop172123004'),
@@ -4483,7 +4483,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA542','17212300
 ('MA542','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA542','172123045','TUSHAR DAS','das172123045'),
 ('MA542','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA226','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA226','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
 ('MA226','160123002','ABHISHEK DOGRA','abhishek.dogra25'),
 ('MA226','160123003','ANIMESH KUMAR','akanimesh7'),
 ('MA226','160123004','ANKAM AMAN SAI','amansai'),
@@ -4532,7 +4532,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA226','160123001','AA
 ('MA226','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA226','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA226','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA226','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA226','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
 ('MA226','160123002','ABHISHEK DOGRA','abhishek.dogra25'),
 ('MA226','160123003','ANIMESH KUMAR','akanimesh7'),
 ('MA226','160123004','ANKAM AMAN SAI','amansai'),
@@ -4581,7 +4581,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA226','160123001
 ('MA226','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA226','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA226','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA226','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA226','160123001','AASHUTOSH AGRAWAL','ashutosh2016'),
 ('MA226','160123002','ABHISHEK DOGRA','abhishek.dogra25'),
 ('MA226','160123003','ANIMESH KUMAR','akanimesh7'),
 ('MA226','160123004','ANKAM AMAN SAI','amansai'),
@@ -4630,7 +4630,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA226','16012300
 ('MA226','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA226','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA226','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA252','150103084','ABHINANDAN GOGOI','g.abhinandan'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA252','150103084','ABHINANDAN GOGOI','g.abhinandan'),
 ('MA252','150107039','PALLAPOLU ADITYA BABU','pallapolu'),
 ('MA252','150107051','SARATH CHANDRA NERIYANURI','n.sarath'),
 ('MA252','150107058','SIDDHARTH AGARWAL','siddharth.agarwal'),
@@ -4684,7 +4684,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA252','150103084','AB
 ('MA252','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA252','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA252','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA252','150103084','ABHINANDAN GOGOI','g.abhinandan'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA252','150103084','ABHINANDAN GOGOI','g.abhinandan'),
 ('MA252','150107039','PALLAPOLU ADITYA BABU','pallapolu'),
 ('MA252','150107051','SARATH CHANDRA NERIYANURI','n.sarath'),
 ('MA252','150107058','SIDDHARTH AGARWAL','siddharth.agarwal'),
@@ -4738,7 +4738,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA252','150103084
 ('MA252','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA252','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA252','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA252','150103084','ABHINANDAN GOGOI','g.abhinandan'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA252','150103084','ABHINANDAN GOGOI','g.abhinandan'),
 ('MA252','150107039','PALLAPOLU ADITYA BABU','pallapolu'),
 ('MA252','150107051','SARATH CHANDRA NERIYANURI','n.sarath'),
 ('MA252','150107058','SIDDHARTH AGARWAL','siddharth.agarwal'),
@@ -4792,7 +4792,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA252','15010308
 ('MA252','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA252','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA252','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA351','150123001','ABHINAV GUPTA','abhinav.gupta'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA351','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA351','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA351','150123003','ADITYA SINGH RATHORE','r.aditya'),
 ('MA351','150123004','AKASH MAHALIK','a.mahalik'),
@@ -4840,7 +4840,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA351','150123001','AB
 ('MA351','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA351','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA351','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA351','150123001','ABHINAV GUPTA','abhinav.gupta'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA351','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA351','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA351','150123003','ADITYA SINGH RATHORE','r.aditya'),
 ('MA351','150123004','AKASH MAHALIK','a.mahalik'),
@@ -4888,7 +4888,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA351','150123001
 ('MA351','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA351','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA351','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA351','150123001','ABHINAV GUPTA','abhinav.gupta'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA351','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA351','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA351','150123003','ADITYA SINGH RATHORE','r.aditya'),
 ('MA351','150123004','AKASH MAHALIK','a.mahalik'),
@@ -4936,7 +4936,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA351','15012300
 ('MA351','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA351','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA351','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA547','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA547','172123001','AAKASH','aakas172123001'),
 ('MA547','172123002','AANAND KUMAR','kumar172123002'),
 ('MA547','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA547','172123004','ANOOP KUMAR','anoop172123004'),
@@ -4980,7 +4980,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA547','172123001','AA
 ('MA547','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA547','172123045','TUSHAR DAS','das172123045'),
 ('MA547','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA547','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA547','172123001','AAKASH','aakas172123001'),
 ('MA547','172123002','AANAND KUMAR','kumar172123002'),
 ('MA547','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA547','172123004','ANOOP KUMAR','anoop172123004'),
@@ -5024,7 +5024,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA547','172123001
 ('MA547','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA547','172123045','TUSHAR DAS','das172123045'),
 ('MA547','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA547','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA547','172123001','AAKASH','aakas172123001'),
 ('MA547','172123002','AANAND KUMAR','kumar172123002'),
 ('MA547','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA547','172123004','ANOOP KUMAR','anoop172123004'),
@@ -5068,7 +5068,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA547','17212300
 ('MA547','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA547','172123045','TUSHAR DAS','das172123045'),
 ('MA547','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA571','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA571','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA571','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA571','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA571','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -5115,7 +5115,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA571','162123001','AA
 ('MA571','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA571','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA571','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA571','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA571','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA571','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA571','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA571','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -5162,7 +5162,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA571','162123001
 ('MA571','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA571','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA571','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA571','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA571','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA571','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA571','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA571','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -5209,7 +5209,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA571','16212300
 ('MA571','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA571','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA571','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA591','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA591','172123001','AAKASH','aakas172123001'),
 ('MA591','172123002','AANAND KUMAR','kumar172123002'),
 ('MA591','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA591','172123004','ANOOP KUMAR','anoop172123004'),
@@ -5253,7 +5253,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA591','172123001','AA
 ('MA591','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA591','172123045','TUSHAR DAS','das172123045'),
 ('MA591','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA591','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA591','172123001','AAKASH','aakas172123001'),
 ('MA591','172123002','AANAND KUMAR','kumar172123002'),
 ('MA591','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA591','172123004','ANOOP KUMAR','anoop172123004'),
@@ -5297,7 +5297,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA591','172123001
 ('MA591','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA591','172123045','TUSHAR DAS','das172123045'),
 ('MA591','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA591','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA591','172123001','AAKASH','aakas172123001'),
 ('MA591','172123002','AANAND KUMAR','kumar172123002'),
 ('MA591','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA591','172123004','ANOOP KUMAR','anoop172123004'),
@@ -5341,13 +5341,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA591','17212300
 ('MA591','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA591','172123045','TUSHAR DAS','das172123045'),
 ('MA591','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA644','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA644','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA644','162123012','CHANDAN PRADHAN','chandan.math');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA644','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA644','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA644','162123012','CHANDAN PRADHAN','chandan.math');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA644','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA644','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA644','162123012','CHANDAN PRADHAN','chandan.math');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA253','140123043','VIPIN BAHAR','v.bahar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA253','140123043','VIPIN BAHAR','v.bahar'),
 ('MA253','150123018','KULDEEP YADAV','y.kuldeep'),
 ('MA253','150123031','PUNEET KUMAR','puneet.2015'),
 ('MA253','150123034','ROHIT KUMAR','rohit.math'),
@@ -5401,7 +5401,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA253','140123043','VI
 ('MA253','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA253','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA253','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA253','140123043','VIPIN BAHAR','v.bahar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA253','140123043','VIPIN BAHAR','v.bahar'),
 ('MA253','150123018','KULDEEP YADAV','y.kuldeep'),
 ('MA253','150123031','PUNEET KUMAR','puneet.2015'),
 ('MA253','150123034','ROHIT KUMAR','rohit.math'),
@@ -5455,7 +5455,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA253','140123043
 ('MA253','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA253','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA253','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA253','140123043','VIPIN BAHAR','v.bahar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA253','140123043','VIPIN BAHAR','v.bahar'),
 ('MA253','150123018','KULDEEP YADAV','y.kuldeep'),
 ('MA253','150123031','PUNEET KUMAR','puneet.2015'),
 ('MA253','150123034','ROHIT KUMAR','rohit.math'),
@@ -5509,10 +5509,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA253','14012304
 ('MA253','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA253','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA253','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA625','176123101','Naresh Kumar ','deepak.g');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA625','176123101','Naresh Kumar ','deepak.g');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA625','176123101','Naresh Kumar ','deepak.g');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA373','140123008','ASUTOSH M R','asutosh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA625','176123101','Naresh Kumar ','deepak.g');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA625','176123101','Naresh Kumar ','deepak.g');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA625','176123101','Naresh Kumar ','deepak.g');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA373','140123008','ASUTOSH M R','asutosh'),
 ('MA373','140123030','SANDEEP KUMAR','sandeep.2014'),
 ('MA373','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA373','150123002','ACHINTYA SINGH','s.achintya'),
@@ -5563,7 +5563,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA373','140123008','AS
 ('MA373','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA373','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA373','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA373','140123008','ASUTOSH M R','asutosh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA373','140123008','ASUTOSH M R','asutosh'),
 ('MA373','140123030','SANDEEP KUMAR','sandeep.2014'),
 ('MA373','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA373','150123002','ACHINTYA SINGH','s.achintya'),
@@ -5614,7 +5614,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA373','140123008
 ('MA373','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA373','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA373','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA373','140123008','ASUTOSH M R','asutosh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA373','140123008','ASUTOSH M R','asutosh'),
 ('MA373','140123030','SANDEEP KUMAR','sandeep.2014'),
 ('MA373','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA373','150123002','ACHINTYA SINGH','s.achintya'),
@@ -5665,7 +5665,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA373','14012300
 ('MA373','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA373','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA373','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA513','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA513','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA513','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA513','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
 ('MA513','140123006','AMAN KUMAR','k.aman'),
@@ -5686,7 +5686,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA513','130123042','VI
 ('MA513','162123024','MUDIT TIWARI','mudittiwari255'),
 ('MA513','162123027','NIDHI YADAV','nidhi.yadav'),
 ('MA513','162123037','SAGAR AGARWAL','sagaragarwal1995');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA513','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA513','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA513','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA513','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
 ('MA513','140123006','AMAN KUMAR','k.aman'),
@@ -5707,7 +5707,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA513','130123042
 ('MA513','162123024','MUDIT TIWARI','mudittiwari255'),
 ('MA513','162123027','NIDHI YADAV','nidhi.yadav'),
 ('MA513','162123037','SAGAR AGARWAL','sagaragarwal1995');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA513','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA513','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA513','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA513','140123003','ADITYA SHIVAJI DIVEKAR','a.divekar'),
 ('MA513','140123006','AMAN KUMAR','k.aman'),
@@ -5728,7 +5728,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA513','13012304
 ('MA513','162123024','MUDIT TIWARI','mudittiwari255'),
 ('MA513','162123027','NIDHI YADAV','nidhi.yadav'),
 ('MA513','162123037','SAGAR AGARWAL','sagaragarwal1995');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA519','162123005','AMAN','aman2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA519','162123005','AMAN','aman2016'),
 ('MA519','162123007','ANUPAM BARLA','anupam.barla'),
 ('MA519','162123020','LALTU ROY','roylaltu'),
 ('MA519','162123025','NEELAM ARYA','neelamarya50'),
@@ -5737,7 +5737,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA519','162123005','AM
 ('MA519','162123046','SUBHADRA MISHRA','subhadra'),
 ('MA519','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA519','176123007','KUWARI MAHANTA','kuwari.mahanta');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA519','162123005','AMAN','aman2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA519','162123005','AMAN','aman2016'),
 ('MA519','162123007','ANUPAM BARLA','anupam.barla'),
 ('MA519','162123020','LALTU ROY','roylaltu'),
 ('MA519','162123025','NEELAM ARYA','neelamarya50'),
@@ -5746,7 +5746,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA519','162123005
 ('MA519','162123046','SUBHADRA MISHRA','subhadra'),
 ('MA519','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA519','176123007','KUWARI MAHANTA','kuwari.mahanta');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA519','162123005','AMAN','aman2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA519','162123005','AMAN','aman2016'),
 ('MA519','162123007','ANUPAM BARLA','anupam.barla'),
 ('MA519','162123020','LALTU ROY','roylaltu'),
 ('MA519','162123025','NEELAM ARYA','neelamarya50'),
@@ -5755,7 +5755,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA519','16212300
 ('MA519','162123046','SUBHADRA MISHRA','subhadra'),
 ('MA519','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA519','176123007','KUWARI MAHANTA','kuwari.mahanta');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA224','140123016','KADAMBALA ANIL','kadambala'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA224','140123016','KADAMBALA ANIL','kadambala'),
 ('MA224','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA224','150123011','DEEPANSH GARG','g.deepansh'),
 ('MA224','150123018','KULDEEP YADAV','y.kuldeep'),
@@ -5812,7 +5812,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA224','140123016','KA
 ('MA224','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA224','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA224','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA224','140123016','KADAMBALA ANIL','kadambala'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA224','140123016','KADAMBALA ANIL','kadambala'),
 ('MA224','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA224','150123011','DEEPANSH GARG','g.deepansh'),
 ('MA224','150123018','KULDEEP YADAV','y.kuldeep'),
@@ -5869,7 +5869,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA224','140123016
 ('MA224','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA224','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA224','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA224','140123016','KADAMBALA ANIL','kadambala'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA224','140123016','KADAMBALA ANIL','kadambala'),
 ('MA224','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA224','150123011','DEEPANSH GARG','g.deepansh'),
 ('MA224','150123018','KULDEEP YADAV','y.kuldeep'),
@@ -5926,19 +5926,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA224','14012301
 ('MA224','160123052','SAYANI KUNDU','sayani.frndz'),
 ('MA224','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('MA224','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA662','176123101','Naresh Kumar ','deepak.g');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA662','176123101','Naresh Kumar ','deepak.g');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA662','176123101','Naresh Kumar ','deepak.g');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA643','162123035','RISHABH SARMA','rishabh2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA662','176123101','Naresh Kumar ','deepak.g');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA662','176123101','Naresh Kumar ','deepak.g');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA662','176123101','Naresh Kumar ','deepak.g');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA643','162123035','RISHABH SARMA','rishabh2016'),
 ('MA643','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA643','176123007','KUWARI MAHANTA','kuwari.mahanta');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA643','162123035','RISHABH SARMA','rishabh2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA643','162123035','RISHABH SARMA','rishabh2016'),
 ('MA643','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA643','176123007','KUWARI MAHANTA','kuwari.mahanta');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA643','162123035','RISHABH SARMA','rishabh2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA643','162123035','RISHABH SARMA','rishabh2016'),
 ('MA643','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA643','176123007','KUWARI MAHANTA','kuwari.mahanta');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA374','150123001','ABHINAV GUPTA','abhinav.gupta'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA374','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA374','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA374','150123003','ADITYA SINGH RATHORE','r.aditya'),
 ('MA374','150123004','AKASH MAHALIK','a.mahalik'),
@@ -5986,7 +5986,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA374','150123001','AB
 ('MA374','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA374','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA374','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA374','150123001','ABHINAV GUPTA','abhinav.gupta'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA374','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA374','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA374','150123003','ADITYA SINGH RATHORE','r.aditya'),
 ('MA374','150123004','AKASH MAHALIK','a.mahalik'),
@@ -6034,7 +6034,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA374','150123001
 ('MA374','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA374','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA374','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA374','150123001','ABHINAV GUPTA','abhinav.gupta'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA374','150123001','ABHINAV GUPTA','abhinav.gupta'),
 ('MA374','150123002','ACHINTYA SINGH','s.achintya'),
 ('MA374','150123003','ADITYA SINGH RATHORE','r.aditya'),
 ('MA374','150123004','AKASH MAHALIK','a.mahalik'),
@@ -6082,7 +6082,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA374','15012300
 ('MA374','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('MA374','150123052','PRITHVI SRIRAM','prithvi'),
 ('MA374','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA502','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA502','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA502','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA502','140123004','AKKALLA VENKATA NAGA KESAVA SAI CHARAN','akkalla'),
 ('MA502','140123005','AKUL GOEL','g.akul'),
@@ -6116,7 +6116,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA502','130123042','VI
 ('MA502','162123036','RUPAMSHANKAR NATH','rupamnath23'),
 ('MA502','162123038','SAIKAT GHOSH','saikatiitg'),
 ('MA502','162123051','TUSHAR GOEL','tushargoel68');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA502','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA502','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA502','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA502','140123004','AKKALLA VENKATA NAGA KESAVA SAI CHARAN','akkalla'),
 ('MA502','140123005','AKUL GOEL','g.akul'),
@@ -6150,7 +6150,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA502','130123042
 ('MA502','162123036','RUPAMSHANKAR NATH','rupamnath23'),
 ('MA502','162123038','SAIKAT GHOSH','saikatiitg'),
 ('MA502','162123051','TUSHAR GOEL','tushargoel68');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA502','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA502','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('MA502','140123002','ADITYA DEVENDRA KANTHALE','a.kanthale'),
 ('MA502','140123004','AKKALLA VENKATA NAGA KESAVA SAI CHARAN','akkalla'),
 ('MA502','140123005','AKUL GOEL','g.akul'),
@@ -6184,10 +6184,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA502','13012304
 ('MA502','162123036','RUPAMSHANKAR NATH','rupamnath23'),
 ('MA502','162123038','SAIKAT GHOSH','saikatiitg'),
 ('MA502','162123051','TUSHAR GOEL','tushargoel68');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA642','176123101','Naresh Kumar ','tushargo');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA642','176123101','Naresh Kumar ','tushargo');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA642','176123101','Naresh Kumar ','tushargo');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA590','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA642','176123101','Naresh Kumar ','tushargo');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA642','176123101','Naresh Kumar ','tushargo');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA642','176123101','Naresh Kumar ','tushargo');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA590','172123001','AAKASH','aakas172123001'),
 ('MA590','172123002','AANAND KUMAR','kumar172123002'),
 ('MA590','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA590','172123004','ANOOP KUMAR','anoop172123004'),
@@ -6231,7 +6231,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA590','172123001','AA
 ('MA590','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA590','172123045','TUSHAR DAS','das172123045'),
 ('MA590','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA590','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA590','172123001','AAKASH','aakas172123001'),
 ('MA590','172123002','AANAND KUMAR','kumar172123002'),
 ('MA590','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA590','172123004','ANOOP KUMAR','anoop172123004'),
@@ -6275,7 +6275,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA590','172123001
 ('MA590','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA590','172123045','TUSHAR DAS','das172123045'),
 ('MA590','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA590','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA590','172123001','AAKASH','aakas172123001'),
 ('MA590','172123002','AANAND KUMAR','kumar172123002'),
 ('MA590','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA590','172123004','ANOOP KUMAR','anoop172123004'),
@@ -6319,7 +6319,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA590','17212300
 ('MA590','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA590','172123045','TUSHAR DAS','das172123045'),
 ('MA590','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA622','162123013','DEV KARAN SINGH','devkaran'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA622','162123013','DEV KARAN SINGH','devkaran'),
 ('MA622','162123022','MRITYUNJOY CHARAN','mrityunjoycharanmath'),
 ('MA622','162123023','MRITYUNJOY GHOSH','ghoshmrityunjymath'),
 ('MA622','162123025','NEELAM ARYA','neelamarya50'),
@@ -6328,7 +6328,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA622','162123013','DE
 ('MA622','162123035','RISHABH SARMA','rishabh2016'),
 ('MA622','162123038','SAIKAT GHOSH','saikatiitg'),
 ('MA622','162123043','SAURAV','saurav2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA622','162123013','DEV KARAN SINGH','devkaran'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA622','162123013','DEV KARAN SINGH','devkaran'),
 ('MA622','162123022','MRITYUNJOY CHARAN','mrityunjoycharanmath'),
 ('MA622','162123023','MRITYUNJOY GHOSH','ghoshmrityunjymath'),
 ('MA622','162123025','NEELAM ARYA','neelamarya50'),
@@ -6337,7 +6337,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA622','162123013
 ('MA622','162123035','RISHABH SARMA','rishabh2016'),
 ('MA622','162123038','SAIKAT GHOSH','saikatiitg'),
 ('MA622','162123043','SAURAV','saurav2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA622','162123013','DEV KARAN SINGH','devkaran'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA622','162123013','DEV KARAN SINGH','devkaran'),
 ('MA622','162123022','MRITYUNJOY CHARAN','mrityunjoycharanmath'),
 ('MA622','162123023','MRITYUNJOY GHOSH','ghoshmrityunjymath'),
 ('MA622','162123025','NEELAM ARYA','neelamarya50'),
@@ -6346,7 +6346,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA622','16212301
 ('MA622','162123035','RISHABH SARMA','rishabh2016'),
 ('MA622','162123038','SAIKAT GHOSH','saikatiitg'),
 ('MA622','162123043','SAURAV','saurav2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA573','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA573','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA573','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA573','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA573','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -6393,7 +6393,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA573','162123001','AA
 ('MA573','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA573','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA573','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA573','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA573','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA573','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA573','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA573','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -6440,7 +6440,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA573','162123001
 ('MA573','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA573','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA573','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA573','162123001','AAKASH CHOUDHARY','aakash2017'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA573','162123001','AAKASH CHOUDHARY','aakash2017'),
 ('MA573','162123002','ABHIJIT SHIT','aaabhijit'),
 ('MA573','162123003','ABHINAY VERMA','abhinayjam1995'),
 ('MA573','162123004','AKHILESH KUMAR SINGH','akhilesh2016'),
@@ -6487,7 +6487,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA573','16212300
 ('MA573','162123050','TANMOY BERA','tanmoyiitg'),
 ('MA573','162123051','TUSHAR GOEL','tushargoel68'),
 ('MA573','162123052','VIRENDRA KUMAR','virendrakumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA512','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA512','172123001','AAKASH','aakas172123001'),
 ('MA512','172123002','AANAND KUMAR','kumar172123002'),
 ('MA512','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA512','172123004','ANOOP KUMAR','anoop172123004'),
@@ -6531,7 +6531,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA512','172123001','AA
 ('MA512','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA512','172123045','TUSHAR DAS','das172123045'),
 ('MA512','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA512','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA512','172123001','AAKASH','aakas172123001'),
 ('MA512','172123002','AANAND KUMAR','kumar172123002'),
 ('MA512','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA512','172123004','ANOOP KUMAR','anoop172123004'),
@@ -6575,7 +6575,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA512','172123001
 ('MA512','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA512','172123045','TUSHAR DAS','das172123045'),
 ('MA512','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA512','172123001','AAKASH','aakas172123001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA512','172123001','AAKASH','aakas172123001'),
 ('MA512','172123002','AANAND KUMAR','kumar172123002'),
 ('MA512','172123003','ABHISHEK KUMAR SHARMA','abhis172123003'),
 ('MA512','172123004','ANOOP KUMAR','anoop172123004'),
@@ -6619,10 +6619,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA512','17212300
 ('MA512','172123044','TAMNNA YADAV','tamnn172123044'),
 ('MA512','172123045','TUSHAR DAS','das172123045'),
 ('MA512','172123046','VINOD KUMAR RAIGAR','vinod172123046');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA762','176123008','KOUSHIK KANTI BARMAN','koushik.barman');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA762','176123008','KOUSHIK KANTI BARMAN','koushik.barman');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA762','176123008','KOUSHIK KANTI BARMAN','koushik.barman');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA102','120106048','SIDHARTH RAO MIDASALA ','s.midasala'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA762','176123008','KOUSHIK KANTI BARMAN','koushik.barman');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA762','176123008','KOUSHIK KANTI BARMAN','koushik.barman');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA762','176123008','KOUSHIK KANTI BARMAN','koushik.barman');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('MA102','120106048','SIDHARTH RAO MIDASALA ','s.midasala'),
 ('MA102','120122021','MAHENDRA BHATI','b.mahendra'),
 ('MA102','120205025','MANISH KUMAR','manish2012'),
 ('MA102','120205031','NILKAMAL RABHA','nilkamal'),
@@ -7304,7 +7304,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('MA102','120106048','SI
 ('MA102','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('MA102','170123054','TUMARADA ADITYA','adity170123054'),
 ('MA102','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA102','120106048','SIDHARTH RAO MIDASALA ','s.midasala'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('MA102','120106048','SIDHARTH RAO MIDASALA ','s.midasala'),
 ('MA102','120122021','MAHENDRA BHATI','b.mahendra'),
 ('MA102','120205025','MANISH KUMAR','manish2012'),
 ('MA102','120205031','NILKAMAL RABHA','nilkamal'),
@@ -7986,7 +7986,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('MA102','120106048
 ('MA102','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('MA102','170123054','TUMARADA ADITYA','adity170123054'),
 ('MA102','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA102','120106048','SIDHARTH RAO MIDASALA ','s.midasala'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('MA102','120106048','SIDHARTH RAO MIDASALA ','s.midasala'),
 ('MA102','120122021','MAHENDRA BHATI','b.mahendra'),
 ('MA102','120205025','MANISH KUMAR','manish2012'),
 ('MA102','120205031','NILKAMAL RABHA','nilkamal'),
@@ -8668,7 +8668,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('MA102','12010604
 ('MA102','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('MA102','170123054','TUMARADA ADITYA','adity170123054'),
 ('MA102','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE270','150102028','KONALA VIJAYA KRISHNA','k.konala'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE270','150102028','KONALA VIJAYA KRISHNA','k.konala'),
 ('EE270','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE270','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE270','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -8784,7 +8784,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE270','150102028','KO
 ('EE270','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE270','160108047','KEVIN JOSE','krsj1234'),
 ('EE270','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE270','150102028','KONALA VIJAYA KRISHNA','k.konala'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE270','150102028','KONALA VIJAYA KRISHNA','k.konala'),
 ('EE270','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE270','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE270','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -8900,7 +8900,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE270','150102028
 ('EE270','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE270','160108047','KEVIN JOSE','krsj1234'),
 ('EE270','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE270','150102028','KONALA VIJAYA KRISHNA','k.konala'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE270','150102028','KONALA VIJAYA KRISHNA','k.konala'),
 ('EE270','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE270','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE270','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -9016,7 +9016,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE270','15010202
 ('EE270','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE270','160108047','KEVIN JOSE','krsj1234'),
 ('EE270','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE625','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE625','140102001','ACHIN JAIN','achin.jain'),
 ('EE625','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE625','140102004','ALIKANTI AKSHAY','alikanti'),
 ('EE625','140102005','AMAN DALMIA','a.dalmia'),
@@ -9092,7 +9092,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE625','140102001','AC
 ('EE625','176102103','Nadeem Atif','shubh174102061'),
 ('EE625','176102104','Bikram Baruti','shubh174102061'),
 ('EE625','176102108','Moumita Dholey','shubh174102061');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE625','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE625','140102001','ACHIN JAIN','achin.jain'),
 ('EE625','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE625','140102004','ALIKANTI AKSHAY','alikanti'),
 ('EE625','140102005','AMAN DALMIA','a.dalmia'),
@@ -9168,7 +9168,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE625','140102001
 ('EE625','176102103','Nadeem Atif','shubh174102061'),
 ('EE625','176102104','Bikram Baruti','shubh174102061'),
 ('EE625','176102108','Moumita Dholey','shubh174102061');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE625','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE625','140102001','ACHIN JAIN','achin.jain'),
 ('EE625','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE625','140102004','ALIKANTI AKSHAY','alikanti'),
 ('EE625','140102005','AMAN DALMIA','a.dalmia'),
@@ -9244,7 +9244,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE625','14010200
 ('EE625','176102103','Nadeem Atif','shubh174102061'),
 ('EE625','176102104','Bikram Baruti','shubh174102061'),
 ('EE625','176102108','Moumita Dholey','shubh174102061');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE654','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE654','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE654','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE654','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE654','174102034','PRIYA PANDEY','priya174102034'),
@@ -9252,7 +9252,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE654','174102010','BA
 ('EE654','174102037','ADITYA AGRAWAL','adity174102037'),
 ('EE654','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE654','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE654','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE654','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE654','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE654','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE654','174102034','PRIYA PANDEY','priya174102034'),
@@ -9260,7 +9260,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE654','174102010
 ('EE654','174102037','ADITYA AGRAWAL','adity174102037'),
 ('EE654','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE654','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE654','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE654','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE654','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE654','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE654','174102034','PRIYA PANDEY','priya174102034'),
@@ -9268,7 +9268,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE654','17410201
 ('EE654','174102037','ADITYA AGRAWAL','adity174102037'),
 ('EE654','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE654','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE340','140102064','TRINA NASKAR','trina'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE340','140102064','TRINA NASKAR','trina'),
 ('EE340','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE340','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE340','150102003','ABHISHEK ANAND','abh.anand'),
@@ -9392,7 +9392,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE340','140102064','TR
 ('EE340','150108049','SHETKAR AKASH ASHOK','shetkar'),
 ('EE340','X174102065','NICOLAS RAHMAT','shetkar'),
 ('EE340','X174102066','JULIEN BASSINOT','shetkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE340','140102064','TRINA NASKAR','trina'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE340','140102064','TRINA NASKAR','trina'),
 ('EE340','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE340','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE340','150102003','ABHISHEK ANAND','abh.anand'),
@@ -9516,7 +9516,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE340','140102064
 ('EE340','150108049','SHETKAR AKASH ASHOK','shetkar'),
 ('EE340','X174102065','NICOLAS RAHMAT','shetkar'),
 ('EE340','X174102066','JULIEN BASSINOT','shetkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE340','140102064','TRINA NASKAR','trina'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE340','140102064','TRINA NASKAR','trina'),
 ('EE340','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE340','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE340','150102003','ABHISHEK ANAND','abh.anand'),
@@ -9640,7 +9640,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE340','14010206
 ('EE340','150108049','SHETKAR AKASH ASHOK','shetkar'),
 ('EE340','X174102065','NICOLAS RAHMAT','shetkar'),
 ('EE340','X174102066','JULIEN BASSINOT','shetkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE636','174102011','A CHATURVEDI','a174102011'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE636','174102011','A CHATURVEDI','a174102011'),
 ('EE636','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE636','174102013','AKSHAY SATI','sati174102013'),
 ('EE636','174102014','D SHARMA','sharm174102014'),
@@ -9675,7 +9675,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE636','174102011','A 
 ('EE636','174102060','DEEPAK KUMAR SAHOO','sahoo174102060'),
 ('EE636','174102061','SHUBHAM  SAHU','shubh174102061'),
 ('EE636','176102102','Pothan Enukonda Venkata','shubh174102061');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE636','174102011','A CHATURVEDI','a174102011'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE636','174102011','A CHATURVEDI','a174102011'),
 ('EE636','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE636','174102013','AKSHAY SATI','sati174102013'),
 ('EE636','174102014','D SHARMA','sharm174102014'),
@@ -9710,7 +9710,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE636','174102011
 ('EE636','174102060','DEEPAK KUMAR SAHOO','sahoo174102060'),
 ('EE636','174102061','SHUBHAM  SAHU','shubh174102061'),
 ('EE636','176102102','Pothan Enukonda Venkata','shubh174102061');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE636','174102011','A CHATURVEDI','a174102011'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE636','174102011','A CHATURVEDI','a174102011'),
 ('EE636','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE636','174102013','AKSHAY SATI','sati174102013'),
 ('EE636','174102014','D SHARMA','sharm174102014'),
@@ -9745,7 +9745,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE636','17410201
 ('EE636','174102060','DEEPAK KUMAR SAHOO','sahoo174102060'),
 ('EE636','174102061','SHUBHAM  SAHU','shubh174102061'),
 ('EE636','176102102','Pothan Enukonda Venkata','shubh174102061');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE514','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE514','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE514','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE514','174102026','ANIK BATABYAL','anik174102026'),
 ('EE514','174102027','SAURABH SHARMA','saura174102027'),
@@ -9755,7 +9755,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE514','174102001','VI
 ('EE514','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE514','174102064','BIDYUT BORO','boro174102064'),
 ('EE514','176102101','Rituparna Choudhury','boro174102064');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE514','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE514','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE514','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE514','174102026','ANIK BATABYAL','anik174102026'),
 ('EE514','174102027','SAURABH SHARMA','saura174102027'),
@@ -9765,7 +9765,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE514','174102001
 ('EE514','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE514','174102064','BIDYUT BORO','boro174102064'),
 ('EE514','176102101','Rituparna Choudhury','boro174102064');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE514','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE514','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE514','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE514','174102026','ANIK BATABYAL','anik174102026'),
 ('EE514','174102027','SAURABH SHARMA','saura174102027'),
@@ -9775,7 +9775,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE514','17410200
 ('EE514','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE514','174102064','BIDYUT BORO','boro174102064'),
 ('EE514','176102101','Rituparna Choudhury','boro174102064');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE203','150102020','GIRIJA SHANKAR KUANR','girija.kuanr'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE203','150102020','GIRIJA SHANKAR KUANR','girija.kuanr'),
 ('EE203','150102022','GUTTIKONDA YOGANAND','guttikonda'),
 ('EE203','150108010','DESHMANE ATMAN SANJAY','deshmane'),
 ('EE203','160102001','AADITYA SANWAL','aadityasanwal'),
@@ -9894,7 +9894,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE203','150102020','GI
 ('EE203','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE203','160108047','KEVIN JOSE','krsj1234'),
 ('EE203','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE203','150102020','GIRIJA SHANKAR KUANR','girija.kuanr'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE203','150102020','GIRIJA SHANKAR KUANR','girija.kuanr'),
 ('EE203','150102022','GUTTIKONDA YOGANAND','guttikonda'),
 ('EE203','150108010','DESHMANE ATMAN SANJAY','deshmane'),
 ('EE203','160102001','AADITYA SANWAL','aadityasanwal'),
@@ -10013,7 +10013,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE203','150102020
 ('EE203','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE203','160108047','KEVIN JOSE','krsj1234'),
 ('EE203','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE203','150102020','GIRIJA SHANKAR KUANR','girija.kuanr'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE203','150102020','GIRIJA SHANKAR KUANR','girija.kuanr'),
 ('EE203','150102022','GUTTIKONDA YOGANAND','guttikonda'),
 ('EE203','150108010','DESHMANE ATMAN SANJAY','deshmane'),
 ('EE203','160102001','AADITYA SANWAL','aadityasanwal'),
@@ -10132,7 +10132,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE203','15010202
 ('EE203','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE203','160108047','KEVIN JOSE','krsj1234'),
 ('EE203','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE385','140108020','MALOTHU HARI KISHAN','malothu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE385','140108020','MALOTHU HARI KISHAN','malothu'),
 ('EE385','150108001','AFZAL AHMAD','afzal'),
 ('EE385','150108002','AKASH SINGH','akashsingh.2015'),
 ('EE385','150108003','AMAN KUMAR','aman.kumar'),
@@ -10175,7 +10175,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE385','140108020','MA
 ('EE385','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE385','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE385','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE385','140108020','MALOTHU HARI KISHAN','malothu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE385','140108020','MALOTHU HARI KISHAN','malothu'),
 ('EE385','150108001','AFZAL AHMAD','afzal'),
 ('EE385','150108002','AKASH SINGH','akashsingh.2015'),
 ('EE385','150108003','AMAN KUMAR','aman.kumar'),
@@ -10218,7 +10218,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE385','140108020
 ('EE385','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE385','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE385','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE385','140108020','MALOTHU HARI KISHAN','malothu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE385','140108020','MALOTHU HARI KISHAN','malothu'),
 ('EE385','150108001','AFZAL AHMAD','afzal'),
 ('EE385','150108002','AKASH SINGH','akashsingh.2015'),
 ('EE385','150108003','AMAN KUMAR','aman.kumar'),
@@ -10261,7 +10261,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE385','14010802
 ('EE385','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE385','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE385','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE539','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE539','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE539','174102013','AKSHAY SATI','sati174102013'),
 ('EE539','174102014','D SHARMA','sharm174102014'),
 ('EE539','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -10282,7 +10282,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE539','174102012','LO
 ('EE539','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE539','174102050','BIPLAB SENGYUNG','sengy174102050'),
 ('EE539','176102105','Utpal Kumar Sarma','sengy174102050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE539','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE539','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE539','174102013','AKSHAY SATI','sati174102013'),
 ('EE539','174102014','D SHARMA','sharm174102014'),
 ('EE539','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -10303,7 +10303,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE539','174102012
 ('EE539','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE539','174102050','BIPLAB SENGYUNG','sengy174102050'),
 ('EE539','176102105','Utpal Kumar Sarma','sengy174102050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE539','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE539','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE539','174102013','AKSHAY SATI','sati174102013'),
 ('EE539','174102014','D SHARMA','sharm174102014'),
 ('EE539','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -10324,7 +10324,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE539','17410201
 ('EE539','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE539','174102050','BIPLAB SENGYUNG','sengy174102050'),
 ('EE539','176102105','Utpal Kumar Sarma','sengy174102050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE668','140102037','NAMBULA NAVEENDRA.','nambula'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE668','140102037','NAMBULA NAVEENDRA.','nambula'),
 ('EE668','174102020','ASIF RASHEED P M','asif174102020'),
 ('EE668','174102041','MOHAN KUMAR SARANGI','mohan174102041'),
 ('EE668','174102042','VIJAY KUMAR GARG','vijay174102042'),
@@ -10337,7 +10337,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE668','140102037','NA
 ('EE668','176102101','Rituparna Choudhury','erdeep2020'),
 ('EE668','176102102','Pothan Enukonda Venkata','erdeep2020'),
 ('EE668','176102109','Himanchal Singh','erdeep2020');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE668','140102037','NAMBULA NAVEENDRA.','nambula'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE668','140102037','NAMBULA NAVEENDRA.','nambula'),
 ('EE668','174102020','ASIF RASHEED P M','asif174102020'),
 ('EE668','174102041','MOHAN KUMAR SARANGI','mohan174102041'),
 ('EE668','174102042','VIJAY KUMAR GARG','vijay174102042'),
@@ -10350,7 +10350,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE668','140102037
 ('EE668','176102101','Rituparna Choudhury','erdeep2020'),
 ('EE668','176102102','Pothan Enukonda Venkata','erdeep2020'),
 ('EE668','176102109','Himanchal Singh','erdeep2020');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE668','140102037','NAMBULA NAVEENDRA.','nambula'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE668','140102037','NAMBULA NAVEENDRA.','nambula'),
 ('EE668','174102020','ASIF RASHEED P M','asif174102020'),
 ('EE668','174102041','MOHAN KUMAR SARANGI','mohan174102041'),
 ('EE668','174102042','VIJAY KUMAR GARG','vijay174102042'),
@@ -10363,7 +10363,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE668','14010203
 ('EE668','176102101','Rituparna Choudhury','erdeep2020'),
 ('EE668','176102102','Pothan Enukonda Venkata','erdeep2020'),
 ('EE668','176102109','Himanchal Singh','erdeep2020');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE333','120102051','RAVI KIRAN JATAV','r.jatav'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE333','120102051','RAVI KIRAN JATAV','r.jatav'),
 ('EE333','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE333','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE333','150102003','ABHISHEK ANAND','abh.anand'),
@@ -10442,7 +10442,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE333','120102051','RA
 ('EE333','150102082','VANAMALA NARASIMHA BHARGAV','vanamala'),
 ('EE333','150102083','PENTAPATI SAI KARTHIKEY','pentapati'),
 ('EE333','150102084','DIVYANGI GATWAR','divyangi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE333','120102051','RAVI KIRAN JATAV','r.jatav'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE333','120102051','RAVI KIRAN JATAV','r.jatav'),
 ('EE333','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE333','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE333','150102003','ABHISHEK ANAND','abh.anand'),
@@ -10521,7 +10521,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE333','120102051
 ('EE333','150102082','VANAMALA NARASIMHA BHARGAV','vanamala'),
 ('EE333','150102083','PENTAPATI SAI KARTHIKEY','pentapati'),
 ('EE333','150102084','DIVYANGI GATWAR','divyangi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE333','120102051','RAVI KIRAN JATAV','r.jatav'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE333','120102051','RAVI KIRAN JATAV','r.jatav'),
 ('EE333','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE333','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE333','150102003','ABHISHEK ANAND','abh.anand'),
@@ -10600,7 +10600,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE333','12010205
 ('EE333','150102082','VANAMALA NARASIMHA BHARGAV','vanamala'),
 ('EE333','150102083','PENTAPATI SAI KARTHIKEY','pentapati'),
 ('EE333','150102084','DIVYANGI GATWAR','divyangi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE645','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE645','140102001','ACHIN JAIN','achin.jain'),
 ('EE645','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE645','140102004','ALIKANTI AKSHAY','alikanti'),
 ('EE645','140102007','ANKIT CHAHAR','a.chahar'),
@@ -10658,7 +10658,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE645','140102001','AC
 ('EE645','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE645','140108051','AYUSH SHAMBHAV','ayush.shambhav'),
 ('EE645','176102104','Bikram Baruti','ayush.shambhav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE645','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE645','140102001','ACHIN JAIN','achin.jain'),
 ('EE645','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE645','140102004','ALIKANTI AKSHAY','alikanti'),
 ('EE645','140102007','ANKIT CHAHAR','a.chahar'),
@@ -10716,7 +10716,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE645','140102001
 ('EE645','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE645','140108051','AYUSH SHAMBHAV','ayush.shambhav'),
 ('EE645','176102104','Bikram Baruti','ayush.shambhav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE645','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE645','140102001','ACHIN JAIN','achin.jain'),
 ('EE645','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE645','140102004','ALIKANTI AKSHAY','alikanti'),
 ('EE645','140102007','ANKIT CHAHAR','a.chahar'),
@@ -10774,7 +10774,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE645','14010200
 ('EE645','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE645','140108051','AYUSH SHAMBHAV','ayush.shambhav'),
 ('EE645','176102104','Bikram Baruti','ayush.shambhav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE499','120102017','BHUKYA BALSINGH','b.balsingh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE499','120102017','BHUKYA BALSINGH','b.balsingh'),
 ('EE499','130108040','K ARUN JYOTHI','k.jyothi'),
 ('EE499','140102001','ACHIN JAIN','achin.jain'),
 ('EE499','140102002','ADITYA SHEKHAR','aditya.shekhar'),
@@ -10889,7 +10889,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE499','120102017','BH
 ('EE499','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE499','140108051','AYUSH SHAMBHAV','ayush.shambhav'),
 ('EE499','140108052','AYUSH ANSHUL','ayush.anshul');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE499','120102017','BHUKYA BALSINGH','b.balsingh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE499','120102017','BHUKYA BALSINGH','b.balsingh'),
 ('EE499','130108040','K ARUN JYOTHI','k.jyothi'),
 ('EE499','140102001','ACHIN JAIN','achin.jain'),
 ('EE499','140102002','ADITYA SHEKHAR','aditya.shekhar'),
@@ -11004,7 +11004,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE499','120102017
 ('EE499','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE499','140108051','AYUSH SHAMBHAV','ayush.shambhav'),
 ('EE499','140108052','AYUSH ANSHUL','ayush.anshul');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE499','120102017','BHUKYA BALSINGH','b.balsingh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE499','120102017','BHUKYA BALSINGH','b.balsingh'),
 ('EE499','130108040','K ARUN JYOTHI','k.jyothi'),
 ('EE499','140102001','ACHIN JAIN','achin.jain'),
 ('EE499','140102002','ADITYA SHEKHAR','aditya.shekhar'),
@@ -11119,7 +11119,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE499','12010201
 ('EE499','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE499','140108051','AYUSH SHAMBHAV','ayush.shambhav'),
 ('EE499','140108052','AYUSH ANSHUL','ayush.anshul');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE699','164102006','CHENNURI  VENKATESH','chennurivenkatesh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE699','164102006','CHENNURI  VENKATESH','chennurivenkatesh'),
 ('EE699','164102050','SANJIB  MOG','sanjibmog'),
 ('EE699','164102071','TM UDAY KUMAR','udaytm'),
 ('EE699','164102072','GK THIYAGASUNDARAM','thiyagu2529'),
@@ -11174,7 +11174,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE699','164102006','CH
 ('EE699','164102139','BALLA VIJAY BHARGAV','vbhargav59'),
 ('EE699','164102140','SUDHIR KUMAR MEHER','sudhirkumar.meher'),
 ('EE699','164102142','SREENI  P','sreeni.p');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE699','164102006','CHENNURI  VENKATESH','chennurivenkatesh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE699','164102006','CHENNURI  VENKATESH','chennurivenkatesh'),
 ('EE699','164102050','SANJIB  MOG','sanjibmog'),
 ('EE699','164102071','TM UDAY KUMAR','udaytm'),
 ('EE699','164102072','GK THIYAGASUNDARAM','thiyagu2529'),
@@ -11229,7 +11229,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE699','164102006
 ('EE699','164102139','BALLA VIJAY BHARGAV','vbhargav59'),
 ('EE699','164102140','SUDHIR KUMAR MEHER','sudhirkumar.meher'),
 ('EE699','164102142','SREENI  P','sreeni.p');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE699','164102006','CHENNURI  VENKATESH','chennurivenkatesh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE699','164102006','CHENNURI  VENKATESH','chennurivenkatesh'),
 ('EE699','164102050','SANJIB  MOG','sanjibmog'),
 ('EE699','164102071','TM UDAY KUMAR','udaytm'),
 ('EE699','164102072','GK THIYAGASUNDARAM','thiyagu2529'),
@@ -11284,7 +11284,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE699','16410200
 ('EE699','164102139','BALLA VIJAY BHARGAV','vbhargav59'),
 ('EE699','164102140','SUDHIR KUMAR MEHER','sudhirkumar.meher'),
 ('EE699','164102142','SREENI  P','sreeni.p');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE204','140108037','SUMIT KUMAR','sumit.eee'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE204','140108037','SUMIT KUMAR','sumit.eee'),
 ('EE204','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE204','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE204','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -11401,7 +11401,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE204','140108037','SU
 ('EE204','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE204','160108047','KEVIN JOSE','krsj1234'),
 ('EE204','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE204','140108037','SUMIT KUMAR','sumit.eee'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE204','140108037','SUMIT KUMAR','sumit.eee'),
 ('EE204','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE204','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE204','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -11518,7 +11518,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE204','140108037
 ('EE204','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE204','160108047','KEVIN JOSE','krsj1234'),
 ('EE204','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE204','140108037','SUMIT KUMAR','sumit.eee'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE204','140108037','SUMIT KUMAR','sumit.eee'),
 ('EE204','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE204','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE204','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -11635,7 +11635,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE204','14010803
 ('EE204','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE204','160108047','KEVIN JOSE','krsj1234'),
 ('EE204','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE634','140108013','DINESH JAT','j.dinesh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE634','140108013','DINESH JAT','j.dinesh'),
 ('EE634','140108019','LIYEN PERMEY','liyen'),
 ('EE634','140108020','MALOTHU HARI KISHAN','malothu'),
 ('EE634','140108025','RAHUL KUMAR','rahul.eee'),
@@ -11651,7 +11651,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE634','140108013','DI
 ('EE634','174154004','PALEM MOHAMMED YUNUS','yunus174154004'),
 ('EE634','174154011','ARCHANA PRASAD','archa174154011'),
 ('EE634','176102002','ARUNIMA DUTTA','aruni176102002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE634','140108013','DINESH JAT','j.dinesh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE634','140108013','DINESH JAT','j.dinesh'),
 ('EE634','140108019','LIYEN PERMEY','liyen'),
 ('EE634','140108020','MALOTHU HARI KISHAN','malothu'),
 ('EE634','140108025','RAHUL KUMAR','rahul.eee'),
@@ -11667,7 +11667,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE634','140108013
 ('EE634','174154004','PALEM MOHAMMED YUNUS','yunus174154004'),
 ('EE634','174154011','ARCHANA PRASAD','archa174154011'),
 ('EE634','176102002','ARUNIMA DUTTA','aruni176102002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE634','140108013','DINESH JAT','j.dinesh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE634','140108013','DINESH JAT','j.dinesh'),
 ('EE634','140108019','LIYEN PERMEY','liyen'),
 ('EE634','140108020','MALOTHU HARI KISHAN','malothu'),
 ('EE634','140108025','RAHUL KUMAR','rahul.eee'),
@@ -11683,7 +11683,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE634','14010801
 ('EE634','174154004','PALEM MOHAMMED YUNUS','yunus174154004'),
 ('EE634','174154011','ARCHANA PRASAD','archa174154011'),
 ('EE634','176102002','ARUNIMA DUTTA','aruni176102002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE580','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE580','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE580','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE580','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE580','174102034','PRIYA PANDEY','priya174102034'),
@@ -11691,7 +11691,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE580','174102010','BA
 ('EE580','174102037','ADITYA AGRAWAL','adity174102037'),
 ('EE580','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE580','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE580','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE580','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE580','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE580','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE580','174102034','PRIYA PANDEY','priya174102034'),
@@ -11699,7 +11699,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE580','174102010
 ('EE580','174102037','ADITYA AGRAWAL','adity174102037'),
 ('EE580','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE580','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE580','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE580','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE580','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE580','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE580','174102034','PRIYA PANDEY','priya174102034'),
@@ -11707,28 +11707,28 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE580','17410201
 ('EE580','174102037','ADITYA AGRAWAL','adity174102037'),
 ('EE580','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE580','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE671','140102044','PULLETI SAI ADITYA','pulleti'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE671','140102044','PULLETI SAI ADITYA','pulleti'),
 ('EE671','140102050','S K VAIBHAV KODAVATI','s.kodavati'),
 ('EE671','140107013','ANVESH DIXIT','anvesh.dixit'),
 ('EE671','140108046','SURAJ KUMAR KASHYAP','suraj.pathak'),
 ('EE671','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE671','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE671','140102044','PULLETI SAI ADITYA','pulleti'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE671','140102044','PULLETI SAI ADITYA','pulleti'),
 ('EE671','140102050','S K VAIBHAV KODAVATI','s.kodavati'),
 ('EE671','140107013','ANVESH DIXIT','anvesh.dixit'),
 ('EE671','140108046','SURAJ KUMAR KASHYAP','suraj.pathak'),
 ('EE671','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE671','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE671','140102044','PULLETI SAI ADITYA','pulleti'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE671','140102044','PULLETI SAI ADITYA','pulleti'),
 ('EE671','140102050','S K VAIBHAV KODAVATI','s.kodavati'),
 ('EE671','140107013','ANVESH DIXIT','anvesh.dixit'),
 ('EE671','140108046','SURAJ KUMAR KASHYAP','suraj.pathak'),
 ('EE671','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE671','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE498','140102003','ADLA PRUDHVIDHAR','p.adla');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE498','140102003','ADLA PRUDHVIDHAR','p.adla');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE498','140102003','ADLA PRUDHVIDHAR','p.adla');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE525','164102125','TIKESHWAR  LAHRE','tklahre92'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE498','140102003','ADLA PRUDHVIDHAR','p.adla');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE498','140102003','ADLA PRUDHVIDHAR','p.adla');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE498','140102003','ADLA PRUDHVIDHAR','p.adla');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE525','164102125','TIKESHWAR  LAHRE','tklahre92'),
 ('EE525','164102129','YANGZING LHAMU LEPCHA','yangzing_07'),
 ('EE525','174102011','A CHATURVEDI','a174102011'),
 ('EE525','174102016','A K SHARMA','a174102016'),
@@ -11746,7 +11746,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE525','164102125','TI
 ('EE525','174102061','SHUBHAM  SAHU','shubh174102061'),
 ('EE525','176102104','Bikram Baruti','shubh174102061'),
 ('EE525','176102109','Himanchal Singh','shubh174102061');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE525','164102125','TIKESHWAR  LAHRE','tklahre92'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE525','164102125','TIKESHWAR  LAHRE','tklahre92'),
 ('EE525','164102129','YANGZING LHAMU LEPCHA','yangzing_07'),
 ('EE525','174102011','A CHATURVEDI','a174102011'),
 ('EE525','174102016','A K SHARMA','a174102016'),
@@ -11764,7 +11764,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE525','164102125
 ('EE525','174102061','SHUBHAM  SAHU','shubh174102061'),
 ('EE525','176102104','Bikram Baruti','shubh174102061'),
 ('EE525','176102109','Himanchal Singh','shubh174102061');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE525','164102125','TIKESHWAR  LAHRE','tklahre92'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE525','164102125','TIKESHWAR  LAHRE','tklahre92'),
 ('EE525','164102129','YANGZING LHAMU LEPCHA','yangzing_07'),
 ('EE525','174102011','A CHATURVEDI','a174102011'),
 ('EE525','174102016','A K SHARMA','a174102016'),
@@ -11782,7 +11782,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE525','16410212
 ('EE525','174102061','SHUBHAM  SAHU','shubh174102061'),
 ('EE525','176102104','Bikram Baruti','shubh174102061'),
 ('EE525','176102109','Himanchal Singh','shubh174102061');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE529','174102011','A CHATURVEDI','a174102011'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE529','174102011','A CHATURVEDI','a174102011'),
 ('EE529','174102016','A K SHARMA','a174102016'),
 ('EE529','174102040','SHIV KUMAR TIWARI','shiv174102040'),
 ('EE529','174102051','RANJAN ALI','ranja174102051'),
@@ -11796,7 +11796,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE529','174102011','A 
 ('EE529','174102059','PULMANI BARMAN','pulam174102059'),
 ('EE529','174102060','DEEPAK KUMAR SAHOO','sahoo174102060'),
 ('EE529','174102061','SHUBHAM  SAHU','shubh174102061');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE529','174102011','A CHATURVEDI','a174102011'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE529','174102011','A CHATURVEDI','a174102011'),
 ('EE529','174102016','A K SHARMA','a174102016'),
 ('EE529','174102040','SHIV KUMAR TIWARI','shiv174102040'),
 ('EE529','174102051','RANJAN ALI','ranja174102051'),
@@ -11810,7 +11810,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE529','174102011
 ('EE529','174102059','PULMANI BARMAN','pulam174102059'),
 ('EE529','174102060','DEEPAK KUMAR SAHOO','sahoo174102060'),
 ('EE529','174102061','SHUBHAM  SAHU','shubh174102061');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE529','174102011','A CHATURVEDI','a174102011'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE529','174102011','A CHATURVEDI','a174102011'),
 ('EE529','174102016','A K SHARMA','a174102016'),
 ('EE529','174102040','SHIV KUMAR TIWARI','shiv174102040'),
 ('EE529','174102051','RANJAN ALI','ranja174102051'),
@@ -11824,7 +11824,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE529','17410201
 ('EE529','174102059','PULMANI BARMAN','pulam174102059'),
 ('EE529','174102060','DEEPAK KUMAR SAHOO','sahoo174102060'),
 ('EE529','174102061','SHUBHAM  SAHU','shubh174102061');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE230','140108040','VADUGURU NAGARJUNA','vaduguru'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE230','140108040','VADUGURU NAGARJUNA','vaduguru'),
 ('EE230','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE230','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE230','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -11941,7 +11941,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE230','140108040','VA
 ('EE230','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE230','160108047','KEVIN JOSE','krsj1234'),
 ('EE230','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE230','140108040','VADUGURU NAGARJUNA','vaduguru'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE230','140108040','VADUGURU NAGARJUNA','vaduguru'),
 ('EE230','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE230','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE230','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -12058,7 +12058,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE230','140108040
 ('EE230','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE230','160108047','KEVIN JOSE','krsj1234'),
 ('EE230','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE230','140108040','VADUGURU NAGARJUNA','vaduguru'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE230','140108040','VADUGURU NAGARJUNA','vaduguru'),
 ('EE230','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE230','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE230','160102003','AKASH KUMAR RAJAK','akash.raj25'),
@@ -12175,7 +12175,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE230','14010804
 ('EE230','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE230','160108047','KEVIN JOSE','krsj1234'),
 ('EE230','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE102','160205011','CHOUTI EVANGLEEN','evangleen'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE102','160205011','CHOUTI EVANGLEEN','evangleen'),
 ('EE102','170101001','AAYUSH PATNI','patni170101001'),
 ('EE102','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('EE102','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -12856,7 +12856,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE102','160205011','CH
 ('EE102','170205043','VIGNESH KUMAR S','s170205043'),
 ('EE102','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('EE102','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE102','160205011','CHOUTI EVANGLEEN','evangleen'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE102','160205011','CHOUTI EVANGLEEN','evangleen'),
 ('EE102','170101001','AAYUSH PATNI','patni170101001'),
 ('EE102','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('EE102','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -13537,7 +13537,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE102','160205011
 ('EE102','170205043','VIGNESH KUMAR S','s170205043'),
 ('EE102','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('EE102','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE102','160205011','CHOUTI EVANGLEEN','evangleen'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE102','160205011','CHOUTI EVANGLEEN','evangleen'),
 ('EE102','170101001','AAYUSH PATNI','patni170101001'),
 ('EE102','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('EE102','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -14218,7 +14218,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE102','16020501
 ('EE102','170205043','VIGNESH KUMAR S','s170205043'),
 ('EE102','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('EE102','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE503','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE503','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE503','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE503','174102026','ANIK BATABYAL','anik174102026'),
 ('EE503','174102027','SAURABH SHARMA','saura174102027'),
@@ -14227,7 +14227,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE503','174102001','VI
 ('EE503','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE503','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE503','174102064','BIDYUT BORO','boro174102064');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE503','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE503','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE503','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE503','174102026','ANIK BATABYAL','anik174102026'),
 ('EE503','174102027','SAURABH SHARMA','saura174102027'),
@@ -14236,7 +14236,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE503','174102001
 ('EE503','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE503','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE503','174102064','BIDYUT BORO','boro174102064');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE503','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE503','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE503','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE503','174102026','ANIK BATABYAL','anik174102026'),
 ('EE503','174102027','SAURABH SHARMA','saura174102027'),
@@ -14245,7 +14245,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE503','17410200
 ('EE503','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE503','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE503','174102064','BIDYUT BORO','boro174102064');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE513','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE513','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE513','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE513','174102026','ANIK BATABYAL','anik174102026'),
 ('EE513','174102027','SAURABH SHARMA','saura174102027'),
@@ -14254,7 +14254,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE513','174102001','VI
 ('EE513','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE513','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE513','174102064','BIDYUT BORO','boro174102064');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE513','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE513','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE513','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE513','174102026','ANIK BATABYAL','anik174102026'),
 ('EE513','174102027','SAURABH SHARMA','saura174102027'),
@@ -14263,7 +14263,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE513','174102001
 ('EE513','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE513','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE513','174102064','BIDYUT BORO','boro174102064');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE513','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE513','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE513','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE513','174102026','ANIK BATABYAL','anik174102026'),
 ('EE513','174102027','SAURABH SHARMA','saura174102027'),
@@ -14272,7 +14272,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE513','17410200
 ('EE513','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE513','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE513','174102064','BIDYUT BORO','boro174102064');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE322M','150101083','JOY CHOPRA','j.chopra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE322M','150101083','JOY CHOPRA','j.chopra'),
 ('EE322M','150101084','GAURAV NAKUM','n.gaurav'),
 ('EE322M','150103005','AKSHAT MANDLOI','a.mandloi'),
 ('EE322M','150103006','ALANKAR JHA','j.alankar'),
@@ -14295,7 +14295,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE322M','150101083','J
 ('EE322M','150121042','SHARMA HARSH','sharma.harsh'),
 ('EE322M','150122012','DEEPAK KUMAR','deepak.km'),
 ('EE322M','150205048','JEMMY SETH','jemmy.seth');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE322M','150101083','JOY CHOPRA','j.chopra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE322M','150101083','JOY CHOPRA','j.chopra'),
 ('EE322M','150101084','GAURAV NAKUM','n.gaurav'),
 ('EE322M','150103005','AKSHAT MANDLOI','a.mandloi'),
 ('EE322M','150103006','ALANKAR JHA','j.alankar'),
@@ -14318,7 +14318,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE322M','15010108
 ('EE322M','150121042','SHARMA HARSH','sharma.harsh'),
 ('EE322M','150122012','DEEPAK KUMAR','deepak.km'),
 ('EE322M','150205048','JEMMY SETH','jemmy.seth');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE322M','150101083','JOY CHOPRA','j.chopra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE322M','150101083','JOY CHOPRA','j.chopra'),
 ('EE322M','150101084','GAURAV NAKUM','n.gaurav'),
 ('EE322M','150103005','AKSHAT MANDLOI','a.mandloi'),
 ('EE322M','150103006','ALANKAR JHA','j.alankar'),
@@ -14341,7 +14341,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE322M','1501010
 ('EE322M','150121042','SHARMA HARSH','sharma.harsh'),
 ('EE322M','150122012','DEEPAK KUMAR','deepak.km'),
 ('EE322M','150205048','JEMMY SETH','jemmy.seth');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE673','140102064','TRINA NASKAR','trina'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE673','140102064','TRINA NASKAR','trina'),
 ('EE673','140108002','ABHISHEK ANAND','abhishek.anand'),
 ('EE673','140108003','ABHISHEK KUMAR','abhishek.eee'),
 ('EE673','140108004','AJAY SINGH RAGHAV','ajay.raghav'),
@@ -14361,7 +14361,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE673','140102064','TR
 ('EE673','140108043','SAUMITRA SHARMA','saumitra.sharma'),
 ('EE673','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE673','176102107','Naveen Kumar Meka','dewal.agarwal');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE673','140102064','TRINA NASKAR','trina'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE673','140102064','TRINA NASKAR','trina'),
 ('EE673','140108002','ABHISHEK ANAND','abhishek.anand'),
 ('EE673','140108003','ABHISHEK KUMAR','abhishek.eee'),
 ('EE673','140108004','AJAY SINGH RAGHAV','ajay.raghav'),
@@ -14381,7 +14381,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE673','140102064
 ('EE673','140108043','SAUMITRA SHARMA','saumitra.sharma'),
 ('EE673','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE673','176102107','Naveen Kumar Meka','dewal.agarwal');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE673','140102064','TRINA NASKAR','trina'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE673','140102064','TRINA NASKAR','trina'),
 ('EE673','140108002','ABHISHEK ANAND','abhishek.anand'),
 ('EE673','140108003','ABHISHEK KUMAR','abhishek.eee'),
 ('EE673','140108004','AJAY SINGH RAGHAV','ajay.raghav'),
@@ -14401,7 +14401,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE673','14010206
 ('EE673','140108043','SAUMITRA SHARMA','saumitra.sharma'),
 ('EE673','140108050','DEWAL AGARWAL','dewal.agarwal'),
 ('EE673','176102107','Naveen Kumar Meka','dewal.agarwal');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE632','130102051','RAGHURAM K','k.raghuram'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE632','130102051','RAGHURAM K','k.raghuram'),
 ('EE632','140102014','BHANU KOTHARI','b.kothari'),
 ('EE632','140102044','PULLETI SAI ADITYA','pulleti'),
 ('EE632','140102050','S K VAIBHAV KODAVATI','s.kodavati'),
@@ -14410,7 +14410,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE632','130102051','RA
 ('EE632','140102077','SAMANWAYA CHAKRABORTY','samanwaya'),
 ('EE632','174102023','PRERNA PUSHPA','pushp174102023'),
 ('EE632','174102041','MOHAN KUMAR SARANGI','mohan174102041');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE632','130102051','RAGHURAM K','k.raghuram'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE632','130102051','RAGHURAM K','k.raghuram'),
 ('EE632','140102014','BHANU KOTHARI','b.kothari'),
 ('EE632','140102044','PULLETI SAI ADITYA','pulleti'),
 ('EE632','140102050','S K VAIBHAV KODAVATI','s.kodavati'),
@@ -14419,7 +14419,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE632','130102051
 ('EE632','140102077','SAMANWAYA CHAKRABORTY','samanwaya'),
 ('EE632','174102023','PRERNA PUSHPA','pushp174102023'),
 ('EE632','174102041','MOHAN KUMAR SARANGI','mohan174102041');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE632','130102051','RAGHURAM K','k.raghuram'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE632','130102051','RAGHURAM K','k.raghuram'),
 ('EE632','140102014','BHANU KOTHARI','b.kothari'),
 ('EE632','140102044','PULLETI SAI ADITYA','pulleti'),
 ('EE632','140102050','S K VAIBHAV KODAVATI','s.kodavati'),
@@ -14428,7 +14428,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE632','13010205
 ('EE632','140102077','SAMANWAYA CHAKRABORTY','samanwaya'),
 ('EE632','174102023','PRERNA PUSHPA','pushp174102023'),
 ('EE632','174102041','MOHAN KUMAR SARANGI','mohan174102041');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE642','130102051','RAGHURAM K','k.raghuram'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE642','130102051','RAGHURAM K','k.raghuram'),
 ('EE642','140102010','B HARSHITH SAI','harshith'),
 ('EE642','140102012','BANOTHU PRAVEEN','banothu'),
 ('EE642','140102019','D ROSHAN','d.roshan'),
@@ -14462,7 +14462,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE642','130102051','RA
 ('EE642','174102044','ADITI SATSHEEL SAPRE','aditi174102044'),
 ('EE642','174102045','SANCHIT SOOD','sood174102045'),
 ('EE642','174102048','RISHI CHANDRA','rishi174102048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE642','130102051','RAGHURAM K','k.raghuram'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE642','130102051','RAGHURAM K','k.raghuram'),
 ('EE642','140102010','B HARSHITH SAI','harshith'),
 ('EE642','140102012','BANOTHU PRAVEEN','banothu'),
 ('EE642','140102019','D ROSHAN','d.roshan'),
@@ -14496,7 +14496,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE642','130102051
 ('EE642','174102044','ADITI SATSHEEL SAPRE','aditi174102044'),
 ('EE642','174102045','SANCHIT SOOD','sood174102045'),
 ('EE642','174102048','RISHI CHANDRA','rishi174102048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE642','130102051','RAGHURAM K','k.raghuram'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE642','130102051','RAGHURAM K','k.raghuram'),
 ('EE642','140102010','B HARSHITH SAI','harshith'),
 ('EE642','140102012','BANOTHU PRAVEEN','banothu'),
 ('EE642','140102019','D ROSHAN','d.roshan'),
@@ -14530,7 +14530,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE642','13010205
 ('EE642','174102044','ADITI SATSHEEL SAPRE','aditi174102044'),
 ('EE642','174102045','SANCHIT SOOD','sood174102045'),
 ('EE642','174102048','RISHI CHANDRA','rishi174102048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE657','140108038','UPPALAPATI KRISHNA CHAITANYA CHOWDARY','u.chowdary'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE657','140108038','UPPALAPATI KRISHNA CHAITANYA CHOWDARY','u.chowdary'),
 ('EE657','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('EE657','150101004','ABOTHULA RAKESH','abothula'),
 ('EE657','150101026','HARSHIT BANSAL','b.harshit'),
@@ -14687,7 +14687,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE657','140108038','UP
 ('EE657','150122031','RUPAL SAXENA','rupal.saxena'),
 ('EE657','150122036','SHUBHAM SHARMA','shubham.sharma'),
 ('EE657','150122041','SUSHANT TYAGI','sushant.tyagi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE657','140108038','UPPALAPATI KRISHNA CHAITANYA CHOWDARY','u.chowdary'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE657','140108038','UPPALAPATI KRISHNA CHAITANYA CHOWDARY','u.chowdary'),
 ('EE657','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('EE657','150101004','ABOTHULA RAKESH','abothula'),
 ('EE657','150101026','HARSHIT BANSAL','b.harshit'),
@@ -14844,7 +14844,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE657','140108038
 ('EE657','150122031','RUPAL SAXENA','rupal.saxena'),
 ('EE657','150122036','SHUBHAM SHARMA','shubham.sharma'),
 ('EE657','150122041','SUSHANT TYAGI','sushant.tyagi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE657','140108038','UPPALAPATI KRISHNA CHAITANYA CHOWDARY','u.chowdary'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE657','140108038','UPPALAPATI KRISHNA CHAITANYA CHOWDARY','u.chowdary'),
 ('EE657','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('EE657','150101004','ABOTHULA RAKESH','abothula'),
 ('EE657','150101026','HARSHIT BANSAL','b.harshit'),
@@ -15001,7 +15001,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE657','14010803
 ('EE657','150122031','RUPAL SAXENA','rupal.saxena'),
 ('EE657','150122036','SHUBHAM SHARMA','shubham.sharma'),
 ('EE657','150122041','SUSHANT TYAGI','sushant.tyagi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE648','140102029','KUNAL GAUTAM','kunal.gautam'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE648','140102029','KUNAL GAUTAM','kunal.gautam'),
 ('EE648','140102038','NIKHIL N','nikhil.n'),
 ('EE648','140102043','PRASHIK RAUT','prashik'),
 ('EE648','140102049','RITWIK VATSYAYAN','r.vatsyayan'),
@@ -15024,7 +15024,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE648','140102029','KU
 ('EE648','176153001','BIKI TERON','bikiteron'),
 ('EE648','176153007','ANWESHA CHOUDHURY','anwes176153007'),
 ('EE648','176153101','Sunil Gone','anwes176153007');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE648','140102029','KUNAL GAUTAM','kunal.gautam'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE648','140102029','KUNAL GAUTAM','kunal.gautam'),
 ('EE648','140102038','NIKHIL N','nikhil.n'),
 ('EE648','140102043','PRASHIK RAUT','prashik'),
 ('EE648','140102049','RITWIK VATSYAYAN','r.vatsyayan'),
@@ -15047,7 +15047,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE648','140102029
 ('EE648','176153001','BIKI TERON','bikiteron'),
 ('EE648','176153007','ANWESHA CHOUDHURY','anwes176153007'),
 ('EE648','176153101','Sunil Gone','anwes176153007');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE648','140102029','KUNAL GAUTAM','kunal.gautam'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE648','140102029','KUNAL GAUTAM','kunal.gautam'),
 ('EE648','140102038','NIKHIL N','nikhil.n'),
 ('EE648','140102043','PRASHIK RAUT','prashik'),
 ('EE648','140102049','RITWIK VATSYAYAN','r.vatsyayan'),
@@ -15070,7 +15070,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE648','14010202
 ('EE648','176153001','BIKI TERON','bikiteron'),
 ('EE648','176153007','ANWESHA CHOUDHURY','anwes176153007'),
 ('EE648','176153101','Sunil Gone','anwes176153007');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE561','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE561','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE561','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE561','174102026','ANIK BATABYAL','anik174102026'),
 ('EE561','174102027','SAURABH SHARMA','saura174102027'),
@@ -15081,7 +15081,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE561','174102001','VI
 ('EE561','174102064','BIDYUT BORO','boro174102064'),
 ('EE561','176151008','BUDHADEB MAITY','maity176151008'),
 ('EE561','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE561','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE561','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE561','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE561','174102026','ANIK BATABYAL','anik174102026'),
 ('EE561','174102027','SAURABH SHARMA','saura174102027'),
@@ -15092,7 +15092,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE561','174102001
 ('EE561','174102064','BIDYUT BORO','boro174102064'),
 ('EE561','176151008','BUDHADEB MAITY','maity176151008'),
 ('EE561','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE561','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE561','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE561','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE561','174102026','ANIK BATABYAL','anik174102026'),
 ('EE561','174102027','SAURABH SHARMA','saura174102027'),
@@ -15103,7 +15103,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE561','17410200
 ('EE561','174102064','BIDYUT BORO','boro174102064'),
 ('EE561','176151008','BUDHADEB MAITY','maity176151008'),
 ('EE561','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE534','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE534','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE534','174102013','AKSHAY SATI','sati174102013'),
 ('EE534','174102014','D SHARMA','sharm174102014'),
 ('EE534','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -15123,7 +15123,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE534','174102012','LO
 ('EE534','174102048','RISHI CHANDRA','rishi174102048'),
 ('EE534','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE534','174102050','BIPLAB SENGYUNG','sengy174102050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE534','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE534','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE534','174102013','AKSHAY SATI','sati174102013'),
 ('EE534','174102014','D SHARMA','sharm174102014'),
 ('EE534','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -15143,7 +15143,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE534','174102012
 ('EE534','174102048','RISHI CHANDRA','rishi174102048'),
 ('EE534','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE534','174102050','BIPLAB SENGYUNG','sengy174102050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE534','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE534','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE534','174102013','AKSHAY SATI','sati174102013'),
 ('EE534','174102014','D SHARMA','sharm174102014'),
 ('EE534','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -15163,7 +15163,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE534','17410201
 ('EE534','174102048','RISHI CHANDRA','rishi174102048'),
 ('EE534','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE534','174102050','BIPLAB SENGYUNG','sengy174102050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE551','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE551','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE551','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE551','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE551','174102034','PRIYA PANDEY','priya174102034'),
@@ -15172,7 +15172,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE551','174102010','BA
 ('EE551','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE551','174102062','DINO MONI SINGHA','dino174102062'),
 ('EE551','176102110','Tamen Thapa Sarkar','dino174102062');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE551','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE551','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE551','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE551','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE551','174102034','PRIYA PANDEY','priya174102034'),
@@ -15181,7 +15181,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE551','174102010
 ('EE551','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE551','174102062','DINO MONI SINGHA','dino174102062'),
 ('EE551','176102110','Tamen Thapa Sarkar','dino174102062');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE551','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE551','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE551','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE551','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE551','174102034','PRIYA PANDEY','priya174102034'),
@@ -15190,7 +15190,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE551','17410201
 ('EE551','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE551','174102062','DINO MONI SINGHA','dino174102062'),
 ('EE551','176102110','Tamen Thapa Sarkar','dino174102062');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE304','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE304','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE304','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE304','150102004','AJEYO DEY','ajeyo'),
 ('EE304','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -15309,7 +15309,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE304','150102002','AB
 ('EE304','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE304','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE304','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE304','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE304','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE304','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE304','150102004','AJEYO DEY','ajeyo'),
 ('EE304','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -15428,7 +15428,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE304','150102002
 ('EE304','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE304','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE304','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE304','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE304','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE304','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE304','150102004','AJEYO DEY','ajeyo'),
 ('EE304','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -15547,10 +15547,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE304','15010200
 ('EE304','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE304','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE304','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE562','130102065','SHUBHAM GAURAV','shubham.gaurav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE562','130102065','SHUBHAM GAURAV','shubham.gaurav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE562','130102065','SHUBHAM GAURAV','shubham.gaurav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE360','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE562','130102065','SHUBHAM GAURAV','shubham.gaurav');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE562','130102065','SHUBHAM GAURAV','shubham.gaurav');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE562','130102065','SHUBHAM GAURAV','shubham.gaurav');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE360','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE360','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE360','150102004','AJEYO DEY','ajeyo'),
 ('EE360','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -15671,7 +15671,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE360','150102002','AB
 ('EE360','150108049','SHETKAR AKASH ASHOK','shetkar'),
 ('EE360','X174102065','NICOLAS RAHMAT','shetkar'),
 ('EE360','X174102066','JULIEN BASSINOT','shetkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE360','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE360','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE360','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE360','150102004','AJEYO DEY','ajeyo'),
 ('EE360','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -15792,7 +15792,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE360','150102002
 ('EE360','150108049','SHETKAR AKASH ASHOK','shetkar'),
 ('EE360','X174102065','NICOLAS RAHMAT','shetkar'),
 ('EE360','X174102066','JULIEN BASSINOT','shetkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE360','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE360','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE360','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE360','150102004','AJEYO DEY','ajeyo'),
 ('EE360','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -15913,28 +15913,28 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE360','15010200
 ('EE360','150108049','SHETKAR AKASH ASHOK','shetkar'),
 ('EE360','X174102065','NICOLAS RAHMAT','shetkar'),
 ('EE360','X174102066','JULIEN BASSINOT','shetkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE631','140108013','DINESH JAT','j.dinesh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE631','140108013','DINESH JAT','j.dinesh'),
 ('EE631','140108019','LIYEN PERMEY','liyen'),
 ('EE631','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE631','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE631','174102034','PRIYA PANDEY','priya174102034'),
 ('EE631','174102036','ANKIT MISHRA','ankit174102036'),
 ('EE631','176102002','ARUNIMA DUTTA','aruni176102002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE631','140108013','DINESH JAT','j.dinesh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE631','140108013','DINESH JAT','j.dinesh'),
 ('EE631','140108019','LIYEN PERMEY','liyen'),
 ('EE631','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE631','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE631','174102034','PRIYA PANDEY','priya174102034'),
 ('EE631','174102036','ANKIT MISHRA','ankit174102036'),
 ('EE631','176102002','ARUNIMA DUTTA','aruni176102002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE631','140108013','DINESH JAT','j.dinesh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE631','140108013','DINESH JAT','j.dinesh'),
 ('EE631','140108019','LIYEN PERMEY','liyen'),
 ('EE631','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE631','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE631','174102034','PRIYA PANDEY','priya174102034'),
 ('EE631','174102036','ANKIT MISHRA','ankit174102036'),
 ('EE631','176102002','ARUNIMA DUTTA','aruni176102002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE351','130108040','K ARUN JYOTHI','k.jyothi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE351','130108040','K ARUN JYOTHI','k.jyothi'),
 ('EE351','150108001','AFZAL AHMAD','afzal'),
 ('EE351','150108002','AKASH SINGH','akashsingh.2015'),
 ('EE351','150108003','AMAN KUMAR','aman.kumar'),
@@ -15977,7 +15977,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE351','130108040','K 
 ('EE351','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE351','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE351','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE351','130108040','K ARUN JYOTHI','k.jyothi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE351','130108040','K ARUN JYOTHI','k.jyothi'),
 ('EE351','150108001','AFZAL AHMAD','afzal'),
 ('EE351','150108002','AKASH SINGH','akashsingh.2015'),
 ('EE351','150108003','AMAN KUMAR','aman.kumar'),
@@ -16020,7 +16020,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE351','130108040
 ('EE351','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE351','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE351','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE351','130108040','K ARUN JYOTHI','k.jyothi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE351','130108040','K ARUN JYOTHI','k.jyothi'),
 ('EE351','150108001','AFZAL AHMAD','afzal'),
 ('EE351','150108002','AKASH SINGH','akashsingh.2015'),
 ('EE351','150108003','AMAN KUMAR','aman.kumar'),
@@ -16063,7 +16063,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE351','13010804
 ('EE351','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE351','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE351','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE667','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE667','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
 ('EE667','140102068','VARSHEEKA MARIA DAVID','varsheeka'),
 ('EE667','140102070','VISHAL SINGH','vishal.ece'),
 ('EE667','140102073','YERUNKAR TANMAY BHAGWAN','yerunkar'),
@@ -16072,7 +16072,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE667','140102052','SA
 ('EE667','140108017','KATTEPOGU SHARATH PAWAR','kattepogu'),
 ('EE667','140108023','POOJARI VENKATA LAKSHMIKANTH','poojari'),
 ('EE667','140108024','POTLURI KRISHNA SUMANTH','potluri');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE667','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE667','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
 ('EE667','140102068','VARSHEEKA MARIA DAVID','varsheeka'),
 ('EE667','140102070','VISHAL SINGH','vishal.ece'),
 ('EE667','140102073','YERUNKAR TANMAY BHAGWAN','yerunkar'),
@@ -16081,7 +16081,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE667','140102052
 ('EE667','140108017','KATTEPOGU SHARATH PAWAR','kattepogu'),
 ('EE667','140108023','POOJARI VENKATA LAKSHMIKANTH','poojari'),
 ('EE667','140108024','POTLURI KRISHNA SUMANTH','potluri');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE667','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE667','140102052','SALLA NIKHIL KUMAR','salla.kumar'),
 ('EE667','140102068','VARSHEEKA MARIA DAVID','varsheeka'),
 ('EE667','140102070','VISHAL SINGH','vishal.ece'),
 ('EE667','140102073','YERUNKAR TANMAY BHAGWAN','yerunkar'),
@@ -16090,7 +16090,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE667','14010205
 ('EE667','140108017','KATTEPOGU SHARATH PAWAR','kattepogu'),
 ('EE667','140108023','POOJARI VENKATA LAKSHMIKANTH','poojari'),
 ('EE667','140108024','POTLURI KRISHNA SUMANTH','potluri');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE337','120102052','ROHIT THAOSEN','r.thaosen'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE337','120102052','ROHIT THAOSEN','r.thaosen'),
 ('EE337','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE337','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE337','150102004','AJEYO DEY','ajeyo'),
@@ -16168,7 +16168,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE337','120102052','RO
 ('EE337','150102082','VANAMALA NARASIMHA BHARGAV','vanamala'),
 ('EE337','150102083','PENTAPATI SAI KARTHIKEY','pentapati'),
 ('EE337','150102084','DIVYANGI GATWAR','divyangi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE337','120102052','ROHIT THAOSEN','r.thaosen'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE337','120102052','ROHIT THAOSEN','r.thaosen'),
 ('EE337','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE337','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE337','150102004','AJEYO DEY','ajeyo'),
@@ -16246,7 +16246,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE337','120102052
 ('EE337','150102082','VANAMALA NARASIMHA BHARGAV','vanamala'),
 ('EE337','150102083','PENTAPATI SAI KARTHIKEY','pentapati'),
 ('EE337','150102084','DIVYANGI GATWAR','divyangi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE337','120102052','ROHIT THAOSEN','r.thaosen'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE337','120102052','ROHIT THAOSEN','r.thaosen'),
 ('EE337','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE337','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE337','150102004','AJEYO DEY','ajeyo'),
@@ -16324,7 +16324,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE337','12010205
 ('EE337','150102082','VANAMALA NARASIMHA BHARGAV','vanamala'),
 ('EE337','150102083','PENTAPATI SAI KARTHIKEY','pentapati'),
 ('EE337','150102084','DIVYANGI GATWAR','divyangi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE626','140102002','ADITYA SHEKHAR','aditya.shekhar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE626','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE626','140102005','AMAN DALMIA','a.dalmia'),
 ('EE626','140102008','ARPAN VYAS','v.arpan'),
 ('EE626','140102012','BANOTHU PRAVEEN','banothu'),
@@ -16359,7 +16359,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE626','140102002','AD
 ('EE626','176106113','Tanmayee Samantaray','bipra176106026'),
 ('EE626','X174102065','NICOLAS RAHMAT','bipra176106026'),
 ('EE626','X174102066','JULIEN BASSINOT','bipra176106026');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE626','140102002','ADITYA SHEKHAR','aditya.shekhar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE626','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE626','140102005','AMAN DALMIA','a.dalmia'),
 ('EE626','140102008','ARPAN VYAS','v.arpan'),
 ('EE626','140102012','BANOTHU PRAVEEN','banothu'),
@@ -16394,7 +16394,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE626','140102002
 ('EE626','176106113','Tanmayee Samantaray','bipra176106026'),
 ('EE626','X174102065','NICOLAS RAHMAT','bipra176106026'),
 ('EE626','X174102066','JULIEN BASSINOT','bipra176106026');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE626','140102002','ADITYA SHEKHAR','aditya.shekhar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE626','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE626','140102005','AMAN DALMIA','a.dalmia'),
 ('EE626','140102008','ARPAN VYAS','v.arpan'),
 ('EE626','140102012','BANOTHU PRAVEEN','banothu'),
@@ -16429,22 +16429,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE626','14010200
 ('EE626','176106113','Tanmayee Samantaray','bipra176106026'),
 ('EE626','X174102065','NICOLAS RAHMAT','bipra176106026'),
 ('EE626','X174102066','JULIEN BASSINOT','bipra176106026');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE653','140108025','RAHUL KUMAR','rahul.eee'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE653','140108025','RAHUL KUMAR','rahul.eee'),
 ('EE653','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE653','140108028','RITU SAGAR','ritu.sagar'),
 ('EE653','140108037','SUMIT KUMAR','sumit.eee'),
 ('EE653','140108046','SURAJ KUMAR KASHYAP','suraj.pathak');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE653','140108025','RAHUL KUMAR','rahul.eee'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE653','140108025','RAHUL KUMAR','rahul.eee'),
 ('EE653','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE653','140108028','RITU SAGAR','ritu.sagar'),
 ('EE653','140108037','SUMIT KUMAR','sumit.eee'),
 ('EE653','140108046','SURAJ KUMAR KASHYAP','suraj.pathak');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE653','140108025','RAHUL KUMAR','rahul.eee'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE653','140108025','RAHUL KUMAR','rahul.eee'),
 ('EE653','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE653','140108028','RITU SAGAR','ritu.sagar'),
 ('EE653','140108037','SUMIT KUMAR','sumit.eee'),
 ('EE653','140108046','SURAJ KUMAR KASHYAP','suraj.pathak');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE663','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE663','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE663','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE663','174102026','ANIK BATABYAL','anik174102026'),
 ('EE663','174102027','SAURABH SHARMA','saura174102027'),
@@ -16455,7 +16455,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE663','174102001','VI
 ('EE663','174102064','BIDYUT BORO','boro174102064'),
 ('EE663','176102101','Rituparna Choudhury','boro174102064'),
 ('EE663','176102103','Nadeem Atif','boro174102064');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE663','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE663','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE663','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE663','174102026','ANIK BATABYAL','anik174102026'),
 ('EE663','174102027','SAURABH SHARMA','saura174102027'),
@@ -16466,7 +16466,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE663','174102001
 ('EE663','174102064','BIDYUT BORO','boro174102064'),
 ('EE663','176102101','Rituparna Choudhury','boro174102064'),
 ('EE663','176102103','Nadeem Atif','boro174102064');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE663','174102001','VIKAS KUMAR','vikas174102001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE663','174102001','VIKAS KUMAR','vikas174102001'),
 ('EE663','174102025','RANENDRA KUMAR SARMA','ranen174102025'),
 ('EE663','174102026','ANIK BATABYAL','anik174102026'),
 ('EE663','174102027','SAURABH SHARMA','saura174102027'),
@@ -16477,7 +16477,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE663','17410200
 ('EE663','174102064','BIDYUT BORO','boro174102064'),
 ('EE663','176102101','Rituparna Choudhury','boro174102064'),
 ('EE663','176102103','Nadeem Atif','boro174102064');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE213M','160103004','ABHISHEK VERMA','abhishekverma284'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE213M','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('EE213M','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
 ('EE213M','160103008','AMAN GOSWAMI','aman.goswami97'),
 ('EE213M','160103016','CHANDAN T','chandan.t'),
@@ -16498,7 +16498,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE213M','160103004','A
 ('EE213M','160121040','T M ABDULKHADER','abdulkhader.magnetta'),
 ('EE213M','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('EE213M','160122025','PANKAJ KUMAR','chandravanshi.pankaj');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE213M','160103004','ABHISHEK VERMA','abhishekverma284'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE213M','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('EE213M','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
 ('EE213M','160103008','AMAN GOSWAMI','aman.goswami97'),
 ('EE213M','160103016','CHANDAN T','chandan.t'),
@@ -16519,7 +16519,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE213M','16010300
 ('EE213M','160121040','T M ABDULKHADER','abdulkhader.magnetta'),
 ('EE213M','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('EE213M','160122025','PANKAJ KUMAR','chandravanshi.pankaj');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE213M','160103004','ABHISHEK VERMA','abhishekverma284'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE213M','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('EE213M','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
 ('EE213M','160103008','AMAN GOSWAMI','aman.goswami97'),
 ('EE213M','160103016','CHANDAN T','chandan.t'),
@@ -16540,7 +16540,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE213M','1601030
 ('EE213M','160121040','T M ABDULKHADER','abdulkhader.magnetta'),
 ('EE213M','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('EE213M','160122025','PANKAJ KUMAR','chandravanshi.pankaj');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE664','140102002','ADITYA SHEKHAR','aditya.shekhar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE664','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE664','140102008','ARPAN VYAS','v.arpan'),
 ('EE664','140102010','B HARSHITH SAI','harshith'),
 ('EE664','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
@@ -16587,7 +16587,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE664','140102002','AD
 ('EE664','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE664','176102001','MEENALI JANVEJA','meena176102001'),
 ('EE664','176151008','BUDHADEB MAITY','maity176151008');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE664','140102002','ADITYA SHEKHAR','aditya.shekhar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE664','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE664','140102008','ARPAN VYAS','v.arpan'),
 ('EE664','140102010','B HARSHITH SAI','harshith'),
 ('EE664','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
@@ -16634,7 +16634,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE664','140102002
 ('EE664','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE664','176102001','MEENALI JANVEJA','meena176102001'),
 ('EE664','176151008','BUDHADEB MAITY','maity176151008');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE664','140102002','ADITYA SHEKHAR','aditya.shekhar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE664','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE664','140102008','ARPAN VYAS','v.arpan'),
 ('EE664','140102010','B HARSHITH SAI','harshith'),
 ('EE664','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
@@ -16681,7 +16681,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE664','14010200
 ('EE664','174102063','ROHIT JHARIA','rohit174102063'),
 ('EE664','176102001','MEENALI JANVEJA','meena176102001'),
 ('EE664','176151008','BUDHADEB MAITY','maity176151008');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE643','140102010','B HARSHITH SAI','harshith'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE643','140102010','B HARSHITH SAI','harshith'),
 ('EE643','140102013','BEDEKAR NANDAN MILIND','bedekar'),
 ('EE643','140102031','MANIGALA RAHUL KUMAR REDDY','manigala'),
 ('EE643','140102037','NAMBULA NAVEENDRA.','nambula'),
@@ -16689,7 +16689,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE643','140102010','B 
 ('EE643','140102042','POTHUKUCHI SAKETH','pothukuchi'),
 ('EE643','140102046','RAVINUTHALA SATYA SAI TEJA','r.teja'),
 ('EE643','140102058','SHUUBHAM OJHA','o.shubham');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE643','140102010','B HARSHITH SAI','harshith'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE643','140102010','B HARSHITH SAI','harshith'),
 ('EE643','140102013','BEDEKAR NANDAN MILIND','bedekar'),
 ('EE643','140102031','MANIGALA RAHUL KUMAR REDDY','manigala'),
 ('EE643','140102037','NAMBULA NAVEENDRA.','nambula'),
@@ -16697,7 +16697,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE643','140102010
 ('EE643','140102042','POTHUKUCHI SAKETH','pothukuchi'),
 ('EE643','140102046','RAVINUTHALA SATYA SAI TEJA','r.teja'),
 ('EE643','140102058','SHUUBHAM OJHA','o.shubham');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE643','140102010','B HARSHITH SAI','harshith'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE643','140102010','B HARSHITH SAI','harshith'),
 ('EE643','140102013','BEDEKAR NANDAN MILIND','bedekar'),
 ('EE643','140102031','MANIGALA RAHUL KUMAR REDDY','manigala'),
 ('EE643','140102037','NAMBULA NAVEENDRA.','nambula'),
@@ -16705,7 +16705,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE643','14010201
 ('EE643','140102042','POTHUKUCHI SAKETH','pothukuchi'),
 ('EE643','140102046','RAVINUTHALA SATYA SAI TEJA','r.teja'),
 ('EE643','140102058','SHUUBHAM OJHA','o.shubham');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE652','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE652','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE652','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE652','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE652','174102034','PRIYA PANDEY','priya174102034'),
@@ -16714,7 +16714,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE652','174102010','BA
 ('EE652','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE652','174102062','DINO MONI SINGHA','dino174102062'),
 ('EE652','176102110','Tamen Thapa Sarkar','dino174102062');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE652','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE652','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE652','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE652','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE652','174102034','PRIYA PANDEY','priya174102034'),
@@ -16723,7 +16723,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE652','174102010
 ('EE652','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE652','174102062','DINO MONI SINGHA','dino174102062'),
 ('EE652','176102110','Tamen Thapa Sarkar','dino174102062');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE652','174102010','BADUGU PREMKUMAR','premk174102010'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE652','174102010','BADUGU PREMKUMAR','premk174102010'),
 ('EE652','174102031','AYUSH MATHUR','ayush174102031'),
 ('EE652','174102032','ANURAG LALITKUMAR LAUMAS','anura174102032'),
 ('EE652','174102034','PRIYA PANDEY','priya174102034'),
@@ -16732,7 +16732,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE652','17410201
 ('EE652','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE652','174102062','DINO MONI SINGHA','dino174102062'),
 ('EE652','176102110','Tamen Thapa Sarkar','dino174102062');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE647','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE647','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
 ('EE647','140102019','D ROSHAN','d.roshan'),
 ('EE647','140102020','DEEPAK KUMAR','deepak.2014'),
 ('EE647','140102024','HEMANT KUMAR','hemant.ece'),
@@ -16762,7 +16762,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE647','140102011','BA
 ('EE647','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE647','174102064','BIDYUT BORO','boro174102064'),
 ('EE647','176102105','Utpal Kumar Sarma','boro174102064');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE647','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE647','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
 ('EE647','140102019','D ROSHAN','d.roshan'),
 ('EE647','140102020','DEEPAK KUMAR','deepak.2014'),
 ('EE647','140102024','HEMANT KUMAR','hemant.ece'),
@@ -16792,7 +16792,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE647','140102011
 ('EE647','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE647','174102064','BIDYUT BORO','boro174102064'),
 ('EE647','176102105','Utpal Kumar Sarma','boro174102064');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE647','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE647','140102011','BANDLAMUDI TEJASWINI','bandlamudi'),
 ('EE647','140102019','D ROSHAN','d.roshan'),
 ('EE647','140102020','DEEPAK KUMAR','deepak.2014'),
 ('EE647','140102024','HEMANT KUMAR','hemant.ece'),
@@ -16822,7 +16822,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE647','14010201
 ('EE647','174102030','RAVI PRAKASH','ravi174102030'),
 ('EE647','174102064','BIDYUT BORO','boro174102064'),
 ('EE647','176102105','Utpal Kumar Sarma','boro174102064');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE621','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE621','140102001','ACHIN JAIN','achin.jain'),
 ('EE621','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE621','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE621','140102004','ALIKANTI AKSHAY','alikanti'),
@@ -16927,7 +16927,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE621','140102001','AC
 ('EE621','176102007','DEEPAK KUMAR RATHORE','erdeep2020'),
 ('EE621','176102111','Rijuban Rangslang','erdeep2020'),
 ('EE621','176106026','BIPRA CHATTERJEE','bipra176106026');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE621','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE621','140102001','ACHIN JAIN','achin.jain'),
 ('EE621','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE621','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE621','140102004','ALIKANTI AKSHAY','alikanti'),
@@ -17032,7 +17032,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE621','140102001
 ('EE621','176102007','DEEPAK KUMAR RATHORE','erdeep2020'),
 ('EE621','176102111','Rijuban Rangslang','erdeep2020'),
 ('EE621','176106026','BIPRA CHATTERJEE','bipra176106026');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE621','140102001','ACHIN JAIN','achin.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE621','140102001','ACHIN JAIN','achin.jain'),
 ('EE621','140102002','ADITYA SHEKHAR','aditya.shekhar'),
 ('EE621','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE621','140102004','ALIKANTI AKSHAY','alikanti'),
@@ -17137,7 +17137,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE621','14010200
 ('EE621','176102007','DEEPAK KUMAR RATHORE','erdeep2020'),
 ('EE621','176102111','Rijuban Rangslang','erdeep2020'),
 ('EE621','176106026','BIPRA CHATTERJEE','bipra176106026');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE221','160102001','AADITYA SANWAL','aadityasanwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE221','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE221','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE221','160102003','AKASH KUMAR RAJAK','akash.raj25'),
 ('EE221','160102005','ALLU MANIK','allumanik'),
@@ -17253,7 +17253,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE221','160102001','AA
 ('EE221','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE221','160108047','KEVIN JOSE','krsj1234'),
 ('EE221','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE221','160102001','AADITYA SANWAL','aadityasanwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE221','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE221','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE221','160102003','AKASH KUMAR RAJAK','akash.raj25'),
 ('EE221','160102005','ALLU MANIK','allumanik'),
@@ -17369,7 +17369,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE221','160102001
 ('EE221','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE221','160108047','KEVIN JOSE','krsj1234'),
 ('EE221','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE221','160102001','AADITYA SANWAL','aadityasanwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE221','160102001','AADITYA SANWAL','aadityasanwal'),
 ('EE221','160102002','ABHISHEK MATHUR','abhishekmathur'),
 ('EE221','160102003','AKASH KUMAR RAJAK','akash.raj25'),
 ('EE221','160102005','ALLU MANIK','allumanik'),
@@ -17485,7 +17485,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE221','16010200
 ('EE221','160108046','NISHANT SHEKHAR','nishant.s.3040'),
 ('EE221','160108047','KEVIN JOSE','krsj1234'),
 ('EE221','160108048','AAKASH KUMAR','aakashkumarjagia1997');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE646','140102003','ADLA PRUDHVIDHAR','p.adla'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE646','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE646','140108001','ABHINAV GIRI','abhinav.giri'),
 ('EE646','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE646','140108046','SURAJ KUMAR KASHYAP','suraj.pathak'),
@@ -17496,7 +17496,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE646','140102003','AD
 ('EE646','174102036','ANKIT MISHRA','ankit174102036'),
 ('EE646','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE646','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE646','140102003','ADLA PRUDHVIDHAR','p.adla'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE646','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE646','140108001','ABHINAV GIRI','abhinav.giri'),
 ('EE646','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE646','140108046','SURAJ KUMAR KASHYAP','suraj.pathak'),
@@ -17507,7 +17507,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE646','140102003
 ('EE646','174102036','ANKIT MISHRA','ankit174102036'),
 ('EE646','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE646','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE646','140102003','ADLA PRUDHVIDHAR','p.adla'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE646','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('EE646','140108001','ABHINAV GIRI','abhinav.giri'),
 ('EE646','140108026','RAKESH KUMAR MEENA','rakesh.meena'),
 ('EE646','140108046','SURAJ KUMAR KASHYAP','suraj.pathak'),
@@ -17518,7 +17518,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE646','14010200
 ('EE646','174102036','ANKIT MISHRA','ankit174102036'),
 ('EE646','174102038','JITHIN BAL P M ','jithi174102038'),
 ('EE646','174102062','DINO MONI SINGHA','dino174102062');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE533','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE533','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE533','174102013','AKSHAY SATI','sati174102013'),
 ('EE533','174102014','D SHARMA','sharm174102014'),
 ('EE533','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -17539,7 +17539,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE533','174102012','LO
 ('EE533','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE533','174102050','BIPLAB SENGYUNG','sengy174102050'),
 ('EE533','176102102','Pothan Enukonda Venkata','sengy174102050');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE533','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE533','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE533','174102013','AKSHAY SATI','sati174102013'),
 ('EE533','174102014','D SHARMA','sharm174102014'),
 ('EE533','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -17560,7 +17560,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE533','174102012
 ('EE533','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE533','174102050','BIPLAB SENGYUNG','sengy174102050'),
 ('EE533','176102102','Pothan Enukonda Venkata','sengy174102050');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE533','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE533','174102012','LOHAKARE NAINISH BHASKAR','naini174102012'),
 ('EE533','174102013','AKSHAY SATI','sati174102013'),
 ('EE533','174102014','D SHARMA','sharm174102014'),
 ('EE533','174102015','BHARAT SEHGAL','bhara174102015'),
@@ -17581,7 +17581,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE533','17410201
 ('EE533','174102049','PRASHANT M CHAUDHARI','chaud174102049'),
 ('EE533','174102050','BIPLAB SENGYUNG','sengy174102050'),
 ('EE533','176102102','Pothan Enukonda Venkata','sengy174102050');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE371','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('EE371','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE371','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE371','150102004','AJEYO DEY','ajeyo'),
 ('EE371','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -17700,7 +17700,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('EE371','150102002','AB
 ('EE371','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE371','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE371','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE371','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('EE371','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE371','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE371','150102004','AJEYO DEY','ajeyo'),
 ('EE371','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -17819,7 +17819,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('EE371','150102002
 ('EE371','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE371','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE371','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE371','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('EE371','150102002','ABHISHEK AGRAWAL','abhishek.agrawal'),
 ('EE371','150102003','ABHISHEK ANAND','abh.anand'),
 ('EE371','150102004','AJEYO DEY','ajeyo'),
 ('EE371','150102005','ANI REDDY VAMSHI KRISHNA REDDY','ani.reddy'),
@@ -17938,7 +17938,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('EE371','15010200
 ('EE371','150108047','PRIYANSH DAUSHALYA','p.daushalya'),
 ('EE371','150108048','ABHISHEK GUPTA','abhg.2015'),
 ('EE371','150108049','SHETKAR AKASH ASHOK','shetkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE510','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE510','174104006','NIPUN JAIN','nipun174104006'),
 ('CE510','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE510','174104073','ABDUL BASIR','basir174104073'),
 ('CE510','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -17951,7 +17951,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE510','174104006','NI
 ('CE510','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE510','176104023','SURESH CHANDRA SADANGI (QIP)','sures176104023'),
 ('CE510','176104110','Saibaba Ankala','sures176104023');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE510','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE510','174104006','NIPUN JAIN','nipun174104006'),
 ('CE510','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE510','174104073','ABDUL BASIR','basir174104073'),
 ('CE510','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -17964,7 +17964,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE510','174104006
 ('CE510','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE510','176104023','SURESH CHANDRA SADANGI (QIP)','sures176104023'),
 ('CE510','176104110','Saibaba Ankala','sures176104023');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE510','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE510','174104006','NIPUN JAIN','nipun174104006'),
 ('CE510','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE510','174104073','ABDUL BASIR','basir174104073'),
 ('CE510','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -17977,7 +17977,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE510','17410400
 ('CE510','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE510','176104023','SURESH CHANDRA SADANGI (QIP)','sures176104023'),
 ('CE510','176104110','Saibaba Ankala','sures176104023');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE201','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE201','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE201','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE201','160104002','ABHIRAM SINGH','abhiram'),
 ('CE201','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -18029,7 +18029,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE201','140104061','SA
 ('CE201','160104078','VIVEK KUMAR','vivekkumar'),
 ('CE201','160104079','VIVEK SINGH','viveksingh'),
 ('CE201','160104080','YASHWARDHAN PANWAR','yashwardhan');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE201','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE201','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE201','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE201','160104002','ABHIRAM SINGH','abhiram'),
 ('CE201','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -18081,7 +18081,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE201','140104061
 ('CE201','160104078','VIVEK KUMAR','vivekkumar'),
 ('CE201','160104079','VIVEK SINGH','viveksingh'),
 ('CE201','160104080','YASHWARDHAN PANWAR','yashwardhan');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE201','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE201','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE201','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE201','160104002','ABHIRAM SINGH','abhiram'),
 ('CE201','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -18133,7 +18133,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE201','14010406
 ('CE201','160104078','VIVEK KUMAR','vivekkumar'),
 ('CE201','160104079','VIVEK SINGH','viveksingh'),
 ('CE201','160104080','YASHWARDHAN PANWAR','yashwardhan');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE402','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE402','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE402','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE402','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE402','140104004','AJAY C ANTO','a.anto'),
@@ -18202,7 +18202,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE402','120104069','SU
 ('CE402','140104079','VIVEK KUMAR SINGH','vivek.2014'),
 ('CE402','140104080','YARRA PHANEENDRA','yarra'),
 ('CE402','X170104081','JULES FOURNIER','yarra');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE402','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE402','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE402','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE402','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE402','140104004','AJAY C ANTO','a.anto'),
@@ -18271,7 +18271,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE402','120104069
 ('CE402','140104079','VIVEK KUMAR SINGH','vivek.2014'),
 ('CE402','140104080','YARRA PHANEENDRA','yarra'),
 ('CE402','X170104081','JULES FOURNIER','yarra');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE402','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE402','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE402','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE402','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE402','140104004','AJAY C ANTO','a.anto'),
@@ -18340,7 +18340,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE402','12010406
 ('CE402','140104079','VIVEK KUMAR SINGH','vivek.2014'),
 ('CE402','140104080','YARRA PHANEENDRA','yarra'),
 ('CE402','X170104081','JULES FOURNIER','yarra');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE555','164104056','PRAJNA  PARMITA','prajna'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE555','164104056','PRAJNA  PARMITA','prajna'),
 ('CE555','174104034','POOJA PATEL','pooja174104034'),
 ('CE555','174104060','CHANDRA SHEKHAR SOYAL','soyal174104060'),
 ('CE555','174104062','MUHAMMED SHABEEB EK','ek174104062'),
@@ -18361,7 +18361,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE555','164104056','PR
 ('CE555','174104134','VISHNU SINGH','vishn174104134'),
 ('CE555','174104137','PATEL RAJ RAMANBHAI','raj174104137'),
 ('CE555','174104140','LAHIT MUSHAHARY','musha174104140');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE555','164104056','PRAJNA  PARMITA','prajna'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE555','164104056','PRAJNA  PARMITA','prajna'),
 ('CE555','174104034','POOJA PATEL','pooja174104034'),
 ('CE555','174104060','CHANDRA SHEKHAR SOYAL','soyal174104060'),
 ('CE555','174104062','MUHAMMED SHABEEB EK','ek174104062'),
@@ -18382,7 +18382,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE555','164104056
 ('CE555','174104134','VISHNU SINGH','vishn174104134'),
 ('CE555','174104137','PATEL RAJ RAMANBHAI','raj174104137'),
 ('CE555','174104140','LAHIT MUSHAHARY','musha174104140');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE555','164104056','PRAJNA  PARMITA','prajna'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE555','164104056','PRAJNA  PARMITA','prajna'),
 ('CE555','174104034','POOJA PATEL','pooja174104034'),
 ('CE555','174104060','CHANDRA SHEKHAR SOYAL','soyal174104060'),
 ('CE555','174104062','MUHAMMED SHABEEB EK','ek174104062'),
@@ -18403,16 +18403,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE555','16410405
 ('CE555','174104134','VISHNU SINGH','vishn174104134'),
 ('CE555','174104137','PATEL RAJ RAMANBHAI','raj174104137'),
 ('CE555','174104140','LAHIT MUSHAHARY','musha174104140');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE652','176104005','ADNAN AHMAD','adnan176104005'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE652','176104005','ADNAN AHMAD','adnan176104005'),
 ('CE652','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE652','176104109','Sutapa Bhattacharjee','utla176104018');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE652','176104005','ADNAN AHMAD','adnan176104005'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE652','176104005','ADNAN AHMAD','adnan176104005'),
 ('CE652','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE652','176104109','Sutapa Bhattacharjee','utla176104018');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE652','176104005','ADNAN AHMAD','adnan176104005'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE652','176104005','ADNAN AHMAD','adnan176104005'),
 ('CE652','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE652','176104109','Sutapa Bhattacharjee','utla176104018');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE608','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE608','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
 ('CE608','174104012','MOHAMED ASLAM M U B','aslam174104012'),
 ('CE608','174104024','ANN SHERYL MATHEW','ann174104024'),
 ('CE608','174104026','SUMANT KUSHWAHA','kushw174104026'),
@@ -18431,7 +18431,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE608','174104008','D 
 ('CE608','174104083','ARPITA GHOSH','arpit174104083'),
 ('CE608','176104102','Arka Mitra','arpit174104083'),
 ('CE608','176104111','Subhra Das','arpit174104083');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE608','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE608','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
 ('CE608','174104012','MOHAMED ASLAM M U B','aslam174104012'),
 ('CE608','174104024','ANN SHERYL MATHEW','ann174104024'),
 ('CE608','174104026','SUMANT KUSHWAHA','kushw174104026'),
@@ -18450,7 +18450,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE608','174104008
 ('CE608','174104083','ARPITA GHOSH','arpit174104083'),
 ('CE608','176104102','Arka Mitra','arpit174104083'),
 ('CE608','176104111','Subhra Das','arpit174104083');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE608','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE608','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
 ('CE608','174104012','MOHAMED ASLAM M U B','aslam174104012'),
 ('CE608','174104024','ANN SHERYL MATHEW','ann174104024'),
 ('CE608','174104026','SUMANT KUSHWAHA','kushw174104026'),
@@ -18469,7 +18469,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE608','17410400
 ('CE608','174104083','ARPITA GHOSH','arpit174104083'),
 ('CE608','176104102','Arka Mitra','arpit174104083'),
 ('CE608','176104111','Subhra Das','arpit174104083');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE595','174104034','POOJA PATEL','pooja174104034'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE595','174104034','POOJA PATEL','pooja174104034'),
 ('CE595','174104060','CHANDRA SHEKHAR SOYAL','soyal174104060'),
 ('CE595','174104132','TANUSHREE DEKA','deka174104132'),
 ('CE595','174104133','KATRE SHREYA SHRIKANT','katre174104133'),
@@ -18481,7 +18481,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE595','174104034','PO
 ('CE595','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE595','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE595','176104106','Ujjwal Jyoti Dutta','utla176104018');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE595','174104034','POOJA PATEL','pooja174104034'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE595','174104034','POOJA PATEL','pooja174104034'),
 ('CE595','174104060','CHANDRA SHEKHAR SOYAL','soyal174104060'),
 ('CE595','174104132','TANUSHREE DEKA','deka174104132'),
 ('CE595','174104133','KATRE SHREYA SHRIKANT','katre174104133'),
@@ -18493,7 +18493,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE595','174104034
 ('CE595','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE595','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE595','176104106','Ujjwal Jyoti Dutta','utla176104018');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE595','174104034','POOJA PATEL','pooja174104034'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE595','174104034','POOJA PATEL','pooja174104034'),
 ('CE595','174104060','CHANDRA SHEKHAR SOYAL','soyal174104060'),
 ('CE595','174104132','TANUSHREE DEKA','deka174104132'),
 ('CE595','174104133','KATRE SHREYA SHRIKANT','katre174104133'),
@@ -18505,7 +18505,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE595','17410403
 ('CE595','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE595','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE595','176104106','Ujjwal Jyoti Dutta','utla176104018');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE534','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE534','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE534','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE534','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE534','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -18523,7 +18523,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE534','174104004','SU
 ('CE534','174104105','SHREYAS S K','shrey174104105'),
 ('CE534','174104106','BHARAT RATTAN','bhara174104106'),
 ('CE534','174104135','RITURAJ DEVRANI','ritur174104135');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE534','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE534','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE534','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE534','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE534','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -18541,7 +18541,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE534','174104004
 ('CE534','174104105','SHREYAS S K','shrey174104105'),
 ('CE534','174104106','BHARAT RATTAN','bhara174104106'),
 ('CE534','174104135','RITURAJ DEVRANI','ritur174104135');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE534','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE534','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE534','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE534','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE534','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -18559,7 +18559,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE534','17410400
 ('CE534','174104105','SHREYAS S K','shrey174104105'),
 ('CE534','174104106','BHARAT RATTAN','bhara174104106'),
 ('CE534','174104135','RITURAJ DEVRANI','ritur174104135');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE699','164104001','PIYUSH  KUMAR','piyush2712'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE699','164104001','PIYUSH  KUMAR','piyush2712'),
 ('CE699','164104003','ARIF   SARDAR','arif2016'),
 ('CE699','164104004','AHAMED FIDHA SAID','fidha'),
 ('CE699','164104005','AYUSH  MAHESHWARI','ayush.maheshwari'),
@@ -18580,7 +18580,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE699','164104001','PI
 ('CE699','164104049','PAWAN  KUMAR','pawan2016'),
 ('CE699','164104108','NABAJIT SARKAR','nabajit.sarkar'),
 ('CE699','164104109','ANIL KUMAR SAH','anilk.sah');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE699','164104001','PIYUSH  KUMAR','piyush2712'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE699','164104001','PIYUSH  KUMAR','piyush2712'),
 ('CE699','164104003','ARIF   SARDAR','arif2016'),
 ('CE699','164104004','AHAMED FIDHA SAID','fidha'),
 ('CE699','164104005','AYUSH  MAHESHWARI','ayush.maheshwari'),
@@ -18601,7 +18601,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE699','164104001
 ('CE699','164104049','PAWAN  KUMAR','pawan2016'),
 ('CE699','164104108','NABAJIT SARKAR','nabajit.sarkar'),
 ('CE699','164104109','ANIL KUMAR SAH','anilk.sah');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE699','164104001','PIYUSH  KUMAR','piyush2712'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE699','164104001','PIYUSH  KUMAR','piyush2712'),
 ('CE699','164104003','ARIF   SARDAR','arif2016'),
 ('CE699','164104004','AHAMED FIDHA SAID','fidha'),
 ('CE699','164104005','AYUSH  MAHESHWARI','ayush.maheshwari'),
@@ -18622,7 +18622,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE699','16410400
 ('CE699','164104049','PAWAN  KUMAR','pawan2016'),
 ('CE699','164104108','NABAJIT SARKAR','nabajit.sarkar'),
 ('CE699','164104109','ANIL KUMAR SAH','anilk.sah');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE564','140104007','AMAR KUMAR','amar.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE564','140104007','AMAR KUMAR','amar.kumar'),
 ('CE564','140104059','SAJAL PACHAURI','s.pachauri'),
 ('CE564','140104077','VIDYADHAR V PATIL','vidyadhar'),
 ('CE564','174104062','MUHAMMED SHABEEB EK','ek174104062'),
@@ -18640,7 +18640,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE564','140104007','AM
 ('CE564','174104122','AMIT SIDDHARTH','amit174104122'),
 ('CE564','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE564','174104124','VIJAY MEENA','vijay174104124');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE564','140104007','AMAR KUMAR','amar.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE564','140104007','AMAR KUMAR','amar.kumar'),
 ('CE564','140104059','SAJAL PACHAURI','s.pachauri'),
 ('CE564','140104077','VIDYADHAR V PATIL','vidyadhar'),
 ('CE564','174104062','MUHAMMED SHABEEB EK','ek174104062'),
@@ -18658,7 +18658,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE564','140104007
 ('CE564','174104122','AMIT SIDDHARTH','amit174104122'),
 ('CE564','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE564','174104124','VIJAY MEENA','vijay174104124');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE564','140104007','AMAR KUMAR','amar.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE564','140104007','AMAR KUMAR','amar.kumar'),
 ('CE564','140104059','SAJAL PACHAURI','s.pachauri'),
 ('CE564','140104077','VIDYADHAR V PATIL','vidyadhar'),
 ('CE564','174104062','MUHAMMED SHABEEB EK','ek174104062'),
@@ -18676,7 +18676,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE564','14010400
 ('CE564','174104122','AMIT SIDDHARTH','amit174104122'),
 ('CE564','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE564','174104124','VIJAY MEENA','vijay174104124');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE616','140104038','KUMAR SHUBHAM','kumar.shubham'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE616','140104038','KUMAR SHUBHAM','kumar.shubham'),
 ('CE616','140104042','MOHIT PRAKASH','m.prakash'),
 ('CE616','140104054','RAVIKISHAN KUSHWAH','ravikishan'),
 ('CE616','140104064','SHIV PRAKASH','shiv.prakash'),
@@ -18698,7 +18698,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE616','140104038','KU
 ('CE616','174104082','SUVENDU PARIDA','suven174104082'),
 ('CE616','174104083','ARPITA GHOSH','arpit174104083'),
 ('CE616','174104085','SHAILENDRA HARIOUDH','shail174104085');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE616','140104038','KUMAR SHUBHAM','kumar.shubham'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE616','140104038','KUMAR SHUBHAM','kumar.shubham'),
 ('CE616','140104042','MOHIT PRAKASH','m.prakash'),
 ('CE616','140104054','RAVIKISHAN KUSHWAH','ravikishan'),
 ('CE616','140104064','SHIV PRAKASH','shiv.prakash'),
@@ -18720,7 +18720,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE616','140104038
 ('CE616','174104082','SUVENDU PARIDA','suven174104082'),
 ('CE616','174104083','ARPITA GHOSH','arpit174104083'),
 ('CE616','174104085','SHAILENDRA HARIOUDH','shail174104085');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE616','140104038','KUMAR SHUBHAM','kumar.shubham'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE616','140104038','KUMAR SHUBHAM','kumar.shubham'),
 ('CE616','140104042','MOHIT PRAKASH','m.prakash'),
 ('CE616','140104054','RAVIKISHAN KUSHWAH','ravikishan'),
 ('CE616','140104064','SHIV PRAKASH','shiv.prakash'),
@@ -18742,7 +18742,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE616','14010403
 ('CE616','174104082','SUVENDU PARIDA','suven174104082'),
 ('CE616','174104083','ARPITA GHOSH','arpit174104083'),
 ('CE616','174104085','SHAILENDRA HARIOUDH','shail174104085');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE215','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE215','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE215','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE215','160104002','ABHIRAM SINGH','abhiram'),
 ('CE215','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -18795,7 +18795,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE215','140104061','SA
 ('CE215','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE215','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE215','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE215','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE215','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE215','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE215','160104002','ABHIRAM SINGH','abhiram'),
 ('CE215','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -18848,7 +18848,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE215','140104061
 ('CE215','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE215','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE215','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE215','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE215','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE215','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE215','160104002','ABHIRAM SINGH','abhiram'),
 ('CE215','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -18901,7 +18901,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE215','14010406
 ('CE215','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE215','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE215','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE550','164104023','NAVEEN REDDY KALLAM','naveen2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE550','164104023','NAVEEN REDDY KALLAM','naveen2016'),
 ('CE550','164104024','MANASH JYOTI BORA','manashjyoti'),
 ('CE550','164104025','BISWAJIT  PANDA','biswajit30107'),
 ('CE550','164104030','MOHAMMAD SAFIK KHAN','safikmkhan'),
@@ -18918,7 +18918,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE550','164104023','NA
 ('CE550','164104089','DEEPAK  PATWA','deepak21'),
 ('CE550','164104107','ANANGSHA ALAMMYAN','anangsha.alammyan'),
 ('CE550','164104115','ASWATHI  C K','aswathi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE550','164104023','NAVEEN REDDY KALLAM','naveen2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE550','164104023','NAVEEN REDDY KALLAM','naveen2016'),
 ('CE550','164104024','MANASH JYOTI BORA','manashjyoti'),
 ('CE550','164104025','BISWAJIT  PANDA','biswajit30107'),
 ('CE550','164104030','MOHAMMAD SAFIK KHAN','safikmkhan'),
@@ -18935,7 +18935,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE550','164104023
 ('CE550','164104089','DEEPAK  PATWA','deepak21'),
 ('CE550','164104107','ANANGSHA ALAMMYAN','anangsha.alammyan'),
 ('CE550','164104115','ASWATHI  C K','aswathi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE550','164104023','NAVEEN REDDY KALLAM','naveen2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE550','164104023','NAVEEN REDDY KALLAM','naveen2016'),
 ('CE550','164104024','MANASH JYOTI BORA','manashjyoti'),
 ('CE550','164104025','BISWAJIT  PANDA','biswajit30107'),
 ('CE550','164104030','MOHAMMAD SAFIK KHAN','safikmkhan'),
@@ -18952,7 +18952,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE550','16410402
 ('CE550','164104089','DEEPAK  PATWA','deepak21'),
 ('CE550','164104107','ANANGSHA ALAMMYAN','anangsha.alammyan'),
 ('CE550','164104115','ASWATHI  C K','aswathi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE213','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE213','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE213','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE213','160104002','ABHIRAM SINGH','abhiram'),
 ('CE213','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -19004,7 +19004,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE213','140104061','SA
 ('CE213','160104079','VIVEK SINGH','viveksingh'),
 ('CE213','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE213','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE213','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE213','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE213','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE213','160104002','ABHIRAM SINGH','abhiram'),
 ('CE213','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -19056,7 +19056,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE213','140104061
 ('CE213','160104079','VIVEK SINGH','viveksingh'),
 ('CE213','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE213','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE213','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE213','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE213','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE213','160104002','ABHIRAM SINGH','abhiram'),
 ('CE213','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -19108,7 +19108,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE213','14010406
 ('CE213','160104079','VIVEK SINGH','viveksingh'),
 ('CE213','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE213','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE220','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE220','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE220','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE220','160104002','ABHIRAM SINGH','abhiram'),
 ('CE220','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -19161,7 +19161,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE220','140104061','SA
 ('CE220','160104079','VIVEK SINGH','viveksingh'),
 ('CE220','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE220','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE220','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE220','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE220','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE220','160104002','ABHIRAM SINGH','abhiram'),
 ('CE220','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -19214,7 +19214,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE220','140104061
 ('CE220','160104079','VIVEK SINGH','viveksingh'),
 ('CE220','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE220','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE220','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE220','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE220','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE220','160104002','ABHIRAM SINGH','abhiram'),
 ('CE220','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -19267,7 +19267,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE220','14010406
 ('CE220','160104079','VIVEK SINGH','viveksingh'),
 ('CE220','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE220','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE504','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE504','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
 ('CE504','174104012','MOHAMED ASLAM M U B','aslam174104012'),
 ('CE504','174104024','ANN SHERYL MATHEW','ann174104024'),
 ('CE504','174104026','SUMANT KUSHWAHA','kushw174104026'),
@@ -19290,7 +19290,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE504','174104008','D 
 ('CE504','174104085','SHAILENDRA HARIOUDH','shail174104085'),
 ('CE504','176104101','Begum EmteAjom','shail174104085'),
 ('CE504','176104111','Subhra Das','shail174104085');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE504','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE504','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
 ('CE504','174104012','MOHAMED ASLAM M U B','aslam174104012'),
 ('CE504','174104024','ANN SHERYL MATHEW','ann174104024'),
 ('CE504','174104026','SUMANT KUSHWAHA','kushw174104026'),
@@ -19313,7 +19313,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE504','174104008
 ('CE504','174104085','SHAILENDRA HARIOUDH','shail174104085'),
 ('CE504','176104101','Begum EmteAjom','shail174104085'),
 ('CE504','176104111','Subhra Das','shail174104085');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE504','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE504','174104008','D VAMSI KRISHNA SAGAR','sagar174104008'),
 ('CE504','174104012','MOHAMED ASLAM M U B','aslam174104012'),
 ('CE504','174104024','ANN SHERYL MATHEW','ann174104024'),
 ('CE504','174104026','SUMANT KUSHWAHA','kushw174104026'),
@@ -19336,7 +19336,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE504','17410400
 ('CE504','174104085','SHAILENDRA HARIOUDH','shail174104085'),
 ('CE504','176104101','Begum EmteAjom','shail174104085'),
 ('CE504','176104111','Subhra Das','shail174104085');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE693','164104041','RAJAT  TANEJA','taneja'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE693','164104041','RAJAT  TANEJA','taneja'),
 ('CE693','164104047','ABU SAEED AHMED','abusaeed'),
 ('CE693','164104048','ABHIJIT  BAIRAGI','abhijit16'),
 ('CE693','164104054','HARIPRASAD T M','hariprasad.tm'),
@@ -19345,7 +19345,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE693','164104041','RA
 ('CE693','164104090','NAGARAJU  KANAM','nagaraju.kanam'),
 ('CE693','164104092','GHAZALI   RAHMAN','ghazali'),
 ('CE693','164104111','DEMISSEW TEKILU DAMENA','demissew');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE693','164104041','RAJAT  TANEJA','taneja'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE693','164104041','RAJAT  TANEJA','taneja'),
 ('CE693','164104047','ABU SAEED AHMED','abusaeed'),
 ('CE693','164104048','ABHIJIT  BAIRAGI','abhijit16'),
 ('CE693','164104054','HARIPRASAD T M','hariprasad.tm'),
@@ -19354,7 +19354,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE693','164104041
 ('CE693','164104090','NAGARAJU  KANAM','nagaraju.kanam'),
 ('CE693','164104092','GHAZALI   RAHMAN','ghazali'),
 ('CE693','164104111','DEMISSEW TEKILU DAMENA','demissew');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE693','164104041','RAJAT  TANEJA','taneja'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE693','164104041','RAJAT  TANEJA','taneja'),
 ('CE693','164104047','ABU SAEED AHMED','abusaeed'),
 ('CE693','164104048','ABHIJIT  BAIRAGI','abhijit16'),
 ('CE693','164104054','HARIPRASAD T M','hariprasad.tm'),
@@ -19363,7 +19363,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE693','16410404
 ('CE693','164104090','NAGARAJU  KANAM','nagaraju.kanam'),
 ('CE693','164104092','GHAZALI   RAHMAN','ghazali'),
 ('CE693','164104111','DEMISSEW TEKILU DAMENA','demissew');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE649','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE649','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE649','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE649','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE649','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -19379,7 +19379,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE649','174104004','SU
 ('CE649','176104009','BEDABRATA GHOSE','ghose176104009'),
 ('CE649','176104106','Ujjwal Jyoti Dutta','ghose176104009'),
 ('CE649','X170104081','JULES FOURNIER','ghose176104009');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE649','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE649','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE649','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE649','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE649','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -19395,7 +19395,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE649','174104004
 ('CE649','176104009','BEDABRATA GHOSE','ghose176104009'),
 ('CE649','176104106','Ujjwal Jyoti Dutta','ghose176104009'),
 ('CE649','X170104081','JULES FOURNIER','ghose176104009');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE649','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE649','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE649','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE649','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE649','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -19411,7 +19411,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE649','17410400
 ('CE649','176104009','BEDABRATA GHOSE','ghose176104009'),
 ('CE649','176104106','Ujjwal Jyoti Dutta','ghose176104009'),
 ('CE649','X170104081','JULES FOURNIER','ghose176104009');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE311','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE311','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
 ('CE311','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE311','140104046','OJASV AGARWAL','ojasv'),
 ('CE311','150104001','AAKARSH CHAUHAN','aakarsh'),
@@ -19479,7 +19479,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE311','140104021','BU
 ('CE311','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE311','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE311','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE311','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE311','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
 ('CE311','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE311','140104046','OJASV AGARWAL','ojasv'),
 ('CE311','150104001','AAKARSH CHAUHAN','aakarsh'),
@@ -19547,7 +19547,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE311','140104021
 ('CE311','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE311','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE311','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE311','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE311','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
 ('CE311','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE311','140104046','OJASV AGARWAL','ojasv'),
 ('CE311','150104001','AAKARSH CHAUHAN','aakarsh'),
@@ -19615,7 +19615,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE311','14010402
 ('CE311','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE311','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE311','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE552','140104002','ABHAY PAL SINGH','abhay.2014'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE552','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE552','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE552','140104004','AJAY C ANTO','a.anto'),
 ('CE552','140104009','AMIT KUMAR CHANDRAVANSHI','a.chandravanshi'),
@@ -19677,7 +19677,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE552','140104002','AB
 ('CE552','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE552','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE552','176104103','Dipsikha Devi','samue174104141');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE552','140104002','ABHAY PAL SINGH','abhay.2014'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE552','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE552','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE552','140104004','AJAY C ANTO','a.anto'),
 ('CE552','140104009','AMIT KUMAR CHANDRAVANSHI','a.chandravanshi'),
@@ -19739,7 +19739,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE552','140104002
 ('CE552','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE552','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE552','176104103','Dipsikha Devi','samue174104141');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE552','140104002','ABHAY PAL SINGH','abhay.2014'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE552','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE552','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE552','140104004','AJAY C ANTO','a.anto'),
 ('CE552','140104009','AMIT KUMAR CHANDRAVANSHI','a.chandravanshi'),
@@ -19801,7 +19801,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE552','14010400
 ('CE552','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE552','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE552','176104103','Dipsikha Devi','samue174104141');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE606','140104008','AMIT KUMAR','amit.civil'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE606','140104008','AMIT KUMAR','amit.civil'),
 ('CE606','140104010','AMRINDER SINGH','amrinder'),
 ('CE606','140104012','ANURAG SINGH','anurag.2014'),
 ('CE606','140104016','B GANGADHAR','b.gangadhar'),
@@ -19853,7 +19853,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE606','140104008','AM
 ('CE606','176104102','Arka Mitra','shail174104085'),
 ('CE606','176104106','Ujjwal Jyoti Dutta','shail174104085'),
 ('CE606','176104111','Subhra Das','shail174104085');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE606','140104008','AMIT KUMAR','amit.civil'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE606','140104008','AMIT KUMAR','amit.civil'),
 ('CE606','140104010','AMRINDER SINGH','amrinder'),
 ('CE606','140104012','ANURAG SINGH','anurag.2014'),
 ('CE606','140104016','B GANGADHAR','b.gangadhar'),
@@ -19905,7 +19905,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE606','140104008
 ('CE606','176104102','Arka Mitra','shail174104085'),
 ('CE606','176104106','Ujjwal Jyoti Dutta','shail174104085'),
 ('CE606','176104111','Subhra Das','shail174104085');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE606','140104008','AMIT KUMAR','amit.civil'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE606','140104008','AMIT KUMAR','amit.civil'),
 ('CE606','140104010','AMRINDER SINGH','amrinder'),
 ('CE606','140104012','ANURAG SINGH','anurag.2014'),
 ('CE606','140104016','B GANGADHAR','b.gangadhar'),
@@ -19957,7 +19957,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE606','14010400
 ('CE606','176104102','Arka Mitra','shail174104085'),
 ('CE606','176104106','Ujjwal Jyoti Dutta','shail174104085'),
 ('CE606','176104111','Subhra Das','shail174104085');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE222','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE222','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE222','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE222','160104002','ABHIRAM SINGH','abhiram'),
 ('CE222','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -20012,7 +20012,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE222','140104061','SA
 ('CE222','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE222','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE222','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE222','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE222','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE222','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE222','160104002','ABHIRAM SINGH','abhiram'),
 ('CE222','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -20067,7 +20067,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE222','140104061
 ('CE222','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE222','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE222','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE222','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE222','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE222','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE222','160104002','ABHIRAM SINGH','abhiram'),
 ('CE222','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -20122,7 +20122,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE222','14010406
 ('CE222','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE222','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE222','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE583','164104048','ABHIJIT  BAIRAGI','abhijit16'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE583','164104048','ABHIJIT  BAIRAGI','abhijit16'),
 ('CE583','164104111','DEMISSEW TEKILU DAMENA','demissew'),
 ('CE583','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE583','174104007','SURAJ YADAV','suraj174104007'),
@@ -20139,7 +20139,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE583','164104048','AB
 ('CE583','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE583','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE583','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE583','164104048','ABHIJIT  BAIRAGI','abhijit16'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE583','164104048','ABHIJIT  BAIRAGI','abhijit16'),
 ('CE583','164104111','DEMISSEW TEKILU DAMENA','demissew'),
 ('CE583','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE583','174104007','SURAJ YADAV','suraj174104007'),
@@ -20156,7 +20156,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE583','164104048
 ('CE583','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE583','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE583','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE583','164104048','ABHIJIT  BAIRAGI','abhijit16'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE583','164104048','ABHIJIT  BAIRAGI','abhijit16'),
 ('CE583','164104111','DEMISSEW TEKILU DAMENA','demissew'),
 ('CE583','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE583','174104007','SURAJ YADAV','suraj174104007'),
@@ -20173,7 +20173,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE583','16410404
 ('CE583','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE583','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE583','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE643','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE643','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE643','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE643','140104004','AJAY C ANTO','a.anto'),
 ('CE643','140104005','AKASH CHOUKSEY','c.akash'),
@@ -20219,7 +20219,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE643','120104069','SU
 ('CE643','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE643','176104112','Joy Kumar Mondal','utla176104018'),
 ('CE643','176104114','DEBASMITA PAL','utla176104018');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE643','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE643','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE643','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE643','140104004','AJAY C ANTO','a.anto'),
 ('CE643','140104005','AKASH CHOUKSEY','c.akash'),
@@ -20265,7 +20265,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE643','120104069
 ('CE643','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE643','176104112','Joy Kumar Mondal','utla176104018'),
 ('CE643','176104114','DEBASMITA PAL','utla176104018');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE643','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE643','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE643','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE643','140104004','AJAY C ANTO','a.anto'),
 ('CE643','140104005','AKASH CHOUKSEY','c.akash'),
@@ -20311,7 +20311,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE643','12010406
 ('CE643','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE643','176104112','Joy Kumar Mondal','utla176104018'),
 ('CE643','176104114','DEBASMITA PAL','utla176104018');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE691','154104096','KAUSHIK  SARKAR','kaushik.sarkar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE691','154104096','KAUSHIK  SARKAR','kaushik.sarkar'),
 ('CE691','164104066','HIMANSHU  SONKESHARIYA','h.sonkeshariya'),
 ('CE691','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE691','164104086','BHUPENDRA  NAUTIYAL','bhupendra.nautiyal'),
@@ -20321,7 +20321,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE691','154104096','KA
 ('CE691','164104093','VIPASHA  MAHOLIA','vipasham'),
 ('CE691','164104095','GAJJELA   RAJASHEKHAR','raja.shekhar'),
 ('CE691','164104132','MOHD  SHARIQ','m.shariq2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE691','154104096','KAUSHIK  SARKAR','kaushik.sarkar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE691','154104096','KAUSHIK  SARKAR','kaushik.sarkar'),
 ('CE691','164104066','HIMANSHU  SONKESHARIYA','h.sonkeshariya'),
 ('CE691','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE691','164104086','BHUPENDRA  NAUTIYAL','bhupendra.nautiyal'),
@@ -20331,7 +20331,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE691','154104096
 ('CE691','164104093','VIPASHA  MAHOLIA','vipasham'),
 ('CE691','164104095','GAJJELA   RAJASHEKHAR','raja.shekhar'),
 ('CE691','164104132','MOHD  SHARIQ','m.shariq2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE691','154104096','KAUSHIK  SARKAR','kaushik.sarkar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE691','154104096','KAUSHIK  SARKAR','kaushik.sarkar'),
 ('CE691','164104066','HIMANSHU  SONKESHARIYA','h.sonkeshariya'),
 ('CE691','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE691','164104086','BHUPENDRA  NAUTIYAL','bhupendra.nautiyal'),
@@ -20341,7 +20341,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE691','15410409
 ('CE691','164104093','VIPASHA  MAHOLIA','vipasham'),
 ('CE691','164104095','GAJJELA   RAJASHEKHAR','raja.shekhar'),
 ('CE691','164104132','MOHD  SHARIQ','m.shariq2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE304','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE304','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE304','140104046','OJASV AGARWAL','ojasv'),
 ('CE304','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE304','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -20408,7 +20408,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE304','140104030','HA
 ('CE304','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE304','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE304','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE304','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE304','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE304','140104046','OJASV AGARWAL','ojasv'),
 ('CE304','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE304','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -20475,7 +20475,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE304','140104030
 ('CE304','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE304','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE304','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE304','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE304','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE304','140104046','OJASV AGARWAL','ojasv'),
 ('CE304','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE304','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -20542,7 +20542,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE304','14010403
 ('CE304','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE304','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE304','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE498','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE498','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE498','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE498','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE498','140104004','AJAY C ANTO','a.anto'),
@@ -20608,7 +20608,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE498','120104069','SU
 ('CE498','140104078','VISHAL KUMAR','vishal.2014'),
 ('CE498','140104079','VIVEK KUMAR SINGH','vivek.2014'),
 ('CE498','140104080','YARRA PHANEENDRA','yarra');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE498','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE498','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE498','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE498','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE498','140104004','AJAY C ANTO','a.anto'),
@@ -20674,7 +20674,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE498','120104069
 ('CE498','140104078','VISHAL KUMAR','vishal.2014'),
 ('CE498','140104079','VIVEK KUMAR SINGH','vivek.2014'),
 ('CE498','140104080','YARRA PHANEENDRA','yarra');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE498','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE498','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE498','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE498','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE498','140104004','AJAY C ANTO','a.anto'),
@@ -20740,7 +20740,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE498','12010406
 ('CE498','140104078','VISHAL KUMAR','vishal.2014'),
 ('CE498','140104079','VIVEK KUMAR SINGH','vivek.2014'),
 ('CE498','140104080','YARRA PHANEENDRA','yarra');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE612','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE612','174104006','NIPUN JAIN','nipun174104006'),
 ('CE612','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE612','174104073','ABDUL BASIR','basir174104073'),
 ('CE612','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -20753,7 +20753,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE612','174104006','NI
 ('CE612','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE612','176104015','KUNAL PRADHAN','kunal176104015'),
 ('CE612','176104023','SURESH CHANDRA SADANGI (QIP)','sures176104023');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE612','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE612','174104006','NIPUN JAIN','nipun174104006'),
 ('CE612','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE612','174104073','ABDUL BASIR','basir174104073'),
 ('CE612','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -20766,7 +20766,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE612','174104006
 ('CE612','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE612','176104015','KUNAL PRADHAN','kunal176104015'),
 ('CE612','176104023','SURESH CHANDRA SADANGI (QIP)','sures176104023');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE612','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE612','174104006','NIPUN JAIN','nipun174104006'),
 ('CE612','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE612','174104073','ABDUL BASIR','basir174104073'),
 ('CE612','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -20779,7 +20779,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE612','17410400
 ('CE612','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE612','176104015','KUNAL PRADHAN','kunal176104015'),
 ('CE612','176104023','SURESH CHANDRA SADANGI (QIP)','sures176104023');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE628','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE628','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE628','174104007','SURAJ YADAV','suraj174104007'),
 ('CE628','174104023','SATYAM GARG','garg174104023'),
 ('CE628','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -20794,7 +20794,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE628','174104002','HA
 ('CE628','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE628','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE628','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE628','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE628','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE628','174104007','SURAJ YADAV','suraj174104007'),
 ('CE628','174104023','SATYAM GARG','garg174104023'),
 ('CE628','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -20809,7 +20809,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE628','174104002
 ('CE628','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE628','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE628','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE628','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE628','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE628','174104007','SURAJ YADAV','suraj174104007'),
 ('CE628','174104023','SATYAM GARG','garg174104023'),
 ('CE628','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -20824,10 +20824,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE628','17410400
 ('CE628','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE628','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE628','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE400','140104073','SUNIL PHOGAT','s.phogat');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE400','140104073','SUNIL PHOGAT','s.phogat');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE400','140104073','SUNIL PHOGAT','s.phogat');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE623','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE400','140104073','SUNIL PHOGAT','s.phogat');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE400','140104073','SUNIL PHOGAT','s.phogat');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE400','140104073','SUNIL PHOGAT','s.phogat');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE623','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE623','174104007','SURAJ YADAV','suraj174104007'),
 ('CE623','174104023','SATYAM GARG','garg174104023'),
 ('CE623','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -20841,7 +20841,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE623','174104002','HA
 ('CE623','174104090','SURENDRA CHOUDHARY','suren174104090'),
 ('CE623','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE623','174104092','PUBALI NAZIR','nazir174104092');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE623','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE623','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE623','174104007','SURAJ YADAV','suraj174104007'),
 ('CE623','174104023','SATYAM GARG','garg174104023'),
 ('CE623','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -20855,7 +20855,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE623','174104002
 ('CE623','174104090','SURENDRA CHOUDHARY','suren174104090'),
 ('CE623','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE623','174104092','PUBALI NAZIR','nazir174104092');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE623','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE623','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE623','174104007','SURAJ YADAV','suraj174104007'),
 ('CE623','174104023','SATYAM GARG','garg174104023'),
 ('CE623','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -20869,7 +20869,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE623','17410400
 ('CE623','174104090','SURENDRA CHOUDHARY','suren174104090'),
 ('CE623','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE623','174104092','PUBALI NAZIR','nazir174104092');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE661','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE661','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE661','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE661','174104018','BIBEK SAHA','bibek174104018'),
 ('CE661','174104019','TYMPANGIKA C SUNGOH','tympa174104019'),
@@ -20887,7 +20887,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE661','174104011','AR
 ('CE661','174104130','TIRUKKOVALURI SNEHASREE','sneha174104130'),
 ('CE661','174104131','SANJIB DAS','das174104131'),
 ('CE661','176104016','NIRANJAN KUMAR','kumar176104016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE661','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE661','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE661','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE661','174104018','BIBEK SAHA','bibek174104018'),
 ('CE661','174104019','TYMPANGIKA C SUNGOH','tympa174104019'),
@@ -20905,7 +20905,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE661','174104011
 ('CE661','174104130','TIRUKKOVALURI SNEHASREE','sneha174104130'),
 ('CE661','174104131','SANJIB DAS','das174104131'),
 ('CE661','176104016','NIRANJAN KUMAR','kumar176104016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE661','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE661','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE661','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE661','174104018','BIBEK SAHA','bibek174104018'),
 ('CE661','174104019','TYMPANGIKA C SUNGOH','tympa174104019'),
@@ -20923,37 +20923,37 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE661','17410401
 ('CE661','174104130','TIRUKKOVALURI SNEHASREE','sneha174104130'),
 ('CE661','174104131','SANJIB DAS','das174104131'),
 ('CE661','176104016','NIRANJAN KUMAR','kumar176104016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE599','164104097','ABHISHEK  DIXIT','abhishek.dixit'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE599','164104097','ABHISHEK  DIXIT','abhishek.dixit'),
 ('CE599','164104098','RUTUJA RAMESH KATE','katerutuja'),
 ('CE599','164104099','CHANDRASEKHAR REDDY  L','chandrasekhar'),
 ('CE599','164104100','ARNAB KUMAR PAL','arnab.pal'),
 ('CE599','164104102','SOURAV   KUMAR','chokker'),
 ('CE599','164104104','CHINTALA   SRIVASAGANAPATHI','chintala2016'),
 ('CE599','164104105','SANDEEP KUMAR MONDAL','mondal');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE599','164104097','ABHISHEK  DIXIT','abhishek.dixit'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE599','164104097','ABHISHEK  DIXIT','abhishek.dixit'),
 ('CE599','164104098','RUTUJA RAMESH KATE','katerutuja'),
 ('CE599','164104099','CHANDRASEKHAR REDDY  L','chandrasekhar'),
 ('CE599','164104100','ARNAB KUMAR PAL','arnab.pal'),
 ('CE599','164104102','SOURAV   KUMAR','chokker'),
 ('CE599','164104104','CHINTALA   SRIVASAGANAPATHI','chintala2016'),
 ('CE599','164104105','SANDEEP KUMAR MONDAL','mondal');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE599','164104097','ABHISHEK  DIXIT','abhishek.dixit'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE599','164104097','ABHISHEK  DIXIT','abhishek.dixit'),
 ('CE599','164104098','RUTUJA RAMESH KATE','katerutuja'),
 ('CE599','164104099','CHANDRASEKHAR REDDY  L','chandrasekhar'),
 ('CE599','164104100','ARNAB KUMAR PAL','arnab.pal'),
 ('CE599','164104102','SOURAV   KUMAR','chokker'),
 ('CE599','164104104','CHINTALA   SRIVASAGANAPATHI','chintala2016'),
 ('CE599','164104105','SANDEEP KUMAR MONDAL','mondal');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE615','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE615','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
 ('CE615','174104061','MRIDUL CHITRANSHI','mridu174104061'),
 ('CE615','174104085','SHAILENDRA HARIOUDH','shail174104085');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE615','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE615','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
 ('CE615','174104061','MRIDUL CHITRANSHI','mridu174104061'),
 ('CE615','174104085','SHAILENDRA HARIOUDH','shail174104085');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE615','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE615','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
 ('CE615','174104061','MRIDUL CHITRANSHI','mridu174104061'),
 ('CE615','174104085','SHAILENDRA HARIOUDH','shail174104085');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE309','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE309','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE309','140104046','OJASV AGARWAL','ojasv'),
 ('CE309','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE309','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21021,7 +21021,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE309','140104030','HA
 ('CE309','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE309','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE309','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE309','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE309','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE309','140104046','OJASV AGARWAL','ojasv'),
 ('CE309','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE309','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21089,7 +21089,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE309','140104030
 ('CE309','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE309','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE309','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE309','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE309','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE309','140104046','OJASV AGARWAL','ojasv'),
 ('CE309','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE309','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21157,7 +21157,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE309','14010403
 ('CE309','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE309','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE309','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE223','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE223','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE223','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE223','160104002','ABHIRAM SINGH','abhiram'),
 ('CE223','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -21211,7 +21211,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE223','140104061','SA
 ('CE223','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE223','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE223','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE223','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE223','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE223','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE223','160104002','ABHIRAM SINGH','abhiram'),
 ('CE223','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -21265,7 +21265,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE223','140104061
 ('CE223','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE223','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE223','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE223','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE223','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE223','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE223','160104002','ABHIRAM SINGH','abhiram'),
 ('CE223','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -21319,7 +21319,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE223','14010406
 ('CE223','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE223','160104081','YOGESH KUMAR','yogesh_2.5'),
 ('CE223','X170104081','JULES FOURNIER','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE664','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE664','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE664','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE664','174104018','BIBEK SAHA','bibek174104018'),
 ('CE664','174104019','TYMPANGIKA C SUNGOH','tympa174104019'),
@@ -21337,7 +21337,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE664','174104011','AR
 ('CE664','174104130','TIRUKKOVALURI SNEHASREE','sneha174104130'),
 ('CE664','174104131','SANJIB DAS','das174104131'),
 ('CE664','176104016','NIRANJAN KUMAR','kumar176104016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE664','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE664','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE664','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE664','174104018','BIBEK SAHA','bibek174104018'),
 ('CE664','174104019','TYMPANGIKA C SUNGOH','tympa174104019'),
@@ -21355,7 +21355,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE664','174104011
 ('CE664','174104130','TIRUKKOVALURI SNEHASREE','sneha174104130'),
 ('CE664','174104131','SANJIB DAS','das174104131'),
 ('CE664','176104016','NIRANJAN KUMAR','kumar176104016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE664','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE664','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE664','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE664','174104018','BIBEK SAHA','bibek174104018'),
 ('CE664','174104019','TYMPANGIKA C SUNGOH','tympa174104019'),
@@ -21373,7 +21373,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE664','17410401
 ('CE664','174104130','TIRUKKOVALURI SNEHASREE','sneha174104130'),
 ('CE664','174104131','SANJIB DAS','das174104131'),
 ('CE664','176104016','NIRANJAN KUMAR','kumar176104016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE308','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE308','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE308','140104046','OJASV AGARWAL','ojasv'),
 ('CE308','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE308','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21441,7 +21441,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE308','140104030','HA
 ('CE308','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE308','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE308','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE308','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE308','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE308','140104046','OJASV AGARWAL','ojasv'),
 ('CE308','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE308','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21509,7 +21509,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE308','140104030
 ('CE308','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE308','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE308','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE308','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE308','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE308','140104046','OJASV AGARWAL','ojasv'),
 ('CE308','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE308','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21577,7 +21577,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE308','14010403
 ('CE308','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE308','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE308','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE314','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE314','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE314','140104046','OJASV AGARWAL','ojasv'),
 ('CE314','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE314','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21645,7 +21645,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE314','140104030','HA
 ('CE314','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE314','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE314','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE314','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE314','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE314','140104046','OJASV AGARWAL','ojasv'),
 ('CE314','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE314','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21713,7 +21713,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE314','140104030
 ('CE314','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE314','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE314','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE314','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE314','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE314','140104046','OJASV AGARWAL','ojasv'),
 ('CE314','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE314','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21781,13 +21781,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE314','14010403
 ('CE314','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE314','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE314','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE505','176104101','Begum EmteAjom','william'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE505','176104101','Begum EmteAjom','william'),
 ('CE505','176104102','Arka Mitra','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE505','176104101','Begum EmteAjom','william'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE505','176104101','Begum EmteAjom','william'),
 ('CE505','176104102','Arka Mitra','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE505','176104101','Begum EmteAjom','william'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE505','176104101','Begum EmteAjom','william'),
 ('CE505','176104102','Arka Mitra','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE315','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE315','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE315','140104046','OJASV AGARWAL','ojasv'),
 ('CE315','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE315','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21855,7 +21855,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE315','140104030','HA
 ('CE315','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE315','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE315','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE315','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE315','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE315','140104046','OJASV AGARWAL','ojasv'),
 ('CE315','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE315','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21923,7 +21923,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE315','140104030
 ('CE315','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE315','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE315','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE315','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE315','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE315','140104046','OJASV AGARWAL','ojasv'),
 ('CE315','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE315','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -21991,7 +21991,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE315','14010403
 ('CE315','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE315','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE315','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE307','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE307','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE307','140104046','OJASV AGARWAL','ojasv'),
 ('CE307','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE307','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -22060,7 +22060,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE307','140104030','HA
 ('CE307','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE307','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE307','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE307','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE307','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE307','140104046','OJASV AGARWAL','ojasv'),
 ('CE307','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE307','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -22129,7 +22129,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE307','140104030
 ('CE307','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE307','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE307','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE307','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE307','140104030','HARIOM KISHORKUMAR DHOOT','hariom.dhoot'),
 ('CE307','140104046','OJASV AGARWAL','ojasv'),
 ('CE307','150104001','AAKARSH CHAUHAN','aakarsh'),
 ('CE307','150104003','ABHISHEK JAIN','abhjain.2015'),
@@ -22198,7 +22198,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE307','14010403
 ('CE307','150104075','VIKRAM AGARWAL','vikram.2015'),
 ('CE307','150104076','VISHVAJEET KANT','vishvajeet'),
 ('CE307','150104077','WILLIAM DUPAK','william');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE646','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE646','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE646','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE646','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE646','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -22225,7 +22225,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE646','174104004','SU
 ('CE646','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE646','176104106','Ujjwal Jyoti Dutta','musha174104140'),
 ('CE646','176104114','DEBASMITA PAL','musha174104140');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE646','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE646','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE646','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE646','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE646','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -22252,7 +22252,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE646','174104004
 ('CE646','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE646','176104106','Ujjwal Jyoti Dutta','musha174104140'),
 ('CE646','176104114','DEBASMITA PAL','musha174104140');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE646','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE646','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE646','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE646','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE646','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -22279,7 +22279,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE646','17410400
 ('CE646','174104140','LAHIT MUSHAHARY','musha174104140'),
 ('CE646','176104106','Ujjwal Jyoti Dutta','musha174104140'),
 ('CE646','176104114','DEBASMITA PAL','musha174104140');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE697','154104065','SANGITA PANI','sangita.pani'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE697','154104065','SANGITA PANI','sangita.pani'),
 ('CE697','164104056','PRAJNA  PARMITA','prajna'),
 ('CE697','164104057','JYOTI  TAPARIA','jyoti.taparia'),
 ('CE697','164104058','MAYANK KISHORBHAI ADHADUK','mayank.adhaduk'),
@@ -22292,7 +22292,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE697','154104065','SA
 ('CE697','164104071','RIDDICK  KAKATI','riddick.kakati'),
 ('CE697','164104072','JHILAM  SINHA','jhilam'),
 ('CE697','164104122','OM  PRAKASH  VATS','om.vats');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE697','154104065','SANGITA PANI','sangita.pani'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE697','154104065','SANGITA PANI','sangita.pani'),
 ('CE697','164104056','PRAJNA  PARMITA','prajna'),
 ('CE697','164104057','JYOTI  TAPARIA','jyoti.taparia'),
 ('CE697','164104058','MAYANK KISHORBHAI ADHADUK','mayank.adhaduk'),
@@ -22305,7 +22305,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE697','154104065
 ('CE697','164104071','RIDDICK  KAKATI','riddick.kakati'),
 ('CE697','164104072','JHILAM  SINHA','jhilam'),
 ('CE697','164104122','OM  PRAKASH  VATS','om.vats');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE697','154104065','SANGITA PANI','sangita.pani'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE697','154104065','SANGITA PANI','sangita.pani'),
 ('CE697','164104056','PRAJNA  PARMITA','prajna'),
 ('CE697','164104057','JYOTI  TAPARIA','jyoti.taparia'),
 ('CE697','164104058','MAYANK KISHORBHAI ADHADUK','mayank.adhaduk'),
@@ -22318,22 +22318,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE697','15410406
 ('CE697','164104071','RIDDICK  KAKATI','riddick.kakati'),
 ('CE697','164104072','JHILAM  SINHA','jhilam'),
 ('CE697','164104122','OM  PRAKASH  VATS','om.vats');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE695','164104073','ARPIT  SHUKLA','Arpit007'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE695','164104073','ARPIT  SHUKLA','Arpit007'),
 ('CE695','164104076','AYUSHI  SHARMA','ayushi.sharma'),
 ('CE695','164104078','HIMANSHU  VERMA','himanshu.verma'),
 ('CE695','164104079','JAMIYA  BASUMATARY','jamiya'),
 ('CE695','164104110','MEBRAHTOM ARAYA GEBREMARIAM ','mere');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE695','164104073','ARPIT  SHUKLA','Arpit007'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE695','164104073','ARPIT  SHUKLA','Arpit007'),
 ('CE695','164104076','AYUSHI  SHARMA','ayushi.sharma'),
 ('CE695','164104078','HIMANSHU  VERMA','himanshu.verma'),
 ('CE695','164104079','JAMIYA  BASUMATARY','jamiya'),
 ('CE695','164104110','MEBRAHTOM ARAYA GEBREMARIAM ','mere');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE695','164104073','ARPIT  SHUKLA','Arpit007'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE695','164104073','ARPIT  SHUKLA','Arpit007'),
 ('CE695','164104076','AYUSHI  SHARMA','ayushi.sharma'),
 ('CE695','164104078','HIMANSHU  VERMA','himanshu.verma'),
 ('CE695','164104079','JAMIYA  BASUMATARY','jamiya'),
 ('CE695','164104110','MEBRAHTOM ARAYA GEBREMARIAM ','mere');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE514','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE514','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE514','140104015','AVNISH NANDA','avnish.nanda'),
 ('CE514','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
 ('CE514','140104039','LALIT KUMAR MAKSHANA','m.lalit'),
@@ -22345,7 +22345,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE514','140104003','AB
 ('CE514','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
 ('CE514','174104059','ANIL KUMAR','anil174104059'),
 ('CE514','174104081','ABHISHEK KUMAR','kumar174104081');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE514','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE514','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE514','140104015','AVNISH NANDA','avnish.nanda'),
 ('CE514','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
 ('CE514','140104039','LALIT KUMAR MAKSHANA','m.lalit'),
@@ -22357,7 +22357,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE514','140104003
 ('CE514','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
 ('CE514','174104059','ANIL KUMAR','anil174104059'),
 ('CE514','174104081','ABHISHEK KUMAR','kumar174104081');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE514','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE514','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE514','140104015','AVNISH NANDA','avnish.nanda'),
 ('CE514','140104021','BUKKE SIVA PRASAD NAIK','bukke.naik'),
 ('CE514','140104039','LALIT KUMAR MAKSHANA','m.lalit'),
@@ -22369,7 +22369,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE514','14010400
 ('CE514','174104032','BHATT DEEP PARESHKUMAR','deep174104032'),
 ('CE514','174104059','ANIL KUMAR','anil174104059'),
 ('CE514','174104081','ABHISHEK KUMAR','kumar174104081');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE221','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE221','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE221','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE221','160104002','ABHIRAM SINGH','abhiram'),
 ('CE221','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -22422,7 +22422,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE221','140104061','SA
 ('CE221','160104079','VIVEK SINGH','viveksingh'),
 ('CE221','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE221','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE221','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE221','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE221','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE221','160104002','ABHIRAM SINGH','abhiram'),
 ('CE221','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -22475,7 +22475,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE221','140104061
 ('CE221','160104079','VIVEK SINGH','viveksingh'),
 ('CE221','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE221','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE221','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE221','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE221','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE221','160104002','ABHIRAM SINGH','abhiram'),
 ('CE221','160104003','ABHISHEK KAUSHAL','kaushal.abhishek'),
@@ -22528,7 +22528,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE221','14010406
 ('CE221','160104079','VIVEK SINGH','viveksingh'),
 ('CE221','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE221','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE533','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE533','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE533','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE533','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE533','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -22547,7 +22547,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE533','174104004','SU
 ('CE533','174104106','BHARAT RATTAN','bhara174104106'),
 ('CE533','174104135','RITURAJ DEVRANI','ritur174104135'),
 ('CE533','176104114','DEBASMITA PAL','ritur174104135');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE533','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE533','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE533','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE533','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE533','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -22566,7 +22566,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE533','174104004
 ('CE533','174104106','BHARAT RATTAN','bhara174104106'),
 ('CE533','174104135','RITURAJ DEVRANI','ritur174104135'),
 ('CE533','176104114','DEBASMITA PAL','ritur174104135');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE533','174104004','SUSMIT BORUAH','susmi174104004'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE533','174104004','SUSMIT BORUAH','susmi174104004'),
 ('CE533','174104005','NAVNEETH KARMACHANDRAN','karma174104005'),
 ('CE533','174104045','TUSSHAR SHARMA','tussh174104045'),
 ('CE533','174104054','NITISH KUMAR YADAV','nitis174104054'),
@@ -22585,7 +22585,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE533','17410400
 ('CE533','174104106','BHARAT RATTAN','bhara174104106'),
 ('CE533','174104135','RITURAJ DEVRANI','ritur174104135'),
 ('CE533','176104114','DEBASMITA PAL','ritur174104135');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE607','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE607','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE607','140104026','GAURAV VERMA','gaurav.verma'),
 ('CE607','140104031','HEMANT KUMAR','hemant.2014'),
 ('CE607','140104032','HEMANT VERMA','hemant.verma'),
@@ -22605,7 +22605,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE607','140104003','AB
 ('CE607','174104076','AHMAD ALMAMO ','ahmad174104076'),
 ('CE607','176104102','Arka Mitra','ahmad174104076'),
 ('CE607','176104111','Subhra Das','ahmad174104076');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE607','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE607','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE607','140104026','GAURAV VERMA','gaurav.verma'),
 ('CE607','140104031','HEMANT KUMAR','hemant.2014'),
 ('CE607','140104032','HEMANT VERMA','hemant.verma'),
@@ -22625,7 +22625,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE607','140104003
 ('CE607','174104076','AHMAD ALMAMO ','ahmad174104076'),
 ('CE607','176104102','Arka Mitra','ahmad174104076'),
 ('CE607','176104111','Subhra Das','ahmad174104076');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE607','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE607','140104003','ABHIJEET SANJAY SHELKE','a.shelke'),
 ('CE607','140104026','GAURAV VERMA','gaurav.verma'),
 ('CE607','140104031','HEMANT KUMAR','hemant.2014'),
 ('CE607','140104032','HEMANT VERMA','hemant.verma'),
@@ -22645,7 +22645,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE607','14010400
 ('CE607','174104076','AHMAD ALMAMO ','ahmad174104076'),
 ('CE607','176104102','Arka Mitra','ahmad174104076'),
 ('CE607','176104111','Subhra Das','ahmad174104076');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE544','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE544','174104006','NIPUN JAIN','nipun174104006'),
 ('CE544','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE544','174104073','ABDUL BASIR','basir174104073'),
 ('CE544','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -22656,7 +22656,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE544','174104006','NI
 ('CE544','174104108','PARAMITA SAHA','saha174104108'),
 ('CE544','174104109','DANIEL PAPANG','danie174104109'),
 ('CE544','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE544','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE544','174104006','NIPUN JAIN','nipun174104006'),
 ('CE544','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE544','174104073','ABDUL BASIR','basir174104073'),
 ('CE544','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -22667,7 +22667,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE544','174104006
 ('CE544','174104108','PARAMITA SAHA','saha174104108'),
 ('CE544','174104109','DANIEL PAPANG','danie174104109'),
 ('CE544','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE544','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE544','174104006','NIPUN JAIN','nipun174104006'),
 ('CE544','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE544','174104073','ABDUL BASIR','basir174104073'),
 ('CE544','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -22678,7 +22678,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE544','17410400
 ('CE544','174104108','PARAMITA SAHA','saha174104108'),
 ('CE544','174104109','DANIEL PAPANG','danie174104109'),
 ('CE544','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE585','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE585','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE585','174104007','SURAJ YADAV','suraj174104007'),
 ('CE585','174104023','SATYAM GARG','garg174104023'),
 ('CE585','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -22692,7 +22692,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE585','174104002','HA
 ('CE585','174104090','SURENDRA CHOUDHARY','suren174104090'),
 ('CE585','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE585','174104092','PUBALI NAZIR','nazir174104092');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE585','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE585','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE585','174104007','SURAJ YADAV','suraj174104007'),
 ('CE585','174104023','SATYAM GARG','garg174104023'),
 ('CE585','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -22706,7 +22706,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE585','174104002
 ('CE585','174104090','SURENDRA CHOUDHARY','suren174104090'),
 ('CE585','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE585','174104092','PUBALI NAZIR','nazir174104092');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE585','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE585','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE585','174104007','SURAJ YADAV','suraj174104007'),
 ('CE585','174104023','SATYAM GARG','garg174104023'),
 ('CE585','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -22720,7 +22720,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE585','17410400
 ('CE585','174104090','SURENDRA CHOUDHARY','suren174104090'),
 ('CE585','174104091','INDRANIL HAZARIKA','indra174104091'),
 ('CE585','174104092','PUBALI NAZIR','nazir174104092');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE594','140104007','AMAR KUMAR','amar.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE594','140104007','AMAR KUMAR','amar.kumar'),
 ('CE594','140104059','SAJAL PACHAURI','s.pachauri'),
 ('CE594','140104077','VIDYADHAR V PATIL','vidyadhar'),
 ('CE594','174104034','POOJA PATEL','pooja174104034'),
@@ -22736,7 +22736,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE594','140104007','AM
 ('CE594','176104005','ADNAN AHMAD','adnan176104005'),
 ('CE594','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE594','176104109','Sutapa Bhattacharjee','utla176104018');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE594','140104007','AMAR KUMAR','amar.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE594','140104007','AMAR KUMAR','amar.kumar'),
 ('CE594','140104059','SAJAL PACHAURI','s.pachauri'),
 ('CE594','140104077','VIDYADHAR V PATIL','vidyadhar'),
 ('CE594','174104034','POOJA PATEL','pooja174104034'),
@@ -22752,7 +22752,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE594','140104007
 ('CE594','176104005','ADNAN AHMAD','adnan176104005'),
 ('CE594','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE594','176104109','Sutapa Bhattacharjee','utla176104018');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE594','140104007','AMAR KUMAR','amar.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE594','140104007','AMAR KUMAR','amar.kumar'),
 ('CE594','140104059','SAJAL PACHAURI','s.pachauri'),
 ('CE594','140104077','VIDYADHAR V PATIL','vidyadhar'),
 ('CE594','174104034','POOJA PATEL','pooja174104034'),
@@ -22768,7 +22768,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE594','14010400
 ('CE594','176104005','ADNAN AHMAD','adnan176104005'),
 ('CE594','176104018','UTLA CHANDRA SEKHAR','utla176104018'),
 ('CE594','176104109','Sutapa Bhattacharjee','utla176104018');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE525','156104038','CHEJARLA VENKATESH REDDY','chejarla'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE525','156104038','CHEJARLA VENKATESH REDDY','chejarla'),
 ('CE525','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE525','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE525','174104016','SMITOM SWAPNA BORAH','borah174104016'),
@@ -22790,7 +22790,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE525','156104038','CH
 ('CE525','176104004','SIDDHANT DASH','dash176104004'),
 ('CE525','176104016','NIRANJAN KUMAR','kumar176104016'),
 ('CE525','176154002','HEENA KAUSER','heena176154002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE525','156104038','CHEJARLA VENKATESH REDDY','chejarla'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE525','156104038','CHEJARLA VENKATESH REDDY','chejarla'),
 ('CE525','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE525','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE525','174104016','SMITOM SWAPNA BORAH','borah174104016'),
@@ -22812,7 +22812,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE525','156104038
 ('CE525','176104004','SIDDHANT DASH','dash176104004'),
 ('CE525','176104016','NIRANJAN KUMAR','kumar176104016'),
 ('CE525','176154002','HEENA KAUSER','heena176154002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE525','156104038','CHEJARLA VENKATESH REDDY','chejarla'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE525','156104038','CHEJARLA VENKATESH REDDY','chejarla'),
 ('CE525','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE525','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE525','174104016','SMITOM SWAPNA BORAH','borah174104016'),
@@ -22834,7 +22834,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE525','15610403
 ('CE525','176104004','SIDDHANT DASH','dash176104004'),
 ('CE525','176104016','NIRANJAN KUMAR','kumar176104016'),
 ('CE525','176154002','HEENA KAUSER','heena176154002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE205','140104055','RAVINDRA PRAKASH FARDOLIYA','r.fardoliya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE205','140104055','RAVINDRA PRAKASH FARDOLIYA','r.fardoliya'),
 ('CE205','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE205','150104007','ANIL NANGKAR','anil.nangkar'),
 ('CE205','150104077','WILLIAM DUPAK','william'),
@@ -22890,7 +22890,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE205','140104055','RA
 ('CE205','160104079','VIVEK SINGH','viveksingh'),
 ('CE205','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE205','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE205','140104055','RAVINDRA PRAKASH FARDOLIYA','r.fardoliya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE205','140104055','RAVINDRA PRAKASH FARDOLIYA','r.fardoliya'),
 ('CE205','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE205','150104007','ANIL NANGKAR','anil.nangkar'),
 ('CE205','150104077','WILLIAM DUPAK','william'),
@@ -22946,7 +22946,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE205','140104055
 ('CE205','160104079','VIVEK SINGH','viveksingh'),
 ('CE205','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE205','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE205','140104055','RAVINDRA PRAKASH FARDOLIYA','r.fardoliya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE205','140104055','RAVINDRA PRAKASH FARDOLIYA','r.fardoliya'),
 ('CE205','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE205','150104007','ANIL NANGKAR','anil.nangkar'),
 ('CE205','150104077','WILLIAM DUPAK','william'),
@@ -23002,7 +23002,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE205','14010405
 ('CE205','160104079','VIVEK SINGH','viveksingh'),
 ('CE205','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE205','160104081','YOGESH KUMAR','yogesh_2.5');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE614','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE614','174104006','NIPUN JAIN','nipun174104006'),
 ('CE614','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE614','174104073','ABDUL BASIR','basir174104073'),
 ('CE614','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -23015,7 +23015,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE614','174104006','NI
 ('CE614','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE614','176104108','Alice Boruah','samue174104141'),
 ('CE614','176104110','Saibaba Ankala','samue174104141');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE614','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE614','174104006','NIPUN JAIN','nipun174104006'),
 ('CE614','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE614','174104073','ABDUL BASIR','basir174104073'),
 ('CE614','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -23028,7 +23028,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE614','174104006
 ('CE614','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE614','176104108','Alice Boruah','samue174104141'),
 ('CE614','176104110','Saibaba Ankala','samue174104141');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE614','174104006','NIPUN JAIN','nipun174104006'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE614','174104006','NIPUN JAIN','nipun174104006'),
 ('CE614','174104051','OKESH CHAUHAN','okesh174104051'),
 ('CE614','174104073','ABDUL BASIR','basir174104073'),
 ('CE614','174104074','SAYED JAMALUDDIN SADAT','jamal174104074'),
@@ -23041,7 +23041,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE614','17410400
 ('CE614','174104141','MICHAEL SAMUEL PREETHAM RAJ','samue174104141'),
 ('CE614','176104108','Alice Boruah','samue174104141'),
 ('CE614','176104110','Saibaba Ankala','samue174104141');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE524','164104083','SAURABH  AHUJA','saurabhahuja'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE524','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE524','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE524','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE524','174104018','BIBEK SAHA','bibek174104018'),
@@ -23062,7 +23062,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE524','164104083','SA
 ('CE524','176104016','NIRANJAN KUMAR','kumar176104016'),
 ('CE524','176152009','AQUIB JAWED','aquib176152009'),
 ('CE524','176152101','Tinka Singh','aquib176152009');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE524','164104083','SAURABH  AHUJA','saurabhahuja'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE524','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE524','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE524','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE524','174104018','BIBEK SAHA','bibek174104018'),
@@ -23083,7 +23083,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE524','164104083
 ('CE524','176104016','NIRANJAN KUMAR','kumar176104016'),
 ('CE524','176152009','AQUIB JAWED','aquib176152009'),
 ('CE524','176152101','Tinka Singh','aquib176152009');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE524','164104083','SAURABH  AHUJA','saurabhahuja'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE524','164104083','SAURABH  AHUJA','saurabhahuja'),
 ('CE524','174104011','ARUNDEEP SINGH PANWAR','singh174104011'),
 ('CE524','174104016','SMITOM SWAPNA BORAH','borah174104016'),
 ('CE524','174104018','BIBEK SAHA','bibek174104018'),
@@ -23104,7 +23104,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE524','16410408
 ('CE524','176104016','NIRANJAN KUMAR','kumar176104016'),
 ('CE524','176152009','AQUIB JAWED','aquib176152009'),
 ('CE524','176152101','Tinka Singh','aquib176152009');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE570','174104062','MUHAMMED SHABEEB EK','ek174104062'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE570','174104062','MUHAMMED SHABEEB EK','ek174104062'),
 ('CE570','174104110','SUBHRA SEKHAR MAITY','maity174104110'),
 ('CE570','174104111','SUBHAJIT DUTTA','subha174104111'),
 ('CE570','174104112','VED PRAKASH','ved174104112'),
@@ -23120,7 +23120,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE570','174104062','MU
 ('CE570','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE570','174104124','VIJAY MEENA','vijay174104124'),
 ('CE570','176104103','Dipsikha Devi','vijay174104124');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE570','174104062','MUHAMMED SHABEEB EK','ek174104062'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE570','174104062','MUHAMMED SHABEEB EK','ek174104062'),
 ('CE570','174104110','SUBHRA SEKHAR MAITY','maity174104110'),
 ('CE570','174104111','SUBHAJIT DUTTA','subha174104111'),
 ('CE570','174104112','VED PRAKASH','ved174104112'),
@@ -23136,7 +23136,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE570','174104062
 ('CE570','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE570','174104124','VIJAY MEENA','vijay174104124'),
 ('CE570','176104103','Dipsikha Devi','vijay174104124');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE570','174104062','MUHAMMED SHABEEB EK','ek174104062'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE570','174104062','MUHAMMED SHABEEB EK','ek174104062'),
 ('CE570','174104110','SUBHRA SEKHAR MAITY','maity174104110'),
 ('CE570','174104111','SUBHAJIT DUTTA','subha174104111'),
 ('CE570','174104112','VED PRAKASH','ved174104112'),
@@ -23152,7 +23152,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE570','17410406
 ('CE570','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE570','174104124','VIJAY MEENA','vijay174104124'),
 ('CE570','176104103','Dipsikha Devi','vijay174104124');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE584','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE584','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE584','174104007','SURAJ YADAV','suraj174104007'),
 ('CE584','174104023','SATYAM GARG','garg174104023'),
 ('CE584','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -23168,7 +23168,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE584','174104002','HA
 ('CE584','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE584','176104108','Alice Boruah','nazir174104092'),
 ('CE584','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE584','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE584','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE584','174104007','SURAJ YADAV','suraj174104007'),
 ('CE584','174104023','SATYAM GARG','garg174104023'),
 ('CE584','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -23184,7 +23184,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE584','174104002
 ('CE584','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE584','176104108','Alice Boruah','nazir174104092'),
 ('CE584','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE584','174104002','HARI DEV PEGU','pegu174104002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE584','174104002','HARI DEV PEGU','pegu174104002'),
 ('CE584','174104007','SURAJ YADAV','suraj174104007'),
 ('CE584','174104023','SATYAM GARG','garg174104023'),
 ('CE584','174104035','ANKUSH KUMAR','ankus174104035'),
@@ -23200,7 +23200,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE584','17410400
 ('CE584','174104092','PUBALI NAZIR','nazir174104092'),
 ('CE584','176104108','Alice Boruah','nazir174104092'),
 ('CE584','176104113','Koustabh Bora','nazir174104092');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE206','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE206','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE206','150104007','ANIL NANGKAR','anil.nangkar'),
 ('CE206','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE206','160104002','ABHIRAM SINGH','abhiram'),
@@ -23253,7 +23253,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE206','140104061','SA
 ('CE206','160104079','VIVEK SINGH','viveksingh'),
 ('CE206','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE206','X170104081','JULES FOURNIER','yashwardhan');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE206','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE206','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE206','150104007','ANIL NANGKAR','anil.nangkar'),
 ('CE206','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE206','160104002','ABHIRAM SINGH','abhiram'),
@@ -23306,7 +23306,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE206','140104061
 ('CE206','160104079','VIVEK SINGH','viveksingh'),
 ('CE206','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE206','X170104081','JULES FOURNIER','yashwardhan');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE206','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE206','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('CE206','150104007','ANIL NANGKAR','anil.nangkar'),
 ('CE206','160104001','A OM PRAKASH SUBUDHI','aopsubudhi'),
 ('CE206','160104002','ABHIRAM SINGH','abhiram'),
@@ -23359,7 +23359,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE206','14010406
 ('CE206','160104079','VIVEK SINGH','viveksingh'),
 ('CE206','160104080','YASHWARDHAN PANWAR','yashwardhan'),
 ('CE206','X170104081','JULES FOURNIER','yashwardhan');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE556','164104056','PRAJNA  PARMITA','prajna'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE556','164104056','PRAJNA  PARMITA','prajna'),
 ('CE556','174104062','MUHAMMED SHABEEB EK','ek174104062'),
 ('CE556','174104110','SUBHRA SEKHAR MAITY','maity174104110'),
 ('CE556','174104111','SUBHAJIT DUTTA','subha174104111'),
@@ -23375,7 +23375,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE556','164104056','PR
 ('CE556','174104122','AMIT SIDDHARTH','amit174104122'),
 ('CE556','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE556','174104124','VIJAY MEENA','vijay174104124');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE556','164104056','PRAJNA  PARMITA','prajna'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE556','164104056','PRAJNA  PARMITA','prajna'),
 ('CE556','174104062','MUHAMMED SHABEEB EK','ek174104062'),
 ('CE556','174104110','SUBHRA SEKHAR MAITY','maity174104110'),
 ('CE556','174104111','SUBHAJIT DUTTA','subha174104111'),
@@ -23391,7 +23391,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE556','164104056
 ('CE556','174104122','AMIT SIDDHARTH','amit174104122'),
 ('CE556','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE556','174104124','VIJAY MEENA','vijay174104124');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE556','164104056','PRAJNA  PARMITA','prajna'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE556','164104056','PRAJNA  PARMITA','prajna'),
 ('CE556','174104062','MUHAMMED SHABEEB EK','ek174104062'),
 ('CE556','174104110','SUBHRA SEKHAR MAITY','maity174104110'),
 ('CE556','174104111','SUBHAJIT DUTTA','subha174104111'),
@@ -23407,7 +23407,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE556','16410405
 ('CE556','174104122','AMIT SIDDHARTH','amit174104122'),
 ('CE556','174104123','PRABHAKAR CHOUDHARY','prabh174104123'),
 ('CE556','174104124','VIJAY MEENA','vijay174104124');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE648','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CE648','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE648','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE648','140104004','AJAY C ANTO','a.anto'),
 ('CE648','140104005','AKASH CHOUKSEY','c.akash'),
@@ -23479,7 +23479,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CE648','120104069','SU
 ('CE648','174104139','DHRITILEKHA DEKA','dhrit174104139'),
 ('CE648','176104101','Begum EmteAjom','dhrit174104139'),
 ('CE648','176104114','DEBASMITA PAL','dhrit174104139');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE648','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CE648','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE648','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE648','140104004','AJAY C ANTO','a.anto'),
 ('CE648','140104005','AKASH CHOUKSEY','c.akash'),
@@ -23551,7 +23551,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CE648','120104069
 ('CE648','174104139','DHRITILEKHA DEKA','dhrit174104139'),
 ('CE648','176104101','Begum EmteAjom','dhrit174104139'),
 ('CE648','176104114','DEBASMITA PAL','dhrit174104139');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE648','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CE648','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('CE648','140104002','ABHAY PAL SINGH','abhay.2014'),
 ('CE648','140104004','AJAY C ANTO','a.anto'),
 ('CE648','140104005','AKASH CHOUKSEY','c.akash'),
@@ -23623,7 +23623,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CE648','12010406
 ('CE648','174104139','DHRITILEKHA DEKA','dhrit174104139'),
 ('CE648','176104101','Begum EmteAjom','dhrit174104139'),
 ('CE648','176104114','DEBASMITA PAL','dhrit174104139');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS420','140101002','ABHINAV SINGH','abhinav.2014'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS420','140101002','ABHINAV SINGH','abhinav.2014'),
 ('HS420','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
 ('HS420','140101036','MACHAVARAM HEMANTH KUMAR VENKATA','machavaram'),
 ('HS420','140101045','NITISH GARG','g.nitish'),
@@ -23683,7 +23683,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS420','140101002','AB
 ('HS420','140205030','PRIYANK AGARWAL','a.priyank'),
 ('HS420','140205040','VAIBHAV GUPTA','vaibhav.gupta'),
 ('HS420','140205042','VEGIREDDI PRADEEP KUMAR','vegireddi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS420','140101002','ABHINAV SINGH','abhinav.2014'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS420','140101002','ABHINAV SINGH','abhinav.2014'),
 ('HS420','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
 ('HS420','140101036','MACHAVARAM HEMANTH KUMAR VENKATA','machavaram'),
 ('HS420','140101045','NITISH GARG','g.nitish'),
@@ -23743,7 +23743,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS420','140101002
 ('HS420','140205030','PRIYANK AGARWAL','a.priyank'),
 ('HS420','140205040','VAIBHAV GUPTA','vaibhav.gupta'),
 ('HS420','140205042','VEGIREDDI PRADEEP KUMAR','vegireddi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS420','140101002','ABHINAV SINGH','abhinav.2014'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS420','140101002','ABHINAV SINGH','abhinav.2014'),
 ('HS420','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
 ('HS420','140101036','MACHAVARAM HEMANTH KUMAR VENKATA','machavaram'),
 ('HS420','140101045','NITISH GARG','g.nitish'),
@@ -23803,19 +23803,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS420','14010100
 ('HS420','140205030','PRIYANK AGARWAL','a.priyank'),
 ('HS420','140205040','VAIBHAV GUPTA','vaibhav.gupta'),
 ('HS420','140205042','VEGIREDDI PRADEEP KUMAR','vegireddi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS717','176141011','SATWIK UPADHYAY','satwi176141011');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS717','176141011','SATWIK UPADHYAY','satwi176141011');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS717','176141011','SATWIK UPADHYAY','satwi176141011');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS755','176141008','PALLABI CHAKRABORTY','palla176141008'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS717','176141011','SATWIK UPADHYAY','satwi176141011');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS717','176141011','SATWIK UPADHYAY','satwi176141011');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS717','176141011','SATWIK UPADHYAY','satwi176141011');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS755','176141008','PALLABI CHAKRABORTY','palla176141008'),
 ('HS755','176141009','KASHMIRI DAS','das176141009'),
 ('HS755','176141013','MAUSUMI DAS','das176141013');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS755','176141008','PALLABI CHAKRABORTY','palla176141008'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS755','176141008','PALLABI CHAKRABORTY','palla176141008'),
 ('HS755','176141009','KASHMIRI DAS','das176141009'),
 ('HS755','176141013','MAUSUMI DAS','das176141013');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS755','176141008','PALLABI CHAKRABORTY','palla176141008'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS755','176141008','PALLABI CHAKRABORTY','palla176141008'),
 ('HS755','176141009','KASHMIRI DAS','das176141009'),
 ('HS755','176141013','MAUSUMI DAS','das176141013');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS242','150122008','ARPIT VERMA','arpit.verma'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS242','150122008','ARPIT VERMA','arpit.verma'),
 ('HS242','150122045','YOGESHWAR RAJ BHARTI','yogeshwar'),
 ('HS242','160101022','BODDU HARI','hariboddu_98'),
 ('HS242','160101037','KAKUSTHAM ANURAG','kakusthamanurag'),
@@ -23868,7 +23868,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS242','150122008','AR
 ('HS242','160205026','NIRANJAN R. BHARATI','niranjan.bharati'),
 ('HS242','160205027','NISHITA SUDHIR','nishitaSudhir09'),
 ('HS242','160205039','SIDHARTH P','sidharth.p');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS242','150122008','ARPIT VERMA','arpit.verma'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS242','150122008','ARPIT VERMA','arpit.verma'),
 ('HS242','150122045','YOGESHWAR RAJ BHARTI','yogeshwar'),
 ('HS242','160101022','BODDU HARI','hariboddu_98'),
 ('HS242','160101037','KAKUSTHAM ANURAG','kakusthamanurag'),
@@ -23921,7 +23921,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS242','150122008
 ('HS242','160205026','NIRANJAN R. BHARATI','niranjan.bharati'),
 ('HS242','160205027','NISHITA SUDHIR','nishitaSudhir09'),
 ('HS242','160205039','SIDHARTH P','sidharth.p');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS242','150122008','ARPIT VERMA','arpit.verma'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS242','150122008','ARPIT VERMA','arpit.verma'),
 ('HS242','150122045','YOGESHWAR RAJ BHARTI','yogeshwar'),
 ('HS242','160101022','BODDU HARI','hariboddu_98'),
 ('HS242','160101037','KAKUSTHAM ANURAG','kakusthamanurag'),
@@ -23974,7 +23974,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS242','15012200
 ('HS242','160205026','NIRANJAN R. BHARATI','niranjan.bharati'),
 ('HS242','160205027','NISHITA SUDHIR','nishitaSudhir09'),
 ('HS242','160205039','SIDHARTH P','sidharth.p');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS422','140101001','ABHINAV PRINCE','p.abhinav'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS422','140101001','ABHINAV PRINCE','p.abhinav'),
 ('HS422','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
 ('HS422','140101012','ASHISH KUMAR NETAM','a.netam'),
 ('HS422','140101016','CHETNA WARKADE','c.warkade'),
@@ -24032,7 +24032,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS422','140101001','AB
 ('HS422','140205018','MALLA PRASANTH','m.prasanth'),
 ('HS422','140205027','PINGAL KAKATI','p.kakati'),
 ('HS422','140205035','SAJIYA CHAUDHARY','sajiya');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS422','140101001','ABHINAV PRINCE','p.abhinav'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS422','140101001','ABHINAV PRINCE','p.abhinav'),
 ('HS422','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
 ('HS422','140101012','ASHISH KUMAR NETAM','a.netam'),
 ('HS422','140101016','CHETNA WARKADE','c.warkade'),
@@ -24090,7 +24090,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS422','140101001
 ('HS422','140205018','MALLA PRASANTH','m.prasanth'),
 ('HS422','140205027','PINGAL KAKATI','p.kakati'),
 ('HS422','140205035','SAJIYA CHAUDHARY','sajiya');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS422','140101001','ABHINAV PRINCE','p.abhinav'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS422','140101001','ABHINAV PRINCE','p.abhinav'),
 ('HS422','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
 ('HS422','140101012','ASHISH KUMAR NETAM','a.netam'),
 ('HS422','140101016','CHETNA WARKADE','c.warkade'),
@@ -24148,7 +24148,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS422','14010100
 ('HS422','140205018','MALLA PRASANTH','m.prasanth'),
 ('HS422','140205027','PINGAL KAKATI','p.kakati'),
 ('HS422','140205035','SAJIYA CHAUDHARY','sajiya');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS226','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS226','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
 ('HS226','160101008','ABHISHEK RANJAN','avisek.ranjan'),
 ('HS226','160101018','AVINASH UCHCHAINIYA','iitianavinash3142'),
 ('HS226','160101025','DIVYAM AGARWAL','divyam.agarwal'),
@@ -24198,7 +24198,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS226','160101007','AB
 ('HS226','160123020','MITANSHU MITTAL','mitanshu.sheo'),
 ('HS226','160123031','RAJAN SUKANTH','rajan.sukanth'),
 ('HS226','160205003','AGRATA PATEL','agrata');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS226','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS226','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
 ('HS226','160101008','ABHISHEK RANJAN','avisek.ranjan'),
 ('HS226','160101018','AVINASH UCHCHAINIYA','iitianavinash3142'),
 ('HS226','160101025','DIVYAM AGARWAL','divyam.agarwal'),
@@ -24248,7 +24248,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS226','160101007
 ('HS226','160123020','MITANSHU MITTAL','mitanshu.sheo'),
 ('HS226','160123031','RAJAN SUKANTH','rajan.sukanth'),
 ('HS226','160205003','AGRATA PATEL','agrata');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS226','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS226','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
 ('HS226','160101008','ABHISHEK RANJAN','avisek.ranjan'),
 ('HS226','160101018','AVINASH UCHCHAINIYA','iitianavinash3142'),
 ('HS226','160101025','DIVYAM AGARWAL','divyam.agarwal'),
@@ -24298,7 +24298,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS226','16010100
 ('HS226','160123020','MITANSHU MITTAL','mitanshu.sheo'),
 ('HS226','160123031','RAJAN SUKANTH','rajan.sukanth'),
 ('HS226','160205003','AGRATA PATEL','agrata');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS212','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS212','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('HS212','160101060','SANCHIT JANGIR','sanchitjangir'),
 ('HS212','160101062','SAVINAY','savinay'),
 ('HS212','160101064','SEELAM PRADEEPA','pradeepa.seelam'),
@@ -24348,7 +24348,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS212','160101003','AB
 ('HS212','160205021','MAYANK PARAB','mayank.parab'),
 ('HS212','160205022','MIDHUN MOHAN','midhun_mohan.13'),
 ('HS212','160205029','PASUPULETI SRUJAN','pasupuletisrujan');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS212','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS212','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('HS212','160101060','SANCHIT JANGIR','sanchitjangir'),
 ('HS212','160101062','SAVINAY','savinay'),
 ('HS212','160101064','SEELAM PRADEEPA','pradeepa.seelam'),
@@ -24398,7 +24398,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS212','160101003
 ('HS212','160205021','MAYANK PARAB','mayank.parab'),
 ('HS212','160205022','MIDHUN MOHAN','midhun_mohan.13'),
 ('HS212','160205029','PASUPULETI SRUJAN','pasupuletisrujan');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS212','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS212','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('HS212','160101060','SANCHIT JANGIR','sanchitjangir'),
 ('HS212','160101062','SAVINAY','savinay'),
 ('HS212','160101064','SEELAM PRADEEPA','pradeepa.seelam'),
@@ -24448,7 +24448,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS212','16010100
 ('HS212','160205021','MAYANK PARAB','mayank.parab'),
 ('HS212','160205022','MIDHUN MOHAN','midhun_mohan.13'),
 ('HS212','160205029','PASUPULETI SRUJAN','pasupuletisrujan');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS213','160101038','KANIKA AGARWAL','kanika28'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS213','160101038','KANIKA AGARWAL','kanika28'),
 ('HS213','160102006','AMARTYA ROY','amartyaroy50'),
 ('HS213','160102011','ANIKET BALIYAN','aniketbaliyan'),
 ('HS213','160102056','ROHIT GUPTA','rohitmm'),
@@ -24493,7 +24493,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS213','160101038','KA
 ('HS213','160205038','SENTHUR BALAJI P S','senthurbalaji'),
 ('HS213','160205040','SREE MAHIT MUNAKALA','sreemahitm'),
 ('HS213','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS213','160101038','KANIKA AGARWAL','kanika28'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS213','160101038','KANIKA AGARWAL','kanika28'),
 ('HS213','160102006','AMARTYA ROY','amartyaroy50'),
 ('HS213','160102011','ANIKET BALIYAN','aniketbaliyan'),
 ('HS213','160102056','ROHIT GUPTA','rohitmm'),
@@ -24538,7 +24538,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS213','160101038
 ('HS213','160205038','SENTHUR BALAJI P S','senthurbalaji'),
 ('HS213','160205040','SREE MAHIT MUNAKALA','sreemahitm'),
 ('HS213','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS213','160101038','KANIKA AGARWAL','kanika28'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS213','160101038','KANIKA AGARWAL','kanika28'),
 ('HS213','160102006','AMARTYA ROY','amartyaroy50'),
 ('HS213','160102011','ANIKET BALIYAN','aniketbaliyan'),
 ('HS213','160102056','ROHIT GUPTA','rohitmm'),
@@ -24583,7 +24583,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS213','16010103
 ('HS213','160205038','SENTHUR BALAJI P S','senthurbalaji'),
 ('HS213','160205040','SREE MAHIT MUNAKALA','sreemahitm'),
 ('HS213','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS239','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS239','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('HS239','150101023','G SHARATH KUMAR','sharath.kumar'),
 ('HS239','150107002','ABHISHEK TOMAR','abhishek.tomar'),
 ('HS239','150121046','SUBHAJIT ROY','r.subhajit'),
@@ -24654,7 +24654,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS239','140104061','SA
 ('HS239','160123003','ANIMESH KUMAR','akanimesh7'),
 ('HS239','160123012','ISHAN AZAD','ishan.azad'),
 ('HS239','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS239','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS239','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('HS239','150101023','G SHARATH KUMAR','sharath.kumar'),
 ('HS239','150107002','ABHISHEK TOMAR','abhishek.tomar'),
 ('HS239','150121046','SUBHAJIT ROY','r.subhajit'),
@@ -24725,7 +24725,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS239','140104061
 ('HS239','160123003','ANIMESH KUMAR','akanimesh7'),
 ('HS239','160123012','ISHAN AZAD','ishan.azad'),
 ('HS239','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS239','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS239','140104061','SANKARACHARYA DUTTA SAIKIA','sankaracharya'),
 ('HS239','150101023','G SHARATH KUMAR','sharath.kumar'),
 ('HS239','150107002','ABHISHEK TOMAR','abhishek.tomar'),
 ('HS239','150121046','SUBHAJIT ROY','r.subhajit'),
@@ -24796,7 +24796,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS239','14010406
 ('HS239','160123003','ANIMESH KUMAR','akanimesh7'),
 ('HS239','160123012','ISHAN AZAD','ishan.azad'),
 ('HS239','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS699','162241002','ABHINAV   SHARMA','abhinav0908'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS699','162241002','ABHINAV   SHARMA','abhinav0908'),
 ('HS699','162241003','ARINDAM  CHAKMA','arindamchakma1'),
 ('HS699','162241004','BALRAM  KUMAR','balram1529'),
 ('HS699','162241005','BHABNA  MEDHI','bhabna.medhi'),
@@ -24821,7 +24821,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS699','162241002','AB
 ('HS699','162241028','SWAPNALI   SAIKIA','swapnalisaikia'),
 ('HS699','162241029','SYED MASOOM  MUMEEN','masooma388'),
 ('HS699','162241030','MAHRAN AL GHADA','mahram.ag');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS699','162241002','ABHINAV   SHARMA','abhinav0908'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS699','162241002','ABHINAV   SHARMA','abhinav0908'),
 ('HS699','162241003','ARINDAM  CHAKMA','arindamchakma1'),
 ('HS699','162241004','BALRAM  KUMAR','balram1529'),
 ('HS699','162241005','BHABNA  MEDHI','bhabna.medhi'),
@@ -24846,7 +24846,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS699','162241002
 ('HS699','162241028','SWAPNALI   SAIKIA','swapnalisaikia'),
 ('HS699','162241029','SYED MASOOM  MUMEEN','masooma388'),
 ('HS699','162241030','MAHRAN AL GHADA','mahram.ag');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS699','162241002','ABHINAV   SHARMA','abhinav0908'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS699','162241002','ABHINAV   SHARMA','abhinav0908'),
 ('HS699','162241003','ARINDAM  CHAKMA','arindamchakma1'),
 ('HS699','162241004','BALRAM  KUMAR','balram1529'),
 ('HS699','162241005','BHABNA  MEDHI','bhabna.medhi'),
@@ -24871,22 +24871,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS699','16224100
 ('HS699','162241028','SWAPNALI   SAIKIA','swapnalisaikia'),
 ('HS699','162241029','SYED MASOOM  MUMEEN','masooma388'),
 ('HS699','162241030','MAHRAN AL GHADA','mahram.ag');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS512','172241020','MERLYN MARIA ANTONY','merly172241020'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS512','172241020','MERLYN MARIA ANTONY','merly172241020'),
 ('HS512','172241027','PRASHANT  KUMAR','kumar172241027'),
 ('HS512','176155001','SEEMA SHEESH LOKHANDWALA','seema176155001');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS512','172241020','MERLYN MARIA ANTONY','merly172241020'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS512','172241020','MERLYN MARIA ANTONY','merly172241020'),
 ('HS512','172241027','PRASHANT  KUMAR','kumar172241027'),
 ('HS512','176155001','SEEMA SHEESH LOKHANDWALA','seema176155001');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS512','172241020','MERLYN MARIA ANTONY','merly172241020'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS512','172241020','MERLYN MARIA ANTONY','merly172241020'),
 ('HS512','172241027','PRASHANT  KUMAR','kumar172241027'),
 ('HS512','176155001','SEEMA SHEESH LOKHANDWALA','seema176155001');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS702','176141005','SUNU KALITA','sunu176141005'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS702','176141005','SUNU KALITA','sunu176141005'),
 ('HS702','176141010','NASIMUL HOQUE','nasim176141010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS702','176141005','SUNU KALITA','sunu176141005'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS702','176141005','SUNU KALITA','sunu176141005'),
 ('HS702','176141010','NASIMUL HOQUE','nasim176141010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS702','176141005','SUNU KALITA','sunu176141005'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS702','176141005','SUNU KALITA','sunu176141005'),
 ('HS702','176141010','NASIMUL HOQUE','nasim176141010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS622','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS622','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS622','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS622','172241010','DEBASHREE HAZARIKA','debas172241010'),
 ('HS622','172241012','DEDCHUNG NARZY','narzy172241012'),
@@ -24896,7 +24896,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS622','172241002','AB
 ('HS622','172241028','PRATYUSH PARAS SARMA','paras172241028'),
 ('HS622','172241032','ROSHNI  BRAHMA','roshn172241032'),
 ('HS622','176155001','SEEMA SHEESH LOKHANDWALA','seema176155001');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS622','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS622','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS622','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS622','172241010','DEBASHREE HAZARIKA','debas172241010'),
 ('HS622','172241012','DEDCHUNG NARZY','narzy172241012'),
@@ -24906,7 +24906,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS622','172241002
 ('HS622','172241028','PRATYUSH PARAS SARMA','paras172241028'),
 ('HS622','172241032','ROSHNI  BRAHMA','roshn172241032'),
 ('HS622','176155001','SEEMA SHEESH LOKHANDWALA','seema176155001');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS622','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS622','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS622','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS622','172241010','DEBASHREE HAZARIKA','debas172241010'),
 ('HS622','172241012','DEDCHUNG NARZY','narzy172241012'),
@@ -24916,7 +24916,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS622','17224100
 ('HS622','172241028','PRATYUSH PARAS SARMA','paras172241028'),
 ('HS622','172241032','ROSHNI  BRAHMA','roshn172241032'),
 ('HS622','176155001','SEEMA SHEESH LOKHANDWALA','seema176155001');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS224','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS224','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('HS224','160101006','ABHISHEK BHARDWAJ','abhardwaj1998'),
 ('HS224','160101033','HARSHIT SRIVASTAVA','harshitsriv'),
 ('HS224','160101042','MITANSH JAIN','mitansh1398'),
@@ -24969,7 +24969,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS224','160101002','AA
 ('HS224','160123044','YASH KOTHARI','yash.kothari'),
 ('HS224','160123050','NAVEEN MATHEW','naveen_mathew'),
 ('HS224','160205016','KHYATI PRIYA','khyatipriya');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS224','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS224','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('HS224','160101006','ABHISHEK BHARDWAJ','abhardwaj1998'),
 ('HS224','160101033','HARSHIT SRIVASTAVA','harshitsriv'),
 ('HS224','160101042','MITANSH JAIN','mitansh1398'),
@@ -25022,7 +25022,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS224','160101002
 ('HS224','160123044','YASH KOTHARI','yash.kothari'),
 ('HS224','160123050','NAVEEN MATHEW','naveen_mathew'),
 ('HS224','160205016','KHYATI PRIYA','khyatipriya');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS224','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS224','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('HS224','160101006','ABHISHEK BHARDWAJ','abhardwaj1998'),
 ('HS224','160101033','HARSHIT SRIVASTAVA','harshitsriv'),
 ('HS224','160101042','MITANSH JAIN','mitansh1398'),
@@ -25075,13 +25075,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS224','16010100
 ('HS224','160123044','YASH KOTHARI','yash.kothari'),
 ('HS224','160123050','NAVEEN MATHEW','naveen_mathew'),
 ('HS224','160205016','KHYATI PRIYA','khyatipriya');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS719','176141005','SUNU KALITA','sunu176141005'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS719','176141005','SUNU KALITA','sunu176141005'),
 ('HS719','176141010','NASIMUL HOQUE','nasim176141010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS719','176141005','SUNU KALITA','sunu176141005'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS719','176141005','SUNU KALITA','sunu176141005'),
 ('HS719','176141010','NASIMUL HOQUE','nasim176141010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS719','176141005','SUNU KALITA','sunu176141005'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS719','176141005','SUNU KALITA','sunu176141005'),
 ('HS719','176141010','NASIMUL HOQUE','nasim176141010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS203','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS203','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('HS203','160101014','ARPAN KONAR','arpankonar10'),
 ('HS203','160101015','ARPIT GUPTA','arpitgupta'),
 ('HS203','160101050','PARANJAY BAGGA','paranjay14'),
@@ -25130,7 +25130,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS203','140121019','KA
 ('HS203','160205030','PRANJAL UDAY','pranjal.uday'),
 ('HS203','160205033','RAJ AGRAWAL','rajagrawal'),
 ('HS203','160205045','TAJANYA MOHAN','tajanyamohan');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS203','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS203','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('HS203','160101014','ARPAN KONAR','arpankonar10'),
 ('HS203','160101015','ARPIT GUPTA','arpitgupta'),
 ('HS203','160101050','PARANJAY BAGGA','paranjay14'),
@@ -25179,7 +25179,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS203','140121019
 ('HS203','160205030','PRANJAL UDAY','pranjal.uday'),
 ('HS203','160205033','RAJ AGRAWAL','rajagrawal'),
 ('HS203','160205045','TAJANYA MOHAN','tajanyamohan');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS203','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS203','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('HS203','160101014','ARPAN KONAR','arpankonar10'),
 ('HS203','160101015','ARPIT GUPTA','arpitgupta'),
 ('HS203','160101050','PARANJAY BAGGA','paranjay14'),
@@ -25228,16 +25228,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS203','14012101
 ('HS203','160205030','PRANJAL UDAY','pranjal.uday'),
 ('HS203','160205033','RAJ AGRAWAL','rajagrawal'),
 ('HS203','160205045','TAJANYA MOHAN','tajanyamohan');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS623','172241022','MUHAMMAD IQBAL KK','iqbal172241022'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS623','172241022','MUHAMMAD IQBAL KK','iqbal172241022'),
 ('HS623','176141002','TULIKA RANI TALUKDAR','rani176141002'),
 ('HS623','176152101','Tinka Singh','rani176141002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS623','172241022','MUHAMMAD IQBAL KK','iqbal172241022'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS623','172241022','MUHAMMAD IQBAL KK','iqbal172241022'),
 ('HS623','176141002','TULIKA RANI TALUKDAR','rani176141002'),
 ('HS623','176152101','Tinka Singh','rani176141002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS623','172241022','MUHAMMAD IQBAL KK','iqbal172241022'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS623','172241022','MUHAMMAD IQBAL KK','iqbal172241022'),
 ('HS623','176141002','TULIKA RANI TALUKDAR','rani176141002'),
 ('HS623','176152101','Tinka Singh','rani176141002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS238','160101058','SAHIL GARHWAL','garhwalsahil007'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS238','160101058','SAHIL GARHWAL','garhwalsahil007'),
 ('HS238','160102013','ANVITA CHOUDHARY','anvitachoudhary'),
 ('HS238','160102021','DHEERAJ SARAF','dheeraj.saraf'),
 ('HS238','160102040','MAYANK SINGLA','mayank_singla'),
@@ -25286,7 +25286,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS238','160101058','SA
 ('HS238','160205025','NANG SAPHOI LONGPHAI','nang_saphoi97'),
 ('HS238','160205031','PRERNA VIMANIA','prernavimania2016'),
 ('HS238','160205036','SAMADRITA GHOSH','sam.ghosh4');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS238','160101058','SAHIL GARHWAL','garhwalsahil007'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS238','160101058','SAHIL GARHWAL','garhwalsahil007'),
 ('HS238','160102013','ANVITA CHOUDHARY','anvitachoudhary'),
 ('HS238','160102021','DHEERAJ SARAF','dheeraj.saraf'),
 ('HS238','160102040','MAYANK SINGLA','mayank_singla'),
@@ -25335,7 +25335,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS238','160101058
 ('HS238','160205025','NANG SAPHOI LONGPHAI','nang_saphoi97'),
 ('HS238','160205031','PRERNA VIMANIA','prernavimania2016'),
 ('HS238','160205036','SAMADRITA GHOSH','sam.ghosh4');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS238','160101058','SAHIL GARHWAL','garhwalsahil007'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS238','160101058','SAHIL GARHWAL','garhwalsahil007'),
 ('HS238','160102013','ANVITA CHOUDHARY','anvitachoudhary'),
 ('HS238','160102021','DHEERAJ SARAF','dheeraj.saraf'),
 ('HS238','160102040','MAYANK SINGLA','mayank_singla'),
@@ -25384,7 +25384,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS238','16010105
 ('HS238','160205025','NANG SAPHOI LONGPHAI','nang_saphoi97'),
 ('HS238','160205031','PRERNA VIMANIA','prernavimania2016'),
 ('HS238','160205036','SAMADRITA GHOSH','sam.ghosh4');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS413','120107067','VIJAY KUMAR MEENA','sam.ghos'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS413','120107067','VIJAY KUMAR MEENA','sam.ghos'),
 ('HS413','140101007','AKASH RAKHEJA','a.rakheja'),
 ('HS413','140101014','BODDEDA KARTHIK SAI  PAVAN','p.boddeda'),
 ('HS413','140101022','GAURAV ANAND','gaurav.anand'),
@@ -25446,7 +25446,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS413','120107067','VI
 ('HS413','140205024','N B MUKESH','n.mukesh'),
 ('HS413','140205037','SHIVAM GOYAL','g.shivam'),
 ('HS413','140205041','VANGALA SAIDEEP','v.saideep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS413','120107067','VIJAY KUMAR MEENA','v.saideep'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS413','120107067','VIJAY KUMAR MEENA','v.saideep'),
 ('HS413','140101007','AKASH RAKHEJA','a.rakheja'),
 ('HS413','140101014','BODDEDA KARTHIK SAI  PAVAN','p.boddeda'),
 ('HS413','140101022','GAURAV ANAND','gaurav.anand'),
@@ -25508,7 +25508,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS413','120107067
 ('HS413','140205024','N B MUKESH','n.mukesh'),
 ('HS413','140205037','SHIVAM GOYAL','g.shivam'),
 ('HS413','140205041','VANGALA SAIDEEP','v.saideep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS413','120107067','VIJAY KUMAR MEENA','v.saideep'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS413','120107067','VIJAY KUMAR MEENA','v.saideep'),
 ('HS413','140101007','AKASH RAKHEJA','a.rakheja'),
 ('HS413','140101014','BODDEDA KARTHIK SAI  PAVAN','p.boddeda'),
 ('HS413','140101022','GAURAV ANAND','gaurav.anand'),
@@ -25570,13 +25570,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS413','12010706
 ('HS413','140205024','N B MUKESH','n.mukesh'),
 ('HS413','140205037','SHIVAM GOYAL','g.shivam'),
 ('HS413','140205041','VANGALA SAIDEEP','v.saideep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS732','176141001','JAYASHREE KALITA','jayas176141001');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS732','176141001','JAYASHREE KALITA','jayas176141001');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS732','176141001','JAYASHREE KALITA','jayas176141001');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS707','176141006','SHIVAJIT DUTTA','shiva176141006');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS707','176141006','SHIVAJIT DUTTA','shiva176141006');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS707','176141006','SHIVAJIT DUTTA','shiva176141006');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS505','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS732','176141001','JAYASHREE KALITA','jayas176141001');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS732','176141001','JAYASHREE KALITA','jayas176141001');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS732','176141001','JAYASHREE KALITA','jayas176141001');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS707','176141006','SHIVAJIT DUTTA','shiva176141006');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS707','176141006','SHIVAJIT DUTTA','shiva176141006');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS707','176141006','SHIVAJIT DUTTA','shiva176141006');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS505','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS505','172241003','AMRIT ANAND','amrit172241003'),
 ('HS505','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS505','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -25607,7 +25607,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS505','172241002','AB
 ('HS505','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS505','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS505','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS505','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS505','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS505','172241003','AMRIT ANAND','amrit172241003'),
 ('HS505','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS505','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -25638,7 +25638,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS505','172241002
 ('HS505','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS505','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS505','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS505','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS505','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS505','172241003','AMRIT ANAND','amrit172241003'),
 ('HS505','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS505','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -25669,16 +25669,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS505','17224100
 ('HS505','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS505','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS505','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS720','176141006','SHIVAJIT DUTTA','shiva176141006');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS720','176141006','SHIVAJIT DUTTA','shiva176141006');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS720','176141006','SHIVAJIT DUTTA','shiva176141006');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS771','176141108','PrarthanaDutta','shiva176');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS771','176141108','PrarthanaDutta','shiva176');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS771','176141108','PrarthanaDutta','shiva176');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS763','176141108','PrarthanaDutta','shiva176');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS763','176141108','PrarthanaDutta','shiva176');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS763','176141108','PrarthanaDutta','shiva176');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS424','140101003','ABHISHEK KUMAR','abhishek.2014'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS720','176141006','SHIVAJIT DUTTA','shiva176141006');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS720','176141006','SHIVAJIT DUTTA','shiva176141006');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS720','176141006','SHIVAJIT DUTTA','shiva176141006');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS771','176141108','PrarthanaDutta','shiva176');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS771','176141108','PrarthanaDutta','shiva176');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS771','176141108','PrarthanaDutta','shiva176');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS763','176141108','PrarthanaDutta','shiva176');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS763','176141108','PrarthanaDutta','shiva176');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS763','176141108','PrarthanaDutta','shiva176');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS424','140101003','ABHISHEK KUMAR','abhishek.2014'),
 ('HS424','140101005','ABHISHEK YADAV','abhishek.cse'),
 ('HS424','140101010','ANKIT KUMAR','ankit.2014'),
 ('HS424','140101013','BETHA YASHWANTH KUMAR','k.betha'),
@@ -25740,7 +25740,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS424','140101003','AB
 ('HS424','140123051','PRAKHAAR BHARGAVA','prakhaar'),
 ('HS424','140205002','AKHIL PATEL','p.akhil'),
 ('HS424','140205026','PANDIRI SRUJAN KUMAR','pandiri');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS424','140101003','ABHISHEK KUMAR','abhishek.2014'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS424','140101003','ABHISHEK KUMAR','abhishek.2014'),
 ('HS424','140101005','ABHISHEK YADAV','abhishek.cse'),
 ('HS424','140101010','ANKIT KUMAR','ankit.2014'),
 ('HS424','140101013','BETHA YASHWANTH KUMAR','k.betha'),
@@ -25802,7 +25802,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS424','140101003
 ('HS424','140123051','PRAKHAAR BHARGAVA','prakhaar'),
 ('HS424','140205002','AKHIL PATEL','p.akhil'),
 ('HS424','140205026','PANDIRI SRUJAN KUMAR','pandiri');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS424','140101003','ABHISHEK KUMAR','abhishek.2014'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS424','140101003','ABHISHEK KUMAR','abhishek.2014'),
 ('HS424','140101005','ABHISHEK YADAV','abhishek.cse'),
 ('HS424','140101010','ANKIT KUMAR','ankit.2014'),
 ('HS424','140101013','BETHA YASHWANTH KUMAR','k.betha'),
@@ -25864,7 +25864,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS424','14010100
 ('HS424','140123051','PRAKHAAR BHARGAVA','prakhaar'),
 ('HS424','140205002','AKHIL PATEL','p.akhil'),
 ('HS424','140205026','PANDIRI SRUJAN KUMAR','pandiri');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS415','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS415','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
 ('HS415','140101030','JAYESH MATHUR','j.mathur'),
 ('HS415','140101048','PARITOSH MITTAL','m.paritosh'),
 ('HS415','140101055','RAHUL RANJAN','rahul.ranjan'),
@@ -25927,7 +25927,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS415','140101008','AM
 ('HS415','140205009','DIPANKAR RABHA','r.dipankar'),
 ('HS415','140205019','MANAS SHARMA','manas.sharma'),
 ('HS415','140205020','MAYANK SHUBHANKAR','m.shubhankar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS415','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS415','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
 ('HS415','140101030','JAYESH MATHUR','j.mathur'),
 ('HS415','140101048','PARITOSH MITTAL','m.paritosh'),
 ('HS415','140101055','RAHUL RANJAN','rahul.ranjan'),
@@ -25990,7 +25990,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS415','140101008
 ('HS415','140205009','DIPANKAR RABHA','r.dipankar'),
 ('HS415','140205019','MANAS SHARMA','manas.sharma'),
 ('HS415','140205020','MAYANK SHUBHANKAR','m.shubhankar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS415','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS415','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
 ('HS415','140101030','JAYESH MATHUR','j.mathur'),
 ('HS415','140101048','PARITOSH MITTAL','m.paritosh'),
 ('HS415','140101055','RAHUL RANJAN','rahul.ranjan'),
@@ -26053,10 +26053,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS415','14010100
 ('HS415','140205009','DIPANKAR RABHA','r.dipankar'),
 ('HS415','140205019','MANAS SHARMA','manas.sharma'),
 ('HS415','140205020','MAYANK SHUBHANKAR','m.shubhankar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS772','176141011','SATWIK UPADHYAY','satwi176141011');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS772','176141011','SATWIK UPADHYAY','satwi176141011');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS772','176141011','SATWIK UPADHYAY','satwi176141011');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS517','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS772','176141011','SATWIK UPADHYAY','satwi176141011');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS772','176141011','SATWIK UPADHYAY','satwi176141011');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS772','176141011','SATWIK UPADHYAY','satwi176141011');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS517','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS517','172241003','AMRIT ANAND','amrit172241003'),
 ('HS517','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS517','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -26087,7 +26087,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS517','172241002','AB
 ('HS517','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS517','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS517','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS517','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS517','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS517','172241003','AMRIT ANAND','amrit172241003'),
 ('HS517','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS517','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -26118,7 +26118,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS517','172241002
 ('HS517','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS517','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS517','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS517','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS517','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS517','172241003','AMRIT ANAND','amrit172241003'),
 ('HS517','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS517','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -26149,7 +26149,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS517','17224100
 ('HS517','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS517','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS517','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS502','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS502','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS502','172241003','AMRIT ANAND','amrit172241003'),
 ('HS502','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS502','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -26180,7 +26180,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS502','172241002','AB
 ('HS502','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS502','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS502','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS502','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS502','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS502','172241003','AMRIT ANAND','amrit172241003'),
 ('HS502','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS502','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -26211,7 +26211,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS502','172241002
 ('HS502','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS502','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS502','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS502','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS502','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS502','172241003','AMRIT ANAND','amrit172241003'),
 ('HS502','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS502','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -26242,7 +26242,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS502','17224100
 ('HS502','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS502','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS502','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS243','150122043','UMESH DHAKED','umesh.dhaked'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS243','150122043','UMESH DHAKED','umesh.dhaked'),
 ('HS243','160101010','ADITYA CHOUHAN','adityachouhan'),
 ('HS243','160101023','CHANDRA PRAKASH MEENA','prakash.meena'),
 ('HS243','160101027','DURGESH YADAV','dy_769.yadav'),
@@ -26294,7 +26294,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS243','150122043','UM
 ('HS243','160205037','SANJEET GADKARI','sanjeet.gadkari'),
 ('HS243','160205041','SRISHTI MALAVIYA','srishti2016'),
 ('HS243','160205044','SURENDRA SINGH','surendrasingh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS243','150122043','UMESH DHAKED','umesh.dhaked'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS243','150122043','UMESH DHAKED','umesh.dhaked'),
 ('HS243','160101010','ADITYA CHOUHAN','adityachouhan'),
 ('HS243','160101023','CHANDRA PRAKASH MEENA','prakash.meena'),
 ('HS243','160101027','DURGESH YADAV','dy_769.yadav'),
@@ -26346,7 +26346,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS243','150122043
 ('HS243','160205037','SANJEET GADKARI','sanjeet.gadkari'),
 ('HS243','160205041','SRISHTI MALAVIYA','srishti2016'),
 ('HS243','160205044','SURENDRA SINGH','surendrasingh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS243','150122043','UMESH DHAKED','umesh.dhaked'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS243','150122043','UMESH DHAKED','umesh.dhaked'),
 ('HS243','160101010','ADITYA CHOUHAN','adityachouhan'),
 ('HS243','160101023','CHANDRA PRAKASH MEENA','prakash.meena'),
 ('HS243','160101027','DURGESH YADAV','dy_769.yadav'),
@@ -26398,7 +26398,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS243','15012204
 ('HS243','160205037','SANJEET GADKARI','sanjeet.gadkari'),
 ('HS243','160205041','SRISHTI MALAVIYA','srishti2016'),
 ('HS243','160205044','SURENDRA SINGH','surendrasingh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS409','140101006','AKASH ARUN DUPARE','akash.dupare'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS409','140101006','AKASH ARUN DUPARE','akash.dupare'),
 ('HS409','140101021','DOGGA V GEORGE','d.george'),
 ('HS409','140101024','GEETESH SAIKAMAL TABJUL','g.tabjul'),
 ('HS409','140101029','JAGJOT SINGH CHHABRA','jagjot'),
@@ -26459,7 +26459,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS409','140101006','AK
 ('HS409','140205028','PRANAV KHARE','p.khare'),
 ('HS409','140205033','RAYANI PRUDHVI RAJESH KUMAR','rayani.kumar'),
 ('HS409','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS409','140101006','AKASH ARUN DUPARE','akash.dupare'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS409','140101006','AKASH ARUN DUPARE','akash.dupare'),
 ('HS409','140101021','DOGGA V GEORGE','d.george'),
 ('HS409','140101024','GEETESH SAIKAMAL TABJUL','g.tabjul'),
 ('HS409','140101029','JAGJOT SINGH CHHABRA','jagjot'),
@@ -26520,7 +26520,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS409','140101006
 ('HS409','140205028','PRANAV KHARE','p.khare'),
 ('HS409','140205033','RAYANI PRUDHVI RAJESH KUMAR','rayani.kumar'),
 ('HS409','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS409','140101006','AKASH ARUN DUPARE','akash.dupare'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS409','140101006','AKASH ARUN DUPARE','akash.dupare'),
 ('HS409','140101021','DOGGA V GEORGE','d.george'),
 ('HS409','140101024','GEETESH SAIKAMAL TABJUL','g.tabjul'),
 ('HS409','140101029','JAGJOT SINGH CHHABRA','jagjot'),
@@ -26581,7 +26581,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS409','14010100
 ('HS409','140205028','PRANAV KHARE','p.khare'),
 ('HS409','140205033','RAYANI PRUDHVI RAJESH KUMAR','rayani.kumar'),
 ('HS409','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS237','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS237','130103040','LALIT YOGI','l.yogi'),
 ('HS237','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('HS237','140121007','ANUPAM JAIN','anupam.jain'),
 ('HS237','150102009','BANOTHU VIJENDER','b.vijender'),
@@ -26638,7 +26638,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS237','130103040','LA
 ('HS237','160123052','SAYANI KUNDU','sayani.frndz'),
 ('HS237','160123054','DEEPAK KUMAR GOUDA','deepak.gouda'),
 ('HS237','160205002','ABHISHEK GORE','abhishek2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS237','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS237','130103040','LALIT YOGI','l.yogi'),
 ('HS237','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('HS237','140121007','ANUPAM JAIN','anupam.jain'),
 ('HS237','150102009','BANOTHU VIJENDER','b.vijender'),
@@ -26695,7 +26695,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS237','130103040
 ('HS237','160123052','SAYANI KUNDU','sayani.frndz'),
 ('HS237','160123054','DEEPAK KUMAR GOUDA','deepak.gouda'),
 ('HS237','160205002','ABHISHEK GORE','abhishek2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS237','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS237','130103040','LALIT YOGI','l.yogi'),
 ('HS237','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('HS237','140121007','ANUPAM JAIN','anupam.jain'),
 ('HS237','150102009','BANOTHU VIJENDER','b.vijender'),
@@ -26752,7 +26752,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS237','13010304
 ('HS237','160123052','SAYANI KUNDU','sayani.frndz'),
 ('HS237','160123054','DEEPAK KUMAR GOUDA','deepak.gouda'),
 ('HS237','160205002','ABHISHEK GORE','abhishek2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS421','140101046','PALLAGANI LIKHITH','pallagani'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS421','140101046','PALLAGANI LIKHITH','pallagani'),
 ('HS421','140101068','SHANTANU BHARADWAJ','b.shantanu'),
 ('HS421','140101080','YASH POTE','y.pote'),
 ('HS421','140102016','CHANDRIMA MRIDHA','chandrima'),
@@ -26813,7 +26813,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS421','140101046','PA
 ('HS421','140205017','KRISHANPAL SINGH','krishanpal'),
 ('HS421','140205043','VINJAM VINAY','vinjam'),
 ('HS421','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS421','140101046','PALLAGANI LIKHITH','pallagani'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS421','140101046','PALLAGANI LIKHITH','pallagani'),
 ('HS421','140101068','SHANTANU BHARADWAJ','b.shantanu'),
 ('HS421','140101080','YASH POTE','y.pote'),
 ('HS421','140102016','CHANDRIMA MRIDHA','chandrima'),
@@ -26874,7 +26874,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS421','140101046
 ('HS421','140205017','KRISHANPAL SINGH','krishanpal'),
 ('HS421','140205043','VINJAM VINAY','vinjam'),
 ('HS421','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS421','140101046','PALLAGANI LIKHITH','pallagani'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS421','140101046','PALLAGANI LIKHITH','pallagani'),
 ('HS421','140101068','SHANTANU BHARADWAJ','b.shantanu'),
 ('HS421','140101080','YASH POTE','y.pote'),
 ('HS421','140102016','CHANDRIMA MRIDHA','chandrima'),
@@ -26935,7 +26935,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS421','14010104
 ('HS421','140205017','KRISHANPAL SINGH','krishanpal'),
 ('HS421','140205043','VINJAM VINAY','vinjam'),
 ('HS421','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS406','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS406','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('HS406','140101009','ANEESH BARTHAKUR','a.barthakur'),
 ('HS406','140101025','GOTTAPU SRAVAN KUMAR','gottapu'),
 ('HS406','140101031','KAMAL KISHORE JAIN','kamal.jain'),
@@ -27000,7 +27000,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS406','130123042','VI
 ('HS406','140205032','RATHOD NIKUNJ ABHAY','a.rathod'),
 ('HS406','140205038','SHUBHANGI GUPTA','g.shubhangi'),
 ('HS406','140205045','VISHAL GOYAL','vishal.goyal');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS406','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS406','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('HS406','140101009','ANEESH BARTHAKUR','a.barthakur'),
 ('HS406','140101025','GOTTAPU SRAVAN KUMAR','gottapu'),
 ('HS406','140101031','KAMAL KISHORE JAIN','kamal.jain'),
@@ -27065,7 +27065,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS406','130123042
 ('HS406','140205032','RATHOD NIKUNJ ABHAY','a.rathod'),
 ('HS406','140205038','SHUBHANGI GUPTA','g.shubhangi'),
 ('HS406','140205045','VISHAL GOYAL','vishal.goyal');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS406','130123042','VIKRAM KAVIYA','v.kaviya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS406','130123042','VIKRAM KAVIYA','v.kaviya'),
 ('HS406','140101009','ANEESH BARTHAKUR','a.barthakur'),
 ('HS406','140101025','GOTTAPU SRAVAN KUMAR','gottapu'),
 ('HS406','140101031','KAMAL KISHORE JAIN','kamal.jain'),
@@ -27130,7 +27130,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS406','13012304
 ('HS406','140205032','RATHOD NIKUNJ ABHAY','a.rathod'),
 ('HS406','140205038','SHUBHANGI GUPTA','g.shubhangi'),
 ('HS406','140205045','VISHAL GOYAL','vishal.goyal');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS621','172241003','AMRIT ANAND','amrit172241003'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS621','172241003','AMRIT ANAND','amrit172241003'),
 ('HS621','172241013','DEEP JYOTI MAHANTA','deep172241013'),
 ('HS621','172241021','MOHAMED RABEEK','rabee172241021'),
 ('HS621','172241024','NG SOURAV SINGHA','ng172241024'),
@@ -27144,7 +27144,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS621','172241003','AM
 ('HS621','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040'),
 ('HS621','174154005','PRAKASH SINGH','singh174154005'),
 ('HS621','174154007','RAMA AVINASH SHIRWALKAR','rama174154007');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS621','172241003','AMRIT ANAND','amrit172241003'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS621','172241003','AMRIT ANAND','amrit172241003'),
 ('HS621','172241013','DEEP JYOTI MAHANTA','deep172241013'),
 ('HS621','172241021','MOHAMED RABEEK','rabee172241021'),
 ('HS621','172241024','NG SOURAV SINGHA','ng172241024'),
@@ -27158,7 +27158,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS621','172241003
 ('HS621','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040'),
 ('HS621','174154005','PRAKASH SINGH','singh174154005'),
 ('HS621','174154007','RAMA AVINASH SHIRWALKAR','rama174154007');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS621','172241003','AMRIT ANAND','amrit172241003'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS621','172241003','AMRIT ANAND','amrit172241003'),
 ('HS621','172241013','DEEP JYOTI MAHANTA','deep172241013'),
 ('HS621','172241021','MOHAMED RABEEK','rabee172241021'),
 ('HS621','172241024','NG SOURAV SINGHA','ng172241024'),
@@ -27172,7 +27172,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS621','17224100
 ('HS621','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040'),
 ('HS621','174154005','PRAKASH SINGH','singh174154005'),
 ('HS621','174154007','RAMA AVINASH SHIRWALKAR','rama174154007');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS414','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS414','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('HS414','140101054','RAHUL RAJ GUPTA','rahul.gupta'),
 ('HS414','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('HS414','140102005','AMAN DALMIA','a.dalmia'),
@@ -27234,7 +27234,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS414','120104069','SU
 ('HS414','140205021','MEHUL CHAUDHARY','c.mehul'),
 ('HS414','140205031','RAJAT GAUTAM','rajat.gautam'),
 ('HS414','140205039','SHUBHANK PAWAR','shubhank');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS414','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS414','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('HS414','140101054','RAHUL RAJ GUPTA','rahul.gupta'),
 ('HS414','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('HS414','140102005','AMAN DALMIA','a.dalmia'),
@@ -27296,7 +27296,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS414','120104069
 ('HS414','140205021','MEHUL CHAUDHARY','c.mehul'),
 ('HS414','140205031','RAJAT GAUTAM','rajat.gautam'),
 ('HS414','140205039','SHUBHANK PAWAR','shubhank');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS414','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS414','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('HS414','140101054','RAHUL RAJ GUPTA','rahul.gupta'),
 ('HS414','140102003','ADLA PRUDHVIDHAR','p.adla'),
 ('HS414','140102005','AMAN DALMIA','a.dalmia'),
@@ -27358,7 +27358,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS414','12010406
 ('HS414','140205021','MEHUL CHAUDHARY','c.mehul'),
 ('HS414','140205031','RAJAT GAUTAM','rajat.gautam'),
 ('HS414','140205039','SHUBHANK PAWAR','shubhank');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS425','140101011','ARPAN INDORA','arpan.indora'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS425','140101011','ARPAN INDORA','arpan.indora'),
 ('HS425','140101017','CHINANGSHUK ROY','chinangshuk'),
 ('HS425','140101018','DARSHIT D PATEL','darshit'),
 ('HS425','140101020','DATIR VIVEK PRABHAKAR','p.datir'),
@@ -27420,7 +27420,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS425','140101011','AR
 ('HS425','140205029','PRASHANTH VANAM','p.vanam'),
 ('HS425','140205034','S ADARSH RAO','adarsh.rao'),
 ('HS425','140205036','SAVALIA ZANKAR','savalia');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS425','140101011','ARPAN INDORA','arpan.indora'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS425','140101011','ARPAN INDORA','arpan.indora'),
 ('HS425','140101017','CHINANGSHUK ROY','chinangshuk'),
 ('HS425','140101018','DARSHIT D PATEL','darshit'),
 ('HS425','140101020','DATIR VIVEK PRABHAKAR','p.datir'),
@@ -27482,7 +27482,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS425','140101011
 ('HS425','140205029','PRASHANTH VANAM','p.vanam'),
 ('HS425','140205034','S ADARSH RAO','adarsh.rao'),
 ('HS425','140205036','SAVALIA ZANKAR','savalia');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS425','140101011','ARPAN INDORA','arpan.indora'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS425','140101011','ARPAN INDORA','arpan.indora'),
 ('HS425','140101017','CHINANGSHUK ROY','chinangshuk'),
 ('HS425','140101018','DARSHIT D PATEL','darshit'),
 ('HS425','140101020','DATIR VIVEK PRABHAKAR','p.datir'),
@@ -27544,28 +27544,28 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS425','14010101
 ('HS425','140205029','PRASHANTH VANAM','p.vanam'),
 ('HS425','140205034','S ADARSH RAO','adarsh.rao'),
 ('HS425','140205036','SAVALIA ZANKAR','savalia');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS604','172241009','CHAYANIKA DAS','chaya172241009'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS604','172241009','CHAYANIKA DAS','chaya172241009'),
 ('HS604','172241011','DEBAYAN HAZRA','hazra172241011'),
 ('HS604','172241015','HEMPHI TERANGPI','hemph172241015'),
 ('HS604','172241017','JAYASANKAR JAYARAJ THAYYIL','jayas172241017'),
 ('HS604','172241018','JUSRINGDI DIBRAGEDE','jusri172241018'),
 ('HS604','172241037','SWARN RAJAN','swarn172241037'),
 ('HS604','172241038','THANGJAM RISHIKESH SINGH','rishi172241038');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS604','172241009','CHAYANIKA DAS','chaya172241009'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS604','172241009','CHAYANIKA DAS','chaya172241009'),
 ('HS604','172241011','DEBAYAN HAZRA','hazra172241011'),
 ('HS604','172241015','HEMPHI TERANGPI','hemph172241015'),
 ('HS604','172241017','JAYASANKAR JAYARAJ THAYYIL','jayas172241017'),
 ('HS604','172241018','JUSRINGDI DIBRAGEDE','jusri172241018'),
 ('HS604','172241037','SWARN RAJAN','swarn172241037'),
 ('HS604','172241038','THANGJAM RISHIKESH SINGH','rishi172241038');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS604','172241009','CHAYANIKA DAS','chaya172241009'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS604','172241009','CHAYANIKA DAS','chaya172241009'),
 ('HS604','172241011','DEBAYAN HAZRA','hazra172241011'),
 ('HS604','172241015','HEMPHI TERANGPI','hemph172241015'),
 ('HS604','172241017','JAYASANKAR JAYARAJ THAYYIL','jayas172241017'),
 ('HS604','172241018','JUSRINGDI DIBRAGEDE','jusri172241018'),
 ('HS604','172241037','SWARN RAJAN','swarn172241037'),
 ('HS604','172241038','THANGJAM RISHIKESH SINGH','rishi172241038');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS234','150104021','JAMBHULKAR ROHIT GOPAL','jambhulkar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS234','150104021','JAMBHULKAR ROHIT GOPAL','jambhulkar'),
 ('HS234','150121033','R ADARSH BHARGAV','r.bhargav'),
 ('HS234','150123034','ROHIT KUMAR','rohit.math'),
 ('HS234','160101086','SHAURYA GOMBER','shaurya.gomber98'),
@@ -27623,7 +27623,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS234','150104021','JA
 ('HS234','160123046','RAJAT PALIWAL','rajatpaliwal2812'),
 ('HS234','160123049','HIMANSHU RAJ','him.raj'),
 ('HS234','160123051','SAURABH RAI','saurabh.rai');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS234','150104021','JAMBHULKAR ROHIT GOPAL','jambhulkar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS234','150104021','JAMBHULKAR ROHIT GOPAL','jambhulkar'),
 ('HS234','150121033','R ADARSH BHARGAV','r.bhargav'),
 ('HS234','150123034','ROHIT KUMAR','rohit.math'),
 ('HS234','160101086','SHAURYA GOMBER','shaurya.gomber98'),
@@ -27681,7 +27681,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS234','150104021
 ('HS234','160123046','RAJAT PALIWAL','rajatpaliwal2812'),
 ('HS234','160123049','HIMANSHU RAJ','him.raj'),
 ('HS234','160123051','SAURABH RAI','saurabh.rai');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS234','150104021','JAMBHULKAR ROHIT GOPAL','jambhulkar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS234','150104021','JAMBHULKAR ROHIT GOPAL','jambhulkar'),
 ('HS234','150121033','R ADARSH BHARGAV','r.bhargav'),
 ('HS234','150123034','ROHIT KUMAR','rohit.math'),
 ('HS234','160101086','SHAURYA GOMBER','shaurya.gomber98'),
@@ -27739,22 +27739,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS234','15010402
 ('HS234','160123046','RAJAT PALIWAL','rajatpaliwal2812'),
 ('HS234','160123049','HIMANSHU RAJ','him.raj'),
 ('HS234','160123051','SAURABH RAI','saurabh.rai');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS704','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS704','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
 ('HS704','176141012','ANUPOM KUMAR HAZARIKA','kumar176141012'),
 ('HS704','176141014','SNIGDHA DEKA','deka176141014'),
 ('HS704','176141015','MONIDEEPA BRAHMA (QIP)','monid176141015'),
 ('HS704','176141103','Dheeraj P','monid176141015');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS704','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS704','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
 ('HS704','176141012','ANUPOM KUMAR HAZARIKA','kumar176141012'),
 ('HS704','176141014','SNIGDHA DEKA','deka176141014'),
 ('HS704','176141015','MONIDEEPA BRAHMA (QIP)','monid176141015'),
 ('HS704','176141103','Dheeraj P','monid176141015');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS704','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS704','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
 ('HS704','176141012','ANUPOM KUMAR HAZARIKA','kumar176141012'),
 ('HS704','176141014','SNIGDHA DEKA','deka176141014'),
 ('HS704','176141015','MONIDEEPA BRAHMA (QIP)','monid176141015'),
 ('HS704','176141103','Dheeraj P','monid176141015');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS503','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS503','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS503','172241003','AMRIT ANAND','amrit172241003'),
 ('HS503','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS503','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -27785,7 +27785,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS503','172241002','AB
 ('HS503','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS503','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS503','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS503','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS503','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS503','172241003','AMRIT ANAND','amrit172241003'),
 ('HS503','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS503','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -27816,7 +27816,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS503','172241002
 ('HS503','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS503','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS503','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS503','172241002','ABHISHEK BHATIA','abhis172241002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS503','172241002','ABHISHEK BHATIA','abhis172241002'),
 ('HS503','172241003','AMRIT ANAND','amrit172241003'),
 ('HS503','172241006','ANUBHAV SHANKAR GOSWAMI','anubh172241006'),
 ('HS503','172241009','CHAYANIKA DAS','chaya172241009'),
@@ -27847,22 +27847,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS503','17224100
 ('HS503','172241038','THANGJAM RISHIKESH SINGH','rishi172241038'),
 ('HS503','172241039','VIKAS  UPADHYAY','vikas172241039'),
 ('HS503','172241040','VIRAJ MAHESH VIBHUTE','viraj172241040');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS706','176141002','TULIKA RANI TALUKDAR','rani176141002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS706','176141002','TULIKA RANI TALUKDAR','rani176141002'),
 ('HS706','176141008','PALLABI CHAKRABORTY','palla176141008'),
 ('HS706','176141009','KASHMIRI DAS','das176141009'),
 ('HS706','176141013','MAUSUMI DAS','das176141013');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS706','176141002','TULIKA RANI TALUKDAR','rani176141002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS706','176141002','TULIKA RANI TALUKDAR','rani176141002'),
 ('HS706','176141008','PALLABI CHAKRABORTY','palla176141008'),
 ('HS706','176141009','KASHMIRI DAS','das176141009'),
 ('HS706','176141013','MAUSUMI DAS','das176141013');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS706','176141002','TULIKA RANI TALUKDAR','rani176141002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS706','176141002','TULIKA RANI TALUKDAR','rani176141002'),
 ('HS706','176141008','PALLABI CHAKRABORTY','palla176141008'),
 ('HS706','176141009','KASHMIRI DAS','das176141009'),
 ('HS706','176141013','MAUSUMI DAS','das176141013');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS731','176141001','JAYASHREE KALITA','jayas176141001');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS731','176141001','JAYASHREE KALITA','jayas176141001');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS731','176141001','JAYASHREE KALITA','jayas176141001');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS220','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS731','176141001','JAYASHREE KALITA','jayas176141001');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS731','176141001','JAYASHREE KALITA','jayas176141001');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS731','176141001','JAYASHREE KALITA','jayas176141001');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS220','120205025','MANISH KUMAR','manish2012'),
 ('HS220','160101036','JATIN GOYAL','jatingoyal'),
 ('HS220','160101043','MOHIT SINGH','mohitsingh'),
 ('HS220','160101046','NAMIT KUMAR','namitkrarya'),
@@ -27913,7 +27913,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS220','120205025','MA
 ('HS220','160205008','ATHUL KRISHNA AJAY','athulkrishna'),
 ('HS220','160205019','M CHETAN','chetan.m'),
 ('HS220','160205042','SUDEEP S BABU','sudeepsbabu');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS220','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS220','120205025','MANISH KUMAR','manish2012'),
 ('HS220','160101036','JATIN GOYAL','jatingoyal'),
 ('HS220','160101043','MOHIT SINGH','mohitsingh'),
 ('HS220','160101046','NAMIT KUMAR','namitkrarya'),
@@ -27964,7 +27964,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS220','120205025
 ('HS220','160205008','ATHUL KRISHNA AJAY','athulkrishna'),
 ('HS220','160205019','M CHETAN','chetan.m'),
 ('HS220','160205042','SUDEEP S BABU','sudeepsbabu');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS220','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS220','120205025','MANISH KUMAR','manish2012'),
 ('HS220','160101036','JATIN GOYAL','jatingoyal'),
 ('HS220','160101043','MOHIT SINGH','mohitsingh'),
 ('HS220','160101046','NAMIT KUMAR','namitkrarya'),
@@ -28015,22 +28015,22 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS220','12020502
 ('HS220','160205008','ATHUL KRISHNA AJAY','athulkrishna'),
 ('HS220','160205019','M CHETAN','chetan.m'),
 ('HS220','160205042','SUDEEP S BABU','sudeepsbabu');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('HS770','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('HS770','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
 ('HS770','176141012','ANUPOM KUMAR HAZARIKA','kumar176141012'),
 ('HS770','176141014','SNIGDHA DEKA','deka176141014'),
 ('HS770','176141015','MONIDEEPA BRAHMA (QIP)','monid176141015'),
 ('HS770','176141103','Dheeraj P','monid176141015');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('HS770','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('HS770','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
 ('HS770','176141012','ANUPOM KUMAR HAZARIKA','kumar176141012'),
 ('HS770','176141014','SNIGDHA DEKA','deka176141014'),
 ('HS770','176141015','MONIDEEPA BRAHMA (QIP)','monid176141015'),
 ('HS770','176141103','Dheeraj P','monid176141015');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('HS770','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('HS770','176141004','SHIBASHISH PURKAYASTHA','shiba176141004'),
 ('HS770','176141012','ANUPOM KUMAR HAZARIKA','kumar176141012'),
 ('HS770','176141014','SNIGDHA DEKA','deka176141014'),
 ('HS770','176141015','MONIDEEPA BRAHMA (QIP)','monid176141015'),
 ('HS770','176141103','Dheeraj P','monid176141015');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS699','164101003','ABHINAV  ANSHUMAN','abhinav2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS699','164101003','ABHINAV  ANSHUMAN','abhinav2016'),
 ('CS699','164101004','RAHUL  SHARMA','donstar.rahul'),
 ('CS699','164101006','SHRUTI  GANAPATHY SUBRAMANIAN','shruti.ganesh'),
 ('CS699','164101009','NEELESH KUMAR SHUKLA','neelesh.shukla'),
@@ -28066,7 +28066,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS699','164101003','AB
 ('CS699','164101061','SUWETA  SHAKYA','suweta'),
 ('CS699','164101103','PAVAN  TIWARI','pavan2016'),
 ('CS699','164101107','ONGFA WAKHET','ongfa.wakhet');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS699','164101003','ABHINAV  ANSHUMAN','abhinav2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS699','164101003','ABHINAV  ANSHUMAN','abhinav2016'),
 ('CS699','164101004','RAHUL  SHARMA','donstar.rahul'),
 ('CS699','164101006','SHRUTI  GANAPATHY SUBRAMANIAN','shruti.ganesh'),
 ('CS699','164101009','NEELESH KUMAR SHUKLA','neelesh.shukla'),
@@ -28102,7 +28102,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS699','164101003
 ('CS699','164101061','SUWETA  SHAKYA','suweta'),
 ('CS699','164101103','PAVAN  TIWARI','pavan2016'),
 ('CS699','164101107','ONGFA WAKHET','ongfa.wakhet');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS699','164101003','ABHINAV  ANSHUMAN','abhinav2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS699','164101003','ABHINAV  ANSHUMAN','abhinav2016'),
 ('CS699','164101004','RAHUL  SHARMA','donstar.rahul'),
 ('CS699','164101006','SHRUTI  GANAPATHY SUBRAMANIAN','shruti.ganesh'),
 ('CS699','164101009','NEELESH KUMAR SHUKLA','neelesh.shukla'),
@@ -28138,7 +28138,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS699','16410100
 ('CS699','164101061','SUWETA  SHAKYA','suweta'),
 ('CS699','164101103','PAVAN  TIWARI','pavan2016'),
 ('CS699','164101107','ONGFA WAKHET','ongfa.wakhet');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS110','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS110','120103036','KAKARA PHANINDRA','p.kakara'),
 ('CS110','140122034','SHREERAM MEENA','shreeram'),
 ('CS110','150103045','MANGE SAURABH ASHOK','mange.ashok'),
 ('CS110','160101029','GUDALA AJAYRAM','ajayram515'),
@@ -28847,7 +28847,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS110','120103036','KA
 ('CS110','170205043','VIGNESH KUMAR S','s170205043'),
 ('CS110','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('CS110','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS110','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS110','120103036','KAKARA PHANINDRA','p.kakara'),
 ('CS110','140122034','SHREERAM MEENA','shreeram'),
 ('CS110','150103045','MANGE SAURABH ASHOK','mange.ashok'),
 ('CS110','160101029','GUDALA AJAYRAM','ajayram515'),
@@ -29556,7 +29556,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS110','120103036
 ('CS110','170205043','VIGNESH KUMAR S','s170205043'),
 ('CS110','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('CS110','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS110','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS110','120103036','KAKARA PHANINDRA','p.kakara'),
 ('CS110','140122034','SHREERAM MEENA','shreeram'),
 ('CS110','150103045','MANGE SAURABH ASHOK','mange.ashok'),
 ('CS110','160101029','GUDALA AJAYRAM','ajayram515'),
@@ -30265,7 +30265,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS110','12010303
 ('CS110','170205043','VIGNESH KUMAR S','s170205043'),
 ('CS110','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('CS110','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS349','150101001','ABHAY KUMAR','abhay.2015'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS349','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS349','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS349','150101003','ABHISHEK KUMAR','abhk.cse'),
 ('CS349','150101004','ABOTHULA RAKESH','abothula'),
@@ -30401,7 +30401,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS349','150101001','AB
 ('CS349','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS349','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS349','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS349','150101001','ABHAY KUMAR','abhay.2015'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS349','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS349','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS349','150101003','ABHISHEK KUMAR','abhk.cse'),
 ('CS349','150101004','ABOTHULA RAKESH','abothula'),
@@ -30537,7 +30537,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS349','150101001
 ('CS349','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS349','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS349','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS349','150101001','ABHAY KUMAR','abhay.2015'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS349','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS349','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS349','150101003','ABHISHEK KUMAR','abhk.cse'),
 ('CS349','150101004','ABOTHULA RAKESH','abothula'),
@@ -30673,7 +30673,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS349','15010100
 ('CS349','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS349','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS349','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS244','160101001','AADIL HODA','aadil'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS244','160101001','AADIL HODA','aadil'),
 ('CS244','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS244','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('CS244','160101004','ABHINAV HINGER','abhinavh'),
@@ -30755,7 +30755,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS244','160101001','AA
 ('CS244','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS244','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS244','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS244','160101001','AADIL HODA','aadil'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS244','160101001','AADIL HODA','aadil'),
 ('CS244','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS244','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('CS244','160101004','ABHINAV HINGER','abhinavh'),
@@ -30837,7 +30837,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS244','160101001
 ('CS244','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS244','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS244','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS244','160101001','AADIL HODA','aadil'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS244','160101001','AADIL HODA','aadil'),
 ('CS244','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS244','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('CS244','160101004','ABHINAV HINGER','abhinavh'),
@@ -30919,7 +30919,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS244','16010100
 ('CS244','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS244','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS244','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS501','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS501','130101008','ANKUR SETH','a.seth'),
 ('CS501','130101044','MANDAR KALE','m.kale'),
 ('CS501','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS501','140101002','ABHINAV SINGH','abhinav.2014'),
@@ -31026,7 +31026,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS501','130101008','AN
 ('CS501','176101102','Alakesh Kalita','sumit176101013'),
 ('CS501','176101103','Avinash Kumar Chouhan','sumit176101013'),
 ('CS501','176101104','Maithilee Laxmanrao Patawar','sumit176101013');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS501','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS501','130101008','ANKUR SETH','a.seth'),
 ('CS501','130101044','MANDAR KALE','m.kale'),
 ('CS501','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS501','140101002','ABHINAV SINGH','abhinav.2014'),
@@ -31133,7 +31133,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS501','130101008
 ('CS501','176101102','Alakesh Kalita','sumit176101013'),
 ('CS501','176101103','Avinash Kumar Chouhan','sumit176101013'),
 ('CS501','176101104','Maithilee Laxmanrao Patawar','sumit176101013');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS501','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS501','130101008','ANKUR SETH','a.seth'),
 ('CS501','130101044','MANDAR KALE','m.kale'),
 ('CS501','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS501','140101002','ABHINAV SINGH','abhinav.2014'),
@@ -31240,7 +31240,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS501','13010100
 ('CS501','176101102','Alakesh Kalita','sumit176101013'),
 ('CS501','176101103','Avinash Kumar Chouhan','sumit176101013'),
 ('CS501','176101104','Maithilee Laxmanrao Patawar','sumit176101013');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS344','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS344','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
 ('CS344','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS344','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS344','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -31376,7 +31376,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS344','140123019','KO
 ('CS344','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS344','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS344','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS344','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS344','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
 ('CS344','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS344','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS344','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -31512,7 +31512,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS344','140123019
 ('CS344','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS344','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS344','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS344','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS344','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
 ('CS344','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS344','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS344','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -31648,7 +31648,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS344','14012301
 ('CS344','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS344','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS344','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS222','130123001','AARYAN DEORI','a.deori'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS222','130123001','AARYAN DEORI','a.deori'),
 ('CS222','150101023','G SHARATH KUMAR','sharath.kumar'),
 ('CS222','150101048','PRAVEEN JANGID','praveen.jangid'),
 ('CS222','150101056','SAMRAT YADAV','samrat.yadav'),
@@ -31784,7 +31784,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS222','130123001','AA
 ('CS222','160123052','SAYANI KUNDU','sayani.frndz'),
 ('CS222','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('CS222','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS222','130123001','AARYAN DEORI','a.deori'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS222','130123001','AARYAN DEORI','a.deori'),
 ('CS222','150101023','G SHARATH KUMAR','sharath.kumar'),
 ('CS222','150101048','PRAVEEN JANGID','praveen.jangid'),
 ('CS222','150101056','SAMRAT YADAV','samrat.yadav'),
@@ -31920,7 +31920,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS222','130123001
 ('CS222','160123052','SAYANI KUNDU','sayani.frndz'),
 ('CS222','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('CS222','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS222','130123001','AARYAN DEORI','a.deori'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS222','130123001','AARYAN DEORI','a.deori'),
 ('CS222','150101023','G SHARATH KUMAR','sharath.kumar'),
 ('CS222','150101048','PRAVEEN JANGID','praveen.jangid'),
 ('CS222','150101056','SAMRAT YADAV','samrat.yadav'),
@@ -32056,7 +32056,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS222','13012300
 ('CS222','160123052','SAYANI KUNDU','sayani.frndz'),
 ('CS222','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r'),
 ('CS222','160123054','DEEPAK KUMAR GOUDA','deepak.gouda');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS206M','150106007','ANJANEY SHARMA','anjaney'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS206M','150106007','ANJANEY SHARMA','anjaney'),
 ('CS206M','150106015','CHITRANJAN CHHABA','chitranjan'),
 ('CS206M','150106021','HEMANT KUMAR','hemantk'),
 ('CS206M','150106039','SALONI VERMA','v.saloni'),
@@ -32120,7 +32120,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS206M','150106007','A
 ('CS206M','160121042','VARUN SESHADRI','varunseshadri'),
 ('CS206M','160122009','DEBARGHYA KUNDU','debarghya4469'),
 ('CS206M','160122016','JIGYASA','jigyasa');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS206M','150106007','ANJANEY SHARMA','anjaney'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS206M','150106007','ANJANEY SHARMA','anjaney'),
 ('CS206M','150106015','CHITRANJAN CHHABA','chitranjan'),
 ('CS206M','150106021','HEMANT KUMAR','hemantk'),
 ('CS206M','150106039','SALONI VERMA','v.saloni'),
@@ -32184,7 +32184,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS206M','15010600
 ('CS206M','160121042','VARUN SESHADRI','varunseshadri'),
 ('CS206M','160122009','DEBARGHYA KUNDU','debarghya4469'),
 ('CS206M','160122016','JIGYASA','jigyasa');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS206M','150106007','ANJANEY SHARMA','anjaney'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS206M','150106007','ANJANEY SHARMA','anjaney'),
 ('CS206M','150106015','CHITRANJAN CHHABA','chitranjan'),
 ('CS206M','150106021','HEMANT KUMAR','hemantk'),
 ('CS206M','150106039','SALONI VERMA','v.saloni'),
@@ -32248,7 +32248,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS206M','1501060
 ('CS206M','160121042','VARUN SESHADRI','varunseshadri'),
 ('CS206M','160122009','DEBARGHYA KUNDU','debarghya4469'),
 ('CS206M','160122016','JIGYASA','jigyasa');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS243','160101001','AADIL HODA','aadil'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS243','160101001','AADIL HODA','aadil'),
 ('CS243','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS243','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('CS243','160101004','ABHINAV HINGER','abhinavh'),
@@ -32329,7 +32329,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS243','160101001','AA
 ('CS243','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS243','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS243','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS243','160101001','AADIL HODA','aadil'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS243','160101001','AADIL HODA','aadil'),
 ('CS243','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS243','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('CS243','160101004','ABHINAV HINGER','abhinavh'),
@@ -32410,7 +32410,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS243','160101001
 ('CS243','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS243','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS243','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS243','160101001','AADIL HODA','aadil'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS243','160101001','AADIL HODA','aadil'),
 ('CS243','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS243','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
 ('CS243','160101004','ABHINAV HINGER','abhinavh'),
@@ -32491,7 +32491,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS243','16010100
 ('CS243','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS243','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS243','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS204','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS204','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
 ('CS204','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS204','150101016','BHOLA SHANKAR RATHIA','r.bhola'),
 ('CS204','150101030','KRISHNA KUMAR','krishna.kumar'),
@@ -32576,7 +32576,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS204','140101033','KU
 ('CS204','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS204','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS204','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS204','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS204','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
 ('CS204','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS204','150101016','BHOLA SHANKAR RATHIA','r.bhola'),
 ('CS204','150101030','KRISHNA KUMAR','krishna.kumar'),
@@ -32661,7 +32661,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS204','140101033
 ('CS204','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS204','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS204','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS204','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS204','140101033','KULDEEP SINGH PALAWAT','k.palawat'),
 ('CS204','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS204','150101016','BHOLA SHANKAR RATHIA','r.bhola'),
 ('CS204','150101030','KRISHNA KUMAR','krishna.kumar'),
@@ -32746,7 +32746,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS204','14010103
 ('CS204','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS204','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS204','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS345','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS345','130101008','ANKUR SETH','a.seth'),
 ('CS345','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
 ('CS345','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS345','150101002','ABHISHEK GOYAL','abhgoyal'),
@@ -32885,7 +32885,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS345','130101008','AN
 ('CS345','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS345','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS345','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS345','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS345','130101008','ANKUR SETH','a.seth'),
 ('CS345','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
 ('CS345','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS345','150101002','ABHISHEK GOYAL','abhgoyal'),
@@ -33024,7 +33024,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS345','130101008
 ('CS345','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS345','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS345','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS345','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS345','130101008','ANKUR SETH','a.seth'),
 ('CS345','140123019','KORRAPATI HARSHA VARDHAN','korrapati'),
 ('CS345','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS345','150101002','ABHISHEK GOYAL','abhgoyal'),
@@ -33163,7 +33163,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS345','13010100
 ('CS345','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS345','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS345','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS549','140101001','ABHINAV PRINCE','p.abhinav'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS549','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS549','140101002','ABHINAV SINGH','abhinav.2014'),
 ('CS549','140101003','ABHISHEK KUMAR','abhishek.2014'),
 ('CS549','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
@@ -33253,7 +33253,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS549','140101001','AB
 ('CS549','176101013','SUMITA MAJHI','sumit176101013'),
 ('CS549','176101102','Alakesh Kalita','sumit176101013'),
 ('CS549','176101104','Maithilee Laxmanrao Patawar','sumit176101013');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS549','140101001','ABHINAV PRINCE','p.abhinav'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS549','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS549','140101002','ABHINAV SINGH','abhinav.2014'),
 ('CS549','140101003','ABHISHEK KUMAR','abhishek.2014'),
 ('CS549','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
@@ -33343,7 +33343,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS549','140101001
 ('CS549','176101013','SUMITA MAJHI','sumit176101013'),
 ('CS549','176101102','Alakesh Kalita','sumit176101013'),
 ('CS549','176101104','Maithilee Laxmanrao Patawar','sumit176101013');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS549','140101001','ABHINAV PRINCE','p.abhinav'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS549','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS549','140101002','ABHINAV SINGH','abhinav.2014'),
 ('CS549','140101003','ABHISHEK KUMAR','abhishek.2014'),
 ('CS549','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
@@ -33433,7 +33433,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS549','14010100
 ('CS549','176101013','SUMITA MAJHI','sumit176101013'),
 ('CS549','176101102','Alakesh Kalita','sumit176101013'),
 ('CS549','176101104','Maithilee Laxmanrao Patawar','sumit176101013');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS347','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS347','130101008','ANKUR SETH','a.seth'),
 ('CS347','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS347','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS347','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -33520,7 +33520,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS347','130101008','AN
 ('CS347','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('CS347','150101087','SATYA PRAKASH','satya.prakash'),
 ('CS347','150101088','PRIYANKAR JAIN','priyankar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS347','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS347','130101008','ANKUR SETH','a.seth'),
 ('CS347','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS347','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS347','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -33607,7 +33607,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS347','130101008
 ('CS347','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('CS347','150101087','SATYA PRAKASH','satya.prakash'),
 ('CS347','150101088','PRIYANKAR JAIN','priyankar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS347','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS347','130101008','ANKUR SETH','a.seth'),
 ('CS347','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS347','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS347','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -33694,7 +33694,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS347','13010100
 ('CS347','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('CS347','150101087','SATYA PRAKASH','satya.prakash'),
 ('CS347','150101088','PRIYANKAR JAIN','priyankar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS242','140101035','LONGKIRI BEY','longkiri'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS242','140101035','LONGKIRI BEY','longkiri'),
 ('CS242','160101001','AADIL HODA','aadil'),
 ('CS242','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS242','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
@@ -33776,7 +33776,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS242','140101035','LO
 ('CS242','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS242','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS242','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS242','140101035','LONGKIRI BEY','longkiri'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS242','140101035','LONGKIRI BEY','longkiri'),
 ('CS242','160101001','AADIL HODA','aadil'),
 ('CS242','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS242','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
@@ -33858,7 +33858,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS242','140101035
 ('CS242','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS242','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS242','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS242','140101035','LONGKIRI BEY','longkiri'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS242','140101035','LONGKIRI BEY','longkiri'),
 ('CS242','160101001','AADIL HODA','aadil'),
 ('CS242','160101002','AAYUSH SANJAY AGARWAL','aayush2016'),
 ('CS242','160101003','ABHAY KSHATRIYA','kshatriya.abhay'),
@@ -33940,7 +33940,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS242','14010103
 ('CS242','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS242','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS242','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS558','174101001','PRASANTA ROY','roy174101001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS558','174101001','PRASANTA ROY','roy174101001'),
 ('CS558','174101002','DIVYAM KUMAR LAMIYAN','divya174101002'),
 ('CS558','174101004','SORTHIYA PARTH MANSUKHBHAI','parth174101004'),
 ('CS558','174101005','MOIRANGTHEM KRISHNANANDA SINGH','krish174101005'),
@@ -33983,7 +33983,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS558','174101001','PR
 ('CS558','174101051','RONAK GOYAL','ronak174101051'),
 ('CS558','174101054','VIRAL BHARAT SHAH','viral174101054'),
 ('CS558','174101057','AVINASH YADAV','avina174101057');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS558','174101001','PRASANTA ROY','roy174101001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS558','174101001','PRASANTA ROY','roy174101001'),
 ('CS558','174101002','DIVYAM KUMAR LAMIYAN','divya174101002'),
 ('CS558','174101004','SORTHIYA PARTH MANSUKHBHAI','parth174101004'),
 ('CS558','174101005','MOIRANGTHEM KRISHNANANDA SINGH','krish174101005'),
@@ -34026,7 +34026,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS558','174101001
 ('CS558','174101051','RONAK GOYAL','ronak174101051'),
 ('CS558','174101054','VIRAL BHARAT SHAH','viral174101054'),
 ('CS558','174101057','AVINASH YADAV','avina174101057');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS558','174101001','PRASANTA ROY','roy174101001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS558','174101001','PRASANTA ROY','roy174101001'),
 ('CS558','174101002','DIVYAM KUMAR LAMIYAN','divya174101002'),
 ('CS558','174101004','SORTHIYA PARTH MANSUKHBHAI','parth174101004'),
 ('CS558','174101005','MOIRANGTHEM KRISHNANANDA SINGH','krish174101005'),
@@ -34069,7 +34069,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS558','17410100
 ('CS558','174101051','RONAK GOYAL','ronak174101051'),
 ('CS558','174101054','VIRAL BHARAT SHAH','viral174101054'),
 ('CS558','174101057','AVINASH YADAV','avina174101057');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS223','150101007','ANKIT PRAJAPATI','ankit.prajapati'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS223','150101007','ANKIT PRAJAPATI','ankit.prajapati'),
 ('CS223','150101016','BHOLA SHANKAR RATHIA','r.bhola'),
 ('CS223','150101028','JIGNYASU RASESH CHASMAWALA','jignyasu'),
 ('CS223','150101065','SHAILENDRA KUMAR BRAMHE','s.bramhe'),
@@ -34155,7 +34155,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS223','150101007','AN
 ('CS223','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS223','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS223','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS223','150101007','ANKIT PRAJAPATI','ankit.prajapati'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS223','150101007','ANKIT PRAJAPATI','ankit.prajapati'),
 ('CS223','150101016','BHOLA SHANKAR RATHIA','r.bhola'),
 ('CS223','150101028','JIGNYASU RASESH CHASMAWALA','jignyasu'),
 ('CS223','150101065','SHAILENDRA KUMAR BRAMHE','s.bramhe'),
@@ -34241,7 +34241,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS223','150101007
 ('CS223','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS223','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS223','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS223','150101007','ANKIT PRAJAPATI','ankit.prajapati'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS223','150101007','ANKIT PRAJAPATI','ankit.prajapati'),
 ('CS223','150101016','BHOLA SHANKAR RATHIA','r.bhola'),
 ('CS223','150101028','JIGNYASU RASESH CHASMAWALA','jignyasu'),
 ('CS223','150101065','SHAILENDRA KUMAR BRAMHE','s.bramhe'),
@@ -34327,7 +34327,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS223','15010100
 ('CS223','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS223','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS223','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS666','174101001','PRASANTA ROY','roy174101001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS666','174101001','PRASANTA ROY','roy174101001'),
 ('CS666','174101002','DIVYAM KUMAR LAMIYAN','divya174101002'),
 ('CS666','174101004','SORTHIYA PARTH MANSUKHBHAI','parth174101004'),
 ('CS666','174101005','MOIRANGTHEM KRISHNANANDA SINGH','krish174101005'),
@@ -34366,7 +34366,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS666','174101001','PR
 ('CS666','174101054','VIRAL BHARAT SHAH','viral174101054'),
 ('CS666','174101057','AVINASH YADAV','avina174101057'),
 ('CS666','176101009','SHUVERTHI MAITY','shuve176101009');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS666','174101001','PRASANTA ROY','roy174101001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS666','174101001','PRASANTA ROY','roy174101001'),
 ('CS666','174101002','DIVYAM KUMAR LAMIYAN','divya174101002'),
 ('CS666','174101004','SORTHIYA PARTH MANSUKHBHAI','parth174101004'),
 ('CS666','174101005','MOIRANGTHEM KRISHNANANDA SINGH','krish174101005'),
@@ -34405,7 +34405,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS666','174101001
 ('CS666','174101054','VIRAL BHARAT SHAH','viral174101054'),
 ('CS666','174101057','AVINASH YADAV','avina174101057'),
 ('CS666','176101009','SHUVERTHI MAITY','shuve176101009');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS666','174101001','PRASANTA ROY','roy174101001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS666','174101001','PRASANTA ROY','roy174101001'),
 ('CS666','174101002','DIVYAM KUMAR LAMIYAN','divya174101002'),
 ('CS666','174101004','SORTHIYA PARTH MANSUKHBHAI','parth174101004'),
 ('CS666','174101005','MOIRANGTHEM KRISHNANANDA SINGH','krish174101005'),
@@ -34444,7 +34444,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS666','17410100
 ('CS666','174101054','VIRAL BHARAT SHAH','viral174101054'),
 ('CS666','174101057','AVINASH YADAV','avina174101057'),
 ('CS666','176101009','SHUVERTHI MAITY','shuve176101009');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS526','130101044','MANDAR KALE','m.kale'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS526','130101044','MANDAR KALE','m.kale'),
 ('CS526','140102013','BEDEKAR NANDAN MILIND','bedekar'),
 ('CS526','140102075','SPOORTHY BHAT','spoorthy'),
 ('CS526','140121016','DEEPANSHU KUMAR','k.deepanshu'),
@@ -34465,7 +34465,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS526','130101044','MA
 ('CS526','176101101','Nilotpal Biswas','sivakumar'),
 ('CS526','176101102','Alakesh Kalita','sivakumar'),
 ('CS526','176101104','Maithilee Laxmanrao Patawar','sivakumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS526','130101044','MANDAR KALE','m.kale'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS526','130101044','MANDAR KALE','m.kale'),
 ('CS526','140102013','BEDEKAR NANDAN MILIND','bedekar'),
 ('CS526','140102075','SPOORTHY BHAT','spoorthy'),
 ('CS526','140121016','DEEPANSHU KUMAR','k.deepanshu'),
@@ -34486,7 +34486,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS526','130101044
 ('CS526','176101101','Nilotpal Biswas','sivakumar'),
 ('CS526','176101102','Alakesh Kalita','sivakumar'),
 ('CS526','176101104','Maithilee Laxmanrao Patawar','sivakumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS526','130101044','MANDAR KALE','m.kale'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS526','130101044','MANDAR KALE','m.kale'),
 ('CS526','140102013','BEDEKAR NANDAN MILIND','bedekar'),
 ('CS526','140102075','SPOORTHY BHAT','spoorthy'),
 ('CS526','140121016','DEEPANSHU KUMAR','k.deepanshu'),
@@ -34507,7 +34507,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS526','13010104
 ('CS526','176101101','Nilotpal Biswas','sivakumar'),
 ('CS526','176101102','Alakesh Kalita','sivakumar'),
 ('CS526','176101104','Maithilee Laxmanrao Patawar','sivakumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS346','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS346','130101008','ANKUR SETH','a.seth'),
 ('CS346','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS346','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS346','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -34594,7 +34594,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS346','130101008','AN
 ('CS346','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('CS346','150101087','SATYA PRAKASH','satya.prakash'),
 ('CS346','150101088','PRIYANKAR JAIN','priyankar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS346','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS346','130101008','ANKUR SETH','a.seth'),
 ('CS346','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS346','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS346','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -34681,7 +34681,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS346','130101008
 ('CS346','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('CS346','150101087','SATYA PRAKASH','satya.prakash'),
 ('CS346','150101088','PRIYANKAR JAIN','priyankar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS346','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS346','130101008','ANKUR SETH','a.seth'),
 ('CS346','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS346','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS346','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -34768,7 +34768,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS346','13010100
 ('CS346','150101086','ANKIT KUMAR SINGH','ankit.ks'),
 ('CS346','150101087','SATYA PRAKASH','satya.prakash'),
 ('CS346','150101088','PRIYANKAR JAIN','priyankar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS101','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS101','120205025','MANISH KUMAR','manish2012'),
 ('CS101','150104061','SIMRAN SONI','simran.soni'),
 ('CS101','160103038','JATIN KUMAR MANGAL','jatin.mangal'),
 ('CS101','160104029','GUNTI CHETAN','chetan.gunti'),
@@ -35463,7 +35463,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS101','120205025','MA
 ('CS101','170205043','VIGNESH KUMAR S','s170205043'),
 ('CS101','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('CS101','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS101','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS101','120205025','MANISH KUMAR','manish2012'),
 ('CS101','150104061','SIMRAN SONI','simran.soni'),
 ('CS101','160103038','JATIN KUMAR MANGAL','jatin.mangal'),
 ('CS101','160104029','GUNTI CHETAN','chetan.gunti'),
@@ -36158,7 +36158,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS101','120205025
 ('CS101','170205043','VIGNESH KUMAR S','s170205043'),
 ('CS101','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('CS101','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS101','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS101','120205025','MANISH KUMAR','manish2012'),
 ('CS101','150104061','SIMRAN SONI','simran.soni'),
 ('CS101','160103038','JATIN KUMAR MANGAL','jatin.mangal'),
 ('CS101','160104029','GUNTI CHETAN','chetan.gunti'),
@@ -36853,7 +36853,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS101','12020502
 ('CS101','170205043','VIGNESH KUMAR S','s170205043'),
 ('CS101','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('CS101','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS561','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS561','130101008','ANKUR SETH','a.seth'),
 ('CS561','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS561','140101002','ABHINAV SINGH','abhinav.2014'),
 ('CS561','140101003','ABHISHEK KUMAR','abhishek.2014'),
@@ -36970,7 +36970,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS561','130101008','AN
 ('CS561','176101103','Avinash Kumar Chouhan','avina174101057'),
 ('CS561','176101104','Maithilee Laxmanrao Patawar','avina174101057'),
 ('CS561','176152101','Tinka Singh','avina174101057');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS561','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS561','130101008','ANKUR SETH','a.seth'),
 ('CS561','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS561','140101002','ABHINAV SINGH','abhinav.2014'),
 ('CS561','140101003','ABHISHEK KUMAR','abhishek.2014'),
@@ -37087,7 +37087,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS561','130101008
 ('CS561','176101103','Avinash Kumar Chouhan','avina174101057'),
 ('CS561','176101104','Maithilee Laxmanrao Patawar','avina174101057'),
 ('CS561','176152101','Tinka Singh','avina174101057');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS561','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS561','130101008','ANKUR SETH','a.seth'),
 ('CS561','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS561','140101002','ABHINAV SINGH','abhinav.2014'),
 ('CS561','140101003','ABHISHEK KUMAR','abhishek.2014'),
@@ -37204,7 +37204,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS561','13010100
 ('CS561','176101103','Avinash Kumar Chouhan','avina174101057'),
 ('CS561','176101104','Maithilee Laxmanrao Patawar','avina174101057'),
 ('CS561','176152101','Tinka Singh','avina174101057');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS525','140101005','ABHISHEK YADAV','abhishek.cse'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS525','140101005','ABHISHEK YADAV','abhishek.cse'),
 ('CS525','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
 ('CS525','140101016','CHETNA WARKADE','c.warkade'),
 ('CS525','140101018','DARSHIT D PATEL','darshit'),
@@ -37265,7 +37265,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS525','140101005','AB
 ('CS525','176101101','Nilotpal Biswas','shuve176101009'),
 ('CS525','176101102','Alakesh Kalita','shuve176101009'),
 ('CS525','176101104','Maithilee Laxmanrao Patawar','shuve176101009');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS525','140101005','ABHISHEK YADAV','abhishek.cse'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS525','140101005','ABHISHEK YADAV','abhishek.cse'),
 ('CS525','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
 ('CS525','140101016','CHETNA WARKADE','c.warkade'),
 ('CS525','140101018','DARSHIT D PATEL','darshit'),
@@ -37326,7 +37326,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS525','140101005
 ('CS525','176101101','Nilotpal Biswas','shuve176101009'),
 ('CS525','176101102','Alakesh Kalita','shuve176101009'),
 ('CS525','176101104','Maithilee Laxmanrao Patawar','shuve176101009');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS525','140101005','ABHISHEK YADAV','abhishek.cse'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS525','140101005','ABHISHEK YADAV','abhishek.cse'),
 ('CS525','140101008','AMOGH SHANKAR GUPTA','amogh.gupta'),
 ('CS525','140101016','CHETNA WARKADE','c.warkade'),
 ('CS525','140101018','DARSHIT D PATEL','darshit'),
@@ -37387,7 +37387,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS525','14010100
 ('CS525','176101101','Nilotpal Biswas','shuve176101009'),
 ('CS525','176101102','Alakesh Kalita','shuve176101009'),
 ('CS525','176101104','Maithilee Laxmanrao Patawar','shuve176101009');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS348','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS348','130101008','ANKUR SETH','a.seth'),
 ('CS348','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS348','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS348','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -37523,7 +37523,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS348','130101008','AN
 ('CS348','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS348','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS348','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS348','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS348','130101008','ANKUR SETH','a.seth'),
 ('CS348','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS348','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS348','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -37659,7 +37659,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS348','130101008
 ('CS348','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS348','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS348','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS348','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS348','130101008','ANKUR SETH','a.seth'),
 ('CS348','150101001','ABHAY KUMAR','abhay.2015'),
 ('CS348','150101002','ABHISHEK GOYAL','abhgoyal'),
 ('CS348','150101003','ABHISHEK KUMAR','abhk.cse'),
@@ -37795,7 +37795,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS348','13010100
 ('CS348','150123051','REMIDI NISHANTH REDDY','remidi.reddy'),
 ('CS348','150123052','PRITHVI SRIRAM','prithvi'),
 ('CS348','150123053','ARKADEEP DAS','arkadeep');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS503','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS503','130101008','ANKUR SETH','a.seth'),
 ('CS503','130101044','MANDAR KALE','m.kale'),
 ('CS503','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
 ('CS503','140101007','AKASH RAKHEJA','a.rakheja'),
@@ -37825,7 +37825,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS503','130101008','AN
 ('CS503','174101027','SYED ZAINUL AABIDIN','syed174101027'),
 ('CS503','174101044','AJEET KUMAR','ajeet174101044'),
 ('CS503','176101103','Avinash Kumar Chouhan','ajeet174101044');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS503','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS503','130101008','ANKUR SETH','a.seth'),
 ('CS503','130101044','MANDAR KALE','m.kale'),
 ('CS503','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
 ('CS503','140101007','AKASH RAKHEJA','a.rakheja'),
@@ -37855,7 +37855,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS503','130101008
 ('CS503','174101027','SYED ZAINUL AABIDIN','syed174101027'),
 ('CS503','174101044','AJEET KUMAR','ajeet174101044'),
 ('CS503','176101103','Avinash Kumar Chouhan','ajeet174101044');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS503','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS503','130101008','ANKUR SETH','a.seth'),
 ('CS503','130101044','MANDAR KALE','m.kale'),
 ('CS503','140101004','ABHISHEK TYAGI','abhishek.tyagi'),
 ('CS503','140101007','AKASH RAKHEJA','a.rakheja'),
@@ -37885,7 +37885,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS503','13010100
 ('CS503','174101027','SYED ZAINUL AABIDIN','syed174101027'),
 ('CS503','174101044','AJEET KUMAR','ajeet174101044'),
 ('CS503','176101103','Avinash Kumar Chouhan','ajeet174101044');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS203','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS203','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
 ('CS203','160101008','ABHISHEK RANJAN','avisek.ranjan'),
 ('CS203','160101009','ABHISHEK SURYAVANSHI','abhishek_7'),
 ('CS203','160101010','ADITYA CHOUHAN','adityachouhan'),
@@ -37960,7 +37960,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS203','160101007','AB
 ('CS203','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS203','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS203','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS203','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS203','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
 ('CS203','160101008','ABHISHEK RANJAN','avisek.ranjan'),
 ('CS203','160101009','ABHISHEK SURYAVANSHI','abhishek_7'),
 ('CS203','160101010','ADITYA CHOUHAN','adityachouhan'),
@@ -38035,7 +38035,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS203','160101007
 ('CS203','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS203','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS203','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS203','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS203','160101007','ABHISHEK KUMAR KOTIYA','iitianakk'),
 ('CS203','160101008','ABHISHEK RANJAN','avisek.ranjan'),
 ('CS203','160101009','ABHISHEK SURYAVANSHI','abhishek_7'),
 ('CS203','160101010','ADITYA CHOUHAN','adityachouhan'),
@@ -38110,7 +38110,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS203','16010100
 ('CS203','160101086','SHAURYA GOMBER','shaurya.gomber98'),
 ('CS203','160101087','ARCHIT JUGRAN','architjugran'),
 ('CS203','160101088','RISHABH JAIN','rishabh_jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS350M','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS350M','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('CS350M','150102003','ABHISHEK ANAND','abh.anand'),
 ('CS350M','150102006','ANKUR DEKA','ankur.deka'),
 ('CS350M','150102010','BELHE YASH ANAND','belhe.anand'),
@@ -38153,7 +38153,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS350M','140121010','B
 ('CS350M','150121036','ROUNAK SEN','rounak.sen'),
 ('CS350M','150121044','SIMRAN BARNWAL','b.simran'),
 ('CS350M','150205006','ANUPRIYA GUPTA','anupriya.gupta');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS350M','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS350M','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('CS350M','150102003','ABHISHEK ANAND','abh.anand'),
 ('CS350M','150102006','ANKUR DEKA','ankur.deka'),
 ('CS350M','150102010','BELHE YASH ANAND','belhe.anand'),
@@ -38196,7 +38196,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS350M','14012101
 ('CS350M','150121036','ROUNAK SEN','rounak.sen'),
 ('CS350M','150121044','SIMRAN BARNWAL','b.simran'),
 ('CS350M','150205006','ANUPRIYA GUPTA','anupriya.gupta');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS350M','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS350M','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('CS350M','150102003','ABHISHEK ANAND','abh.anand'),
 ('CS350M','150102006','ANKUR DEKA','ankur.deka'),
 ('CS350M','150102010','BELHE YASH ANAND','belhe.anand'),
@@ -38239,7 +38239,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS350M','1401210
 ('CS350M','150121036','ROUNAK SEN','rounak.sen'),
 ('CS350M','150121044','SIMRAN BARNWAL','b.simran'),
 ('CS350M','150205006','ANUPRIYA GUPTA','anupriya.gupta');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS499','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CS499','130101008','ANKUR SETH','a.seth'),
 ('CS499','130101044','MANDAR KALE','m.kale'),
 ('CS499','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS499','140101002','ABHINAV SINGH','abhinav.2014'),
@@ -38325,7 +38325,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CS499','130101008','AN
 ('CS499','140101086','RISHAV CHOURASIA','r.chourasia'),
 ('CS499','140101087','MANISH KUMAR DASH','manish.dash'),
 ('CS499','140101088','SAMBHAV KUMAR DASH','d.sambhav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS499','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CS499','130101008','ANKUR SETH','a.seth'),
 ('CS499','130101044','MANDAR KALE','m.kale'),
 ('CS499','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS499','140101002','ABHINAV SINGH','abhinav.2014'),
@@ -38411,7 +38411,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CS499','130101008
 ('CS499','140101086','RISHAV CHOURASIA','r.chourasia'),
 ('CS499','140101087','MANISH KUMAR DASH','manish.dash'),
 ('CS499','140101088','SAMBHAV KUMAR DASH','d.sambhav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS499','130101008','ANKUR SETH','a.seth'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CS499','130101008','ANKUR SETH','a.seth'),
 ('CS499','130101044','MANDAR KALE','m.kale'),
 ('CS499','140101001','ABHINAV PRINCE','p.abhinav'),
 ('CS499','140101002','ABHINAV SINGH','abhinav.2014'),
@@ -38497,7 +38497,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CS499','13010100
 ('CS499','140101086','RISHAV CHOURASIA','r.chourasia'),
 ('CS499','140101087','MANISH KUMAR DASH','manish.dash'),
 ('CS499','140101088','SAMBHAV KUMAR DASH','d.sambhav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT504','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT504','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT504','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT504','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT504','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -38539,7 +38539,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT504','174106001','PO
 ('BT504','174106058','VISHNU K','vishn174106058'),
 ('BT504','174106059','SHIKHA JHA','jha174106059'),
 ('BT504','174154010','VINNY KOHLI','vinny174154010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT504','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT504','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT504','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT504','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT504','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -38581,7 +38581,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT504','174106001
 ('BT504','174106058','VISHNU K','vishn174106058'),
 ('BT504','174106059','SHIKHA JHA','jha174106059'),
 ('BT504','174154010','VINNY KOHLI','vinny174154010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT504','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT504','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT504','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT504','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT504','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -38623,7 +38623,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT504','17410600
 ('BT504','174106058','VISHNU K','vishn174106058'),
 ('BT504','174106059','SHIKHA JHA','jha174106059'),
 ('BT504','174154010','VINNY KOHLI','vinny174154010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT699','164106001','AAMEN  TALUKDAR','aamentalukdar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT699','164106001','AAMEN  TALUKDAR','aamentalukdar'),
 ('BT699','164106002','ABHISHEK  ROY','abhishek.roy'),
 ('BT699','164106003','ABHISHEK   SIROHA','abhishek.siroha'),
 ('BT699','164106004','AJIT  KUMAR','ajit.kumar'),
@@ -38653,7 +38653,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT699','164106001','AA
 ('BT699','164106032','TORSHA  KUNDU','torsha.kundu'),
 ('BT699','164106034','MRS. KAWKAB KANJO','kawkab.kanjo'),
 ('BT699','164106035','MS. NAFISEH MANTEGHI','nfs_manteghi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT699','164106001','AAMEN  TALUKDAR','aamentalukdar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT699','164106001','AAMEN  TALUKDAR','aamentalukdar'),
 ('BT699','164106002','ABHISHEK  ROY','abhishek.roy'),
 ('BT699','164106003','ABHISHEK   SIROHA','abhishek.siroha'),
 ('BT699','164106004','AJIT  KUMAR','ajit.kumar'),
@@ -38683,7 +38683,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT699','164106001
 ('BT699','164106032','TORSHA  KUNDU','torsha.kundu'),
 ('BT699','164106034','MRS. KAWKAB KANJO','kawkab.kanjo'),
 ('BT699','164106035','MS. NAFISEH MANTEGHI','nfs_manteghi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT699','164106001','AAMEN  TALUKDAR','aamentalukdar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT699','164106001','AAMEN  TALUKDAR','aamentalukdar'),
 ('BT699','164106002','ABHISHEK  ROY','abhishek.roy'),
 ('BT699','164106003','ABHISHEK   SIROHA','abhishek.siroha'),
 ('BT699','164106004','AJIT  KUMAR','ajit.kumar'),
@@ -38713,7 +38713,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT699','16410600
 ('BT699','164106032','TORSHA  KUNDU','torsha.kundu'),
 ('BT699','164106034','MRS. KAWKAB KANJO','kawkab.kanjo'),
 ('BT699','164106035','MS. NAFISEH MANTEGHI','nfs_manteghi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT302','130106046','SRIKANTH DOMMATI','s.dommati'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT302','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('BT302','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT302','150106001','AABHAS SINGHAL','aabhas'),
 ('BT302','150106002','AKASH SATSANGI','a.satsangi'),
@@ -38758,7 +38758,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT302','130106046','SR
 ('BT302','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT302','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT302','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT302','130106046','SRIKANTH DOMMATI','s.dommati'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT302','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('BT302','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT302','150106001','AABHAS SINGHAL','aabhas'),
 ('BT302','150106002','AKASH SATSANGI','a.satsangi'),
@@ -38803,7 +38803,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT302','130106046
 ('BT302','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT302','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT302','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT302','130106046','SRIKANTH DOMMATI','s.dommati'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT302','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('BT302','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT302','150106001','AABHAS SINGHAL','aabhas'),
 ('BT302','150106002','AKASH SATSANGI','a.satsangi'),
@@ -38848,7 +38848,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT302','13010604
 ('BT302','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT302','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT302','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT401','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT401','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT401','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT401','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT401','140106006','ANAND SHARMA','anand.sharma'),
@@ -38886,7 +38886,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT401','140106001','AB
 ('BT401','140106050','SMRITI PRIYA','smriti.priya'),
 ('BT401','140106052','SUPARNA SIKDAR','suparna.sikdar'),
 ('BT401','140106054','VISWAVARAPU RAVI TEJA','viswavarapu.teja');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT401','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT401','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT401','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT401','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT401','140106006','ANAND SHARMA','anand.sharma'),
@@ -38924,7 +38924,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT401','140106001
 ('BT401','140106050','SMRITI PRIYA','smriti.priya'),
 ('BT401','140106052','SUPARNA SIKDAR','suparna.sikdar'),
 ('BT401','140106054','VISWAVARAPU RAVI TEJA','viswavarapu.teja');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT401','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT401','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT401','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT401','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT401','140106006','ANAND SHARMA','anand.sharma'),
@@ -38962,7 +38962,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT401','14010600
 ('BT401','140106050','SMRITI PRIYA','smriti.priya'),
 ('BT401','140106052','SUPARNA SIKDAR','suparna.sikdar'),
 ('BT401','140106054','VISWAVARAPU RAVI TEJA','viswavarapu.teja');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT609','140106004','AJEET KUMAR','ajeet.2014'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT609','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT609','140106006','ANAND SHARMA','anand.sharma'),
 ('BT609','140106027','JAI PRAKASH','jai.prakash'),
 ('BT609','140106034','LIMAYE ROHAN SAMIR','limaye'),
@@ -38981,7 +38981,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT609','140106004','AJ
 ('BT609','176107109','Nayanjyoti Kakati','mohan176106018'),
 ('BT609','176151002','ARADHANA PRIYADARSINI','aradh176151002'),
 ('BT609','176151103','John Kiran Katari','aradh176151002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT609','140106004','AJEET KUMAR','ajeet.2014'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT609','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT609','140106006','ANAND SHARMA','anand.sharma'),
 ('BT609','140106027','JAI PRAKASH','jai.prakash'),
 ('BT609','140106034','LIMAYE ROHAN SAMIR','limaye'),
@@ -39000,7 +39000,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT609','140106004
 ('BT609','176107109','Nayanjyoti Kakati','mohan176106018'),
 ('BT609','176151002','ARADHANA PRIYADARSINI','aradh176151002'),
 ('BT609','176151103','John Kiran Katari','aradh176151002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT609','140106004','AJEET KUMAR','ajeet.2014'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT609','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT609','140106006','ANAND SHARMA','anand.sharma'),
 ('BT609','140106027','JAI PRAKASH','jai.prakash'),
 ('BT609','140106034','LIMAYE ROHAN SAMIR','limaye'),
@@ -39019,7 +39019,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT609','14010600
 ('BT609','176107109','Nayanjyoti Kakati','mohan176106018'),
 ('BT609','176151002','ARADHANA PRIYADARSINI','aradh176151002'),
 ('BT609','176151103','John Kiran Katari','aradh176151002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT330','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT330','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT330','150106001','AABHAS SINGHAL','aabhas'),
 ('BT330','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT330','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39063,7 +39063,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT330','140106032','KA
 ('BT330','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT330','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT330','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT330','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT330','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT330','150106001','AABHAS SINGHAL','aabhas'),
 ('BT330','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT330','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39107,7 +39107,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT330','140106032
 ('BT330','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT330','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT330','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT330','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT330','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT330','150106001','AABHAS SINGHAL','aabhas'),
 ('BT330','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT330','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39151,7 +39151,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT330','14010603
 ('BT330','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT330','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT330','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT502','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT502','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT502','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT502','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT502','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -39199,7 +39199,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT502','174106001','PO
 ('BT502','176106109','Neha Joshi','pooja176106028'),
 ('BT502','176106110','Khyati Raina','pooja176106028'),
 ('BT502','176106114','Tasrin Shahnaz','pooja176106028');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT502','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT502','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT502','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT502','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT502','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -39247,7 +39247,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT502','174106001
 ('BT502','176106109','Neha Joshi','pooja176106028'),
 ('BT502','176106110','Khyati Raina','pooja176106028'),
 ('BT502','176106114','Tasrin Shahnaz','pooja176106028');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT502','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT502','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT502','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT502','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT502','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -39295,7 +39295,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT502','17410600
 ('BT502','176106109','Neha Joshi','pooja176106028'),
 ('BT502','176106110','Khyati Raina','pooja176106028'),
 ('BT502','176106114','Tasrin Shahnaz','pooja176106028');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT616','150106010','ARIKTHA SRIVATHSAN','ariktha'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT616','150106010','ARIKTHA SRIVATHSAN','ariktha'),
 ('BT616','150106016','DAVE URMIL MITHALAL','m.dave'),
 ('BT616','150106021','HEMANT KUMAR','hemantk'),
 ('BT616','150106022','JITIKA RAJPOOT','jitika'),
@@ -39324,7 +39324,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT616','150106010','AR
 ('BT616','176106101','Sosmitha Girisa','alok176106025'),
 ('BT616','176106102','Shweta Katrolia','alok176106025'),
 ('BT616','176154101','Tapas Das','alok176106025');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT616','150106010','ARIKTHA SRIVATHSAN','ariktha'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT616','150106010','ARIKTHA SRIVATHSAN','ariktha'),
 ('BT616','150106016','DAVE URMIL MITHALAL','m.dave'),
 ('BT616','150106021','HEMANT KUMAR','hemantk'),
 ('BT616','150106022','JITIKA RAJPOOT','jitika'),
@@ -39353,7 +39353,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT616','150106010
 ('BT616','176106101','Sosmitha Girisa','alok176106025'),
 ('BT616','176106102','Shweta Katrolia','alok176106025'),
 ('BT616','176154101','Tapas Das','alok176106025');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT616','150106010','ARIKTHA SRIVATHSAN','ariktha'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT616','150106010','ARIKTHA SRIVATHSAN','ariktha'),
 ('BT616','150106016','DAVE URMIL MITHALAL','m.dave'),
 ('BT616','150106021','HEMANT KUMAR','hemantk'),
 ('BT616','150106022','JITIKA RAJPOOT','jitika'),
@@ -39382,7 +39382,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT616','15010601
 ('BT616','176106101','Sosmitha Girisa','alok176106025'),
 ('BT616','176106102','Shweta Katrolia','alok176106025'),
 ('BT616','176154101','Tapas Das','alok176106025');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT205','130106046','SRIKANTH DOMMATI','s.dommati'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT205','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('BT205','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT205','140121007','ANUPAM JAIN','anupam.jain'),
 ('BT205','150106001','AABHAS SINGHAL','aabhas'),
@@ -39460,7 +39460,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT205','130106046','SR
 ('BT205','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('BT205','160121042','VARUN SESHADRI','varunseshadri'),
 ('BT205','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT205','130106046','SRIKANTH DOMMATI','s.dommati'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT205','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('BT205','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT205','140121007','ANUPAM JAIN','anupam.jain'),
 ('BT205','150106001','AABHAS SINGHAL','aabhas'),
@@ -39538,7 +39538,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT205','130106046
 ('BT205','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('BT205','160121042','VARUN SESHADRI','varunseshadri'),
 ('BT205','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT205','130106046','SRIKANTH DOMMATI','s.dommati'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT205','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('BT205','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT205','140121007','ANUPAM JAIN','anupam.jain'),
 ('BT205','150106001','AABHAS SINGHAL','aabhas'),
@@ -39616,7 +39616,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT205','13010604
 ('BT205','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('BT205','160121042','VARUN SESHADRI','varunseshadri'),
 ('BT205','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT630','140102026','KARTHIK RAMAN','k.raman'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT630','140102026','KARTHIK RAMAN','k.raman'),
 ('BT630','140106025','GYAN WAIBHAW','w.gyan'),
 ('BT630','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('BT630','140121039','SUJAY VIJAY JADHAV','sujay.2014'),
@@ -39626,7 +39626,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT630','140102026','KA
 ('BT630','174106051','PERWEZ BAKHT','bakht174106051'),
 ('BT630','176106023','ALKA SINGH','alka176106023'),
 ('BT630','176106108','Juhi Rajesh Rathod','alka176106023');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT630','140102026','KARTHIK RAMAN','k.raman'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT630','140102026','KARTHIK RAMAN','k.raman'),
 ('BT630','140106025','GYAN WAIBHAW','w.gyan'),
 ('BT630','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('BT630','140121039','SUJAY VIJAY JADHAV','sujay.2014'),
@@ -39636,7 +39636,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT630','140102026
 ('BT630','174106051','PERWEZ BAKHT','bakht174106051'),
 ('BT630','176106023','ALKA SINGH','alka176106023'),
 ('BT630','176106108','Juhi Rajesh Rathod','alka176106023');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT630','140102026','KARTHIK RAMAN','k.raman'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT630','140102026','KARTHIK RAMAN','k.raman'),
 ('BT630','140106025','GYAN WAIBHAW','w.gyan'),
 ('BT630','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('BT630','140121039','SUJAY VIJAY JADHAV','sujay.2014'),
@@ -39646,7 +39646,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT630','14010202
 ('BT630','174106051','PERWEZ BAKHT','bakht174106051'),
 ('BT630','176106023','ALKA SINGH','alka176106023'),
 ('BT630','176106108','Juhi Rajesh Rathod','alka176106023');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT601','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT601','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT601','150106001','AABHAS SINGHAL','aabhas'),
 ('BT601','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT601','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39704,7 +39704,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT601','140106032','KA
 ('BT601','176151103','John Kiran Katari','pooja176106028'),
 ('BT601','176152101','Tinka Singh','pooja176106028'),
 ('BT601','176154101','Tapas Das','pooja176106028');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT601','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT601','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT601','150106001','AABHAS SINGHAL','aabhas'),
 ('BT601','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT601','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39762,7 +39762,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT601','140106032
 ('BT601','176151103','John Kiran Katari','pooja176106028'),
 ('BT601','176152101','Tinka Singh','pooja176106028'),
 ('BT601','176154101','Tapas Das','pooja176106028');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT601','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT601','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT601','150106001','AABHAS SINGHAL','aabhas'),
 ('BT601','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT601','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39820,7 +39820,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT601','14010603
 ('BT601','176151103','John Kiran Katari','pooja176106028'),
 ('BT601','176152101','Tinka Singh','pooja176106028'),
 ('BT601','176154101','Tapas Das','pooja176106028');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT208','140106044','RAJSHEKHAR PEGU','rajshekhar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT208','140106044','RAJSHEKHAR PEGU','rajshekhar'),
 ('BT208','150106035','RAGHUNATH KATARIYA','k.raghunath'),
 ('BT208','160103035','HIMANSHU MEENA','himanshu_meena'),
 ('BT208','160106002','AMAN NAHAR','a.nahar'),
@@ -39855,7 +39855,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT208','140106044','RA
 ('BT208','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT208','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT208','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT208','140106044','RAJSHEKHAR PEGU','rajshekhar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT208','140106044','RAJSHEKHAR PEGU','rajshekhar'),
 ('BT208','150106035','RAGHUNATH KATARIYA','k.raghunath'),
 ('BT208','160103035','HIMANSHU MEENA','himanshu_meena'),
 ('BT208','160106002','AMAN NAHAR','a.nahar'),
@@ -39890,7 +39890,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT208','140106044
 ('BT208','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT208','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT208','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT208','140106044','RAJSHEKHAR PEGU','rajshekhar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT208','140106044','RAJSHEKHAR PEGU','rajshekhar'),
 ('BT208','150106035','RAGHUNATH KATARIYA','k.raghunath'),
 ('BT208','160103035','HIMANSHU MEENA','himanshu_meena'),
 ('BT208','160106002','AMAN NAHAR','a.nahar'),
@@ -39925,7 +39925,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT208','14010604
 ('BT208','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT208','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT208','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT306','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT306','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT306','150106001','AABHAS SINGHAL','aabhas'),
 ('BT306','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT306','150106003','AMAN CHAUDHARY','c.aman'),
@@ -39969,7 +39969,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT306','140106032','KA
 ('BT306','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT306','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT306','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT306','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT306','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT306','150106001','AABHAS SINGHAL','aabhas'),
 ('BT306','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT306','150106003','AMAN CHAUDHARY','c.aman'),
@@ -40013,7 +40013,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT306','140106032
 ('BT306','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT306','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT306','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT306','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT306','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT306','150106001','AABHAS SINGHAL','aabhas'),
 ('BT306','150106002','AKASH SATSANGI','a.satsangi'),
 ('BT306','150106003','AMAN CHAUDHARY','c.aman'),
@@ -40057,7 +40057,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT306','14010603
 ('BT306','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT306','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT306','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT637','140106007','ANKITA ANSHU','a.ankita'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT637','140106007','ANKITA ANSHU','a.ankita'),
 ('BT637','140106010','APOORV BAJPAI','apoorv.bajpai'),
 ('BT637','140106013','ARROJWALA MANU TEJ SHARMA','arrojwala'),
 ('BT637','140106038','MD SHAHNAWAZ ALAM','shahnawaz.alam'),
@@ -40071,7 +40071,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT637','140106007','AN
 ('BT637','176106113','Tanmayee Samantaray','ferri174106054'),
 ('BT637','176106114','Tasrin Shahnaz','ferri174106054'),
 ('BT637','176154101','Tapas Das','ferri174106054');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT637','140106007','ANKITA ANSHU','a.ankita'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT637','140106007','ANKITA ANSHU','a.ankita'),
 ('BT637','140106010','APOORV BAJPAI','apoorv.bajpai'),
 ('BT637','140106013','ARROJWALA MANU TEJ SHARMA','arrojwala'),
 ('BT637','140106038','MD SHAHNAWAZ ALAM','shahnawaz.alam'),
@@ -40085,7 +40085,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT637','140106007
 ('BT637','176106113','Tanmayee Samantaray','ferri174106054'),
 ('BT637','176106114','Tasrin Shahnaz','ferri174106054'),
 ('BT637','176154101','Tapas Das','ferri174106054');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT637','140106007','ANKITA ANSHU','a.ankita'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT637','140106007','ANKITA ANSHU','a.ankita'),
 ('BT637','140106010','APOORV BAJPAI','apoorv.bajpai'),
 ('BT637','140106013','ARROJWALA MANU TEJ SHARMA','arrojwala'),
 ('BT637','140106038','MD SHAHNAWAZ ALAM','shahnawaz.alam'),
@@ -40099,7 +40099,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT637','14010600
 ('BT637','176106113','Tanmayee Samantaray','ferri174106054'),
 ('BT637','176106114','Tasrin Shahnaz','ferri174106054'),
 ('BT637','176154101','Tapas Das','ferri174106054');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT607','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT607','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT607','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT607','140106009','ANUSUA SARKAR','anusua'),
 ('BT607','140106011','APOORVA MANURAJ','m.apoorva'),
@@ -40132,7 +40132,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT607','140106001','AB
 ('BT607','176106102','Shweta Katrolia','sm.kumar'),
 ('BT607','176106113','Tanmayee Samantaray','sm.kumar'),
 ('BT607','176154101','Tapas Das','sm.kumar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT607','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT607','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT607','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT607','140106009','ANUSUA SARKAR','anusua'),
 ('BT607','140106011','APOORVA MANURAJ','m.apoorva'),
@@ -40165,7 +40165,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT607','140106001
 ('BT607','176106102','Shweta Katrolia','sm.kumar'),
 ('BT607','176106113','Tanmayee Samantaray','sm.kumar'),
 ('BT607','176154101','Tapas Das','sm.kumar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT607','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT607','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT607','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT607','140106009','ANUSUA SARKAR','anusua'),
 ('BT607','140106011','APOORVA MANURAJ','m.apoorva'),
@@ -40198,7 +40198,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT607','14010600
 ('BT607','176106102','Shweta Katrolia','sm.kumar'),
 ('BT607','176106113','Tanmayee Samantaray','sm.kumar'),
 ('BT607','176154101','Tapas Das','sm.kumar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT305','140106021','DEEPANSH MATHUR','deepansh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT305','140106021','DEEPANSH MATHUR','deepansh'),
 ('BT305','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT305','150106001','AABHAS SINGHAL','aabhas'),
 ('BT305','150106002','AKASH SATSANGI','a.satsangi'),
@@ -40241,7 +40241,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT305','140106021','DE
 ('BT305','150106045','SHUBHANKAR VERMA','v.shubhankar'),
 ('BT305','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT305','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT305','140106021','DEEPANSH MATHUR','deepansh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT305','140106021','DEEPANSH MATHUR','deepansh'),
 ('BT305','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT305','150106001','AABHAS SINGHAL','aabhas'),
 ('BT305','150106002','AKASH SATSANGI','a.satsangi'),
@@ -40284,7 +40284,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT305','140106021
 ('BT305','150106045','SHUBHANKAR VERMA','v.shubhankar'),
 ('BT305','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT305','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT305','140106021','DEEPANSH MATHUR','deepansh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT305','140106021','DEEPANSH MATHUR','deepansh'),
 ('BT305','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT305','150106001','AABHAS SINGHAL','aabhas'),
 ('BT305','150106002','AKASH SATSANGI','a.satsangi'),
@@ -40327,7 +40327,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT305','14010602
 ('BT305','150106045','SHUBHANKAR VERMA','v.shubhankar'),
 ('BT305','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT305','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT290','160106002','AMAN NAHAR','a.nahar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT290','160106002','AMAN NAHAR','a.nahar'),
 ('BT290','160106005','ASHWIN M DEVANGA','ashwinmdevanga'),
 ('BT290','160106007','BALLA NAVEEN','naveenballa12'),
 ('BT290','160106008','BIKASH DAS','bikashdas0108'),
@@ -40358,7 +40358,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT290','160106002','AM
 ('BT290','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT290','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT290','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT290','160106002','AMAN NAHAR','a.nahar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT290','160106002','AMAN NAHAR','a.nahar'),
 ('BT290','160106005','ASHWIN M DEVANGA','ashwinmdevanga'),
 ('BT290','160106007','BALLA NAVEEN','naveenballa12'),
 ('BT290','160106008','BIKASH DAS','bikashdas0108'),
@@ -40389,7 +40389,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT290','160106002
 ('BT290','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT290','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT290','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT290','160106002','AMAN NAHAR','a.nahar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT290','160106002','AMAN NAHAR','a.nahar'),
 ('BT290','160106005','ASHWIN M DEVANGA','ashwinmdevanga'),
 ('BT290','160106007','BALLA NAVEEN','naveenballa12'),
 ('BT290','160106008','BIKASH DAS','bikashdas0108'),
@@ -40420,7 +40420,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT290','16010600
 ('BT290','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT290','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT290','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT632','140101038','MANISH KUMAR REGAR','manish.regar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT632','140101038','MANISH KUMAR REGAR','manish.regar'),
 ('BT632','140102005','AMAN DALMIA','a.dalmia'),
 ('BT632','140102047','RISHAV AGARWAL','a.rishav'),
 ('BT632','140102064','TRINA NASKAR','trina'),
@@ -40499,7 +40499,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT632','140101038','MA
 ('BT632','176106106','Rafi Uz Zama Khan Mohammed','jha174106059'),
 ('BT632','176106110','Khyati Raina','jha174106059'),
 ('BT632','176106117','AMAN BHARADWAJ','jha174106059');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT632','140101038','MANISH KUMAR REGAR','manish.regar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT632','140101038','MANISH KUMAR REGAR','manish.regar'),
 ('BT632','140102005','AMAN DALMIA','a.dalmia'),
 ('BT632','140102047','RISHAV AGARWAL','a.rishav'),
 ('BT632','140102064','TRINA NASKAR','trina'),
@@ -40578,7 +40578,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT632','140101038
 ('BT632','176106106','Rafi Uz Zama Khan Mohammed','jha174106059'),
 ('BT632','176106110','Khyati Raina','jha174106059'),
 ('BT632','176106117','AMAN BHARADWAJ','jha174106059');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT632','140101038','MANISH KUMAR REGAR','manish.regar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT632','140101038','MANISH KUMAR REGAR','manish.regar'),
 ('BT632','140102005','AMAN DALMIA','a.dalmia'),
 ('BT632','140102047','RISHAV AGARWAL','a.rishav'),
 ('BT632','140102064','TRINA NASKAR','trina'),
@@ -40657,7 +40657,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT632','14010103
 ('BT632','176106106','Rafi Uz Zama Khan Mohammed','jha174106059'),
 ('BT632','176106110','Khyati Raina','jha174106059'),
 ('BT632','176106117','AMAN BHARADWAJ','jha174106059');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT520','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT520','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT520','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT520','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT520','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -40698,7 +40698,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT520','174106001','PO
 ('BT520','174106057','GLORY BASUMATA','glory174106057'),
 ('BT520','174106058','VISHNU K','vishn174106058'),
 ('BT520','174106059','SHIKHA JHA','jha174106059');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT520','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT520','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT520','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT520','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT520','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -40739,7 +40739,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT520','174106001
 ('BT520','174106057','GLORY BASUMATA','glory174106057'),
 ('BT520','174106058','VISHNU K','vishn174106058'),
 ('BT520','174106059','SHIKHA JHA','jha174106059');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT520','174106001','POULOMI ADHIKARI','poulo174106001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT520','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT520','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT520','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT520','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -40780,7 +40780,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT520','17410600
 ('BT520','174106057','GLORY BASUMATA','glory174106057'),
 ('BT520','174106058','VISHNU K','vishn174106058'),
 ('BT520','174106059','SHIKHA JHA','jha174106059');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT202','140106040','PINGKU BRAHMA','pingku'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT202','140106040','PINGKU BRAHMA','pingku'),
 ('BT202','150106017','DHRUV GURURANI','dhruv.gururani'),
 ('BT202','150106037','RAKESH KUMAR YADAV','rakesh.yadav'),
 ('BT202','150106048','TATINENI PRAKASH RAJ','tatineni'),
@@ -40816,7 +40816,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT202','140106040','PI
 ('BT202','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT202','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT202','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT202','140106040','PINGKU BRAHMA','pingku'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT202','140106040','PINGKU BRAHMA','pingku'),
 ('BT202','150106017','DHRUV GURURANI','dhruv.gururani'),
 ('BT202','150106037','RAKESH KUMAR YADAV','rakesh.yadav'),
 ('BT202','150106048','TATINENI PRAKASH RAJ','tatineni'),
@@ -40852,7 +40852,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT202','140106040
 ('BT202','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT202','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT202','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT202','140106040','PINGKU BRAHMA','pingku'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT202','140106040','PINGKU BRAHMA','pingku'),
 ('BT202','150106017','DHRUV GURURANI','dhruv.gururani'),
 ('BT202','150106037','RAKESH KUMAR YADAV','rakesh.yadav'),
 ('BT202','150106048','TATINENI PRAKASH RAJ','tatineni'),
@@ -40888,7 +40888,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT202','14010604
 ('BT202','160106053','VISHWAS MISHRA','vishwas17597'),
 ('BT202','160106054','VIVEK KUMAR SAINI','vivek.ks901'),
 ('BT202','160106056','YERRA PRAMOD REDDY','pramodangel1');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT604','140106040','PINGKU BRAHMA','pingku'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT604','140106040','PINGKU BRAHMA','pingku'),
 ('BT604','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT604','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT604','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -40912,7 +40912,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT604','140106040','PI
 ('BT604','176106117','AMAN BHARADWAJ','alka176106023'),
 ('BT604','176107109','Nayanjyoti Kakati','alka176106023'),
 ('BT604','176151103','John Kiran Katari','alka176106023');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT604','140106040','PINGKU BRAHMA','pingku'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT604','140106040','PINGKU BRAHMA','pingku'),
 ('BT604','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT604','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT604','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -40936,7 +40936,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT604','140106040
 ('BT604','176106117','AMAN BHARADWAJ','alka176106023'),
 ('BT604','176107109','Nayanjyoti Kakati','alka176106023'),
 ('BT604','176151103','John Kiran Katari','alka176106023');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT604','140106040','PINGKU BRAHMA','pingku'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT604','140106040','PINGKU BRAHMA','pingku'),
 ('BT604','174106002','V S PAVAN KUMAR','pavan174106002'),
 ('BT604','174106003','MONALISHA GHOSH DASTIDAR','monal174106003'),
 ('BT604','174106004','JYOTIRMOY SETHY','jyoti174106004'),
@@ -40960,7 +40960,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT604','14010604
 ('BT604','176106117','AMAN BHARADWAJ','alka176106023'),
 ('BT604','176107109','Nayanjyoti Kakati','alka176106023'),
 ('BT604','176151103','John Kiran Katari','alka176106023');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT308','140106028','JIBRAN JAVED KOUL','jibran'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT308','140106028','JIBRAN JAVED KOUL','jibran'),
 ('BT308','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT308','140106046','SAMANT AMEY YOGESH','samant.yogesh'),
 ('BT308','140106047','SHINDE SHRIKANT SHRIHARI','shinde.shrihari'),
@@ -41005,7 +41005,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT308','140106028','JI
 ('BT308','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT308','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT308','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT308','140106028','JIBRAN JAVED KOUL','jibran'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT308','140106028','JIBRAN JAVED KOUL','jibran'),
 ('BT308','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT308','140106046','SAMANT AMEY YOGESH','samant.yogesh'),
 ('BT308','140106047','SHINDE SHRIKANT SHRIHARI','shinde.shrihari'),
@@ -41050,7 +41050,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT308','140106028
 ('BT308','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT308','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT308','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT308','140106028','JIBRAN JAVED KOUL','jibran'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT308','140106028','JIBRAN JAVED KOUL','jibran'),
 ('BT308','140106032','KARIPE UDAY KUMAR','karipe.kumar'),
 ('BT308','140106046','SAMANT AMEY YOGESH','samant.yogesh'),
 ('BT308','140106047','SHINDE SHRIKANT SHRIHARI','shinde.shrihari'),
@@ -41095,7 +41095,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT308','14010602
 ('BT308','150106047','SURAJ CHAURASIA','c.suraj'),
 ('BT308','150106048','TATINENI PRAKASH RAJ','tatineni'),
 ('BT308','150106051','YACHEE GUPTA','yachee');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT101','120102051','RAVI KIRAN JATAV','r.jatav'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT101','120102051','RAVI KIRAN JATAV','r.jatav'),
 ('BT101','170101001','AAYUSH PATNI','patni170101001'),
 ('BT101','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('BT101','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -41733,7 +41733,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT101','120102051','RA
 ('BT101','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('BT101','170123054','TUMARADA ADITYA','adity170123054'),
 ('BT101','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT101','120102051','RAVI KIRAN JATAV','r.jatav'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT101','120102051','RAVI KIRAN JATAV','r.jatav'),
 ('BT101','170101001','AAYUSH PATNI','patni170101001'),
 ('BT101','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('BT101','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -42371,7 +42371,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT101','120102051
 ('BT101','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('BT101','170123054','TUMARADA ADITYA','adity170123054'),
 ('BT101','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT101','120102051','RAVI KIRAN JATAV','r.jatav'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT101','120102051','RAVI KIRAN JATAV','r.jatav'),
 ('BT101','170101001','AAYUSH PATNI','patni170101001'),
 ('BT101','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('BT101','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -43009,7 +43009,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT101','12010205
 ('BT101','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('BT101','170123054','TUMARADA ADITYA','adity170123054'),
 ('BT101','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT613','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT613','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT613','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT613','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT613','140106006','ANAND SHARMA','anand.sharma'),
@@ -43054,7 +43054,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT613','140106001','AB
 ('BT613','174106056','HIRAKJYOTI ROY','hirak174106056'),
 ('BT613','174154010','VINNY KOHLI','vinny174154010'),
 ('BT613','176106002','MAHESH  DAS','mahes176106002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT613','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT613','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT613','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT613','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT613','140106006','ANAND SHARMA','anand.sharma'),
@@ -43099,7 +43099,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT613','140106001
 ('BT613','174106056','HIRAKJYOTI ROY','hirak174106056'),
 ('BT613','174154010','VINNY KOHLI','vinny174154010'),
 ('BT613','176106002','MAHESH  DAS','mahes176106002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT613','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT613','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT613','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT613','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT613','140106006','ANAND SHARMA','anand.sharma'),
@@ -43144,7 +43144,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT613','14010600
 ('BT613','174106056','HIRAKJYOTI ROY','hirak174106056'),
 ('BT613','174154010','VINNY KOHLI','vinny174154010'),
 ('BT613','176106002','MAHESH  DAS','mahes176106002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT499','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT499','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT499','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT499','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT499','140106006','ANAND SHARMA','anand.sharma'),
@@ -43180,7 +43180,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT499','140106001','AB
 ('BT499','140106050','SMRITI PRIYA','smriti.priya'),
 ('BT499','140106052','SUPARNA SIKDAR','suparna.sikdar'),
 ('BT499','140106054','VISWAVARAPU RAVI TEJA','viswavarapu.teja');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT499','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT499','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT499','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT499','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT499','140106006','ANAND SHARMA','anand.sharma'),
@@ -43216,7 +43216,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT499','140106001
 ('BT499','140106050','SMRITI PRIYA','smriti.priya'),
 ('BT499','140106052','SUPARNA SIKDAR','suparna.sikdar'),
 ('BT499','140106054','VISWAVARAPU RAVI TEJA','viswavarapu.teja');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT499','140106001','ABHISEK MISHRA','abhisek.mishra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT499','140106001','ABHISEK MISHRA','abhisek.mishra'),
 ('BT499','140106002','ABHISHEK AJAY','abhishek.ajay'),
 ('BT499','140106004','AJEET KUMAR','ajeet.2014'),
 ('BT499','140106006','ANAND SHARMA','anand.sharma'),
@@ -43252,25 +43252,25 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT499','14010600
 ('BT499','140106050','SMRITI PRIYA','smriti.priya'),
 ('BT499','140106052','SUPARNA SIKDAR','suparna.sikdar'),
 ('BT499','140106054','VISWAVARAPU RAVI TEJA','viswavarapu.teja');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT629','140106025','GYAN WAIBHAW','w.gyan'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT629','140106025','GYAN WAIBHAW','w.gyan'),
 ('BT629','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT629','174106012','BHARAT BHUSHAN','bhara174106012'),
 ('BT629','176106106','Rafi Uz Zama Khan Mohammed','bhara174106012'),
 ('BT629','176106111','Manash Pratim Barkataki','bhara174106012'),
 ('BT629','176106112','Shuchishloka Chakraborty','bhara174106012');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT629','140106025','GYAN WAIBHAW','w.gyan'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT629','140106025','GYAN WAIBHAW','w.gyan'),
 ('BT629','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT629','174106012','BHARAT BHUSHAN','bhara174106012'),
 ('BT629','176106106','Rafi Uz Zama Khan Mohammed','bhara174106012'),
 ('BT629','176106111','Manash Pratim Barkataki','bhara174106012'),
 ('BT629','176106112','Shuchishloka Chakraborty','bhara174106012');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT629','140106025','GYAN WAIBHAW','w.gyan'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT629','140106025','GYAN WAIBHAW','w.gyan'),
 ('BT629','174106001','POULOMI ADHIKARI','poulo174106001'),
 ('BT629','174106012','BHARAT BHUSHAN','bhara174106012'),
 ('BT629','176106106','Rafi Uz Zama Khan Mohammed','bhara174106012'),
 ('BT629','176106111','Manash Pratim Barkataki','bhara174106012'),
 ('BT629','176106112','Shuchishloka Chakraborty','bhara174106012');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT618','140106009','ANUSUA SARKAR','anusua'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('BT618','140106009','ANUSUA SARKAR','anusua'),
 ('BT618','140106010','APOORV BAJPAI','apoorv.bajpai'),
 ('BT618','140106013','ARROJWALA MANU TEJ SHARMA','arrojwala'),
 ('BT618','140106023','G KARTHIK VARMA','kartik.varma'),
@@ -43298,7 +43298,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('BT618','140106009','AN
 ('BT618','176106104','Shabnam Bano','prati176106027'),
 ('BT618','176106117','AMAN BHARADWAJ','prati176106027'),
 ('BT618','176151103','John Kiran Katari','prati176106027');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT618','140106009','ANUSUA SARKAR','anusua'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('BT618','140106009','ANUSUA SARKAR','anusua'),
 ('BT618','140106010','APOORV BAJPAI','apoorv.bajpai'),
 ('BT618','140106013','ARROJWALA MANU TEJ SHARMA','arrojwala'),
 ('BT618','140106023','G KARTHIK VARMA','kartik.varma'),
@@ -43326,7 +43326,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('BT618','140106009
 ('BT618','176106104','Shabnam Bano','prati176106027'),
 ('BT618','176106117','AMAN BHARADWAJ','prati176106027'),
 ('BT618','176151103','John Kiran Katari','prati176106027');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT618','140106009','ANUSUA SARKAR','anusua'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('BT618','140106009','ANUSUA SARKAR','anusua'),
 ('BT618','140106010','APOORV BAJPAI','apoorv.bajpai'),
 ('BT618','140106013','ARROJWALA MANU TEJ SHARMA','arrojwala'),
 ('BT618','140106023','G KARTHIK VARMA','kartik.varma'),
@@ -43354,7 +43354,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('BT618','14010600
 ('BT618','176106104','Shabnam Bano','prati176106027'),
 ('BT618','176106117','AMAN BHARADWAJ','prati176106027'),
 ('BT618','176151103','John Kiran Katari','prati176106027');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME695','174103045','KISHAN KUMAR SINGH','singh174103045'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME695','174103045','KISHAN KUMAR SINGH','singh174103045'),
 ('ME695','174103066','KALULE RAMANZANI','raman174103066'),
 ('ME695','174103079','MANJUL KUMAR MISHRA','manju174103079'),
 ('ME695','174103089','ANURAG JAIN','jain174103089'),
@@ -43367,7 +43367,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME695','174103045','KI
 ('ME695','174103141','MANDEEP SAINI','saini174103141'),
 ('ME695','174103142','JAY PATEL','jay174103142'),
 ('ME695','176107019','ROUSHNI KUMARI','roush176107019');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME695','174103045','KISHAN KUMAR SINGH','singh174103045'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME695','174103045','KISHAN KUMAR SINGH','singh174103045'),
 ('ME695','174103066','KALULE RAMANZANI','raman174103066'),
 ('ME695','174103079','MANJUL KUMAR MISHRA','manju174103079'),
 ('ME695','174103089','ANURAG JAIN','jain174103089'),
@@ -43380,7 +43380,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME695','174103045
 ('ME695','174103141','MANDEEP SAINI','saini174103141'),
 ('ME695','174103142','JAY PATEL','jay174103142'),
 ('ME695','176107019','ROUSHNI KUMARI','roush176107019');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME695','174103045','KISHAN KUMAR SINGH','singh174103045'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME695','174103045','KISHAN KUMAR SINGH','singh174103045'),
 ('ME695','174103066','KALULE RAMANZANI','raman174103066'),
 ('ME695','174103079','MANJUL KUMAR MISHRA','manju174103079'),
 ('ME695','174103089','ANURAG JAIN','jain174103089'),
@@ -43393,7 +43393,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME695','17410304
 ('ME695','174103141','MANDEEP SAINI','saini174103141'),
 ('ME695','174103142','JAY PATEL','jay174103142'),
 ('ME695','176107019','ROUSHNI KUMARI','roush176107019');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME618','140103006','AJAY MOHAN MEENA','a.mohan'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME618','140103006','AJAY MOHAN MEENA','a.mohan'),
 ('ME618','140103010','AMIT KABI','amit.kabi'),
 ('ME618','140103011','ANGSHUMAN DAS','d.angshuman'),
 ('ME618','140103012','ANICODE GANESHAN GOUTHAM','anicode.goutham'),
@@ -43422,7 +43422,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME618','140103006','AJ
 ('ME618','174103137','VIKASH KUMAR','vikas174103137'),
 ('ME618','176103114','Sukanta Das','vikas174103137'),
 ('ME618','176103115','Vivekananda Haldar','vikas174103137');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME618','140103006','AJAY MOHAN MEENA','a.mohan'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME618','140103006','AJAY MOHAN MEENA','a.mohan'),
 ('ME618','140103010','AMIT KABI','amit.kabi'),
 ('ME618','140103011','ANGSHUMAN DAS','d.angshuman'),
 ('ME618','140103012','ANICODE GANESHAN GOUTHAM','anicode.goutham'),
@@ -43451,7 +43451,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME618','140103006
 ('ME618','174103137','VIKASH KUMAR','vikas174103137'),
 ('ME618','176103114','Sukanta Das','vikas174103137'),
 ('ME618','176103115','Vivekananda Haldar','vikas174103137');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME618','140103006','AJAY MOHAN MEENA','a.mohan'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME618','140103006','AJAY MOHAN MEENA','a.mohan'),
 ('ME618','140103010','AMIT KABI','amit.kabi'),
 ('ME618','140103011','ANGSHUMAN DAS','d.angshuman'),
 ('ME618','140103012','ANICODE GANESHAN GOUTHAM','anicode.goutham'),
@@ -43480,7 +43480,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME618','14010300
 ('ME618','174103137','VIKASH KUMAR','vikas174103137'),
 ('ME618','176103114','Sukanta Das','vikas174103137'),
 ('ME618','176103115','Vivekananda Haldar','vikas174103137');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME609','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME609','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('ME609','140102025','K VIGNESH','k.vignesh'),
 ('ME609','140102072','YELLA  REDDY SUSHANTH REDDY','yella.reddy'),
 ('ME609','140107034','NILANG NANDAN','nilang'),
@@ -43508,7 +43508,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME609','120104069','SU
 ('ME609','176103115','Vivekananda Haldar','nilka176103015'),
 ('ME609','176103116','Dhirendra Kumar Verma','nilka176103015'),
 ('ME609','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME609','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME609','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('ME609','140102025','K VIGNESH','k.vignesh'),
 ('ME609','140102072','YELLA  REDDY SUSHANTH REDDY','yella.reddy'),
 ('ME609','140107034','NILANG NANDAN','nilang'),
@@ -43536,7 +43536,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME609','120104069
 ('ME609','176103115','Vivekananda Haldar','nilka176103015'),
 ('ME609','176103116','Dhirendra Kumar Verma','nilka176103015'),
 ('ME609','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME609','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME609','120104069','SUDHANSHU RATHORE','r.sudhanshu'),
 ('ME609','140102025','K VIGNESH','k.vignesh'),
 ('ME609','140102072','YELLA  REDDY SUSHANTH REDDY','yella.reddy'),
 ('ME609','140107034','NILANG NANDAN','nilang'),
@@ -43564,7 +43564,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME609','12010406
 ('ME609','176103115','Vivekananda Haldar','nilka176103015'),
 ('ME609','176103116','Dhirendra Kumar Verma','nilka176103015'),
 ('ME609','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME619','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME619','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME619','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('ME619','140103007','AMAN SAXENA','aman.saxena'),
 ('ME619','140103021','GAMPA SAI VINEETH','gampa'),
@@ -43614,7 +43614,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME619','140103001','AA
 ('ME619','174103131','AMIT KUMAR','amit174103131'),
 ('ME619','174103132','PRATIK SURESH SONDKAR','sondk174103132'),
 ('ME619','176103010','DURGARAO KAMIREDDY','durga176103010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME619','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME619','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME619','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('ME619','140103007','AMAN SAXENA','aman.saxena'),
 ('ME619','140103021','GAMPA SAI VINEETH','gampa'),
@@ -43664,7 +43664,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME619','140103001
 ('ME619','174103131','AMIT KUMAR','amit174103131'),
 ('ME619','174103132','PRATIK SURESH SONDKAR','sondk174103132'),
 ('ME619','176103010','DURGARAO KAMIREDDY','durga176103010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME619','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME619','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME619','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('ME619','140103007','AMAN SAXENA','aman.saxena'),
 ('ME619','140103021','GAMPA SAI VINEETH','gampa'),
@@ -43714,7 +43714,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME619','14010300
 ('ME619','174103131','AMIT KUMAR','amit174103131'),
 ('ME619','174103132','PRATIK SURESH SONDKAR','sondk174103132'),
 ('ME619','176103010','DURGARAO KAMIREDDY','durga176103010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME544','174103072','SHOBHIT TOMAR','tomar174103072'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME544','174103072','SHOBHIT TOMAR','tomar174103072'),
 ('ME544','174103087','SUMAN BASAK','suman174103087'),
 ('ME544','174103102','SUPATRA SHANKHDHAR','supat174103102'),
 ('ME544','174103105','NITESH SINGH','nites174103105'),
@@ -43724,7 +43724,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME544','174103072','SH
 ('ME544','174103140','SHUBHAM KUMAR KUSHWAHA','shubh174103140'),
 ('ME544','174103143','MILIND SURESH RAMTEKE','milin174103143'),
 ('ME544','176103111','Viwek Kumar','milin174103143');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME544','174103072','SHOBHIT TOMAR','tomar174103072'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME544','174103072','SHOBHIT TOMAR','tomar174103072'),
 ('ME544','174103087','SUMAN BASAK','suman174103087'),
 ('ME544','174103102','SUPATRA SHANKHDHAR','supat174103102'),
 ('ME544','174103105','NITESH SINGH','nites174103105'),
@@ -43734,7 +43734,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME544','174103072
 ('ME544','174103140','SHUBHAM KUMAR KUSHWAHA','shubh174103140'),
 ('ME544','174103143','MILIND SURESH RAMTEKE','milin174103143'),
 ('ME544','176103111','Viwek Kumar','milin174103143');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME544','174103072','SHOBHIT TOMAR','tomar174103072'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME544','174103072','SHOBHIT TOMAR','tomar174103072'),
 ('ME544','174103087','SUMAN BASAK','suman174103087'),
 ('ME544','174103102','SUPATRA SHANKHDHAR','supat174103102'),
 ('ME544','174103105','NITESH SINGH','nites174103105'),
@@ -43744,7 +43744,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME544','17410307
 ('ME544','174103140','SHUBHAM KUMAR KUSHWAHA','shubh174103140'),
 ('ME544','174103143','MILIND SURESH RAMTEKE','milin174103143'),
 ('ME544','176103111','Viwek Kumar','milin174103143');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME607','174103002','DEEPAK HOJAI','hojai174103002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME607','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME607','174103005','AYAZUR RAHMAN KHAN','khan174103005'),
 ('ME607','174103008','SANDIPAN BARUAH','sandi174103008'),
 ('ME607','174103013','SOURABH BHARDWAJ','soura174103013'),
@@ -43777,7 +43777,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME607','174103002','DE
 ('ME607','176103114','Sukanta Das','niran176103017'),
 ('ME607','176103116','Dhirendra Kumar Verma','niran176103017'),
 ('ME607','176103119','Tinku Saikia','niran176103017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME607','174103002','DEEPAK HOJAI','hojai174103002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME607','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME607','174103005','AYAZUR RAHMAN KHAN','khan174103005'),
 ('ME607','174103008','SANDIPAN BARUAH','sandi174103008'),
 ('ME607','174103013','SOURABH BHARDWAJ','soura174103013'),
@@ -43810,7 +43810,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME607','174103002
 ('ME607','176103114','Sukanta Das','niran176103017'),
 ('ME607','176103116','Dhirendra Kumar Verma','niran176103017'),
 ('ME607','176103119','Tinku Saikia','niran176103017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME607','174103002','DEEPAK HOJAI','hojai174103002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME607','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME607','174103005','AYAZUR RAHMAN KHAN','khan174103005'),
 ('ME607','174103008','SANDIPAN BARUAH','sandi174103008'),
 ('ME607','174103013','SOURABH BHARDWAJ','soura174103013'),
@@ -43843,7 +43843,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME607','17410300
 ('ME607','176103114','Sukanta Das','niran176103017'),
 ('ME607','176103116','Dhirendra Kumar Verma','niran176103017'),
 ('ME607','176103119','Tinku Saikia','niran176103017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME321','140103008','AMBER SEN','amber.sen'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME321','140103008','AMBER SEN','amber.sen'),
 ('ME321','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME321','140103056','RAHUL MEENA','rahul.meena'),
 ('ME321','140103057','RAMAVATH VENKATA SAI NITESH','ramavath'),
@@ -43917,7 +43917,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME321','140103008','AM
 ('ME321','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME321','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME321','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME321','140103008','AMBER SEN','amber.sen'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME321','140103008','AMBER SEN','amber.sen'),
 ('ME321','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME321','140103056','RAHUL MEENA','rahul.meena'),
 ('ME321','140103057','RAMAVATH VENKATA SAI NITESH','ramavath'),
@@ -43991,7 +43991,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME321','140103008
 ('ME321','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME321','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME321','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME321','140103008','AMBER SEN','amber.sen'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME321','140103008','AMBER SEN','amber.sen'),
 ('ME321','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME321','140103056','RAHUL MEENA','rahul.meena'),
 ('ME321','140103057','RAMAVATH VENKATA SAI NITESH','ramavath'),
@@ -44065,7 +44065,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME321','14010300
 ('ME321','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME321','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME321','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME605','166103104',' RAJDEEP GHOSH','rajdeep.mech'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME605','166103104',' RAJDEEP GHOSH','rajdeep.mech'),
 ('ME605','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME605','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME605','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
@@ -44103,7 +44103,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME605','166103104',' R
 ('ME605','176103111','Viwek Kumar','sai176103019'),
 ('ME605','176103116','Dhirendra Kumar Verma','sai176103019'),
 ('ME605','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME605','166103104',' RAJDEEP GHOSH','rajdeep.mech'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME605','166103104',' RAJDEEP GHOSH','rajdeep.mech'),
 ('ME605','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME605','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME605','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
@@ -44141,7 +44141,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME605','166103104
 ('ME605','176103111','Viwek Kumar','sai176103019'),
 ('ME605','176103116','Dhirendra Kumar Verma','sai176103019'),
 ('ME605','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME605','166103104',' RAJDEEP GHOSH','rajdeep.mech'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME605','166103104',' RAJDEEP GHOSH','rajdeep.mech'),
 ('ME605','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME605','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME605','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
@@ -44179,7 +44179,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME605','16610310
 ('ME605','176103111','Viwek Kumar','sai176103019'),
 ('ME605','176103116','Dhirendra Kumar Verma','sai176103019'),
 ('ME605','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME665','174103001','VISHAL KUMAR SISODIA','visha174103001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME665','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME665','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME665','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
 ('ME665','174103006','BOYI NAGA DURGA PRASAD','prasa174103006'),
@@ -44210,7 +44210,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME665','174103001','VI
 ('ME665','176103104','Tejdeep G','sajid174154008'),
 ('ME665','176103109','Sukanya Phukan','sajid174154008'),
 ('ME665','176103116','Dhirendra Kumar Verma','sajid174154008');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME665','174103001','VISHAL KUMAR SISODIA','visha174103001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME665','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME665','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME665','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
 ('ME665','174103006','BOYI NAGA DURGA PRASAD','prasa174103006'),
@@ -44241,7 +44241,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME665','174103001
 ('ME665','176103104','Tejdeep G','sajid174154008'),
 ('ME665','176103109','Sukanya Phukan','sajid174154008'),
 ('ME665','176103116','Dhirendra Kumar Verma','sajid174154008');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME665','174103001','VISHAL KUMAR SISODIA','visha174103001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME665','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME665','174103002','DEEPAK HOJAI','hojai174103002'),
 ('ME665','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
 ('ME665','174103006','BOYI NAGA DURGA PRASAD','prasa174103006'),
@@ -44272,7 +44272,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME665','17410300
 ('ME665','176103104','Tejdeep G','sajid174154008'),
 ('ME665','176103109','Sukanya Phukan','sajid174154008'),
 ('ME665','176103116','Dhirendra Kumar Verma','sajid174154008');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME688','140103002','ABHI RAJ','abhi.raj'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME688','140103002','ABHI RAJ','abhi.raj'),
 ('ME688','140103013','ANNAM YACHENDRA VENKATA SUBBA RAO','annam.rao'),
 ('ME688','140103015','ARVIND KUMAR','arvind.2014'),
 ('ME688','140103025','HITANSH SINGHAL','hitansh'),
@@ -44307,7 +44307,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME688','140103002','AB
 ('ME688','176103107','Ambrish Singh','niran176103017'),
 ('ME688','176103114','Sukanta Das','niran176103017'),
 ('ME688','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME688','140103002','ABHI RAJ','abhi.raj'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME688','140103002','ABHI RAJ','abhi.raj'),
 ('ME688','140103013','ANNAM YACHENDRA VENKATA SUBBA RAO','annam.rao'),
 ('ME688','140103015','ARVIND KUMAR','arvind.2014'),
 ('ME688','140103025','HITANSH SINGHAL','hitansh'),
@@ -44342,7 +44342,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME688','140103002
 ('ME688','176103107','Ambrish Singh','niran176103017'),
 ('ME688','176103114','Sukanta Das','niran176103017'),
 ('ME688','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME688','140103002','ABHI RAJ','abhi.raj'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME688','140103002','ABHI RAJ','abhi.raj'),
 ('ME688','140103013','ANNAM YACHENDRA VENKATA SUBBA RAO','annam.rao'),
 ('ME688','140103015','ARVIND KUMAR','arvind.2014'),
 ('ME688','140103025','HITANSH SINGHAL','hitansh'),
@@ -44377,7 +44377,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME688','14010300
 ('ME688','176103107','Ambrish Singh','niran176103017'),
 ('ME688','176103114','Sukanta Das','niran176103017'),
 ('ME688','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME224','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME224','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME224','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME224','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME224','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -44443,7 +44443,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME224','160103003','AB
 ('ME224','160103084','MD ASIF IMAM','asif1997'),
 ('ME224','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME224','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME224','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME224','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME224','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME224','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME224','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -44509,7 +44509,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME224','160103003
 ('ME224','160103084','MD ASIF IMAM','asif1997'),
 ('ME224','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME224','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME224','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME224','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME224','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME224','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME224','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -44575,7 +44575,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME224','16010300
 ('ME224','160103084','MD ASIF IMAM','asif1997'),
 ('ME224','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME224','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME421','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME421','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME421','140103002','ABHI RAJ','abhi.raj'),
 ('ME421','140103003','ADISH JAIN','adish.jain'),
 ('ME421','140103004','ADITYA PARASHAR','aditya.parashar'),
@@ -44652,7 +44652,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME421','140103001','AA
 ('ME421','140103084','SUWESH KUMAR','suwesh.kumar'),
 ('ME421','140103085','NAVEEN KUMAR TRIPATHI','naveen.tripathi'),
 ('ME421','140103086','DINESH MAKKAR','d.makkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME421','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME421','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME421','140103002','ABHI RAJ','abhi.raj'),
 ('ME421','140103003','ADISH JAIN','adish.jain'),
 ('ME421','140103004','ADITYA PARASHAR','aditya.parashar'),
@@ -44729,7 +44729,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME421','140103001
 ('ME421','140103084','SUWESH KUMAR','suwesh.kumar'),
 ('ME421','140103085','NAVEEN KUMAR TRIPATHI','naveen.tripathi'),
 ('ME421','140103086','DINESH MAKKAR','d.makkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME421','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME421','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME421','140103002','ABHI RAJ','abhi.raj'),
 ('ME421','140103003','ADISH JAIN','adish.jain'),
 ('ME421','140103004','ADITYA PARASHAR','aditya.parashar'),
@@ -44806,7 +44806,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME421','14010300
 ('ME421','140103084','SUWESH KUMAR','suwesh.kumar'),
 ('ME421','140103085','NAVEEN KUMAR TRIPATHI','naveen.tripathi'),
 ('ME421','140103086','DINESH MAKKAR','d.makkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME672','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME672','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME672','140103002','ABHI RAJ','abhi.raj'),
 ('ME672','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('ME672','140103005','AJAY KUMAR','ajay.2014'),
@@ -44900,7 +44900,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME672','140103001','AA
 ('ME672','176103112','Priyabrata Nath','niran176103017'),
 ('ME672','176103115','Vivekananda Haldar','niran176103017'),
 ('ME672','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME672','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME672','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME672','140103002','ABHI RAJ','abhi.raj'),
 ('ME672','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('ME672','140103005','AJAY KUMAR','ajay.2014'),
@@ -44994,7 +44994,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME672','140103001
 ('ME672','176103112','Priyabrata Nath','niran176103017'),
 ('ME672','176103115','Vivekananda Haldar','niran176103017'),
 ('ME672','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME672','140103001','AAYUSH SAHAY','aayush.sahay'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME672','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME672','140103002','ABHI RAJ','abhi.raj'),
 ('ME672','140103004','ADITYA PARASHAR','aditya.parashar'),
 ('ME672','140103005','AJAY KUMAR','ajay.2014'),
@@ -45088,7 +45088,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME672','14010300
 ('ME672','176103112','Priyabrata Nath','niran176103017'),
 ('ME672','176103115','Vivekananda Haldar','niran176103017'),
 ('ME672','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME615','140103039','MAYANK','mayank.mayank'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME615','140103039','MAYANK','mayank.mayank'),
 ('ME615','140103044','P ANIRUDH REDDY','anirudh.reddy'),
 ('ME615','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME615','174103002','DEEPAK HOJAI','hojai174103002'),
@@ -45115,7 +45115,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME615','140103039','MA
 ('ME615','174103128','RANIT ROY','ranit174103128'),
 ('ME615','174103129','KAPIL KUMAR','kumar174103129'),
 ('ME615','174103130','LALIT KUMAR','kumar174103130');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME615','140103039','MAYANK','mayank.mayank'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME615','140103039','MAYANK','mayank.mayank'),
 ('ME615','140103044','P ANIRUDH REDDY','anirudh.reddy'),
 ('ME615','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME615','174103002','DEEPAK HOJAI','hojai174103002'),
@@ -45142,7 +45142,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME615','140103039
 ('ME615','174103128','RANIT ROY','ranit174103128'),
 ('ME615','174103129','KAPIL KUMAR','kumar174103129'),
 ('ME615','174103130','LALIT KUMAR','kumar174103130');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME615','140103039','MAYANK','mayank.mayank'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME615','140103039','MAYANK','mayank.mayank'),
 ('ME615','140103044','P ANIRUDH REDDY','anirudh.reddy'),
 ('ME615','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME615','174103002','DEEPAK HOJAI','hojai174103002'),
@@ -45169,7 +45169,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME615','14010303
 ('ME615','174103128','RANIT ROY','ranit174103128'),
 ('ME615','174103129','KAPIL KUMAR','kumar174103129'),
 ('ME615','174103130','LALIT KUMAR','kumar174103130');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME670','140103007','AMAN SAXENA','aman.saxena'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME670','140103007','AMAN SAXENA','aman.saxena'),
 ('ME670','140103075','VAIDYA UJJAIN PURUSHOTTAM','p.vaidya'),
 ('ME670','140103079','VISHNU VISHAL','vishnu.vishal'),
 ('ME670','140103080','WAGHMODE AVDHOOT SHARAD','waghmode'),
@@ -45196,7 +45196,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME670','140103007','AM
 ('ME670','176103004','KRISHAN   CHAND','krish176103004'),
 ('ME670','176103006','MUKESH  SHARMA','mukes176103006'),
 ('ME670','176107010','VIKAS KUMAR SHARMA','vikas176107010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME670','140103007','AMAN SAXENA','aman.saxena'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME670','140103007','AMAN SAXENA','aman.saxena'),
 ('ME670','140103075','VAIDYA UJJAIN PURUSHOTTAM','p.vaidya'),
 ('ME670','140103079','VISHNU VISHAL','vishnu.vishal'),
 ('ME670','140103080','WAGHMODE AVDHOOT SHARAD','waghmode'),
@@ -45223,7 +45223,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME670','140103007
 ('ME670','176103004','KRISHAN   CHAND','krish176103004'),
 ('ME670','176103006','MUKESH  SHARMA','mukes176103006'),
 ('ME670','176107010','VIKAS KUMAR SHARMA','vikas176107010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME670','140103007','AMAN SAXENA','aman.saxena'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME670','140103007','AMAN SAXENA','aman.saxena'),
 ('ME670','140103075','VAIDYA UJJAIN PURUSHOTTAM','p.vaidya'),
 ('ME670','140103079','VISHNU VISHAL','vishnu.vishal'),
 ('ME670','140103080','WAGHMODE AVDHOOT SHARAD','waghmode'),
@@ -45250,7 +45250,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME670','14010300
 ('ME670','176103004','KRISHAN   CHAND','krish176103004'),
 ('ME670','176103006','MUKESH  SHARMA','mukes176103006'),
 ('ME670','176107010','VIKAS KUMAR SHARMA','vikas176107010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME513','174103058','SIDDHARTH VIKRAM','siddh174103058'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME513','174103058','SIDDHARTH VIKRAM','siddh174103058'),
 ('ME513','174103067','ARPIT TRIPATHI','arpit174103067'),
 ('ME513','174103068','AVNEESH KUMAR','avnee174103068'),
 ('ME513','174103069','ANSHUMAN SRIVASTAV','anshu174103069'),
@@ -45274,7 +45274,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME513','174103058','SI
 ('ME513','176103110','Sanjay Raj','niran176103017'),
 ('ME513','176103112','Priyabrata Nath','niran176103017'),
 ('ME513','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME513','174103058','SIDDHARTH VIKRAM','siddh174103058'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME513','174103058','SIDDHARTH VIKRAM','siddh174103058'),
 ('ME513','174103067','ARPIT TRIPATHI','arpit174103067'),
 ('ME513','174103068','AVNEESH KUMAR','avnee174103068'),
 ('ME513','174103069','ANSHUMAN SRIVASTAV','anshu174103069'),
@@ -45298,7 +45298,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME513','174103058
 ('ME513','176103110','Sanjay Raj','niran176103017'),
 ('ME513','176103112','Priyabrata Nath','niran176103017'),
 ('ME513','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME513','174103058','SIDDHARTH VIKRAM','siddh174103058'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME513','174103058','SIDDHARTH VIKRAM','siddh174103058'),
 ('ME513','174103067','ARPIT TRIPATHI','arpit174103067'),
 ('ME513','174103068','AVNEESH KUMAR','avnee174103068'),
 ('ME513','174103069','ANSHUMAN SRIVASTAV','anshu174103069'),
@@ -45322,7 +45322,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME513','17410305
 ('ME513','176103110','Sanjay Raj','niran176103017'),
 ('ME513','176103112','Priyabrata Nath','niran176103017'),
 ('ME513','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME680','174103045','KISHAN KUMAR SINGH','singh174103045'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME680','174103045','KISHAN KUMAR SINGH','singh174103045'),
 ('ME680','174103066','KALULE RAMANZANI','raman174103066'),
 ('ME680','174103093','NAVEEN KUMAR','kumar174103093'),
 ('ME680','174103101','SHIVJI PRASAD YADAV','yadav174103101'),
@@ -45330,7 +45330,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME680','174103045','KI
 ('ME680','174103123','SWRANG THOMAS NARZARY','swran174103123'),
 ('ME680','176107019','ROUSHNI KUMARI','roush176107019'),
 ('ME680','176151104','Pratibha Maurya','roush176107019');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME680','174103045','KISHAN KUMAR SINGH','singh174103045'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME680','174103045','KISHAN KUMAR SINGH','singh174103045'),
 ('ME680','174103066','KALULE RAMANZANI','raman174103066'),
 ('ME680','174103093','NAVEEN KUMAR','kumar174103093'),
 ('ME680','174103101','SHIVJI PRASAD YADAV','yadav174103101'),
@@ -45338,7 +45338,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME680','174103045
 ('ME680','174103123','SWRANG THOMAS NARZARY','swran174103123'),
 ('ME680','176107019','ROUSHNI KUMARI','roush176107019'),
 ('ME680','176151104','Pratibha Maurya','roush176107019');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME680','174103045','KISHAN KUMAR SINGH','singh174103045'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME680','174103045','KISHAN KUMAR SINGH','singh174103045'),
 ('ME680','174103066','KALULE RAMANZANI','raman174103066'),
 ('ME680','174103093','NAVEEN KUMAR','kumar174103093'),
 ('ME680','174103101','SHIVJI PRASAD YADAV','yadav174103101'),
@@ -45346,7 +45346,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME680','17410304
 ('ME680','174103123','SWRANG THOMAS NARZARY','swran174103123'),
 ('ME680','176107019','ROUSHNI KUMARI','roush176107019'),
 ('ME680','176151104','Pratibha Maurya','roush176107019');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME616','140103042','MRINAL GUPTA','mrinal.gupta'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME616','140103042','MRINAL GUPTA','mrinal.gupta'),
 ('ME616','140103048','PIMPALKAR AKSHAY MANOJ','pimpalkar'),
 ('ME616','140103082','SHASHWAT SRIVASTAVA','shashwat.2014'),
 ('ME616','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
@@ -45358,7 +45358,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME616','140103042','MR
 ('ME616','176103016','MUKESH  KUMAR','mukes176103016'),
 ('ME616','176103023','DHIRAJ SANGHAVIJAY BOMBARDE','dhira176103023'),
 ('ME616','176103102','Animesh Kundu','dhira176103023');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME616','140103042','MRINAL GUPTA','mrinal.gupta'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME616','140103042','MRINAL GUPTA','mrinal.gupta'),
 ('ME616','140103048','PIMPALKAR AKSHAY MANOJ','pimpalkar'),
 ('ME616','140103082','SHASHWAT SRIVASTAVA','shashwat.2014'),
 ('ME616','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
@@ -45370,7 +45370,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME616','140103042
 ('ME616','176103016','MUKESH  KUMAR','mukes176103016'),
 ('ME616','176103023','DHIRAJ SANGHAVIJAY BOMBARDE','dhira176103023'),
 ('ME616','176103102','Animesh Kundu','dhira176103023');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME616','140103042','MRINAL GUPTA','mrinal.gupta'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME616','140103042','MRINAL GUPTA','mrinal.gupta'),
 ('ME616','140103048','PIMPALKAR AKSHAY MANOJ','pimpalkar'),
 ('ME616','140103082','SHASHWAT SRIVASTAVA','shashwat.2014'),
 ('ME616','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
@@ -45382,7 +45382,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME616','14010304
 ('ME616','176103016','MUKESH  KUMAR','mukes176103016'),
 ('ME616','176103023','DHIRAJ SANGHAVIJAY BOMBARDE','dhira176103023'),
 ('ME616','176103102','Animesh Kundu','dhira176103023');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME522','140103003','ADISH JAIN','adish.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME522','140103003','ADISH JAIN','adish.jain'),
 ('ME522','140103040','MAYANK SHAH','mayank.shah'),
 ('ME522','140103058','SACHIN DEV','sachin.dev'),
 ('ME522','174103012','RIDDHIMAN SAIKIA','saiki174103012'),
@@ -45438,7 +45438,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME522','140103003','AD
 ('ME522','176103004','KRISHAN   CHAND','krish176103004'),
 ('ME522','176103006','MUKESH  SHARMA','mukes176103006'),
 ('ME522','176151104','Pratibha Maurya','mukes176103006');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME522','140103003','ADISH JAIN','adish.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME522','140103003','ADISH JAIN','adish.jain'),
 ('ME522','140103040','MAYANK SHAH','mayank.shah'),
 ('ME522','140103058','SACHIN DEV','sachin.dev'),
 ('ME522','174103012','RIDDHIMAN SAIKIA','saiki174103012'),
@@ -45494,7 +45494,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME522','140103003
 ('ME522','176103004','KRISHAN   CHAND','krish176103004'),
 ('ME522','176103006','MUKESH  SHARMA','mukes176103006'),
 ('ME522','176151104','Pratibha Maurya','mukes176103006');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME522','140103003','ADISH JAIN','adish.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME522','140103003','ADISH JAIN','adish.jain'),
 ('ME522','140103040','MAYANK SHAH','mayank.shah'),
 ('ME522','140103058','SACHIN DEV','sachin.dev'),
 ('ME522','174103012','RIDDHIMAN SAIKIA','saiki174103012'),
@@ -45550,7 +45550,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME522','14010300
 ('ME522','176103004','KRISHAN   CHAND','krish176103004'),
 ('ME522','176103006','MUKESH  SHARMA','mukes176103006'),
 ('ME522','176151104','Pratibha Maurya','mukes176103006');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME613','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME613','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME613','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME613','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
 ('ME613','174103005','AYAZUR RAHMAN KHAN','khan174103005'),
@@ -45564,7 +45564,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME613','120103036','KA
 ('ME613','174103096','SAURABH KUMAR','saura174103096'),
 ('ME613','174103105','NITESH SINGH','nites174103105'),
 ('ME613','176103102','Animesh Kundu','nites174103105');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME613','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME613','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME613','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME613','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
 ('ME613','174103005','AYAZUR RAHMAN KHAN','khan174103005'),
@@ -45578,7 +45578,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME613','120103036
 ('ME613','174103096','SAURABH KUMAR','saura174103096'),
 ('ME613','174103105','NITESH SINGH','nites174103105'),
 ('ME613','176103102','Animesh Kundu','nites174103105');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME613','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME613','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME613','174103001','VISHAL KUMAR SISODIA','visha174103001'),
 ('ME613','174103004','V JASWANTH KUMAR REDDY','jaswa174103004'),
 ('ME613','174103005','AYAZUR RAHMAN KHAN','khan174103005'),
@@ -45592,7 +45592,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME613','12010303
 ('ME613','174103096','SAURABH KUMAR','saura174103096'),
 ('ME613','174103105','NITESH SINGH','nites174103105'),
 ('ME613','176103102','Animesh Kundu','nites174103105');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME101','150123034','ROHIT KUMAR','rohit.math'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME101','150123034','ROHIT KUMAR','rohit.math'),
 ('ME101','160123042','VENKATA VIKAS VANGA','vikasvanga97'),
 ('ME101','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('ME101','160205004','ANGELA MATHEWS','a_matthew'),
@@ -46279,7 +46279,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME101','150123034','RO
 ('ME101','170205043','VIGNESH KUMAR S','s170205043'),
 ('ME101','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('ME101','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME101','150123034','ROHIT KUMAR','rohit.math'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME101','150123034','ROHIT KUMAR','rohit.math'),
 ('ME101','160123042','VENKATA VIKAS VANGA','vikasvanga97'),
 ('ME101','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('ME101','160205004','ANGELA MATHEWS','a_matthew'),
@@ -46966,7 +46966,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME101','150123034
 ('ME101','170205043','VIGNESH KUMAR S','s170205043'),
 ('ME101','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('ME101','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME101','150123034','ROHIT KUMAR','rohit.math'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME101','150123034','ROHIT KUMAR','rohit.math'),
 ('ME101','160123042','VENKATA VIKAS VANGA','vikasvanga97'),
 ('ME101','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('ME101','160205004','ANGELA MATHEWS','a_matthew'),
@@ -47653,10 +47653,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME101','15012303
 ('ME101','170205043','VIGNESH KUMAR S','s170205043'),
 ('ME101','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('ME101','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME321M','150121012','CHAUDHARI SUPRIT BHARAT','chaudhari');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME321M','150121012','CHAUDHARI SUPRIT BHARAT','chaudhari');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME321M','150121012','CHAUDHARI SUPRIT BHARAT','chaudhari');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME326','150103001','AASHIT RATHORE','aashit'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME321M','150121012','CHAUDHARI SUPRIT BHARAT','chaudhari');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME321M','150121012','CHAUDHARI SUPRIT BHARAT','chaudhari');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME321M','150121012','CHAUDHARI SUPRIT BHARAT','chaudhari');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME326','150103001','AASHIT RATHORE','aashit'),
 ('ME326','150103002','ABHIJEET','abhijeet.2015'),
 ('ME326','150103004','ABHISHEK SARATHE','a.sarathe'),
 ('ME326','150103005','AKSHAT MANDLOI','a.mandloi'),
@@ -47725,7 +47725,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME326','150103001','AA
 ('ME326','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME326','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME326','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME326','150103001','AASHIT RATHORE','aashit'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME326','150103001','AASHIT RATHORE','aashit'),
 ('ME326','150103002','ABHIJEET','abhijeet.2015'),
 ('ME326','150103004','ABHISHEK SARATHE','a.sarathe'),
 ('ME326','150103005','AKSHAT MANDLOI','a.mandloi'),
@@ -47794,7 +47794,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME326','150103001
 ('ME326','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME326','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME326','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME326','150103001','AASHIT RATHORE','aashit'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME326','150103001','AASHIT RATHORE','aashit'),
 ('ME326','150103002','ABHIJEET','abhijeet.2015'),
 ('ME326','150103004','ABHISHEK SARATHE','a.sarathe'),
 ('ME326','150103005','AKSHAT MANDLOI','a.mandloi'),
@@ -47863,7 +47863,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME326','15010300
 ('ME326','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME326','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME326','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME686','140103008','AMBER SEN','amber.sen'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME686','140103008','AMBER SEN','amber.sen'),
 ('ME686','140103027','KANDALKAR SWAPNIL SARJERAO','kandalkar'),
 ('ME686','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME686','140103083','SIDDHARTHA RAJ','r.siddhartha'),
@@ -47875,7 +47875,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME686','140103008','AM
 ('ME686','174103124','ANIRBAN BASUMATARY','anirb174103124'),
 ('ME686','174103125','SHYAM KUTUM','shyam174103125'),
 ('ME686','174103136','ABHINAY RAWAT','rawat174103136');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME686','140103008','AMBER SEN','amber.sen'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME686','140103008','AMBER SEN','amber.sen'),
 ('ME686','140103027','KANDALKAR SWAPNIL SARJERAO','kandalkar'),
 ('ME686','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME686','140103083','SIDDHARTHA RAJ','r.siddhartha'),
@@ -47887,7 +47887,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME686','140103008
 ('ME686','174103124','ANIRBAN BASUMATARY','anirb174103124'),
 ('ME686','174103125','SHYAM KUTUM','shyam174103125'),
 ('ME686','174103136','ABHINAY RAWAT','rawat174103136');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME686','140103008','AMBER SEN','amber.sen'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME686','140103008','AMBER SEN','amber.sen'),
 ('ME686','140103027','KANDALKAR SWAPNIL SARJERAO','kandalkar'),
 ('ME686','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME686','140103083','SIDDHARTHA RAJ','r.siddhartha'),
@@ -47899,7 +47899,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME686','14010300
 ('ME686','174103124','ANIRBAN BASUMATARY','anirb174103124'),
 ('ME686','174103125','SHYAM KUTUM','shyam174103125'),
 ('ME686','174103136','ABHINAY RAWAT','rawat174103136');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME226','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME226','130103040','LALIT YOGI','l.yogi'),
 ('ME226','160103002','ABHAY PRATAP SINGH','abhay.ps.rathaur'),
 ('ME226','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME226','160103004','ABHISHEK VERMA','abhishekverma284'),
@@ -47965,7 +47965,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME226','130103040','LA
 ('ME226','160103084','MD ASIF IMAM','asif1997'),
 ('ME226','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME226','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME226','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME226','130103040','LALIT YOGI','l.yogi'),
 ('ME226','160103002','ABHAY PRATAP SINGH','abhay.ps.rathaur'),
 ('ME226','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME226','160103004','ABHISHEK VERMA','abhishekverma284'),
@@ -48031,7 +48031,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME226','130103040
 ('ME226','160103084','MD ASIF IMAM','asif1997'),
 ('ME226','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME226','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME226','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME226','130103040','LALIT YOGI','l.yogi'),
 ('ME226','160103002','ABHAY PRATAP SINGH','abhay.ps.rathaur'),
 ('ME226','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME226','160103004','ABHISHEK VERMA','abhishekverma284'),
@@ -48097,7 +48097,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME226','13010304
 ('ME226','160103084','MD ASIF IMAM','asif1997'),
 ('ME226','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME226','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME324','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME324','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME324','150103001','AASHIT RATHORE','aashit'),
 ('ME324','150103002','ABHIJEET','abhijeet.2015'),
 ('ME324','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -48201,7 +48201,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME324','120103036','KA
 ('ME324','150122041','SUSHANT TYAGI','sushant.tyagi'),
 ('ME324','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('ME324','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME324','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME324','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME324','150103001','AASHIT RATHORE','aashit'),
 ('ME324','150103002','ABHIJEET','abhijeet.2015'),
 ('ME324','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -48305,7 +48305,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME324','120103036
 ('ME324','150122041','SUSHANT TYAGI','sushant.tyagi'),
 ('ME324','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('ME324','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME324','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME324','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME324','150103001','AASHIT RATHORE','aashit'),
 ('ME324','150103002','ABHIJEET','abhijeet.2015'),
 ('ME324','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -48409,7 +48409,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME324','12010303
 ('ME324','150122041','SUSHANT TYAGI','sushant.tyagi'),
 ('ME324','150122044','VAIBHAV SUBHASH SABLE','vaibhav.sable'),
 ('ME324','150122045','YOGESHWAR RAJ BHARTI','yogeshwar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME322','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME322','130103040','LALIT YOGI','l.yogi'),
 ('ME322','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME322','140103057','RAMAVATH VENKATA SAI NITESH','ramavath'),
 ('ME322','150103001','AASHIT RATHORE','aashit'),
@@ -48481,7 +48481,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME322','130103040','LA
 ('ME322','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME322','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME322','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME322','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME322','130103040','LALIT YOGI','l.yogi'),
 ('ME322','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME322','140103057','RAMAVATH VENKATA SAI NITESH','ramavath'),
 ('ME322','150103001','AASHIT RATHORE','aashit'),
@@ -48553,7 +48553,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME322','130103040
 ('ME322','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME322','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME322','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME322','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME322','130103040','LALIT YOGI','l.yogi'),
 ('ME322','140103054','PRAVIN KUMAR','pravin.2014'),
 ('ME322','140103057','RAMAVATH VENKATA SAI NITESH','ramavath'),
 ('ME322','150103001','AASHIT RATHORE','aashit'),
@@ -48625,7 +48625,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME322','13010304
 ('ME322','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME322','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME322','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME553','140103061','SANDULA AJAY KUMAR','k.sandula'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME553','140103061','SANDULA AJAY KUMAR','k.sandula'),
 ('ME553','140103072','SYED ZAHEER BASHA','b.syed'),
 ('ME553','174103026','LANKIPALLI HARSHA','lanki174103026'),
 ('ME553','174103030','MULLAPUDI JOSHI','joshi174103030'),
@@ -48656,7 +48656,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME553','140103061','SA
 ('ME553','174103141','MANDEEP SAINI','saini174103141'),
 ('ME553','174103142','JAY PATEL','jay174103142'),
 ('ME553','176103108','Vadivelan A','jay174103142');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME553','140103061','SANDULA AJAY KUMAR','k.sandula'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME553','140103061','SANDULA AJAY KUMAR','k.sandula'),
 ('ME553','140103072','SYED ZAHEER BASHA','b.syed'),
 ('ME553','174103026','LANKIPALLI HARSHA','lanki174103026'),
 ('ME553','174103030','MULLAPUDI JOSHI','joshi174103030'),
@@ -48687,7 +48687,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME553','140103061
 ('ME553','174103141','MANDEEP SAINI','saini174103141'),
 ('ME553','174103142','JAY PATEL','jay174103142'),
 ('ME553','176103108','Vadivelan A','jay174103142');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME553','140103061','SANDULA AJAY KUMAR','k.sandula'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME553','140103061','SANDULA AJAY KUMAR','k.sandula'),
 ('ME553','140103072','SYED ZAHEER BASHA','b.syed'),
 ('ME553','174103026','LANKIPALLI HARSHA','lanki174103026'),
 ('ME553','174103030','MULLAPUDI JOSHI','joshi174103030'),
@@ -48718,10 +48718,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME553','14010306
 ('ME553','174103141','MANDEEP SAINI','saini174103141'),
 ('ME553','174103142','JAY PATEL','jay174103142'),
 ('ME553','176103108','Vadivelan A','jay174103142');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME412','140103057','RAMAVATH VENKATA SAI NITESH','ramavath');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME412','140103057','RAMAVATH VENKATA SAI NITESH','ramavath');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME412','140103057','RAMAVATH VENKATA SAI NITESH','ramavath');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME554','140103003','ADISH JAIN','adish.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME412','140103057','RAMAVATH VENKATA SAI NITESH','ramavath');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME412','140103057','RAMAVATH VENKATA SAI NITESH','ramavath');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME412','140103057','RAMAVATH VENKATA SAI NITESH','ramavath');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME554','140103003','ADISH JAIN','adish.jain'),
 ('ME554','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME554','140103019','GADDE GAGANTHEJA','gadde'),
 ('ME554','140103023','GAURAV AGRAWAL','gaurav.2014'),
@@ -48768,7 +48768,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME554','140103003','AD
 ('ME554','174103136','ABHINAY RAWAT','rawat174103136'),
 ('ME554','174103141','MANDEEP SAINI','saini174103141'),
 ('ME554','174103142','JAY PATEL','jay174103142');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME554','140103003','ADISH JAIN','adish.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME554','140103003','ADISH JAIN','adish.jain'),
 ('ME554','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME554','140103019','GADDE GAGANTHEJA','gadde'),
 ('ME554','140103023','GAURAV AGRAWAL','gaurav.2014'),
@@ -48815,7 +48815,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME554','140103003
 ('ME554','174103136','ABHINAY RAWAT','rawat174103136'),
 ('ME554','174103141','MANDEEP SAINI','saini174103141'),
 ('ME554','174103142','JAY PATEL','jay174103142');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME554','140103003','ADISH JAIN','adish.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME554','140103003','ADISH JAIN','adish.jain'),
 ('ME554','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME554','140103019','GADDE GAGANTHEJA','gadde'),
 ('ME554','140103023','GAURAV AGRAWAL','gaurav.2014'),
@@ -48862,7 +48862,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME554','14010300
 ('ME554','174103136','ABHINAY RAWAT','rawat174103136'),
 ('ME554','174103141','MANDEEP SAINI','saini174103141'),
 ('ME554','174103142','JAY PATEL','jay174103142');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME514','174103058','SIDDHARTH VIKRAM','siddh174103058'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME514','174103058','SIDDHARTH VIKRAM','siddh174103058'),
 ('ME514','174103067','ARPIT TRIPATHI','arpit174103067'),
 ('ME514','174103068','AVNEESH KUMAR','avnee174103068'),
 ('ME514','174103069','ANSHUMAN SRIVASTAV','anshu174103069'),
@@ -48887,7 +48887,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME514','174103058','SI
 ('ME514','174103143','MILIND SURESH RAMTEKE','milin174103143'),
 ('ME514','176103009','JYOTINDRA  NARAYAN','jyoti176103009'),
 ('ME514','176103017','NIRANJAN KUMAR CHOUDHRY','niran176103017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME514','174103058','SIDDHARTH VIKRAM','siddh174103058'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME514','174103058','SIDDHARTH VIKRAM','siddh174103058'),
 ('ME514','174103067','ARPIT TRIPATHI','arpit174103067'),
 ('ME514','174103068','AVNEESH KUMAR','avnee174103068'),
 ('ME514','174103069','ANSHUMAN SRIVASTAV','anshu174103069'),
@@ -48912,7 +48912,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME514','174103058
 ('ME514','174103143','MILIND SURESH RAMTEKE','milin174103143'),
 ('ME514','176103009','JYOTINDRA  NARAYAN','jyoti176103009'),
 ('ME514','176103017','NIRANJAN KUMAR CHOUDHRY','niran176103017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME514','174103058','SIDDHARTH VIKRAM','siddh174103058'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME514','174103058','SIDDHARTH VIKRAM','siddh174103058'),
 ('ME514','174103067','ARPIT TRIPATHI','arpit174103067'),
 ('ME514','174103068','AVNEESH KUMAR','avnee174103068'),
 ('ME514','174103069','ANSHUMAN SRIVASTAV','anshu174103069'),
@@ -48937,7 +48937,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME514','17410305
 ('ME514','174103143','MILIND SURESH RAMTEKE','milin174103143'),
 ('ME514','176103009','JYOTINDRA  NARAYAN','jyoti176103009'),
 ('ME514','176103017','NIRANJAN KUMAR CHOUDHRY','niran176103017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME532','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME532','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME532','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME532','140103036','MAHESH YOGI','mahesh.yogi'),
 ('ME532','140103040','MAYANK SHAH','mayank.shah'),
@@ -49022,7 +49022,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME532','120103036','KA
 ('ME532','176103115','Vivekananda Haldar','dhira176103023'),
 ('ME532','176103116','Dhirendra Kumar Verma','dhira176103023'),
 ('ME532','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME532','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME532','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME532','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME532','140103036','MAHESH YOGI','mahesh.yogi'),
 ('ME532','140103040','MAYANK SHAH','mayank.shah'),
@@ -49107,7 +49107,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME532','120103036
 ('ME532','176103115','Vivekananda Haldar','dhira176103023'),
 ('ME532','176103116','Dhirendra Kumar Verma','dhira176103023'),
 ('ME532','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME532','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME532','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME532','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME532','140103036','MAHESH YOGI','mahesh.yogi'),
 ('ME532','140103040','MAYANK SHAH','mayank.shah'),
@@ -49192,7 +49192,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME532','12010303
 ('ME532','176103115','Vivekananda Haldar','dhira176103023'),
 ('ME532','176103116','Dhirendra Kumar Verma','dhira176103023'),
 ('ME532','176106027','PRATIK NAG','prati176106027');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME662','174103021','KRISHNENDU BALA','krish174103021'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME662','174103021','KRISHNENDU BALA','krish174103021'),
 ('ME662','174103026','LANKIPALLI HARSHA','lanki174103026'),
 ('ME662','174103030','MULLAPUDI JOSHI','joshi174103030'),
 ('ME662','174103040','NILUTPAL DEORI','deori174103040'),
@@ -49230,7 +49230,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME662','174103021','KR
 ('ME662','174154001','ALANKRITA   SAIKIA','alank174154001'),
 ('ME662','174154008','SAJID  ALI','sajid174154008'),
 ('ME662','176151104','Pratibha Maurya','sajid174154008');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME662','174103021','KRISHNENDU BALA','krish174103021'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME662','174103021','KRISHNENDU BALA','krish174103021'),
 ('ME662','174103026','LANKIPALLI HARSHA','lanki174103026'),
 ('ME662','174103030','MULLAPUDI JOSHI','joshi174103030'),
 ('ME662','174103040','NILUTPAL DEORI','deori174103040'),
@@ -49268,7 +49268,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME662','174103021
 ('ME662','174154001','ALANKRITA   SAIKIA','alank174154001'),
 ('ME662','174154008','SAJID  ALI','sajid174154008'),
 ('ME662','176151104','Pratibha Maurya','sajid174154008');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME662','174103021','KRISHNENDU BALA','krish174103021'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME662','174103021','KRISHNENDU BALA','krish174103021'),
 ('ME662','174103026','LANKIPALLI HARSHA','lanki174103026'),
 ('ME662','174103030','MULLAPUDI JOSHI','joshi174103030'),
 ('ME662','174103040','NILUTPAL DEORI','deori174103040'),
@@ -49306,7 +49306,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME662','17410302
 ('ME662','174154001','ALANKRITA   SAIKIA','alank174154001'),
 ('ME662','174154008','SAJID  ALI','sajid174154008'),
 ('ME662','176151104','Pratibha Maurya','sajid174154008');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME110','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME110','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('ME110','170101001','AAYUSH PATNI','patni170101001'),
 ('ME110','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('ME110','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -49608,7 +49608,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME110','120107060','SO
 ('ME110','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('ME110','170123054','TUMARADA ADITYA','adity170123054'),
 ('ME110','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME110','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME110','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('ME110','170101001','AAYUSH PATNI','patni170101001'),
 ('ME110','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('ME110','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -49910,7 +49910,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME110','120107060
 ('ME110','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('ME110','170123054','TUMARADA ADITYA','adity170123054'),
 ('ME110','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME110','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME110','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('ME110','170101001','AAYUSH PATNI','patni170101001'),
 ('ME110','170101002','ABHISHEK JAISWAL','abhis170101002'),
 ('ME110','170101003','ADITYA VARDHAN GARA','adity170101003'),
@@ -50212,7 +50212,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME110','12010706
 ('ME110','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('ME110','170123054','TUMARADA ADITYA','adity170123054'),
 ('ME110','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME221','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME221','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME221','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME221','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME221','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -50278,7 +50278,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME221','160103003','AB
 ('ME221','160103084','MD ASIF IMAM','asif1997'),
 ('ME221','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME221','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME221','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME221','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME221','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME221','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME221','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -50344,7 +50344,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME221','160103003
 ('ME221','160103084','MD ASIF IMAM','asif1997'),
 ('ME221','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME221','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME221','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME221','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME221','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME221','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME221','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -50410,7 +50410,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME221','16010300
 ('ME221','160103084','MD ASIF IMAM','asif1997'),
 ('ME221','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME221','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME691','140103005','AJAY KUMAR','ajay.2014'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME691','140103005','AJAY KUMAR','ajay.2014'),
 ('ME691','140103020','GAJRAJ SINGH JODHA','gajraj'),
 ('ME691','140103034','KUTE VIKAS DNYANESHVAR','d.kute'),
 ('ME691','140103066','SHUBHAM PIPPAL','s.pippal'),
@@ -50429,7 +50429,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME691','140103005','AJ
 ('ME691','176103106','Nilavjyoti Sarmah','niran176103017'),
 ('ME691','176103107','Ambrish Singh','niran176103017'),
 ('ME691','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME691','140103005','AJAY KUMAR','ajay.2014'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME691','140103005','AJAY KUMAR','ajay.2014'),
 ('ME691','140103020','GAJRAJ SINGH JODHA','gajraj'),
 ('ME691','140103034','KUTE VIKAS DNYANESHVAR','d.kute'),
 ('ME691','140103066','SHUBHAM PIPPAL','s.pippal'),
@@ -50448,7 +50448,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME691','140103005
 ('ME691','176103106','Nilavjyoti Sarmah','niran176103017'),
 ('ME691','176103107','Ambrish Singh','niran176103017'),
 ('ME691','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME691','140103005','AJAY KUMAR','ajay.2014'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME691','140103005','AJAY KUMAR','ajay.2014'),
 ('ME691','140103020','GAJRAJ SINGH JODHA','gajraj'),
 ('ME691','140103034','KUTE VIKAS DNYANESHVAR','d.kute'),
 ('ME691','140103066','SHUBHAM PIPPAL','s.pippal'),
@@ -50467,7 +50467,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME691','14010300
 ('ME691','176103106','Nilavjyoti Sarmah','niran176103017'),
 ('ME691','176103107','Ambrish Singh','niran176103017'),
 ('ME691','176103117','Lakshmi Narayan Dhara','niran176103017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME699','164103116','MR. TEWODROS DERESE GIDEBO','tewodros'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME699','164103116','MR. TEWODROS DERESE GIDEBO','tewodros'),
 ('ME699','164103117','ALI JRAISHEH','jraisheh'),
 ('ME699','164103137','AMRITA PATHAK','amrita.pathak'),
 ('ME699','164103156','TANMOY DUTTA','d.tanmoy2016'),
@@ -50476,7 +50476,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME699','164103116','MR
 ('ME699','164103161','ANAND VERMA','anand2016'),
 ('ME699','164103162','TARUN KUMAR DAS','d.tarun'),
 ('ME699','164103163','ABHISHEK KAMAL','abhishek.kamal');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME699','164103116','MR. TEWODROS DERESE GIDEBO','tewodros'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME699','164103116','MR. TEWODROS DERESE GIDEBO','tewodros'),
 ('ME699','164103117','ALI JRAISHEH','jraisheh'),
 ('ME699','164103137','AMRITA PATHAK','amrita.pathak'),
 ('ME699','164103156','TANMOY DUTTA','d.tanmoy2016'),
@@ -50485,7 +50485,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME699','164103116
 ('ME699','164103161','ANAND VERMA','anand2016'),
 ('ME699','164103162','TARUN KUMAR DAS','d.tarun'),
 ('ME699','164103163','ABHISHEK KAMAL','abhishek.kamal');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME699','164103116','MR. TEWODROS DERESE GIDEBO','tewodros'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME699','164103116','MR. TEWODROS DERESE GIDEBO','tewodros'),
 ('ME699','164103117','ALI JRAISHEH','jraisheh'),
 ('ME699','164103137','AMRITA PATHAK','amrita.pathak'),
 ('ME699','164103156','TANMOY DUTTA','d.tanmoy2016'),
@@ -50494,7 +50494,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME699','16410311
 ('ME699','164103161','ANAND VERMA','anand2016'),
 ('ME699','164103162','TARUN KUMAR DAS','d.tarun'),
 ('ME699','164103163','ABHISHEK KAMAL','abhishek.kamal');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME325','140103009','AMEET KUMAR DEKA','ameet'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME325','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME325','150103001','AASHIT RATHORE','aashit'),
 ('ME325','150103002','ABHIJEET','abhijeet.2015'),
 ('ME325','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -50564,7 +50564,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME325','140103009','AM
 ('ME325','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME325','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME325','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME325','140103009','AMEET KUMAR DEKA','ameet'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME325','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME325','150103001','AASHIT RATHORE','aashit'),
 ('ME325','150103002','ABHIJEET','abhijeet.2015'),
 ('ME325','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -50634,7 +50634,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME325','140103009
 ('ME325','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME325','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME325','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME325','140103009','AMEET KUMAR DEKA','ameet'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME325','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME325','150103001','AASHIT RATHORE','aashit'),
 ('ME325','150103002','ABHIJEET','abhijeet.2015'),
 ('ME325','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -50704,7 +50704,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME325','14010300
 ('ME325','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME325','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME325','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME323','140103009','AMEET KUMAR DEKA','ameet'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME323','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME323','150103001','AASHIT RATHORE','aashit'),
 ('ME323','150103002','ABHIJEET','abhijeet.2015'),
 ('ME323','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -50774,7 +50774,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME323','140103009','AM
 ('ME323','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME323','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME323','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME323','140103009','AMEET KUMAR DEKA','ameet'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME323','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME323','150103001','AASHIT RATHORE','aashit'),
 ('ME323','150103002','ABHIJEET','abhijeet.2015'),
 ('ME323','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -50844,7 +50844,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME323','140103009
 ('ME323','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME323','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME323','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME323','140103009','AMEET KUMAR DEKA','ameet'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME323','140103009','AMEET KUMAR DEKA','ameet'),
 ('ME323','150103001','AASHIT RATHORE','aashit'),
 ('ME323','150103002','ABHIJEET','abhijeet.2015'),
 ('ME323','150103004','ABHISHEK SARATHE','a.sarathe'),
@@ -50914,7 +50914,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME323','14010300
 ('ME323','150103085','SANDIPAN HALDAR','h.sandipan'),
 ('ME323','150103086','ARNOB DUTTA','arnob.dutta'),
 ('ME323','150103087','SUBODH KUMAR SINGH','s.subodh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME499','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME499','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME499','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME499','140103002','ABHI RAJ','abhi.raj'),
 ('ME499','140103003','ADISH JAIN','adish.jain'),
@@ -50993,7 +50993,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME499','120103036','KA
 ('ME499','140103084','SUWESH KUMAR','suwesh.kumar'),
 ('ME499','140103085','NAVEEN KUMAR TRIPATHI','naveen.tripathi'),
 ('ME499','140103086','DINESH MAKKAR','d.makkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME499','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME499','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME499','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME499','140103002','ABHI RAJ','abhi.raj'),
 ('ME499','140103003','ADISH JAIN','adish.jain'),
@@ -51072,7 +51072,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME499','120103036
 ('ME499','140103084','SUWESH KUMAR','suwesh.kumar'),
 ('ME499','140103085','NAVEEN KUMAR TRIPATHI','naveen.tripathi'),
 ('ME499','140103086','DINESH MAKKAR','d.makkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME499','120103036','KAKARA PHANINDRA','p.kakara'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME499','120103036','KAKARA PHANINDRA','p.kakara'),
 ('ME499','140103001','AAYUSH SAHAY','aayush.sahay'),
 ('ME499','140103002','ABHI RAJ','abhi.raj'),
 ('ME499','140103003','ADISH JAIN','adish.jain'),
@@ -51151,7 +51151,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME499','12010303
 ('ME499','140103084','SUWESH KUMAR','suwesh.kumar'),
 ('ME499','140103085','NAVEEN KUMAR TRIPATHI','naveen.tripathi'),
 ('ME499','140103086','DINESH MAKKAR','d.makkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME690','164103001','CHITRANJAN GOEL','chitranjan.goel'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME690','164103001','CHITRANJAN GOEL','chitranjan.goel'),
 ('ME690','164103002','SASANKA  KAKATI','sasanka.kakati'),
 ('ME690','164103003','ABHINAV  SHEKHAR','abhinav.shekhar'),
 ('ME690','164103004','SONU  KUMAR SINGH','sonu2016'),
@@ -51242,7 +51242,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME690','164103001','CH
 ('ME690','164103154','G. VINEETH','g.vineeth'),
 ('ME690','164103159','DIPANKAR BORA ','d.bora'),
 ('ME690','164103160','YASIR AHMED','yasir2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME690','164103001','CHITRANJAN GOEL','chitranjan.goel'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME690','164103001','CHITRANJAN GOEL','chitranjan.goel'),
 ('ME690','164103002','SASANKA  KAKATI','sasanka.kakati'),
 ('ME690','164103003','ABHINAV  SHEKHAR','abhinav.shekhar'),
 ('ME690','164103004','SONU  KUMAR SINGH','sonu2016'),
@@ -51333,7 +51333,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME690','164103001
 ('ME690','164103154','G. VINEETH','g.vineeth'),
 ('ME690','164103159','DIPANKAR BORA ','d.bora'),
 ('ME690','164103160','YASIR AHMED','yasir2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME690','164103001','CHITRANJAN GOEL','chitranjan.goel'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME690','164103001','CHITRANJAN GOEL','chitranjan.goel'),
 ('ME690','164103002','SASANKA  KAKATI','sasanka.kakati'),
 ('ME690','164103003','ABHINAV  SHEKHAR','abhinav.shekhar'),
 ('ME690','164103004','SONU  KUMAR SINGH','sonu2016'),
@@ -51424,7 +51424,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME690','16410300
 ('ME690','164103154','G. VINEETH','g.vineeth'),
 ('ME690','164103159','DIPANKAR BORA ','d.bora'),
 ('ME690','164103160','YASIR AHMED','yasir2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME225','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME225','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME225','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME225','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME225','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -51490,7 +51490,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME225','160103003','AB
 ('ME225','160103084','MD ASIF IMAM','asif1997'),
 ('ME225','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME225','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME225','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME225','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME225','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME225','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME225','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -51556,7 +51556,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME225','160103003
 ('ME225','160103084','MD ASIF IMAM','asif1997'),
 ('ME225','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME225','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME225','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME225','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME225','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME225','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
 ('ME225','160103006','AKASH DEY SARKAR','akashdeysarkar.ads'),
@@ -51622,7 +51622,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME225','16010300
 ('ME225','160103084','MD ASIF IMAM','asif1997'),
 ('ME225','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME225','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME222','150103052','PENMETSA GOPAL KRISHNA RAJU','penmetsa'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME222','150103052','PENMETSA GOPAL KRISHNA RAJU','penmetsa'),
 ('ME222','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME222','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME222','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
@@ -51688,7 +51688,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME222','150103052','PE
 ('ME222','160103084','MD ASIF IMAM','asif1997'),
 ('ME222','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME222','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME222','150103052','PENMETSA GOPAL KRISHNA RAJU','penmetsa'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME222','150103052','PENMETSA GOPAL KRISHNA RAJU','penmetsa'),
 ('ME222','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME222','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME222','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
@@ -51754,7 +51754,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME222','150103052
 ('ME222','160103084','MD ASIF IMAM','asif1997'),
 ('ME222','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME222','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME222','150103052','PENMETSA GOPAL KRISHNA RAJU','penmetsa'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME222','150103052','PENMETSA GOPAL KRISHNA RAJU','penmetsa'),
 ('ME222','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
 ('ME222','160103004','ABHISHEK VERMA','abhishekverma284'),
 ('ME222','160103005','AGARWAL TEJAL SANJAY','agarwaltejaal'),
@@ -51820,7 +51820,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME222','15010305
 ('ME222','160103084','MD ASIF IMAM','asif1997'),
 ('ME222','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME222','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME223','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('ME223','130103040','LALIT YOGI','l.yogi'),
 ('ME223','150103059','ROHAN KUMAR','rohan.kumar'),
 ('ME223','150103073','TIRPUDE SWAPNIL PYARELAL','tirpude'),
 ('ME223','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
@@ -51889,7 +51889,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('ME223','130103040','LA
 ('ME223','160103084','MD ASIF IMAM','asif1997'),
 ('ME223','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME223','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME223','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('ME223','130103040','LALIT YOGI','l.yogi'),
 ('ME223','150103059','ROHAN KUMAR','rohan.kumar'),
 ('ME223','150103073','TIRPUDE SWAPNIL PYARELAL','tirpude'),
 ('ME223','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
@@ -51958,7 +51958,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('ME223','130103040
 ('ME223','160103084','MD ASIF IMAM','asif1997'),
 ('ME223','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME223','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME223','130103040','LALIT YOGI','l.yogi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('ME223','130103040','LALIT YOGI','l.yogi'),
 ('ME223','150103059','ROHAN KUMAR','rohan.kumar'),
 ('ME223','150103073','TIRPUDE SWAPNIL PYARELAL','tirpude'),
 ('ME223','160103003','ABHISHEK TIWARI','abhishektiwari18448'),
@@ -52027,7 +52027,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('ME223','13010304
 ('ME223','160103084','MD ASIF IMAM','asif1997'),
 ('ME223','160103085','AYUSH NARAYAN','ayushnarayan40'),
 ('ME223','160103086','NAWAL MRIDULYA','nawal2016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD505','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD505','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD505','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD505','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD505','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -52051,7 +52051,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD505','174205001','AD
 ('DD505','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD505','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD505','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD505','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD505','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD505','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD505','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD505','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -52075,7 +52075,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD505','174205001
 ('DD505','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD505','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD505','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD505','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD505','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD505','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD505','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD505','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -52099,7 +52099,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD505','17420500
 ('DD505','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD505','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD505','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD316','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD316','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD316','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD316','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD316','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -52135,7 +52135,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD316','120205031','NI
 ('DD316','150205048','JEMMY SETH','jemmy.seth'),
 ('DD316','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD316','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD316','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD316','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD316','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD316','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD316','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -52171,7 +52171,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD316','120205031
 ('DD316','150205048','JEMMY SETH','jemmy.seth'),
 ('DD316','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD316','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD316','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD316','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD316','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD316','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD316','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -52207,19 +52207,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD316','12020503
 ('DD316','150205048','JEMMY SETH','jemmy.seth'),
 ('DD316','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD316','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD512','164205003','ANI  DALAL','ani67'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD512','164205003','ANI  DALAL','ani67'),
 ('DD512','164205007','DAKSH  BAHUGUNA','dakshbahuguna'),
 ('DD512','164205016','ROHIT   KUMAR','rohitkumar.1018'),
 ('DD512','164205018','SAURAV  SARKAR','sauravsarkar');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD512','164205003','ANI  DALAL','ani67'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD512','164205003','ANI  DALAL','ani67'),
 ('DD512','164205007','DAKSH  BAHUGUNA','dakshbahuguna'),
 ('DD512','164205016','ROHIT   KUMAR','rohitkumar.1018'),
 ('DD512','164205018','SAURAV  SARKAR','sauravsarkar');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD512','164205003','ANI  DALAL','ani67'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD512','164205003','ANI  DALAL','ani67'),
 ('DD512','164205007','DAKSH  BAHUGUNA','dakshbahuguna'),
 ('DD512','164205016','ROHIT   KUMAR','rohitkumar.1018'),
 ('DD512','164205018','SAURAV  SARKAR','sauravsarkar');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD497','130205037','SRIJAN SHAILENDRA','srijan.shailendra'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD497','130205037','SRIJAN SHAILENDRA','srijan.shailendra'),
 ('DD497','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD497','140205002','AKHIL PATEL','p.akhil'),
 ('DD497','140205003','AKRITI KAUR','akriti.kaur'),
@@ -52261,7 +52261,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD497','130205037','SR
 ('DD497','140205043','VINJAM VINAY','vinjam'),
 ('DD497','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD497','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD497','130205037','SRIJAN SHAILENDRA','srijan.shailendra'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD497','130205037','SRIJAN SHAILENDRA','srijan.shailendra'),
 ('DD497','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD497','140205002','AKHIL PATEL','p.akhil'),
 ('DD497','140205003','AKRITI KAUR','akriti.kaur'),
@@ -52303,7 +52303,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD497','130205037
 ('DD497','140205043','VINJAM VINAY','vinjam'),
 ('DD497','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD497','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD497','130205037','SRIJAN SHAILENDRA','srijan.shailendra'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD497','130205037','SRIJAN SHAILENDRA','srijan.shailendra'),
 ('DD497','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD497','140205002','AKHIL PATEL','p.akhil'),
 ('DD497','140205003','AKRITI KAUR','akriti.kaur'),
@@ -52345,7 +52345,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD497','13020503
 ('DD497','140205043','VINJAM VINAY','vinjam'),
 ('DD497','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD497','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD214','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD214','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD214','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD214','160205003','AGRATA PATEL','agrata'),
 ('DD214','160205004','ANGELA MATHEWS','a_matthew'),
@@ -52388,7 +52388,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD214','160205001','AA
 ('DD214','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD214','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD214','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD214','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD214','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD214','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD214','160205003','AGRATA PATEL','agrata'),
 ('DD214','160205004','ANGELA MATHEWS','a_matthew'),
@@ -52431,7 +52431,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD214','160205001
 ('DD214','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD214','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD214','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD214','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD214','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD214','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD214','160205003','AGRATA PATEL','agrata'),
 ('DD214','160205004','ANGELA MATHEWS','a_matthew'),
@@ -52474,7 +52474,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD214','16020500
 ('DD214','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD214','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD214','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD215','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD215','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD215','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD215','160205003','AGRATA PATEL','agrata'),
 ('DD215','160205004','ANGELA MATHEWS','a_matthew'),
@@ -52517,7 +52517,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD215','160205001','AA
 ('DD215','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD215','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD215','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD215','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD215','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD215','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD215','160205003','AGRATA PATEL','agrata'),
 ('DD215','160205004','ANGELA MATHEWS','a_matthew'),
@@ -52560,7 +52560,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD215','160205001
 ('DD215','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD215','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD215','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD215','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD215','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD215','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD215','160205003','AGRATA PATEL','agrata'),
 ('DD215','160205004','ANGELA MATHEWS','a_matthew'),
@@ -52603,7 +52603,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD215','16020500
 ('DD215','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD215','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD215','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD315','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD315','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD315','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD315','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD315','150205004','ANKIT CHOWDHURY','a.chowdhury'),
@@ -52651,7 +52651,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD315','120205031','NI
 ('DD315','150205048','JEMMY SETH','jemmy.seth'),
 ('DD315','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD315','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD315','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD315','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD315','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD315','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD315','150205004','ANKIT CHOWDHURY','a.chowdhury'),
@@ -52699,7 +52699,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD315','120205031
 ('DD315','150205048','JEMMY SETH','jemmy.seth'),
 ('DD315','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD315','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD315','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD315','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD315','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD315','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD315','150205004','ANKIT CHOWDHURY','a.chowdhury'),
@@ -52747,25 +52747,25 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD315','12020503
 ('DD315','150205048','JEMMY SETH','jemmy.seth'),
 ('DD315','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD315','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD602','140205002','AKHIL PATEL','p.akhil'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD602','140205002','AKHIL PATEL','p.akhil'),
 ('DD602','140205004','ANAND VIJAY JEE','anand.jee'),
 ('DD602','140205014','KARTIK KATARIA','k.kataria'),
 ('DD602','140205015','KIRAN KUMAR NATEKAR','k.natekar'),
 ('DD602','140205027','PINGAL KAKATI','p.kakati'),
 ('DD602','176105102','Nandita Bhanja Chaudhuri','p.kakati');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD602','140205002','AKHIL PATEL','p.akhil'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD602','140205002','AKHIL PATEL','p.akhil'),
 ('DD602','140205004','ANAND VIJAY JEE','anand.jee'),
 ('DD602','140205014','KARTIK KATARIA','k.kataria'),
 ('DD602','140205015','KIRAN KUMAR NATEKAR','k.natekar'),
 ('DD602','140205027','PINGAL KAKATI','p.kakati'),
 ('DD602','176105102','Nandita Bhanja Chaudhuri','p.kakati');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD602','140205002','AKHIL PATEL','p.akhil'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD602','140205002','AKHIL PATEL','p.akhil'),
 ('DD602','140205004','ANAND VIJAY JEE','anand.jee'),
 ('DD602','140205014','KARTIK KATARIA','k.kataria'),
 ('DD602','140205015','KIRAN KUMAR NATEKAR','k.natekar'),
 ('DD602','140205027','PINGAL KAKATI','p.kakati'),
 ('DD602','176105102','Nandita Bhanja Chaudhuri','p.kakati');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD311','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD311','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD311','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD311','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD311','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -52812,7 +52812,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD311','150205001','AB
 ('DD311','150205048','JEMMY SETH','jemmy.seth'),
 ('DD311','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD311','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD311','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD311','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD311','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD311','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD311','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -52859,7 +52859,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD311','150205001
 ('DD311','150205048','JEMMY SETH','jemmy.seth'),
 ('DD311','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD311','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD311','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD311','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD311','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD311','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD311','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -52906,7 +52906,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD311','15020500
 ('DD311','150205048','JEMMY SETH','jemmy.seth'),
 ('DD311','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD311','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD212','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD212','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD212','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD212','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD212','160205003','AGRATA PATEL','agrata'),
@@ -52950,7 +52950,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD212','120205031','NI
 ('DD212','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD212','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD212','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD212','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD212','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD212','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD212','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD212','160205003','AGRATA PATEL','agrata'),
@@ -52994,7 +52994,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD212','120205031
 ('DD212','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD212','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD212','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD212','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD212','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD212','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD212','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD212','160205003','AGRATA PATEL','agrata'),
@@ -53038,7 +53038,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD212','12020503
 ('DD212','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD212','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD212','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD514','150205004','ANKIT CHOWDHURY','a.chowdhury'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD514','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD514','150205006','ANUPRIYA GUPTA','anupriya.gupta'),
 ('DD514','150205008','ASHOK KUMAR BIWAL','ashok.biwal'),
 ('DD514','150205014','HIMANGSHU GUPTA','himangshu.gupta'),
@@ -53052,7 +53052,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD514','150205004','AN
 ('DD514','174205013','LALANA BATHINA','lalan174205013'),
 ('DD514','174205019','PREETHAM CHANDRA BANDARU','preet174205019'),
 ('DD514','176105105','Gurdeep Singh','preet174205019');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD514','150205004','ANKIT CHOWDHURY','a.chowdhury'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD514','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD514','150205006','ANUPRIYA GUPTA','anupriya.gupta'),
 ('DD514','150205008','ASHOK KUMAR BIWAL','ashok.biwal'),
 ('DD514','150205014','HIMANGSHU GUPTA','himangshu.gupta'),
@@ -53066,7 +53066,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD514','150205004
 ('DD514','174205013','LALANA BATHINA','lalan174205013'),
 ('DD514','174205019','PREETHAM CHANDRA BANDARU','preet174205019'),
 ('DD514','176105105','Gurdeep Singh','preet174205019');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD514','150205004','ANKIT CHOWDHURY','a.chowdhury'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD514','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD514','150205006','ANUPRIYA GUPTA','anupriya.gupta'),
 ('DD514','150205008','ASHOK KUMAR BIWAL','ashok.biwal'),
 ('DD514','150205014','HIMANGSHU GUPTA','himangshu.gupta'),
@@ -53080,7 +53080,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD514','15020500
 ('DD514','174205013','LALANA BATHINA','lalan174205013'),
 ('DD514','174205019','PREETHAM CHANDRA BANDARU','preet174205019'),
 ('DD514','176105105','Gurdeep Singh','preet174205019');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD313','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD313','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD313','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD313','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD313','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -53127,7 +53127,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD313','150205001','AB
 ('DD313','150205048','JEMMY SETH','jemmy.seth'),
 ('DD313','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD313','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD313','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD313','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD313','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD313','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD313','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -53174,7 +53174,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD313','150205001
 ('DD313','150205048','JEMMY SETH','jemmy.seth'),
 ('DD313','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD313','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD313','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD313','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD313','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD313','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD313','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -53221,7 +53221,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD313','15020500
 ('DD313','150205048','JEMMY SETH','jemmy.seth'),
 ('DD313','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD313','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD112','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD112','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD112','170205002','ADITYA BIALA','adity170205002'),
 ('DD112','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD112','170205004','ANKITA PATRA','patra170205004'),
@@ -53264,7 +53264,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD112','170205001','AD
 ('DD112','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD112','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD112','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD112','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD112','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD112','170205002','ADITYA BIALA','adity170205002'),
 ('DD112','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD112','170205004','ANKITA PATRA','patra170205004'),
@@ -53307,7 +53307,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD112','170205001
 ('DD112','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD112','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD112','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD112','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD112','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD112','170205002','ADITYA BIALA','adity170205002'),
 ('DD112','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD112','170205004','ANKITA PATRA','patra170205004'),
@@ -53350,28 +53350,28 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD112','17020500
 ('DD112','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD112','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD112','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD515','174205005','BALAPRASANTH  S','balap174205005'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD515','174205005','BALAPRASANTH  S','balap174205005'),
 ('DD515','174205007','BHAVNA  NAGPAL','bhavn174205007'),
 ('DD515','174205008','BITOPAN  KALITA','bitop174205008'),
 ('DD515','174205010','HIMANSHU  SHARMA','himan174205010'),
 ('DD515','174205014','LATIKA  JINDAL','latik174205014'),
 ('DD515','174205016','PAYAL MANOHAR MADKE','payal174205016'),
 ('DD515','174205025','SURYA RAVEENDRANATH','surya174205025');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD515','174205005','BALAPRASANTH  S','balap174205005'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD515','174205005','BALAPRASANTH  S','balap174205005'),
 ('DD515','174205007','BHAVNA  NAGPAL','bhavn174205007'),
 ('DD515','174205008','BITOPAN  KALITA','bitop174205008'),
 ('DD515','174205010','HIMANSHU  SHARMA','himan174205010'),
 ('DD515','174205014','LATIKA  JINDAL','latik174205014'),
 ('DD515','174205016','PAYAL MANOHAR MADKE','payal174205016'),
 ('DD515','174205025','SURYA RAVEENDRANATH','surya174205025');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD515','174205005','BALAPRASANTH  S','balap174205005'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD515','174205005','BALAPRASANTH  S','balap174205005'),
 ('DD515','174205007','BHAVNA  NAGPAL','bhavn174205007'),
 ('DD515','174205008','BITOPAN  KALITA','bitop174205008'),
 ('DD515','174205010','HIMANSHU  SHARMA','himan174205010'),
 ('DD515','174205014','LATIKA  JINDAL','latik174205014'),
 ('DD515','174205016','PAYAL MANOHAR MADKE','payal174205016'),
 ('DD515','174205025','SURYA RAVEENDRANATH','surya174205025');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD506','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD506','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD506','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD506','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD506','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -53395,7 +53395,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD506','174205001','AD
 ('DD506','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD506','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD506','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD506','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD506','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD506','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD506','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD506','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -53419,7 +53419,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD506','174205001
 ('DD506','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD506','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD506','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD506','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD506','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD506','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD506','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD506','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -53443,10 +53443,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD506','17420500
 ('DD506','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD506','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD506','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD527','140205032','RATHOD NIKUNJ ABHAY','a.rathod');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD527','140205032','RATHOD NIKUNJ ABHAY','a.rathod');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD527','140205032','RATHOD NIKUNJ ABHAY','a.rathod');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD509','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD527','140205032','RATHOD NIKUNJ ABHAY','a.rathod');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD527','140205032','RATHOD NIKUNJ ABHAY','a.rathod');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD527','140205032','RATHOD NIKUNJ ABHAY','a.rathod');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD509','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD509','174205012','JYOTIRMOY  DAS RABHA','rabha174205012'),
 ('DD509','174205018','PRATHYUSHA  SAJJA','sajja174205018'),
 ('DD509','174205020','RAKHI  KUMARI','rakhi174205020'),
@@ -53455,7 +53455,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD509','174205001','AD
 ('DD509','174205023','SUBHRAJIT DATTA','subhr174205023'),
 ('DD509','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD509','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD509','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD509','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD509','174205012','JYOTIRMOY  DAS RABHA','rabha174205012'),
 ('DD509','174205018','PRATHYUSHA  SAJJA','sajja174205018'),
 ('DD509','174205020','RAKHI  KUMARI','rakhi174205020'),
@@ -53464,7 +53464,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD509','174205001
 ('DD509','174205023','SUBHRAJIT DATTA','subhr174205023'),
 ('DD509','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD509','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD509','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD509','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD509','174205012','JYOTIRMOY  DAS RABHA','rabha174205012'),
 ('DD509','174205018','PRATHYUSHA  SAJJA','sajja174205018'),
 ('DD509','174205020','RAKHI  KUMARI','rakhi174205020'),
@@ -53473,7 +53473,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD509','17420500
 ('DD509','174205023','SUBHRAJIT DATTA','subhr174205023'),
 ('DD509','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD509','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD507','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD507','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD507','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD507','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD507','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -53497,7 +53497,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD507','174205001','AD
 ('DD507','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD507','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD507','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD507','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD507','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD507','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD507','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD507','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -53521,7 +53521,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD507','174205001
 ('DD507','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD507','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD507','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD507','174205001','ADARSH RAJ SHAH','shah174205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD507','174205001','ADARSH RAJ SHAH','shah174205001'),
 ('DD507','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD507','174205003','AMANDEEP  VERMA','verma174205003'),
 ('DD507','174205004','ASHISH  SHARMA','ashis174205004'),
@@ -53545,7 +53545,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD507','17420500
 ('DD507','174205024','SUNANDA   SAHU','sunan174205024'),
 ('DD507','174205025','SURYA RAVEENDRANATH','surya174205025'),
 ('DD507','174205026','VISHAKHA  GAUTAM','visha174205026');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD113','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD113','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD113','170205002','ADITYA BIALA','adity170205002'),
 ('DD113','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD113','170205004','ANKITA PATRA','patra170205004'),
@@ -53588,7 +53588,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD113','170205001','AD
 ('DD113','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD113','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD113','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD113','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD113','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD113','170205002','ADITYA BIALA','adity170205002'),
 ('DD113','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD113','170205004','ANKITA PATRA','patra170205004'),
@@ -53631,7 +53631,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD113','170205001
 ('DD113','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD113','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD113','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD113','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD113','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD113','170205002','ADITYA BIALA','adity170205002'),
 ('DD113','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD113','170205004','ANKITA PATRA','patra170205004'),
@@ -53674,7 +53674,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD113','17020500
 ('DD113','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD113','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD113','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD312','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD312','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD312','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD312','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD312','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -53721,7 +53721,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD312','150205001','AB
 ('DD312','150205048','JEMMY SETH','jemmy.seth'),
 ('DD312','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD312','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD312','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD312','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD312','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD312','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD312','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -53768,7 +53768,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD312','150205001
 ('DD312','150205048','JEMMY SETH','jemmy.seth'),
 ('DD312','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD312','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD312','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD312','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD312','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD312','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD312','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -53815,19 +53815,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD312','15020500
 ('DD312','150205048','JEMMY SETH','jemmy.seth'),
 ('DD312','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD312','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD705','176105101','Abhishek Singh','arpit.ja'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD705','176105101','Abhishek Singh','arpit.ja'),
 ('DD705','176105102','Nandita Bhanja Chaudhuri','arpit.ja'),
 ('DD705','176105103','Mallampalli Krishna Chaitanya','arpit.ja'),
 ('DD705','176105105','Gurdeep Singh','arpit.ja');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD705','176105101','Abhishek Singh','arpit.ja'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD705','176105101','Abhishek Singh','arpit.ja'),
 ('DD705','176105102','Nandita Bhanja Chaudhuri','arpit.ja'),
 ('DD705','176105103','Mallampalli Krishna Chaitanya','arpit.ja'),
 ('DD705','176105105','Gurdeep Singh','arpit.ja');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD705','176105101','Abhishek Singh','arpit.ja'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD705','176105101','Abhishek Singh','arpit.ja'),
 ('DD705','176105102','Nandita Bhanja Chaudhuri','arpit.ja'),
 ('DD705','176105103','Mallampalli Krishna Chaitanya','arpit.ja'),
 ('DD705','176105105','Gurdeep Singh','arpit.ja');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD216','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD216','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD216','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD216','160205003','AGRATA PATEL','agrata'),
 ('DD216','160205004','ANGELA MATHEWS','a_matthew'),
@@ -53870,7 +53870,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD216','160205001','AA
 ('DD216','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD216','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD216','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD216','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD216','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD216','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD216','160205003','AGRATA PATEL','agrata'),
 ('DD216','160205004','ANGELA MATHEWS','a_matthew'),
@@ -53913,7 +53913,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD216','160205001
 ('DD216','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD216','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD216','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD216','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD216','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD216','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD216','160205003','AGRATA PATEL','agrata'),
 ('DD216','160205004','ANGELA MATHEWS','a_matthew'),
@@ -53956,7 +53956,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD216','16020500
 ('DD216','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD216','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD216','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD314','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD314','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD314','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD314','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD314','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -54003,7 +54003,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD314','150205001','AB
 ('DD314','150205048','JEMMY SETH','jemmy.seth'),
 ('DD314','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD314','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD314','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD314','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD314','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD314','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD314','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -54050,7 +54050,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD314','150205001
 ('DD314','150205048','JEMMY SETH','jemmy.seth'),
 ('DD314','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD314','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD314','150205001','ABHISHEK KANTHED','a.kanthed'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD314','150205001','ABHISHEK KANTHED','a.kanthed'),
 ('DD314','150205002','ABHISHEK NARAYAN SINGH','ab.narayan'),
 ('DD314','150205004','ANKIT CHOWDHURY','a.chowdhury'),
 ('DD314','150205005','ANKIT JAIN','ankitjain.2015'),
@@ -54097,16 +54097,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD314','15020500
 ('DD314','150205048','JEMMY SETH','jemmy.seth'),
 ('DD314','150205049','PASUMARTHY RAM SAI SRIKAR','p.srikar'),
 ('DD314','150205050','ARPIT JAIN','arpit.jain');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD306','150205026','PRABODH SHARMA','prabodh.sharma'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD306','150205026','PRABODH SHARMA','prabodh.sharma'),
 ('DD306','150205038','SUMAN JI','suman.ji'),
 ('DD306','150205044','VINIT GARG','vinit.garg');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD306','150205026','PRABODH SHARMA','prabodh.sharma'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD306','150205026','PRABODH SHARMA','prabodh.sharma'),
 ('DD306','150205038','SUMAN JI','suman.ji'),
 ('DD306','150205044','VINIT GARG','vinit.garg');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD306','150205026','PRABODH SHARMA','prabodh.sharma'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD306','150205026','PRABODH SHARMA','prabodh.sharma'),
 ('DD306','150205038','SUMAN JI','suman.ji'),
 ('DD306','150205044','VINIT GARG','vinit.garg');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD521','140205012','ISHA AGARWAL','isha.agarwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD521','140205012','ISHA AGARWAL','isha.agarwal'),
 ('DD521','140205016','KOTTA SURAJ','kotta.suraj'),
 ('DD521','140205035','SAJIYA CHAUDHARY','sajiya'),
 ('DD521','140205036','SAVALIA ZANKAR','savalia'),
@@ -54114,7 +54114,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD521','140205012','IS
 ('DD521','164205019','SHIVANI SANJAY HOLKAR','shivani2016'),
 ('DD521','164205020','SIDDHARTH S KUMAR','siddharth2020'),
 ('DD521','166154102',' MANOJ KUMAR VERMA','mk.verma');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD521','140205012','ISHA AGARWAL','isha.agarwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD521','140205012','ISHA AGARWAL','isha.agarwal'),
 ('DD521','140205016','KOTTA SURAJ','kotta.suraj'),
 ('DD521','140205035','SAJIYA CHAUDHARY','sajiya'),
 ('DD521','140205036','SAVALIA ZANKAR','savalia'),
@@ -54122,7 +54122,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD521','140205012
 ('DD521','164205019','SHIVANI SANJAY HOLKAR','shivani2016'),
 ('DD521','164205020','SIDDHARTH S KUMAR','siddharth2020'),
 ('DD521','166154102',' MANOJ KUMAR VERMA','mk.verma');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD521','140205012','ISHA AGARWAL','isha.agarwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD521','140205012','ISHA AGARWAL','isha.agarwal'),
 ('DD521','140205016','KOTTA SURAJ','kotta.suraj'),
 ('DD521','140205035','SAJIYA CHAUDHARY','sajiya'),
 ('DD521','140205036','SAVALIA ZANKAR','savalia'),
@@ -54130,28 +54130,28 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD521','14020501
 ('DD521','164205019','SHIVANI SANJAY HOLKAR','shivani2016'),
 ('DD521','164205020','SIDDHARTH S KUMAR','siddharth2020'),
 ('DD521','166154102',' MANOJ KUMAR VERMA','mk.verma');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD707','176105101','Abhishek Singh','mk.verma'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD707','176105101','Abhishek Singh','mk.verma'),
 ('DD707','176105104','Vigneshkumar C','mk.verma'),
 ('DD707','176105105','Gurdeep Singh','mk.verma');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD707','176105101','Abhishek Singh','mk.verma'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD707','176105101','Abhishek Singh','mk.verma'),
 ('DD707','176105104','Vigneshkumar C','mk.verma'),
 ('DD707','176105105','Gurdeep Singh','mk.verma');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD707','176105101','Abhishek Singh','mk.verma'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD707','176105101','Abhishek Singh','mk.verma'),
 ('DD707','176105104','Vigneshkumar C','mk.verma'),
 ('DD707','176105105','Gurdeep Singh','mk.verma');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD709','176105101','Abhishek Singh','mk.verma'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD709','176105101','Abhishek Singh','mk.verma'),
 ('DD709','176105102','Nandita Bhanja Chaudhuri','mk.verma'),
 ('DD709','176105103','Mallampalli Krishna Chaitanya','mk.verma'),
 ('DD709','176105104','Vigneshkumar C','mk.verma');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD709','176105101','Abhishek Singh','mk.verma'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD709','176105101','Abhishek Singh','mk.verma'),
 ('DD709','176105102','Nandita Bhanja Chaudhuri','mk.verma'),
 ('DD709','176105103','Mallampalli Krishna Chaitanya','mk.verma'),
 ('DD709','176105104','Vigneshkumar C','mk.verma');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD709','176105101','Abhishek Singh','mk.verma'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD709','176105101','Abhishek Singh','mk.verma'),
 ('DD709','176105102','Nandita Bhanja Chaudhuri','mk.verma'),
 ('DD709','176105103','Mallampalli Krishna Chaitanya','mk.verma'),
 ('DD709','176105104','Vigneshkumar C','mk.verma');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD605','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD605','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
 ('DD605','164205002','ABHISHEK ARUN YEVALKAR','abhishek.yevalkar'),
 ('DD605','164205003','ANI  DALAL','ani67'),
 ('DD605','164205004','ANJALI  KAUSHIK','anjali1111'),
@@ -54175,7 +54175,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD605','164205001','AB
 ('DD605','164205024','VISHNU  CHANDRAKUMAR','vishnu.chandra'),
 ('DD605','164205025','VISHNU  SUKUMAR','vishnusukumar'),
 ('DD605','164205026','YOGESH MUKESHBHAI RATHOD','yogesh.rathod');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD605','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD605','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
 ('DD605','164205002','ABHISHEK ARUN YEVALKAR','abhishek.yevalkar'),
 ('DD605','164205003','ANI  DALAL','ani67'),
 ('DD605','164205004','ANJALI  KAUSHIK','anjali1111'),
@@ -54199,7 +54199,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD605','164205001
 ('DD605','164205024','VISHNU  CHANDRAKUMAR','vishnu.chandra'),
 ('DD605','164205025','VISHNU  SUKUMAR','vishnusukumar'),
 ('DD605','164205026','YOGESH MUKESHBHAI RATHOD','yogesh.rathod');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD605','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD605','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
 ('DD605','164205002','ABHISHEK ARUN YEVALKAR','abhishek.yevalkar'),
 ('DD605','164205003','ANI  DALAL','ani67'),
 ('DD605','164205004','ANJALI  KAUSHIK','anjali1111'),
@@ -54223,7 +54223,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD605','16420500
 ('DD605','164205024','VISHNU  CHANDRAKUMAR','vishnu.chandra'),
 ('DD605','164205025','VISHNU  SUKUMAR','vishnusukumar'),
 ('DD605','164205026','YOGESH MUKESHBHAI RATHOD','yogesh.rathod');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD220M','160102024','ESHANT VERMA','eshantv'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD220M','160102024','ESHANT VERMA','eshantv'),
 ('DD220M','160102032','KOLLA VENKATA MANIDEEP','manideepkolla'),
 ('DD220M','160102033','KONDA CHANDU','Kondachandu1998'),
 ('DD220M','160102040','MAYANK SINGLA','mayank_singla'),
@@ -54246,7 +54246,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD220M','160102024','E
 ('DD220M','160122036','SHAMBHAVI DAS','shambhavi'),
 ('DD220M','160123017','KULDEEP SHARMA','kuldeep.sharma'),
 ('DD220M','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD220M','160102024','ESHANT VERMA','eshantv'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD220M','160102024','ESHANT VERMA','eshantv'),
 ('DD220M','160102032','KOLLA VENKATA MANIDEEP','manideepkolla'),
 ('DD220M','160102033','KONDA CHANDU','Kondachandu1998'),
 ('DD220M','160102040','MAYANK SINGLA','mayank_singla'),
@@ -54269,7 +54269,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD220M','16010202
 ('DD220M','160122036','SHAMBHAVI DAS','shambhavi'),
 ('DD220M','160123017','KULDEEP SHARMA','kuldeep.sharma'),
 ('DD220M','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD220M','160102024','ESHANT VERMA','eshantv'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD220M','160102024','ESHANT VERMA','eshantv'),
 ('DD220M','160102032','KOLLA VENKATA MANIDEEP','manideepkolla'),
 ('DD220M','160102033','KONDA CHANDU','Kondachandu1998'),
 ('DD220M','160102040','MAYANK SINGLA','mayank_singla'),
@@ -54292,16 +54292,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD220M','1601020
 ('DD220M','160122036','SHAMBHAVI DAS','shambhavi'),
 ('DD220M','160123017','KULDEEP SHARMA','kuldeep.sharma'),
 ('DD220M','160123053','M SIVA VENKATA RANGA REDDY','shiva1998r');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD516','176105103','Mallampalli Krishna Chaitanya','shiva199'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD516','176105103','Mallampalli Krishna Chaitanya','shiva199'),
 ('DD516','176105104','Vigneshkumar C','shiva199'),
 ('DD516','176105105','Gurdeep Singh','shiva199');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD516','176105103','Mallampalli Krishna Chaitanya','shiva199'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD516','176105103','Mallampalli Krishna Chaitanya','shiva199'),
 ('DD516','176105104','Vigneshkumar C','shiva199'),
 ('DD516','176105105','Gurdeep Singh','shiva199');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD516','176105103','Mallampalli Krishna Chaitanya','shiva199'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD516','176105103','Mallampalli Krishna Chaitanya','shiva199'),
 ('DD516','176105104','Vigneshkumar C','shiva199'),
 ('DD516','176105105','Gurdeep Singh','shiva199');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD522','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD522','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
 ('DD522','164205002','ABHISHEK ARUN YEVALKAR','abhishek.yevalkar'),
 ('DD522','164205004','ANJALI  KAUSHIK','anjali1111'),
 ('DD522','164205005','AVINASH  SHARMA','avinashsharma'),
@@ -54319,7 +54319,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD522','164205001','AB
 ('DD522','164205024','VISHNU  CHANDRAKUMAR','vishnu.chandra'),
 ('DD522','164205025','VISHNU  SUKUMAR','vishnusukumar'),
 ('DD522','164205026','YOGESH MUKESHBHAI RATHOD','yogesh.rathod');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD522','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD522','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
 ('DD522','164205002','ABHISHEK ARUN YEVALKAR','abhishek.yevalkar'),
 ('DD522','164205004','ANJALI  KAUSHIK','anjali1111'),
 ('DD522','164205005','AVINASH  SHARMA','avinashsharma'),
@@ -54337,7 +54337,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD522','164205001
 ('DD522','164205024','VISHNU  CHANDRAKUMAR','vishnu.chandra'),
 ('DD522','164205025','VISHNU  SUKUMAR','vishnusukumar'),
 ('DD522','164205026','YOGESH MUKESHBHAI RATHOD','yogesh.rathod');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD522','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD522','164205001','ABHISHEK  CHAUHAN','abhishek.31392'),
 ('DD522','164205002','ABHISHEK ARUN YEVALKAR','abhishek.yevalkar'),
 ('DD522','164205004','ANJALI  KAUSHIK','anjali1111'),
 ('DD522','164205005','AVINASH  SHARMA','avinashsharma'),
@@ -54355,19 +54355,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD522','16420500
 ('DD522','164205024','VISHNU  CHANDRAKUMAR','vishnu.chandra'),
 ('DD522','164205025','VISHNU  SUKUMAR','vishnusukumar'),
 ('DD522','164205026','YOGESH MUKESHBHAI RATHOD','yogesh.rathod');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD510','140205003','AKRITI KAUR','akriti.kaur'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD510','140205003','AKRITI KAUR','akriti.kaur'),
 ('DD510','140205022','MOHITE SANGRAMSINH RAJENDRA','mohite.rajendra'),
 ('DD510','140205034','S ADARSH RAO','adarsh.rao'),
 ('DD510','176105101','Abhishek Singh','adarsh.rao');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD510','140205003','AKRITI KAUR','akriti.kaur'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD510','140205003','AKRITI KAUR','akriti.kaur'),
 ('DD510','140205022','MOHITE SANGRAMSINH RAJENDRA','mohite.rajendra'),
 ('DD510','140205034','S ADARSH RAO','adarsh.rao'),
 ('DD510','176105101','Abhishek Singh','adarsh.rao');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD510','140205003','AKRITI KAUR','akriti.kaur'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD510','140205003','AKRITI KAUR','akriti.kaur'),
 ('DD510','140205022','MOHITE SANGRAMSINH RAJENDRA','mohite.rajendra'),
 ('DD510','140205034','S ADARSH RAO','adarsh.rao'),
 ('DD510','176105101','Abhishek Singh','adarsh.rao');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD320M','150101004','ABOTHULA RAKESH','abothula'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD320M','150101004','ABOTHULA RAKESH','abothula'),
 ('DD320M','150101018','BOPPANA AKHILESH','b.akhilesh'),
 ('DD320M','150101021','DESHMUKH UDAYRAJ SHRIKANT','deshmukh'),
 ('DD320M','150101029','KATTA YATHEENDRA MOULI','katta.mouli'),
@@ -54382,7 +54382,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD320M','150101004','A
 ('DD320M','150108034','SASANK GURAJAPU','sasank'),
 ('DD320M','150121017','K. LIKHITA','k.likhita'),
 ('DD320M','150123052','PRITHVI SRIRAM','prithvi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD320M','150101004','ABOTHULA RAKESH','abothula'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD320M','150101004','ABOTHULA RAKESH','abothula'),
 ('DD320M','150101018','BOPPANA AKHILESH','b.akhilesh'),
 ('DD320M','150101021','DESHMUKH UDAYRAJ SHRIKANT','deshmukh'),
 ('DD320M','150101029','KATTA YATHEENDRA MOULI','katta.mouli'),
@@ -54397,7 +54397,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD320M','15010100
 ('DD320M','150108034','SASANK GURAJAPU','sasank'),
 ('DD320M','150121017','K. LIKHITA','k.likhita'),
 ('DD320M','150123052','PRITHVI SRIRAM','prithvi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD320M','150101004','ABOTHULA RAKESH','abothula'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD320M','150101004','ABOTHULA RAKESH','abothula'),
 ('DD320M','150101018','BOPPANA AKHILESH','b.akhilesh'),
 ('DD320M','150101021','DESHMUKH UDAYRAJ SHRIKANT','deshmukh'),
 ('DD320M','150101029','KATTA YATHEENDRA MOULI','katta.mouli'),
@@ -54412,19 +54412,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD320M','1501010
 ('DD320M','150108034','SASANK GURAJAPU','sasank'),
 ('DD320M','150121017','K. LIKHITA','k.likhita'),
 ('DD320M','150123052','PRITHVI SRIRAM','prithvi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD710','176105101','Abhishek Singh','prithvi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD710','176105101','Abhishek Singh','prithvi'),
 ('DD710','176105102','Nandita Bhanja Chaudhuri','prithvi'),
 ('DD710','176105103','Mallampalli Krishna Chaitanya','prithvi'),
 ('DD710','176105104','Vigneshkumar C','prithvi');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD710','176105101','Abhishek Singh','prithvi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD710','176105101','Abhishek Singh','prithvi'),
 ('DD710','176105102','Nandita Bhanja Chaudhuri','prithvi'),
 ('DD710','176105103','Mallampalli Krishna Chaitanya','prithvi'),
 ('DD710','176105104','Vigneshkumar C','prithvi');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD710','176105101','Abhishek Singh','prithvi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD710','176105101','Abhishek Singh','prithvi'),
 ('DD710','176105102','Nandita Bhanja Chaudhuri','prithvi'),
 ('DD710','176105103','Mallampalli Krishna Chaitanya','prithvi'),
 ('DD710','176105104','Vigneshkumar C','prithvi');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD413','140205001','ABHILASH SINGH','abhilash.singh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD413','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD413','140205005','CHARU SONI','charu.soni'),
 ('DD413','140205006','CHHAVI GOPAL SHRIVASTAVA','s.chhavi'),
 ('DD413','140205007','DEEPAK DALAL','deepak.dalal'),
@@ -54451,7 +54451,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD413','140205001','AB
 ('DD413','140205043','VINJAM VINAY','vinjam'),
 ('DD413','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD413','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD413','140205001','ABHILASH SINGH','abhilash.singh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD413','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD413','140205005','CHARU SONI','charu.soni'),
 ('DD413','140205006','CHHAVI GOPAL SHRIVASTAVA','s.chhavi'),
 ('DD413','140205007','DEEPAK DALAL','deepak.dalal'),
@@ -54478,7 +54478,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD413','140205001
 ('DD413','140205043','VINJAM VINAY','vinjam'),
 ('DD413','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD413','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD413','140205001','ABHILASH SINGH','abhilash.singh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD413','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD413','140205005','CHARU SONI','charu.soni'),
 ('DD413','140205006','CHHAVI GOPAL SHRIVASTAVA','s.chhavi'),
 ('DD413','140205007','DEEPAK DALAL','deepak.dalal'),
@@ -54505,25 +54505,25 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD413','14020500
 ('DD413','140205043','VINJAM VINAY','vinjam'),
 ('DD413','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD413','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD531','174205002','ADEEBA  IFRAH','ifrah174205002'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD531','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD531','174205006','BHARAT  NARAH','narah174205006'),
 ('DD531','174205015','MANASH PRATIM BORAH','manas174205015'),
 ('DD531','174205017','PRAKHAR  VINYAS','prakh174205017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD531','174205002','ADEEBA  IFRAH','ifrah174205002'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD531','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD531','174205006','BHARAT  NARAH','narah174205006'),
 ('DD531','174205015','MANASH PRATIM BORAH','manas174205015'),
 ('DD531','174205017','PRAKHAR  VINYAS','prakh174205017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD531','174205002','ADEEBA  IFRAH','ifrah174205002'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD531','174205002','ADEEBA  IFRAH','ifrah174205002'),
 ('DD531','174205006','BHARAT  NARAH','narah174205006'),
 ('DD531','174205015','MANASH PRATIM BORAH','manas174205015'),
 ('DD531','174205017','PRAKHAR  VINYAS','prakh174205017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD704','176105104','Vigneshkumar C','prakh174'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD704','176105104','Vigneshkumar C','prakh174'),
 ('DD704','176105105','Gurdeep Singh','prakh174');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD704','176105104','Vigneshkumar C','prakh174'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD704','176105104','Vigneshkumar C','prakh174'),
 ('DD704','176105105','Gurdeep Singh','prakh174');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD704','176105104','Vigneshkumar C','prakh174'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD704','176105104','Vigneshkumar C','prakh174'),
 ('DD704','176105105','Gurdeep Singh','prakh174');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD211','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD211','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD211','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD211','160205003','AGRATA PATEL','agrata'),
 ('DD211','160205004','ANGELA MATHEWS','a_matthew'),
@@ -54566,7 +54566,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD211','160205001','AA
 ('DD211','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD211','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD211','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD211','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD211','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD211','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD211','160205003','AGRATA PATEL','agrata'),
 ('DD211','160205004','ANGELA MATHEWS','a_matthew'),
@@ -54609,7 +54609,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD211','160205001
 ('DD211','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD211','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD211','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD211','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD211','160205001','AADHITYA RAVICHANDRAN','aadhitya'),
 ('DD211','160205002','ABHISHEK GORE','abhishek2016'),
 ('DD211','160205003','AGRATA PATEL','agrata'),
 ('DD211','160205004','ANGELA MATHEWS','a_matthew'),
@@ -54652,7 +54652,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD211','16020500
 ('DD211','160205044','SURENDRA SINGH','surendrasingh'),
 ('DD211','160205045','TAJANYA MOHAN','tajanyamohan'),
 ('DD211','160205046','TEJAS PATIL','tejas.patil97');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD499','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD499','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD499','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD499','140205002','AKHIL PATEL','p.akhil'),
 ('DD499','140205003','AKRITI KAUR','akriti.kaur'),
@@ -54694,7 +54694,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD499','120205031','NI
 ('DD499','140205043','VINJAM VINAY','vinjam'),
 ('DD499','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD499','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD499','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD499','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD499','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD499','140205002','AKHIL PATEL','p.akhil'),
 ('DD499','140205003','AKRITI KAUR','akriti.kaur'),
@@ -54736,7 +54736,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD499','120205031
 ('DD499','140205043','VINJAM VINAY','vinjam'),
 ('DD499','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD499','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD499','120205031','NILKAMAL RABHA','nilkamal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD499','120205031','NILKAMAL RABHA','nilkamal'),
 ('DD499','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD499','140205002','AKHIL PATEL','p.akhil'),
 ('DD499','140205003','AKRITI KAUR','akriti.kaur'),
@@ -54778,7 +54778,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD499','12020503
 ('DD499','140205043','VINJAM VINAY','vinjam'),
 ('DD499','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD499','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD411','140205001','ABHILASH SINGH','abhilash.singh'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD411','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD411','140205002','AKHIL PATEL','p.akhil'),
 ('DD411','140205003','AKRITI KAUR','akriti.kaur'),
 ('DD411','140205004','ANAND VIJAY JEE','anand.jee'),
@@ -54819,7 +54819,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD411','140205001','AB
 ('DD411','140205043','VINJAM VINAY','vinjam'),
 ('DD411','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD411','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD411','140205001','ABHILASH SINGH','abhilash.singh'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD411','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD411','140205002','AKHIL PATEL','p.akhil'),
 ('DD411','140205003','AKRITI KAUR','akriti.kaur'),
 ('DD411','140205004','ANAND VIJAY JEE','anand.jee'),
@@ -54860,7 +54860,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD411','140205001
 ('DD411','140205043','VINJAM VINAY','vinjam'),
 ('DD411','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD411','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD411','140205001','ABHILASH SINGH','abhilash.singh'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD411','140205001','ABHILASH SINGH','abhilash.singh'),
 ('DD411','140205002','AKHIL PATEL','p.akhil'),
 ('DD411','140205003','AKRITI KAUR','akriti.kaur'),
 ('DD411','140205004','ANAND VIJAY JEE','anand.jee'),
@@ -54901,7 +54901,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD411','14020500
 ('DD411','140205043','VINJAM VINAY','vinjam'),
 ('DD411','140205044','YASHVARDHAN SINGH CHAUHAN','yashvardhan'),
 ('DD411','140205046','SANJEET','s.sanjeet');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD111','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('DD111','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD111','170205002','ADITYA BIALA','adity170205002'),
 ('DD111','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD111','170205004','ANKITA PATRA','patra170205004'),
@@ -54944,7 +54944,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('DD111','170205001','AD
 ('DD111','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD111','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD111','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD111','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('DD111','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD111','170205002','ADITYA BIALA','adity170205002'),
 ('DD111','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD111','170205004','ANKITA PATRA','patra170205004'),
@@ -54987,7 +54987,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('DD111','170205001
 ('DD111','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD111','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD111','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD111','170205001','ADIL ABDUSHUKOOR','adil170205001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('DD111','170205001','ADIL ABDUSHUKOOR','adil170205001'),
 ('DD111','170205002','ADITYA BIALA','adity170205002'),
 ('DD111','170205003','AKHIL RAJENDRAN','akhil170205003'),
 ('DD111','170205004','ANKITA PATRA','patra170205004'),
@@ -55030,7 +55030,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('DD111','17020500
 ('DD111','170205043','VIGNESH KUMAR S','s170205043'),
 ('DD111','170205044','VISHWAJEET CHOUDHARY','vishw170205044'),
 ('DD111','170205045','VIVEK SHAJI KIZHAKKEKARA','vivek170205045');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH308','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH308','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH308','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH308','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH308','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -55067,7 +55067,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH308','140121010','B.
 ('PH308','150121046','SUBHAJIT ROY','r.subhajit'),
 ('PH308','X174102065','NICOLAS RAHMAT','r.subhajit'),
 ('PH308','X174102066','JULIEN BASSINOT','r.subhajit');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH308','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH308','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH308','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH308','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH308','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -55104,7 +55104,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH308','140121010
 ('PH308','150121046','SUBHAJIT ROY','r.subhajit'),
 ('PH308','X174102065','NICOLAS RAHMAT','r.subhajit'),
 ('PH308','X174102066','JULIEN BASSINOT','r.subhajit');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH308','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH308','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH308','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH308','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH308','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -55141,7 +55141,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH308','14012101
 ('PH308','150121046','SUBHAJIT ROY','r.subhajit'),
 ('PH308','X174102065','NICOLAS RAHMAT','r.subhajit'),
 ('PH308','X174102066','JULIEN BASSINOT','r.subhajit');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH210','140121007','ANUPAM JAIN','anupam.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH210','140121007','ANUPAM JAIN','anupam.jain'),
 ('PH210','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH210','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
 ('PH210','160121005','AKSHAY RAO','akshayrao'),
@@ -55171,7 +55171,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH210','140121007','AN
 ('PH210','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('PH210','X174102065','NICOLAS RAHMAT','vishnu1298'),
 ('PH210','X174102066','JULIEN BASSINOT','vishnu1298');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH210','140121007','ANUPAM JAIN','anupam.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH210','140121007','ANUPAM JAIN','anupam.jain'),
 ('PH210','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH210','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
 ('PH210','160121005','AKSHAY RAO','akshayrao'),
@@ -55201,7 +55201,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH210','140121007
 ('PH210','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('PH210','X174102065','NICOLAS RAHMAT','vishnu1298'),
 ('PH210','X174102066','JULIEN BASSINOT','vishnu1298');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH210','140121007','ANUPAM JAIN','anupam.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH210','140121007','ANUPAM JAIN','anupam.jain'),
 ('PH210','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH210','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
 ('PH210','160121005','AKSHAY RAO','akshayrao'),
@@ -55231,7 +55231,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH210','14012100
 ('PH210','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('PH210','X174102065','NICOLAS RAHMAT','vishnu1298'),
 ('PH210','X174102066','JULIEN BASSINOT','vishnu1298');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH523','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH523','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH523','140121008','ARPAN OJHA','arpan.2014'),
 ('PH523','140121018','ESHAN BHARGAVA','e.bhargava'),
 ('PH523','140121024','MADIRA SRAVANAKHIL','madira'),
@@ -55258,7 +55258,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH523','140121003','AB
 ('PH523','162121034','NIKHIL KUMAR','nikhilk370'),
 ('PH523','162121041','SHUBHENDU DAS','shubhendudas'),
 ('PH523','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH523','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH523','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH523','140121008','ARPAN OJHA','arpan.2014'),
 ('PH523','140121018','ESHAN BHARGAVA','e.bhargava'),
 ('PH523','140121024','MADIRA SRAVANAKHIL','madira'),
@@ -55285,7 +55285,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH523','140121003
 ('PH523','162121034','NIKHIL KUMAR','nikhilk370'),
 ('PH523','162121041','SHUBHENDU DAS','shubhendudas'),
 ('PH523','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH523','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH523','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH523','140121008','ARPAN OJHA','arpan.2014'),
 ('PH523','140121018','ESHAN BHARGAVA','e.bhargava'),
 ('PH523','140121024','MADIRA SRAVANAKHIL','madira'),
@@ -55312,7 +55312,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH523','14012100
 ('PH523','162121034','NIKHIL KUMAR','nikhilk370'),
 ('PH523','162121041','SHUBHENDU DAS','shubhendudas'),
 ('PH523','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH527','162121003','AJAY BARO','ajay.baro'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH527','162121003','AJAY BARO','ajay.baro'),
 ('PH527','162121004','AMANDEEP KAUR','amankaur'),
 ('PH527','162121006','ANJANA JOSEPH','anjanajosephvkm'),
 ('PH527','162121023','DESH RAJ VERMA','deshu'),
@@ -55322,7 +55322,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH527','162121003','AJ
 ('PH527','162121044','SUKHJOVAN SINGH GILL','sukhjovan'),
 ('PH527','162121046','SUSMITA DAS','susmita.das'),
 ('PH527','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH527','162121003','AJAY BARO','ajay.baro'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH527','162121003','AJAY BARO','ajay.baro'),
 ('PH527','162121004','AMANDEEP KAUR','amankaur'),
 ('PH527','162121006','ANJANA JOSEPH','anjanajosephvkm'),
 ('PH527','162121023','DESH RAJ VERMA','deshu'),
@@ -55332,7 +55332,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH527','162121003
 ('PH527','162121044','SUKHJOVAN SINGH GILL','sukhjovan'),
 ('PH527','162121046','SUSMITA DAS','susmita.das'),
 ('PH527','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH527','162121003','AJAY BARO','ajay.baro'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH527','162121003','AJAY BARO','ajay.baro'),
 ('PH527','162121004','AMANDEEP KAUR','amankaur'),
 ('PH527','162121006','ANJANA JOSEPH','anjanajosephvkm'),
 ('PH527','162121023','DESH RAJ VERMA','deshu'),
@@ -55342,7 +55342,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH527','16212100
 ('PH527','162121044','SUKHJOVAN SINGH GILL','sukhjovan'),
 ('PH527','162121046','SUSMITA DAS','susmita.das'),
 ('PH527','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH302','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH302','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH302','150121001','ADIDAMU ANANT SAURABH','adidamu'),
 ('PH302','150121002','ADITYA CHOUDHARY','aditya.choudhary'),
 ('PH302','150121004','ANMOL MISHRA','anmol.mishra'),
@@ -55376,7 +55376,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH302','140121010','B.
 ('PH302','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH302','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH302','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH302','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH302','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH302','150121001','ADIDAMU ANANT SAURABH','adidamu'),
 ('PH302','150121002','ADITYA CHOUDHARY','aditya.choudhary'),
 ('PH302','150121004','ANMOL MISHRA','anmol.mishra'),
@@ -55410,7 +55410,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH302','140121010
 ('PH302','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH302','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH302','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH302','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH302','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH302','150121001','ADIDAMU ANANT SAURABH','adidamu'),
 ('PH302','150121002','ADITYA CHOUDHARY','aditya.choudhary'),
 ('PH302','150121004','ANMOL MISHRA','anmol.mishra'),
@@ -55444,7 +55444,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH302','14012101
 ('PH302','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH302','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH302','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH204','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH204','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH204','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH204','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
 ('PH204','160121005','AKSHAY RAO','akshayrao'),
@@ -55475,7 +55475,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH204','140121019','KA
 ('PH204','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('PH204','X174102065','NICOLAS RAHMAT','vishnu1298'),
 ('PH204','X174102066','JULIEN BASSINOT','vishnu1298');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH204','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH204','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH204','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH204','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
 ('PH204','160121005','AKSHAY RAO','akshayrao'),
@@ -55506,7 +55506,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH204','140121019
 ('PH204','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('PH204','X174102065','NICOLAS RAHMAT','vishnu1298'),
 ('PH204','X174102066','JULIEN BASSINOT','vishnu1298');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH204','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH204','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH204','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH204','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
 ('PH204','160121005','AKSHAY RAO','akshayrao'),
@@ -55537,7 +55537,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH204','14012101
 ('PH204','160121043','VISHNU AGRAWAL','vishnu1298'),
 ('PH204','X174102065','NICOLAS RAHMAT','vishnu1298'),
 ('PH204','X174102066','JULIEN BASSINOT','vishnu1298');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH410','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH410','172121001','AKASH DEY','akash172121001'),
 ('PH410','172121002','AMALIKA PATRA','patra172121002'),
 ('PH410','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH410','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55583,7 +55583,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH410','172121001','AK
 ('PH410','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH410','172121047','SUMANTA ROY','roy172121047'),
 ('PH410','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH410','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH410','172121001','AKASH DEY','akash172121001'),
 ('PH410','172121002','AMALIKA PATRA','patra172121002'),
 ('PH410','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH410','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55629,7 +55629,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH410','172121001
 ('PH410','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH410','172121047','SUMANTA ROY','roy172121047'),
 ('PH410','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH410','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH410','172121001','AKASH DEY','akash172121001'),
 ('PH410','172121002','AMALIKA PATRA','patra172121002'),
 ('PH410','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH410','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55675,7 +55675,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH410','17212100
 ('PH410','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH410','172121047','SUMANTA ROY','roy172121047'),
 ('PH410','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH531','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH531','162121001','ABDUR ROUF','abdurrouf'),
 ('PH531','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH531','162121004','AMANDEEP KAUR','amankaur'),
 ('PH531','162121010','ARNOB KUMAR GHOSH','arnobkumarghosh'),
@@ -55696,7 +55696,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH531','162121001','AB
 ('PH531','162121046','SUSMITA DAS','susmita.das'),
 ('PH531','162121047','UPASANA DEORI','d.upasana'),
 ('PH531','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH531','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH531','162121001','ABDUR ROUF','abdurrouf'),
 ('PH531','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH531','162121004','AMANDEEP KAUR','amankaur'),
 ('PH531','162121010','ARNOB KUMAR GHOSH','arnobkumarghosh'),
@@ -55717,7 +55717,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH531','162121001
 ('PH531','162121046','SUSMITA DAS','susmita.das'),
 ('PH531','162121047','UPASANA DEORI','d.upasana'),
 ('PH531','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH531','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH531','162121001','ABDUR ROUF','abdurrouf'),
 ('PH531','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH531','162121004','AMANDEEP KAUR','amankaur'),
 ('PH531','162121010','ARNOB KUMAR GHOSH','arnobkumarghosh'),
@@ -55738,7 +55738,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH531','16212100
 ('PH531','162121046','SUSMITA DAS','susmita.das'),
 ('PH531','162121047','UPASANA DEORI','d.upasana'),
 ('PH531','176302003','ASHISH KUMAR CHOWDHARY','ashis176302003');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH402','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH402','172121001','AKASH DEY','akash172121001'),
 ('PH402','172121002','AMALIKA PATRA','patra172121002'),
 ('PH402','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH402','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55784,7 +55784,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH402','172121001','AK
 ('PH402','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH402','172121047','SUMANTA ROY','roy172121047'),
 ('PH402','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH402','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH402','172121001','AKASH DEY','akash172121001'),
 ('PH402','172121002','AMALIKA PATRA','patra172121002'),
 ('PH402','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH402','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55830,7 +55830,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH402','172121001
 ('PH402','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH402','172121047','SUMANTA ROY','roy172121047'),
 ('PH402','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH402','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH402','172121001','AKASH DEY','akash172121001'),
 ('PH402','172121002','AMALIKA PATRA','patra172121002'),
 ('PH402','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH402','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55876,28 +55876,28 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH402','17212100
 ('PH402','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH402','172121047','SUMANTA ROY','roy172121047'),
 ('PH402','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH702','176121014','NEDA SHAMIM','neda176121014'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH702','176121014','NEDA SHAMIM','neda176121014'),
 ('PH702','176121101','Gajendra Singh Bisht','neda176121014'),
 ('PH702','176121102','Suresh Chand','neda176121014'),
 ('PH702','176121103','Jyotirmol Borah','neda176121014'),
 ('PH702','176121108','Rony Boral','neda176121014'),
 ('PH702','176121109','Shilpi Roy','neda176121014'),
 ('PH702','176153102','Karishma Banu','neda176121014');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH702','176121014','NEDA SHAMIM','neda176121014'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH702','176121014','NEDA SHAMIM','neda176121014'),
 ('PH702','176121101','Gajendra Singh Bisht','neda176121014'),
 ('PH702','176121102','Suresh Chand','neda176121014'),
 ('PH702','176121103','Jyotirmol Borah','neda176121014'),
 ('PH702','176121108','Rony Boral','neda176121014'),
 ('PH702','176121109','Shilpi Roy','neda176121014'),
 ('PH702','176153102','Karishma Banu','neda176121014');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH702','176121014','NEDA SHAMIM','neda176121014'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH702','176121014','NEDA SHAMIM','neda176121014'),
 ('PH702','176121101','Gajendra Singh Bisht','neda176121014'),
 ('PH702','176121102','Suresh Chand','neda176121014'),
 ('PH702','176121103','Jyotirmol Borah','neda176121014'),
 ('PH702','176121108','Rony Boral','neda176121014'),
 ('PH702','176121109','Shilpi Roy','neda176121014'),
 ('PH702','176153102','Karishma Banu','neda176121014');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH408','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH408','172121001','AKASH DEY','akash172121001'),
 ('PH408','172121002','AMALIKA PATRA','patra172121002'),
 ('PH408','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH408','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55943,7 +55943,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH408','172121001','AK
 ('PH408','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH408','172121047','SUMANTA ROY','roy172121047'),
 ('PH408','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH408','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH408','172121001','AKASH DEY','akash172121001'),
 ('PH408','172121002','AMALIKA PATRA','patra172121002'),
 ('PH408','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH408','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -55989,7 +55989,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH408','172121001
 ('PH408','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH408','172121047','SUMANTA ROY','roy172121047'),
 ('PH408','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH408','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH408','172121001','AKASH DEY','akash172121001'),
 ('PH408','172121002','AMALIKA PATRA','patra172121002'),
 ('PH408','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH408','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56035,7 +56035,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH408','17212100
 ('PH408','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH408','172121047','SUMANTA ROY','roy172121047'),
 ('PH408','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH544','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH544','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH544','140121014','CHANDRAMOULI CHOWDHURY','chandramouli'),
 ('PH544','140121016','DEEPANSHU KUMAR','k.deepanshu'),
 ('PH544','140121018','ESHAN BHARGAVA','e.bhargava'),
@@ -56055,7 +56055,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH544','140121002','AB
 ('PH544','162121038','SAHABUB JAHEDI','sahabub'),
 ('PH544','162121039','SHEIKH MOONSUN PERVEZ','moonsun'),
 ('PH544','162121045','SUPRIYA PAN','span19');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH544','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH544','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH544','140121014','CHANDRAMOULI CHOWDHURY','chandramouli'),
 ('PH544','140121016','DEEPANSHU KUMAR','k.deepanshu'),
 ('PH544','140121018','ESHAN BHARGAVA','e.bhargava'),
@@ -56075,7 +56075,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH544','140121002
 ('PH544','162121038','SAHABUB JAHEDI','sahabub'),
 ('PH544','162121039','SHEIKH MOONSUN PERVEZ','moonsun'),
 ('PH544','162121045','SUPRIYA PAN','span19');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH544','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH544','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH544','140121014','CHANDRAMOULI CHOWDHURY','chandramouli'),
 ('PH544','140121016','DEEPANSHU KUMAR','k.deepanshu'),
 ('PH544','140121018','ESHAN BHARGAVA','e.bhargava'),
@@ -56095,7 +56095,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH544','14012100
 ('PH544','162121038','SAHABUB JAHEDI','sahabub'),
 ('PH544','162121039','SHEIKH MOONSUN PERVEZ','moonsun'),
 ('PH544','162121045','SUPRIYA PAN','span19');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH406','162121016','BRAJESH KUMAR','brak12'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH406','162121016','BRAJESH KUMAR','brak12'),
 ('PH406','162121027','JONMANI RABHA','jonmani'),
 ('PH406','162121030','KOUSIK BERA','kousik1995'),
 ('PH406','162121034','NIKHIL KUMAR','nikhilk370'),
@@ -56145,7 +56145,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH406','162121016','BR
 ('PH406','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH406','172121047','SUMANTA ROY','roy172121047'),
 ('PH406','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH406','162121016','BRAJESH KUMAR','brak12'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH406','162121016','BRAJESH KUMAR','brak12'),
 ('PH406','162121027','JONMANI RABHA','jonmani'),
 ('PH406','162121030','KOUSIK BERA','kousik1995'),
 ('PH406','162121034','NIKHIL KUMAR','nikhilk370'),
@@ -56195,7 +56195,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH406','162121016
 ('PH406','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH406','172121047','SUMANTA ROY','roy172121047'),
 ('PH406','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH406','162121016','BRAJESH KUMAR','brak12'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH406','162121016','BRAJESH KUMAR','brak12'),
 ('PH406','162121027','JONMANI RABHA','jonmani'),
 ('PH406','162121030','KOUSIK BERA','kousik1995'),
 ('PH406','162121034','NIKHIL KUMAR','nikhilk370'),
@@ -56245,13 +56245,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH406','16212101
 ('PH406','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH406','172121047','SUMANTA ROY','roy172121047'),
 ('PH406','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH382M','150102025','KAMPELLY PRANITH','kampelly'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH382M','150102025','KAMPELLY PRANITH','kampelly'),
 ('PH382M','150102026','KANDIMALLA SAI VIKAS','kandimalla');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH382M','150102025','KAMPELLY PRANITH','kampelly'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH382M','150102025','KAMPELLY PRANITH','kampelly'),
 ('PH382M','150102026','KANDIMALLA SAI VIKAS','kandimalla');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH382M','150102025','KAMPELLY PRANITH','kampelly'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH382M','150102025','KAMPELLY PRANITH','kampelly'),
 ('PH382M','150102026','KANDIMALLA SAI VIKAS','kandimalla');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH202','130121012','DIVYA KUMAR MEENA','m.divya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH202','130121012','DIVYA KUMAR MEENA','m.divya'),
 ('PH202','130121013','GAGAN CHITTOR','c.gagan'),
 ('PH202','130121014','GUNADEEP TERON','t.gunadeep'),
 ('PH202','140121007','ANUPAM JAIN','anupam.jain'),
@@ -56283,7 +56283,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH202','130121012','DI
 ('PH202','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('PH202','160121042','VARUN SESHADRI','varunseshadri'),
 ('PH202','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH202','130121012','DIVYA KUMAR MEENA','m.divya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH202','130121012','DIVYA KUMAR MEENA','m.divya'),
 ('PH202','130121013','GAGAN CHITTOR','c.gagan'),
 ('PH202','130121014','GUNADEEP TERON','t.gunadeep'),
 ('PH202','140121007','ANUPAM JAIN','anupam.jain'),
@@ -56315,7 +56315,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH202','130121012
 ('PH202','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('PH202','160121042','VARUN SESHADRI','varunseshadri'),
 ('PH202','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH202','130121012','DIVYA KUMAR MEENA','m.divya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH202','130121012','DIVYA KUMAR MEENA','m.divya'),
 ('PH202','130121013','GAGAN CHITTOR','c.gagan'),
 ('PH202','130121014','GUNADEEP TERON','t.gunadeep'),
 ('PH202','140121007','ANUPAM JAIN','anupam.jain'),
@@ -56347,7 +56347,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH202','13012101
 ('PH202','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('PH202','160121042','VARUN SESHADRI','varunseshadri'),
 ('PH202','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH404','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH404','172121001','AKASH DEY','akash172121001'),
 ('PH404','172121002','AMALIKA PATRA','patra172121002'),
 ('PH404','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH404','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56393,7 +56393,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH404','172121001','AK
 ('PH404','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH404','172121047','SUMANTA ROY','roy172121047'),
 ('PH404','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH404','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH404','172121001','AKASH DEY','akash172121001'),
 ('PH404','172121002','AMALIKA PATRA','patra172121002'),
 ('PH404','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH404','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56439,7 +56439,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH404','172121001
 ('PH404','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH404','172121047','SUMANTA ROY','roy172121047'),
 ('PH404','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH404','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH404','172121001','AKASH DEY','akash172121001'),
 ('PH404','172121002','AMALIKA PATRA','patra172121002'),
 ('PH404','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH404','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56485,7 +56485,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH404','17212100
 ('PH404','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH404','172121047','SUMANTA ROY','roy172121047'),
 ('PH404','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH443','140102004','ALIKANTI AKSHAY','alikanti'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH443','140102004','ALIKANTI AKSHAY','alikanti'),
 ('PH443','140102015','BOLLA SATYA VENKATA SAI CHANDRAHASA','c.bolla'),
 ('PH443','140102017','CHENNURU NARAYANA','chennuru'),
 ('PH443','140102022','DHANIREDDY SAI CHARAN REDDY','dhanireddy'),
@@ -56536,7 +56536,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH443','140102004','AL
 ('PH443','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('PH443','140122010','ASHISH KUMAR AGARWAL','ashish.agarwal'),
 ('PH443','140122037','SUJEET SAURAV','sujeet.saurav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH443','140102004','ALIKANTI AKSHAY','alikanti'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH443','140102004','ALIKANTI AKSHAY','alikanti'),
 ('PH443','140102015','BOLLA SATYA VENKATA SAI CHANDRAHASA','c.bolla'),
 ('PH443','140102017','CHENNURU NARAYANA','chennuru'),
 ('PH443','140102022','DHANIREDDY SAI CHARAN REDDY','dhanireddy'),
@@ -56587,7 +56587,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH443','140102004
 ('PH443','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('PH443','140122010','ASHISH KUMAR AGARWAL','ashish.agarwal'),
 ('PH443','140122037','SUJEET SAURAV','sujeet.saurav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH443','140102004','ALIKANTI AKSHAY','alikanti'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH443','140102004','ALIKANTI AKSHAY','alikanti'),
 ('PH443','140102015','BOLLA SATYA VENKATA SAI CHANDRAHASA','c.bolla'),
 ('PH443','140102017','CHENNURU NARAYANA','chennuru'),
 ('PH443','140102022','DHANIREDDY SAI CHARAN REDDY','dhanireddy'),
@@ -56638,7 +56638,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH443','14010200
 ('PH443','140122001','AAYUSH CHAUDHARY','c.aayush'),
 ('PH443','140122010','ASHISH KUMAR AGARWAL','ashish.agarwal'),
 ('PH443','140122037','SUJEET SAURAV','sujeet.saurav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH412','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH412','172121001','AKASH DEY','akash172121001'),
 ('PH412','172121002','AMALIKA PATRA','patra172121002'),
 ('PH412','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH412','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56684,7 +56684,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH412','172121001','AK
 ('PH412','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH412','172121047','SUMANTA ROY','roy172121047'),
 ('PH412','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH412','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH412','172121001','AKASH DEY','akash172121001'),
 ('PH412','172121002','AMALIKA PATRA','patra172121002'),
 ('PH412','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH412','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56730,7 +56730,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH412','172121001
 ('PH412','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH412','172121047','SUMANTA ROY','roy172121047'),
 ('PH412','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH412','172121001','AKASH DEY','akash172121001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH412','172121001','AKASH DEY','akash172121001'),
 ('PH412','172121002','AMALIKA PATRA','patra172121002'),
 ('PH412','172121003','ANANDAGOPAL PAL','anand172121003'),
 ('PH412','172121004','ANEESHA AVASTHI','avast172121004'),
@@ -56776,7 +56776,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH412','17212100
 ('PH412','172121046','SUCHARITA PAUL','paul172121046'),
 ('PH412','172121047','SUMANTA ROY','roy172121047'),
 ('PH412','172121048','SWARUP KANTI SARKAR','kanti172121048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH532','162121003','AJAY BARO','ajay.baro'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH532','162121003','AJAY BARO','ajay.baro'),
 ('PH532','162121004','AMANDEEP KAUR','amankaur'),
 ('PH532','162121005','AMEER MEHER','ameermeher1'),
 ('PH532','162121007','ANSHUL','thanshul.at'),
@@ -56788,7 +56788,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH532','162121003','AJ
 ('PH532','162121032','MANISH SAINI','manishsaini'),
 ('PH532','162121034','NIKHIL KUMAR','nikhilk370'),
 ('PH532','162121044','SUKHJOVAN SINGH GILL','sukhjovan');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH532','162121003','AJAY BARO','ajay.baro'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH532','162121003','AJAY BARO','ajay.baro'),
 ('PH532','162121004','AMANDEEP KAUR','amankaur'),
 ('PH532','162121005','AMEER MEHER','ameermeher1'),
 ('PH532','162121007','ANSHUL','thanshul.at'),
@@ -56800,7 +56800,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH532','162121003
 ('PH532','162121032','MANISH SAINI','manishsaini'),
 ('PH532','162121034','NIKHIL KUMAR','nikhilk370'),
 ('PH532','162121044','SUKHJOVAN SINGH GILL','sukhjovan');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH532','162121003','AJAY BARO','ajay.baro'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH532','162121003','AJAY BARO','ajay.baro'),
 ('PH532','162121004','AMANDEEP KAUR','amankaur'),
 ('PH532','162121005','AMEER MEHER','ameermeher1'),
 ('PH532','162121007','ANSHUL','thanshul.at'),
@@ -56812,7 +56812,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH532','16212100
 ('PH532','162121032','MANISH SAINI','manishsaini'),
 ('PH532','162121034','NIKHIL KUMAR','nikhilk370'),
 ('PH532','162121044','SUKHJOVAN SINGH GILL','sukhjovan');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH706','176121006','KM DHRITI','dhrit176121006'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH706','176121006','KM DHRITI','dhrit176121006'),
 ('PH706','176121101','Gajendra Singh Bisht','dhrit176121006'),
 ('PH706','176121102','Suresh Chand','dhrit176121006'),
 ('PH706','176121103','Jyotirmol Borah','dhrit176121006'),
@@ -56821,7 +56821,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH706','176121006','KM
 ('PH706','176122041','RHETTIKA DUTTA','rhett176122041'),
 ('PH706','176153002','SUVENDU MANDAL','suven176153002'),
 ('PH706','176153102','Karishma Banu','suven176153002');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH706','176121006','KM DHRITI','dhrit176121006'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH706','176121006','KM DHRITI','dhrit176121006'),
 ('PH706','176121101','Gajendra Singh Bisht','dhrit176121006'),
 ('PH706','176121102','Suresh Chand','dhrit176121006'),
 ('PH706','176121103','Jyotirmol Borah','dhrit176121006'),
@@ -56830,7 +56830,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH706','176121006
 ('PH706','176122041','RHETTIKA DUTTA','rhett176122041'),
 ('PH706','176153002','SUVENDU MANDAL','suven176153002'),
 ('PH706','176153102','Karishma Banu','suven176153002');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH706','176121006','KM DHRITI','dhrit176121006'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH706','176121006','KM DHRITI','dhrit176121006'),
 ('PH706','176121101','Gajendra Singh Bisht','dhrit176121006'),
 ('PH706','176121102','Suresh Chand','dhrit176121006'),
 ('PH706','176121103','Jyotirmol Borah','dhrit176121006'),
@@ -56839,7 +56839,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH706','17612100
 ('PH706','176122041','RHETTIKA DUTTA','rhett176122041'),
 ('PH706','176153002','SUVENDU MANDAL','suven176153002'),
 ('PH706','176153102','Karishma Banu','suven176153002');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH524','140121016','DEEPANSHU KUMAR','k.deepanshu'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH524','140121016','DEEPANSHU KUMAR','k.deepanshu'),
 ('PH524','140121021','KIRTHANAA INDUMATHI','kirthanaa'),
 ('PH524','140121022','KULKARNI SHREYAS VIVEK','v.kulkarni'),
 ('PH524','140121024','MADIRA SRAVANAKHIL','madira'),
@@ -56869,7 +56869,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH524','140121016','DE
 ('PH524','162121047','UPASANA DEORI','d.upasana'),
 ('PH524','176153101','Sunil Gone','d.upasana'),
 ('PH524','176153102','Karishma Banu','d.upasana');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH524','140121016','DEEPANSHU KUMAR','k.deepanshu'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH524','140121016','DEEPANSHU KUMAR','k.deepanshu'),
 ('PH524','140121021','KIRTHANAA INDUMATHI','kirthanaa'),
 ('PH524','140121022','KULKARNI SHREYAS VIVEK','v.kulkarni'),
 ('PH524','140121024','MADIRA SRAVANAKHIL','madira'),
@@ -56899,7 +56899,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH524','140121016
 ('PH524','162121047','UPASANA DEORI','d.upasana'),
 ('PH524','176153101','Sunil Gone','d.upasana'),
 ('PH524','176153102','Karishma Banu','d.upasana');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH524','140121016','DEEPANSHU KUMAR','k.deepanshu'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH524','140121016','DEEPANSHU KUMAR','k.deepanshu'),
 ('PH524','140121021','KIRTHANAA INDUMATHI','kirthanaa'),
 ('PH524','140121022','KULKARNI SHREYAS VIVEK','v.kulkarni'),
 ('PH524','140121024','MADIRA SRAVANAKHIL','madira'),
@@ -56929,7 +56929,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH524','14012101
 ('PH524','162121047','UPASANA DEORI','d.upasana'),
 ('PH524','176153101','Sunil Gone','d.upasana'),
 ('PH524','176153102','Karishma Banu','d.upasana');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH543','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH543','162121001','ABDUR ROUF','abdurrouf'),
 ('PH543','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH543','162121008','ANUPAMA S','anupamasreevalsan'),
 ('PH543','162121010','ARNOB KUMAR GHOSH','arnobkumarghosh'),
@@ -56951,7 +56951,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH543','162121001','AB
 ('PH543','162121045','SUPRIYA PAN','span19'),
 ('PH543','176121001','SHINJINI DAS','das176121001'),
 ('PH543','176121012','MADHURIMA CHAKRABORTY','madhu176121012');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH543','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH543','162121001','ABDUR ROUF','abdurrouf'),
 ('PH543','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH543','162121008','ANUPAMA S','anupamasreevalsan'),
 ('PH543','162121010','ARNOB KUMAR GHOSH','arnobkumarghosh'),
@@ -56973,7 +56973,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH543','162121001
 ('PH543','162121045','SUPRIYA PAN','span19'),
 ('PH543','176121001','SHINJINI DAS','das176121001'),
 ('PH543','176121012','MADHURIMA CHAKRABORTY','madhu176121012');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH543','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH543','162121001','ABDUR ROUF','abdurrouf'),
 ('PH543','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH543','162121008','ANUPAMA S','anupamasreevalsan'),
 ('PH543','162121010','ARNOB KUMAR GHOSH','arnobkumarghosh'),
@@ -56995,7 +56995,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH543','16212100
 ('PH543','162121045','SUPRIYA PAN','span19'),
 ('PH543','176121001','SHINJINI DAS','das176121001'),
 ('PH543','176121012','MADHURIMA CHAKRABORTY','madhu176121012');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH414','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH414','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH414','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH414','140121004','ALOK RANJAN','alok.2014'),
 ('PH414','140121008','ARPAN OJHA','arpan.2014'),
@@ -57025,7 +57025,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH414','140121002','AB
 ('PH414','140121042','TIRUVASKAR SHREYAS ASHOK','tiruvaskar'),
 ('PH414','140121043','VIMAL KUMAR VERMA','vimal.verma'),
 ('PH414','140121044','VINEETH PACHAVA','v.pachava');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH414','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH414','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH414','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH414','140121004','ALOK RANJAN','alok.2014'),
 ('PH414','140121008','ARPAN OJHA','arpan.2014'),
@@ -57055,7 +57055,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH414','140121002
 ('PH414','140121042','TIRUVASKAR SHREYAS ASHOK','tiruvaskar'),
 ('PH414','140121043','VIMAL KUMAR VERMA','vimal.verma'),
 ('PH414','140121044','VINEETH PACHAVA','v.pachava');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH414','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH414','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH414','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH414','140121004','ALOK RANJAN','alok.2014'),
 ('PH414','140121008','ARPAN OJHA','arpan.2014'),
@@ -57085,7 +57085,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH414','14012100
 ('PH414','140121042','TIRUVASKAR SHREYAS ASHOK','tiruvaskar'),
 ('PH414','140121043','VIMAL KUMAR VERMA','vimal.verma'),
 ('PH414','140121044','VINEETH PACHAVA','v.pachava');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH320','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH320','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH320','150121001','ADIDAMU ANANT SAURABH','adidamu'),
 ('PH320','150121002','ADITYA CHOUDHARY','aditya.choudhary'),
 ('PH320','150121004','ANMOL MISHRA','anmol.mishra'),
@@ -57119,7 +57119,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH320','140121010','B.
 ('PH320','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH320','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH320','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH320','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH320','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH320','150121001','ADIDAMU ANANT SAURABH','adidamu'),
 ('PH320','150121002','ADITYA CHOUDHARY','aditya.choudhary'),
 ('PH320','150121004','ANMOL MISHRA','anmol.mishra'),
@@ -57153,7 +57153,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH320','140121010
 ('PH320','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH320','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH320','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH320','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH320','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH320','150121001','ADIDAMU ANANT SAURABH','adidamu'),
 ('PH320','150121002','ADITYA CHOUDHARY','aditya.choudhary'),
 ('PH320','150121004','ANMOL MISHRA','anmol.mishra'),
@@ -57187,7 +57187,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH320','14012101
 ('PH320','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH320','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH320','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH521','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH521','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH521','140121004','ALOK RANJAN','alok.2014'),
 ('PH521','140121013','CHANDAN','chandan.chandan'),
 ('PH521','140121014','CHANDRAMOULI CHOWDHURY','chandramouli'),
@@ -57214,7 +57214,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH521','140121002','AB
 ('PH521','162121042','SOURAV PAL','pal.sourav'),
 ('PH521','162121043','SUDESHNA SAHA','sudeshna.saha'),
 ('PH521','162121045','SUPRIYA PAN','span19');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH521','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH521','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH521','140121004','ALOK RANJAN','alok.2014'),
 ('PH521','140121013','CHANDAN','chandan.chandan'),
 ('PH521','140121014','CHANDRAMOULI CHOWDHURY','chandramouli'),
@@ -57241,7 +57241,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH521','140121002
 ('PH521','162121042','SOURAV PAL','pal.sourav'),
 ('PH521','162121043','SUDESHNA SAHA','sudeshna.saha'),
 ('PH521','162121045','SUPRIYA PAN','span19');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH521','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH521','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH521','140121004','ALOK RANJAN','alok.2014'),
 ('PH521','140121013','CHANDAN','chandan.chandan'),
 ('PH521','140121014','CHANDRAMOULI CHOWDHURY','chandramouli'),
@@ -57268,7 +57268,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH521','14012100
 ('PH521','162121042','SOURAV PAL','pal.sourav'),
 ('PH521','162121043','SUDESHNA SAHA','sudeshna.saha'),
 ('PH521','162121045','SUPRIYA PAN','span19');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH102','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH102','120205025','MANISH KUMAR','manish2012'),
 ('PH102','140205040','VAIBHAV GUPTA','vaibhav.gupta'),
 ('PH102','160102018','CHIPPA ANUDEEP','chippa2016'),
 ('PH102','160103009','AMIT KUMAR','amit.kumar10156'),
@@ -57914,7 +57914,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH102','120205025','MA
 ('PH102','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('PH102','170123054','TUMARADA ADITYA','adity170123054'),
 ('PH102','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH102','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH102','120205025','MANISH KUMAR','manish2012'),
 ('PH102','140205040','VAIBHAV GUPTA','vaibhav.gupta'),
 ('PH102','160102018','CHIPPA ANUDEEP','chippa2016'),
 ('PH102','160103009','AMIT KUMAR','amit.kumar10156'),
@@ -58560,7 +58560,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH102','120205025
 ('PH102','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('PH102','170123054','TUMARADA ADITYA','adity170123054'),
 ('PH102','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH102','120205025','MANISH KUMAR','manish2012'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH102','120205025','MANISH KUMAR','manish2012'),
 ('PH102','140205040','VAIBHAV GUPTA','vaibhav.gupta'),
 ('PH102','160102018','CHIPPA ANUDEEP','chippa2016'),
 ('PH102','160103009','AMIT KUMAR','amit.kumar10156'),
@@ -59206,7 +59206,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH102','12020502
 ('PH102','170123053','TEJASVEE PANWAR','tejas170123053'),
 ('PH102','170123054','TUMARADA ADITYA','adity170123054'),
 ('PH102','170123055','UDBHAV CHUGH','udbha170123055');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH516','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH516','162121001','ABDUR ROUF','abdurrouf'),
 ('PH516','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH516','162121003','AJAY BARO','ajay.baro'),
 ('PH516','162121004','AMANDEEP KAUR','amankaur'),
@@ -59248,7 +59248,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH516','162121001','AB
 ('PH516','162121045','SUPRIYA PAN','span19'),
 ('PH516','162121046','SUSMITA DAS','susmita.das'),
 ('PH516','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH516','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH516','162121001','ABDUR ROUF','abdurrouf'),
 ('PH516','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH516','162121003','AJAY BARO','ajay.baro'),
 ('PH516','162121004','AMANDEEP KAUR','amankaur'),
@@ -59290,7 +59290,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH516','162121001
 ('PH516','162121045','SUPRIYA PAN','span19'),
 ('PH516','162121046','SUSMITA DAS','susmita.das'),
 ('PH516','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH516','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH516','162121001','ABDUR ROUF','abdurrouf'),
 ('PH516','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH516','162121003','AJAY BARO','ajay.baro'),
 ('PH516','162121004','AMANDEEP KAUR','amankaur'),
@@ -59332,7 +59332,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH516','16212100
 ('PH516','162121045','SUPRIYA PAN','span19'),
 ('PH516','162121046','SUSMITA DAS','susmita.das'),
 ('PH516','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH306','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH306','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH306','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH306','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH306','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -59368,7 +59368,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH306','140121010','B.
 ('PH306','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH306','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH306','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH306','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH306','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH306','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH306','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH306','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -59404,7 +59404,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH306','140121010
 ('PH306','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH306','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH306','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH306','140121010','B.S LOHITH KUMAR','lohith.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH306','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH306','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH306','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH306','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -59440,7 +59440,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH306','14012101
 ('PH306','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH306','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH306','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH206','140121007','ANUPAM JAIN','anupam.jain'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH206','140121007','ANUPAM JAIN','anupam.jain'),
 ('PH206','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH206','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH206','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
@@ -59469,7 +59469,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH206','140121007','AN
 ('PH206','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('PH206','160121042','VARUN SESHADRI','varunseshadri'),
 ('PH206','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH206','140121007','ANUPAM JAIN','anupam.jain'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH206','140121007','ANUPAM JAIN','anupam.jain'),
 ('PH206','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH206','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH206','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
@@ -59498,7 +59498,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH206','140121007
 ('PH206','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('PH206','160121042','VARUN SESHADRI','varunseshadri'),
 ('PH206','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH206','140121007','ANUPAM JAIN','anupam.jain'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH206','140121007','ANUPAM JAIN','anupam.jain'),
 ('PH206','140121019','KAPARAPU AKHILNAIDU','kaparapu'),
 ('PH206','160121001','ABHIRIKSHMA NANDI','abhirikshma'),
 ('PH206','160121004','ADITHYA KAADE ARVIND','adithya.kaade23'),
@@ -59527,7 +59527,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH206','14012100
 ('PH206','160121041','ULHE ABHILASH SANJAY','abhi2307'),
 ('PH206','160121042','VARUN SESHADRI','varunseshadri'),
 ('PH206','160121043','VISHNU AGRAWAL','vishnu1298');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH703','176121009','SAMIT KUMAR HAZRA','samit176121009'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH703','176121009','SAMIT KUMAR HAZRA','samit176121009'),
 ('PH703','176121014','NEDA SHAMIM','neda176121014'),
 ('PH703','176121021','SUBRATA BISWAS','subra176121021'),
 ('PH703','176121101','Gajendra Singh Bisht','subra176121021'),
@@ -59535,7 +59535,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH703','176121009','SA
 ('PH703','176121103','Jyotirmol Borah','subra176121021'),
 ('PH703','176121108','Rony Boral','subra176121021'),
 ('PH703','176121109','Shilpi Roy','subra176121021');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH703','176121009','SAMIT KUMAR HAZRA','samit176121009'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH703','176121009','SAMIT KUMAR HAZRA','samit176121009'),
 ('PH703','176121014','NEDA SHAMIM','neda176121014'),
 ('PH703','176121021','SUBRATA BISWAS','subra176121021'),
 ('PH703','176121101','Gajendra Singh Bisht','subra176121021'),
@@ -59543,7 +59543,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH703','176121009
 ('PH703','176121103','Jyotirmol Borah','subra176121021'),
 ('PH703','176121108','Rony Boral','subra176121021'),
 ('PH703','176121109','Shilpi Roy','subra176121021');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH703','176121009','SAMIT KUMAR HAZRA','samit176121009'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH703','176121009','SAMIT KUMAR HAZRA','samit176121009'),
 ('PH703','176121014','NEDA SHAMIM','neda176121014'),
 ('PH703','176121021','SUBRATA BISWAS','subra176121021'),
 ('PH703','176121101','Gajendra Singh Bisht','subra176121021'),
@@ -59551,7 +59551,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH703','17612100
 ('PH703','176121103','Jyotirmol Borah','subra176121021'),
 ('PH703','176121108','Rony Boral','subra176121021'),
 ('PH703','176121109','Shilpi Roy','subra176121021');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH462','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH462','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH462','140121004','ALOK RANJAN','alok.2014'),
 ('PH462','140121008','ARPAN OJHA','arpan.2014'),
 ('PH462','140121013','CHANDAN','chandan.chandan'),
@@ -59563,7 +59563,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH462','140121003','AB
 ('PH462','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH462','140121036','SOUVICK BISWAS','souvick'),
 ('PH462','140121041','AMBIKESH GUPTA','ambikesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH462','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH462','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH462','140121004','ALOK RANJAN','alok.2014'),
 ('PH462','140121008','ARPAN OJHA','arpan.2014'),
 ('PH462','140121013','CHANDAN','chandan.chandan'),
@@ -59575,7 +59575,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH462','140121003
 ('PH462','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH462','140121036','SOUVICK BISWAS','souvick'),
 ('PH462','140121041','AMBIKESH GUPTA','ambikesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH462','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH462','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
 ('PH462','140121004','ALOK RANJAN','alok.2014'),
 ('PH462','140121008','ARPAN OJHA','arpan.2014'),
 ('PH462','140121013','CHANDAN','chandan.chandan'),
@@ -59587,7 +59587,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH462','14012100
 ('PH462','140121032','SAKORE ROHAN PRAKASH','sakore'),
 ('PH462','140121036','SOUVICK BISWAS','souvick'),
 ('PH462','140121041','AMBIKESH GUPTA','ambikesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH518','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH518','162121001','ABDUR ROUF','abdurrouf'),
 ('PH518','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH518','162121003','AJAY BARO','ajay.baro'),
 ('PH518','162121004','AMANDEEP KAUR','amankaur'),
@@ -59629,7 +59629,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH518','162121001','AB
 ('PH518','162121045','SUPRIYA PAN','span19'),
 ('PH518','162121046','SUSMITA DAS','susmita.das'),
 ('PH518','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH518','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH518','162121001','ABDUR ROUF','abdurrouf'),
 ('PH518','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH518','162121003','AJAY BARO','ajay.baro'),
 ('PH518','162121004','AMANDEEP KAUR','amankaur'),
@@ -59671,7 +59671,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH518','162121001
 ('PH518','162121045','SUPRIYA PAN','span19'),
 ('PH518','162121046','SUSMITA DAS','susmita.das'),
 ('PH518','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH518','162121001','ABDUR ROUF','abdurrouf'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH518','162121001','ABDUR ROUF','abdurrouf'),
 ('PH518','162121002','ABHISHEK BARUAH','abhshk.10'),
 ('PH518','162121003','AJAY BARO','ajay.baro'),
 ('PH518','162121004','AMANDEEP KAUR','amankaur'),
@@ -59713,7 +59713,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH518','16212100
 ('PH518','162121045','SUPRIYA PAN','span19'),
 ('PH518','162121046','SUSMITA DAS','susmita.das'),
 ('PH518','162121047','UPASANA DEORI','d.upasana');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH304','11012138','V B GURU CHARAN GUPTA','veerabommala'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH304','11012138','V B GURU CHARAN GUPTA','veerabommala'),
 ('PH304','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH304','140121038','SUDHIR KUMAR','sudhir.kumar'),
 ('PH304','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -59749,7 +59749,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH304','11012138','V B
 ('PH304','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH304','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH304','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH304','11012138','V B GURU CHARAN GUPTA','veerabommala'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH304','11012138','V B GURU CHARAN GUPTA','veerabommala'),
 ('PH304','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH304','140121038','SUDHIR KUMAR','sudhir.kumar'),
 ('PH304','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -59785,7 +59785,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH304','11012138'
 ('PH304','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH304','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH304','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH304','11012138','V B GURU CHARAN GUPTA','veerabommala'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH304','11012138','V B GURU CHARAN GUPTA','veerabommala'),
 ('PH304','140121010','B.S LOHITH KUMAR','lohith.kumar'),
 ('PH304','140121038','SUDHIR KUMAR','sudhir.kumar'),
 ('PH304','150121001','ADIDAMU ANANT SAURABH','adidamu'),
@@ -59821,7 +59821,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH304','11012138
 ('PH304','150121042','SHARMA HARSH','sharma.harsh'),
 ('PH304','150121044','SIMRAN BARNWAL','b.simran'),
 ('PH304','150121046','SUBHAJIT ROY','r.subhajit');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH110','150102073','YERIKIPATI VENKATA NAGA SARAN','yerikipati'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH110','150102073','YERIKIPATI VENKATA NAGA SARAN','yerikipati'),
 ('PH110','160102029','KADAM MANISH DNYANESHWAR','kadam.manish'),
 ('PH110','170102001','ABHAY JIT SINGH SANDHU','abhay170102001'),
 ('PH110','170102002','ABHINAV SINGH','abhin170102002'),
@@ -60159,7 +60159,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH110','150102073','YE
 ('PH110','170108041','VINAY VERMA','vinay170108041'),
 ('PH110','170108042','VISHWAJEET KUMAR SINGH','vishw170108042'),
 ('PH110','170108043','SURAJ KUMAR','suraj170108043');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH110','150102073','YERIKIPATI VENKATA NAGA SARAN','yerikipati'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH110','150102073','YERIKIPATI VENKATA NAGA SARAN','yerikipati'),
 ('PH110','160102029','KADAM MANISH DNYANESHWAR','kadam.manish'),
 ('PH110','170102001','ABHAY JIT SINGH SANDHU','abhay170102001'),
 ('PH110','170102002','ABHINAV SINGH','abhin170102002'),
@@ -60497,7 +60497,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH110','150102073
 ('PH110','170108041','VINAY VERMA','vinay170108041'),
 ('PH110','170108042','VISHWAJEET KUMAR SINGH','vishw170108042'),
 ('PH110','170108043','SURAJ KUMAR','suraj170108043');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH110','150102073','YERIKIPATI VENKATA NAGA SARAN','yerikipati'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH110','150102073','YERIKIPATI VENKATA NAGA SARAN','yerikipati'),
 ('PH110','160102029','KADAM MANISH DNYANESHWAR','kadam.manish'),
 ('PH110','170102001','ABHAY JIT SINGH SANDHU','abhay170102001'),
 ('PH110','170102002','ABHINAV SINGH','abhin170102002'),
@@ -60835,7 +60835,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH110','15010207
 ('PH110','170108041','VINAY VERMA','vinay170108041'),
 ('PH110','170108042','VISHWAJEET KUMAR SINGH','vishw170108042'),
 ('PH110','170108043','SURAJ KUMAR','suraj170108043');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH545','152121006','ARUP JYOTI DAS','arup.das'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH545','152121006','ARUP JYOTI DAS','arup.das'),
 ('PH545','162121006','ANJANA JOSEPH','anjanajosephvkm'),
 ('PH545','162121008','ANUPAMA S','anupamasreevalsan'),
 ('PH545','162121019','CHITRAK KARAN','chitrakkaran'),
@@ -60846,7 +60846,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH545','152121006','AR
 ('PH545','162121043','SUDESHNA SAHA','sudeshna.saha'),
 ('PH545','162121046','SUSMITA DAS','susmita.das'),
 ('PH545','176121001','SHINJINI DAS','das176121001');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH545','152121006','ARUP JYOTI DAS','arup.das'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH545','152121006','ARUP JYOTI DAS','arup.das'),
 ('PH545','162121006','ANJANA JOSEPH','anjanajosephvkm'),
 ('PH545','162121008','ANUPAMA S','anupamasreevalsan'),
 ('PH545','162121019','CHITRAK KARAN','chitrakkaran'),
@@ -60857,7 +60857,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH545','152121006
 ('PH545','162121043','SUDESHNA SAHA','sudeshna.saha'),
 ('PH545','162121046','SUSMITA DAS','susmita.das'),
 ('PH545','176121001','SHINJINI DAS','das176121001');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH545','152121006','ARUP JYOTI DAS','arup.das'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH545','152121006','ARUP JYOTI DAS','arup.das'),
 ('PH545','162121006','ANJANA JOSEPH','anjanajosephvkm'),
 ('PH545','162121008','ANUPAMA S','anupamasreevalsan'),
 ('PH545','162121019','CHITRAK KARAN','chitrakkaran'),
@@ -60868,7 +60868,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH545','15212100
 ('PH545','162121043','SUDESHNA SAHA','sudeshna.saha'),
 ('PH545','162121046','SUSMITA DAS','susmita.das'),
 ('PH545','176121001','SHINJINI DAS','das176121001');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH446','150102004','AJEYO DEY','ajeyo'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH446','150102004','AJEYO DEY','ajeyo'),
 ('PH446','150102008','ASHUTOSH SHARMA','ashu.sharma'),
 ('PH446','150102024','HARSHIT RAJGADIA','h.rajgadia'),
 ('PH446','150102027','KHAMKAR RAHUL DINESH','khamkar'),
@@ -60881,7 +60881,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH446','150102004','AJ
 ('PH446','150121034','RIMPLE','rimple'),
 ('PH446','150121035','RISHAB RAJ','r.rishab'),
 ('PH446','150121036','ROUNAK SEN','rounak.sen');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH446','150102004','AJEYO DEY','ajeyo'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH446','150102004','AJEYO DEY','ajeyo'),
 ('PH446','150102008','ASHUTOSH SHARMA','ashu.sharma'),
 ('PH446','150102024','HARSHIT RAJGADIA','h.rajgadia'),
 ('PH446','150102027','KHAMKAR RAHUL DINESH','khamkar'),
@@ -60894,7 +60894,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH446','150102004
 ('PH446','150121034','RIMPLE','rimple'),
 ('PH446','150121035','RISHAB RAJ','r.rishab'),
 ('PH446','150121036','ROUNAK SEN','rounak.sen');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH446','150102004','AJEYO DEY','ajeyo'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH446','150102004','AJEYO DEY','ajeyo'),
 ('PH446','150102008','ASHUTOSH SHARMA','ashu.sharma'),
 ('PH446','150102024','HARSHIT RAJGADIA','h.rajgadia'),
 ('PH446','150102027','KHAMKAR RAHUL DINESH','khamkar'),
@@ -60907,7 +60907,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH446','15010200
 ('PH446','150121034','RIMPLE','rimple'),
 ('PH446','150121035','RISHAB RAJ','r.rishab'),
 ('PH446','150121036','ROUNAK SEN','rounak.sen');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH499','130121012','DIVYA KUMAR MEENA','m.divya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH499','130121012','DIVYA KUMAR MEENA','m.divya'),
 ('PH499','130121013','GAGAN CHITTOR','c.gagan'),
 ('PH499','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH499','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
@@ -60938,7 +60938,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH499','130121012','DI
 ('PH499','140121042','TIRUVASKAR SHREYAS ASHOK','tiruvaskar'),
 ('PH499','140121043','VIMAL KUMAR VERMA','vimal.verma'),
 ('PH499','140121044','VINEETH PACHAVA','v.pachava');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH499','130121012','DIVYA KUMAR MEENA','m.divya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH499','130121012','DIVYA KUMAR MEENA','m.divya'),
 ('PH499','130121013','GAGAN CHITTOR','c.gagan'),
 ('PH499','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH499','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
@@ -60969,7 +60969,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH499','130121012
 ('PH499','140121042','TIRUVASKAR SHREYAS ASHOK','tiruvaskar'),
 ('PH499','140121043','VIMAL KUMAR VERMA','vimal.verma'),
 ('PH499','140121044','VINEETH PACHAVA','v.pachava');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH499','130121012','DIVYA KUMAR MEENA','m.divya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH499','130121012','DIVYA KUMAR MEENA','m.divya'),
 ('PH499','130121013','GAGAN CHITTOR','c.gagan'),
 ('PH499','140121002','ABHINAV BHUYAN','abhinav.bhuyan'),
 ('PH499','140121003','ABHISHEK KUMAR YADAV','abhishek.phy'),
@@ -61000,43 +61000,43 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH499','13012101
 ('PH499','140121042','TIRUVASKAR SHREYAS ASHOK','tiruvaskar'),
 ('PH499','140121043','VIMAL KUMAR VERMA','vimal.verma'),
 ('PH499','140121044','VINEETH PACHAVA','v.pachava');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('PH704','176121015','PRAGYA GUPTA','pragy176121015'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('PH704','176121015','PRAGYA GUPTA','pragy176121015'),
 ('PH704','176121021','SUBRATA BISWAS','subra176121021'),
 ('PH704','176121101','Gajendra Singh Bisht','subra176121021'),
 ('PH704','176121102','Suresh Chand','subra176121021'),
 ('PH704','176121103','Jyotirmol Borah','subra176121021'),
 ('PH704','176121108','Rony Boral','subra176121021'),
 ('PH704','176121109','Shilpi Roy','subra176121021');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('PH704','176121015','PRAGYA GUPTA','pragy176121015'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('PH704','176121015','PRAGYA GUPTA','pragy176121015'),
 ('PH704','176121021','SUBRATA BISWAS','subra176121021'),
 ('PH704','176121101','Gajendra Singh Bisht','subra176121021'),
 ('PH704','176121102','Suresh Chand','subra176121021'),
 ('PH704','176121103','Jyotirmol Borah','subra176121021'),
 ('PH704','176121108','Rony Boral','subra176121021'),
 ('PH704','176121109','Shilpi Roy','subra176121021');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('PH704','176121015','PRAGYA GUPTA','pragy176121015'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('PH704','176121015','PRAGYA GUPTA','pragy176121015'),
 ('PH704','176121021','SUBRATA BISWAS','subra176121021'),
 ('PH704','176121101','Gajendra Singh Bisht','subra176121021'),
 ('PH704','176121102','Suresh Chand','subra176121021'),
 ('PH704','176121103','Jyotirmol Borah','subra176121021'),
 ('PH704','176121108','Rony Boral','subra176121021'),
 ('PH704','176121109','Shilpi Roy','subra176121021');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL630','140107013','ANVESH DIXIT','anvesh.dixit'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL630','140107013','ANVESH DIXIT','anvesh.dixit'),
 ('CL630','166107025',' SAIKAT  BISWAS','mailsaikat16'),
 ('CL630','176107001','ANUPAM CHOWDHURY','anupa176107001'),
 ('CL630','176107021','DOLI HAZARIKA','doli176107021'),
 ('CL630','176107028','DEEPSHIKHA DAS','das176107028');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL630','140107013','ANVESH DIXIT','anvesh.dixit'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL630','140107013','ANVESH DIXIT','anvesh.dixit'),
 ('CL630','166107025',' SAIKAT  BISWAS','mailsaikat16'),
 ('CL630','176107001','ANUPAM CHOWDHURY','anupa176107001'),
 ('CL630','176107021','DOLI HAZARIKA','doli176107021'),
 ('CL630','176107028','DEEPSHIKHA DAS','das176107028');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL630','140107013','ANVESH DIXIT','anvesh.dixit'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL630','140107013','ANVESH DIXIT','anvesh.dixit'),
 ('CL630','166107025',' SAIKAT  BISWAS','mailsaikat16'),
 ('CL630','176107001','ANUPAM CHOWDHURY','anupa176107001'),
 ('CL630','176107021','DOLI HAZARIKA','doli176107021'),
 ('CL630','176107028','DEEPSHIKHA DAS','das176107028');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL635','140107031','MAHASHWETA','mahashweta'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL635','140107031','MAHASHWETA','mahashweta'),
 ('CL635','140107035','NIRANJAN S','niranjan.s'),
 ('CL635','140107040','PRABHAS MISHRI','m.prabhas'),
 ('CL635','140107045','PRATEEK MANTHAPURWAR','m.prateek'),
@@ -61061,7 +61061,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL635','140107031','MA
 ('CL635','176107008','SHEKHAR JYOTI PATHAK','shekh176107008'),
 ('CL635','176107017','KESHAV KUMAR','kumar176107017'),
 ('CL635','176107105','Nikhil   Kumar','kumar176107017');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL635','140107031','MAHASHWETA','mahashweta'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL635','140107031','MAHASHWETA','mahashweta'),
 ('CL635','140107035','NIRANJAN S','niranjan.s'),
 ('CL635','140107040','PRABHAS MISHRI','m.prabhas'),
 ('CL635','140107045','PRATEEK MANTHAPURWAR','m.prateek'),
@@ -61086,7 +61086,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL635','140107031
 ('CL635','176107008','SHEKHAR JYOTI PATHAK','shekh176107008'),
 ('CL635','176107017','KESHAV KUMAR','kumar176107017'),
 ('CL635','176107105','Nikhil   Kumar','kumar176107017');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL635','140107031','MAHASHWETA','mahashweta'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL635','140107031','MAHASHWETA','mahashweta'),
 ('CL635','140107035','NIRANJAN S','niranjan.s'),
 ('CL635','140107040','PRABHAS MISHRI','m.prabhas'),
 ('CL635','140107045','PRATEEK MANTHAPURWAR','m.prateek'),
@@ -61111,7 +61111,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL635','14010703
 ('CL635','176107008','SHEKHAR JYOTI PATHAK','shekh176107008'),
 ('CL635','176107017','KESHAV KUMAR','kumar176107017'),
 ('CL635','176107105','Nikhil   Kumar','kumar176107017');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL206','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL206','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL206','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL206','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
 ('CL206','150107034','MIHIR KUMAR MECH','mihir.mech'),
@@ -61173,7 +61173,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL206','120107060','SO
 ('CL206','160107067','VIKAS GEHLOT','vikas01'),
 ('CL206','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL206','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL206','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL206','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL206','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL206','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
 ('CL206','150107034','MIHIR KUMAR MECH','mihir.mech'),
@@ -61235,7 +61235,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL206','120107060
 ('CL206','160107067','VIKAS GEHLOT','vikas01'),
 ('CL206','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL206','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL206','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL206','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL206','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL206','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
 ('CL206','150107034','MIHIR KUMAR MECH','mihir.mech'),
@@ -61297,7 +61297,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL206','12010706
 ('CL206','160107067','VIKAS GEHLOT','vikas01'),
 ('CL206','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL206','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL401','130107034','NAMRATA DAS','n.das'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL401','130107034','NAMRATA DAS','n.das'),
 ('CL401','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL401','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL401','140107003','ABHIGYAN MALVIYA','a.malviya'),
@@ -61356,7 +61356,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL401','130107034','NA
 ('CL401','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL401','140107072','VIKAS YADAV','vikas.yadav'),
 ('CL401','166107109',' ASHWINKUMAR VINODROY CHANDE','achande');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL401','130107034','NAMRATA DAS','n.das'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL401','130107034','NAMRATA DAS','n.das'),
 ('CL401','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL401','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL401','140107003','ABHIGYAN MALVIYA','a.malviya'),
@@ -61415,7 +61415,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL401','130107034
 ('CL401','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL401','140107072','VIKAS YADAV','vikas.yadav'),
 ('CL401','166107109',' ASHWINKUMAR VINODROY CHANDE','achande');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL401','130107034','NAMRATA DAS','n.das'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL401','130107034','NAMRATA DAS','n.das'),
 ('CL401','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL401','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL401','140107003','ABHIGYAN MALVIYA','a.malviya'),
@@ -61474,7 +61474,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL401','13010703
 ('CL401','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL401','140107072','VIKAS YADAV','vikas.yadav'),
 ('CL401','166107109',' ASHWINKUMAR VINODROY CHANDE','achande');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL207','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL207','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL207','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL207','130107034','NAMRATA DAS','n.das'),
 ('CL207','150107046','RAJU REGAR','r.regar'),
@@ -61534,7 +61534,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL207','120107060','SO
 ('CL207','160107067','VIKAS GEHLOT','vikas01'),
 ('CL207','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL207','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL207','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL207','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL207','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL207','130107034','NAMRATA DAS','n.das'),
 ('CL207','150107046','RAJU REGAR','r.regar'),
@@ -61594,7 +61594,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL207','120107060
 ('CL207','160107067','VIKAS GEHLOT','vikas01'),
 ('CL207','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL207','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL207','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL207','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL207','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL207','130107034','NAMRATA DAS','n.das'),
 ('CL207','150107046','RAJU REGAR','r.regar'),
@@ -61654,10 +61654,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL207','12010706
 ('CL207','160107067','VIKAS GEHLOT','vikas01'),
 ('CL207','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL207','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL634','140107051','SAKSHAM SHARMA','saksham.sharma');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL634','140107051','SAKSHAM SHARMA','saksham.sharma');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL634','140107051','SAKSHAM SHARMA','saksham.sharma');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL614','140107004','ABHISHEK MURARAKA','a.muraraka'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL634','140107051','SAKSHAM SHARMA','saksham.sharma');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL634','140107051','SAKSHAM SHARMA','saksham.sharma');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL634','140107051','SAKSHAM SHARMA','saksham.sharma');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL614','140107004','ABHISHEK MURARAKA','a.muraraka'),
 ('CL614','140107027','HARDIK LODHA','hardik.lodha'),
 ('CL614','140107032','MONU','m.monu'),
 ('CL614','140107034','NILANG NANDAN','nilang'),
@@ -61680,7 +61680,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL614','140107004','AB
 ('CL614','176107008','SHEKHAR JYOTI PATHAK','shekh176107008'),
 ('CL614','176107105','Nikhil   Kumar','shekh176107008'),
 ('CL614','176107106','Nabendu  Paul','shekh176107008');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL614','140107004','ABHISHEK MURARAKA','a.muraraka'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL614','140107004','ABHISHEK MURARAKA','a.muraraka'),
 ('CL614','140107027','HARDIK LODHA','hardik.lodha'),
 ('CL614','140107032','MONU','m.monu'),
 ('CL614','140107034','NILANG NANDAN','nilang'),
@@ -61703,7 +61703,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL614','140107004
 ('CL614','176107008','SHEKHAR JYOTI PATHAK','shekh176107008'),
 ('CL614','176107105','Nikhil   Kumar','shekh176107008'),
 ('CL614','176107106','Nabendu  Paul','shekh176107008');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL614','140107004','ABHISHEK MURARAKA','a.muraraka'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL614','140107004','ABHISHEK MURARAKA','a.muraraka'),
 ('CL614','140107027','HARDIK LODHA','hardik.lodha'),
 ('CL614','140107032','MONU','m.monu'),
 ('CL614','140107034','NILANG NANDAN','nilang'),
@@ -61726,13 +61726,13 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL614','14010700
 ('CL614','176107008','SHEKHAR JYOTI PATHAK','shekh176107008'),
 ('CL614','176107105','Nikhil   Kumar','shekh176107008'),
 ('CL614','176107106','Nabendu  Paul','shekh176107008');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL617','140107024','DHARMENDRA VERMA','dharmendra.verma'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL617','140107024','DHARMENDRA VERMA','dharmendra.verma'),
 ('CL617','140107055','SHIVAM SHASWAT','s.shaswat');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL617','140107024','DHARMENDRA VERMA','dharmendra.verma'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL617','140107024','DHARMENDRA VERMA','dharmendra.verma'),
 ('CL617','140107055','SHIVAM SHASWAT','s.shaswat');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL617','140107024','DHARMENDRA VERMA','dharmendra.verma'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL617','140107024','DHARMENDRA VERMA','dharmendra.verma'),
 ('CL617','140107055','SHIVAM SHASWAT','s.shaswat');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL612','166104032',' ARNAB KUMAR SINHA','sinha.arnab2011'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL612','166104032',' ARNAB KUMAR SINHA','sinha.arnab2011'),
 ('CL612','174107001','VAIBHAV SONI','soni174107001'),
 ('CL612','174107014','VIKASH KUMAR YADAV','kumar174107014'),
 ('CL612','174107015','RAVI PATIDAR','ravi174107015'),
@@ -61755,7 +61755,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL612','166104032',' A
 ('CL612','176107005','SHWETA GURUDAS KUMBHAR','shwet176107005'),
 ('CL612','176107010','VIKAS KUMAR SHARMA','vikas176107010'),
 ('CL612','176107102','Ananya Bardhan','vikas176107010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL612','166104032',' ARNAB KUMAR SINHA','sinha.arnab2011'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL612','166104032',' ARNAB KUMAR SINHA','sinha.arnab2011'),
 ('CL612','174107001','VAIBHAV SONI','soni174107001'),
 ('CL612','174107014','VIKASH KUMAR YADAV','kumar174107014'),
 ('CL612','174107015','RAVI PATIDAR','ravi174107015'),
@@ -61778,7 +61778,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL612','166104032
 ('CL612','176107005','SHWETA GURUDAS KUMBHAR','shwet176107005'),
 ('CL612','176107010','VIKAS KUMAR SHARMA','vikas176107010'),
 ('CL612','176107102','Ananya Bardhan','vikas176107010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL612','166104032',' ARNAB KUMAR SINHA','sinha.arnab2011'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL612','166104032',' ARNAB KUMAR SINHA','sinha.arnab2011'),
 ('CL612','174107001','VAIBHAV SONI','soni174107001'),
 ('CL612','174107014','VIKASH KUMAR YADAV','kumar174107014'),
 ('CL612','174107015','RAVI PATIDAR','ravi174107015'),
@@ -61801,7 +61801,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL612','16610403
 ('CL612','176107005','SHWETA GURUDAS KUMBHAR','shwet176107005'),
 ('CL612','176107010','VIKAS KUMAR SHARMA','vikas176107010'),
 ('CL612','176107102','Ananya Bardhan','vikas176107010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL204','160107001','ADITYA JAISWAL','aditya2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL204','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL204','160107002','ADVAIT GANGAL','advait98'),
 ('CL204','160107003','AKASH SONOWAL','akash.sonowal'),
 ('CL204','160107004','AKSHAT JAIN','akshatjain'),
@@ -61858,7 +61858,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL204','160107001','AD
 ('CL204','160107067','VIKAS GEHLOT','vikas01'),
 ('CL204','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL204','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL204','160107001','ADITYA JAISWAL','aditya2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL204','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL204','160107002','ADVAIT GANGAL','advait98'),
 ('CL204','160107003','AKASH SONOWAL','akash.sonowal'),
 ('CL204','160107004','AKSHAT JAIN','akshatjain'),
@@ -61915,7 +61915,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL204','160107001
 ('CL204','160107067','VIKAS GEHLOT','vikas01'),
 ('CL204','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL204','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL204','160107001','ADITYA JAISWAL','aditya2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL204','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL204','160107002','ADVAIT GANGAL','advait98'),
 ('CL204','160107003','AKASH SONOWAL','akash.sonowal'),
 ('CL204','160107004','AKSHAT JAIN','akshatjain'),
@@ -61972,16 +61972,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL204','16010700
 ('CL204','160107067','VIKAS GEHLOT','vikas01'),
 ('CL204','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL204','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL638','140107028','HARSH KAMAL','harsh.kamal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL638','140107028','HARSH KAMAL','harsh.kamal'),
 ('CL638','174107034','RAHUL SINGH','rahul174107034'),
 ('CL638','174107048','ABHISHEK SINGH','abhis174107048');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL638','140107028','HARSH KAMAL','harsh.kamal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL638','140107028','HARSH KAMAL','harsh.kamal'),
 ('CL638','174107034','RAHUL SINGH','rahul174107034'),
 ('CL638','174107048','ABHISHEK SINGH','abhis174107048');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL638','140107028','HARSH KAMAL','harsh.kamal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL638','140107028','HARSH KAMAL','harsh.kamal'),
 ('CL638','174107034','RAHUL SINGH','rahul174107034'),
 ('CL638','174107048','ABHISHEK SINGH','abhis174107048');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL618','120107067','VIJAY KUMAR MEENA','abhis174'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL618','120107067','VIJAY KUMAR MEENA','abhis174'),
 ('CL618','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL618','140107005','AGRAWAL RAUNAK RAJESH','agrawal.rajesh'),
 ('CL618','140107011','ANIKET GUPTA','aniket.gupta'),
@@ -62003,7 +62003,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL618','120107067','VI
 ('CL618','140107067','THAKARE ANIRUDDHA JAGESHWAR','t.jageshwar'),
 ('CL618','140107069','VANKUNAVATH THARUN KUMAR','vankunavath'),
 ('CL618','176107010','VIKAS KUMAR SHARMA','vikas176107010');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL618','120107067','VIJAY KUMAR MEENA','vikas176107010'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL618','120107067','VIJAY KUMAR MEENA','vikas176107010'),
 ('CL618','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL618','140107005','AGRAWAL RAUNAK RAJESH','agrawal.rajesh'),
 ('CL618','140107011','ANIKET GUPTA','aniket.gupta'),
@@ -62025,7 +62025,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL618','120107067
 ('CL618','140107067','THAKARE ANIRUDDHA JAGESHWAR','t.jageshwar'),
 ('CL618','140107069','VANKUNAVATH THARUN KUMAR','vankunavath'),
 ('CL618','176107010','VIKAS KUMAR SHARMA','vikas176107010');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL618','120107067','VIJAY KUMAR MEENA','vikas176107010'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL618','120107067','VIJAY KUMAR MEENA','vikas176107010'),
 ('CL618','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL618','140107005','AGRAWAL RAUNAK RAJESH','agrawal.rajesh'),
 ('CL618','140107011','ANIKET GUPTA','aniket.gupta'),
@@ -62047,7 +62047,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL618','12010706
 ('CL618','140107067','THAKARE ANIRUDDHA JAGESHWAR','t.jageshwar'),
 ('CL618','140107069','VANKUNAVATH THARUN KUMAR','vankunavath'),
 ('CL618','176107010','VIKAS KUMAR SHARMA','vikas176107010');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL503','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL503','174107001','VAIBHAV SONI','soni174107001'),
 ('CL503','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL503','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL503','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -62087,7 +62087,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL503','174107001','VA
 ('CL503','174107058','PARDEEP ','parde174107058'),
 ('CL503','176107105','Nikhil   Kumar','parde174107058'),
 ('CL503','176107106','Nabendu  Paul','parde174107058');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL503','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL503','174107001','VAIBHAV SONI','soni174107001'),
 ('CL503','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL503','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL503','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -62127,7 +62127,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL503','174107001
 ('CL503','174107058','PARDEEP ','parde174107058'),
 ('CL503','176107105','Nikhil   Kumar','parde174107058'),
 ('CL503','176107106','Nabendu  Paul','parde174107058');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL503','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL503','174107001','VAIBHAV SONI','soni174107001'),
 ('CL503','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL503','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL503','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -62167,7 +62167,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL503','17410700
 ('CL503','174107058','PARDEEP ','parde174107058'),
 ('CL503','176107105','Nikhil   Kumar','parde174107058'),
 ('CL503','176107106','Nabendu  Paul','parde174107058');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL599','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL599','174107001','VAIBHAV SONI','soni174107001'),
 ('CL599','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL599','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL599','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -62205,7 +62205,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL599','174107001','VA
 ('CL599','174107056','KAMAKHYA DEVI','kamak174107056'),
 ('CL599','174107057','ADITYA KONERU','adity174107057'),
 ('CL599','174107058','PARDEEP ','parde174107058');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL599','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL599','174107001','VAIBHAV SONI','soni174107001'),
 ('CL599','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL599','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL599','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -62243,7 +62243,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL599','174107001
 ('CL599','174107056','KAMAKHYA DEVI','kamak174107056'),
 ('CL599','174107057','ADITYA KONERU','adity174107057'),
 ('CL599','174107058','PARDEEP ','parde174107058');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL599','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL599','174107001','VAIBHAV SONI','soni174107001'),
 ('CL599','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL599','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL599','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -62281,19 +62281,19 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL599','17410700
 ('CL599','174107056','KAMAKHYA DEVI','kamak174107056'),
 ('CL599','174107057','ADITYA KONERU','adity174107057'),
 ('CL599','174107058','PARDEEP ','parde174107058');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL642','164107058','NASABA JOHN CEASAR','nj.ceasar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL642','164107058','NASABA JOHN CEASAR','nj.ceasar'),
 ('CL642','174103066','KALULE RAMANZANI','raman174103066'),
 ('CL642','174107040','VENKATA SANTHOSH RAJU VYSYARAJU','raju174107040'),
 ('CL642','174107042','VICTOR KUMAR SHARMA','kumar174107042');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL642','164107058','NASABA JOHN CEASAR','nj.ceasar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL642','164107058','NASABA JOHN CEASAR','nj.ceasar'),
 ('CL642','174103066','KALULE RAMANZANI','raman174103066'),
 ('CL642','174107040','VENKATA SANTHOSH RAJU VYSYARAJU','raju174107040'),
 ('CL642','174107042','VICTOR KUMAR SHARMA','kumar174107042');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL642','164107058','NASABA JOHN CEASAR','nj.ceasar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL642','164107058','NASABA JOHN CEASAR','nj.ceasar'),
 ('CL642','174103066','KALULE RAMANZANI','raman174103066'),
 ('CL642','174107040','VENKATA SANTHOSH RAJU VYSYARAJU','raju174107040'),
 ('CL642','174107042','VICTOR KUMAR SHARMA','kumar174107042');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL699','164107002','MURTAZA  PIAR','murtaza2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL699','164107002','MURTAZA  PIAR','murtaza2016'),
 ('CL699','164107003','KASHISH  DHIR','kashish.dhir'),
 ('CL699','164107004','HARPAL  SINGH','harry'),
 ('CL699','164107006','AKSHAY BANDOPANT KULKARNI','akshay.kulkarni'),
@@ -62339,7 +62339,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL699','164107002','MU
 ('CL699','164107061','CHEVULA   MOUNIKA','c.mounika'),
 ('CL699','164107062','MRITUNJOY  ROY','m.roy2016'),
 ('CL699','164107064','BANALATA  KAIBARTA','banalata');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL699','164107002','MURTAZA  PIAR','murtaza2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL699','164107002','MURTAZA  PIAR','murtaza2016'),
 ('CL699','164107003','KASHISH  DHIR','kashish.dhir'),
 ('CL699','164107004','HARPAL  SINGH','harry'),
 ('CL699','164107006','AKSHAY BANDOPANT KULKARNI','akshay.kulkarni'),
@@ -62385,7 +62385,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL699','164107002
 ('CL699','164107061','CHEVULA   MOUNIKA','c.mounika'),
 ('CL699','164107062','MRITUNJOY  ROY','m.roy2016'),
 ('CL699','164107064','BANALATA  KAIBARTA','banalata');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL699','164107002','MURTAZA  PIAR','murtaza2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL699','164107002','MURTAZA  PIAR','murtaza2016'),
 ('CL699','164107003','KASHISH  DHIR','kashish.dhir'),
 ('CL699','164107004','HARPAL  SINGH','harry'),
 ('CL699','164107006','AKSHAY BANDOPANT KULKARNI','akshay.kulkarni'),
@@ -62431,7 +62431,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL699','16410700
 ('CL699','164107061','CHEVULA   MOUNIKA','c.mounika'),
 ('CL699','164107062','MRITUNJOY  ROY','m.roy2016'),
 ('CL699','164107064','BANALATA  KAIBARTA','banalata');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL404','130107069','VIVEK REGMI','v.regmi'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL404','130107069','VIVEK REGMI','v.regmi'),
 ('CL404','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL404','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('CL404','140107004','ABHISHEK MURARAKA','a.muraraka'),
@@ -62488,7 +62488,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL404','130107069','VI
 ('CL404','140107070','VIBHAV YADAV','vibhav'),
 ('CL404','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL404','140107072','VIKAS YADAV','vikas.yadav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL404','130107069','VIVEK REGMI','v.regmi'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL404','130107069','VIVEK REGMI','v.regmi'),
 ('CL404','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL404','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('CL404','140107004','ABHISHEK MURARAKA','a.muraraka'),
@@ -62545,7 +62545,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL404','130107069
 ('CL404','140107070','VIBHAV YADAV','vibhav'),
 ('CL404','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL404','140107072','VIKAS YADAV','vikas.yadav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL404','130107069','VIVEK REGMI','v.regmi'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL404','130107069','VIVEK REGMI','v.regmi'),
 ('CL404','140107002','ABHAY KUMAR MISHRA','m.abhay'),
 ('CL404','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('CL404','140107004','ABHISHEK MURARAKA','a.muraraka'),
@@ -62602,7 +62602,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL404','13010706
 ('CL404','140107070','VIBHAV YADAV','vibhav'),
 ('CL404','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL404','140107072','VIKAS YADAV','vikas.yadav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL623','140107006','AKHILESH KUMAR','akhilesh.kumar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL623','140107006','AKHILESH KUMAR','akhilesh.kumar'),
 ('CL623','140107007','AKSHAY GUPTA BURSAINYA','a.bursainya'),
 ('CL623','140107009','AMLAN JYOTI DAS','d.amlan'),
 ('CL623','140107010','ANAND KUMAR','anand.kumar'),
@@ -62631,7 +62631,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL623','140107006','AK
 ('CL623','176107102','Ananya Bardhan','das176107028'),
 ('CL623','176107105','Nikhil   Kumar','das176107028'),
 ('CL623','176107106','Nabendu  Paul','das176107028');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL623','140107006','AKHILESH KUMAR','akhilesh.kumar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL623','140107006','AKHILESH KUMAR','akhilesh.kumar'),
 ('CL623','140107007','AKSHAY GUPTA BURSAINYA','a.bursainya'),
 ('CL623','140107009','AMLAN JYOTI DAS','d.amlan'),
 ('CL623','140107010','ANAND KUMAR','anand.kumar'),
@@ -62660,7 +62660,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL623','140107006
 ('CL623','176107102','Ananya Bardhan','das176107028'),
 ('CL623','176107105','Nikhil   Kumar','das176107028'),
 ('CL623','176107106','Nabendu  Paul','das176107028');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL623','140107006','AKHILESH KUMAR','akhilesh.kumar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL623','140107006','AKHILESH KUMAR','akhilesh.kumar'),
 ('CL623','140107007','AKSHAY GUPTA BURSAINYA','a.bursainya'),
 ('CL623','140107009','AMLAN JYOTI DAS','d.amlan'),
 ('CL623','140107010','ANAND KUMAR','anand.kumar'),
@@ -62689,7 +62689,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL623','14010700
 ('CL623','176107102','Ananya Bardhan','das176107028'),
 ('CL623','176107105','Nikhil   Kumar','das176107028'),
 ('CL623','176107106','Nabendu  Paul','das176107028');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL639','140102062','TATIPAMULA SRIRAGHAV GOUD','tatipamula'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL639','140102062','TATIPAMULA SRIRAGHAV GOUD','tatipamula'),
 ('CL639','140107004','ABHISHEK MURARAKA','a.muraraka'),
 ('CL639','140107009','AMLAN JYOTI DAS','d.amlan'),
 ('CL639','140107010','ANAND KUMAR','anand.kumar'),
@@ -62706,7 +62706,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL639','140102062','TA
 ('CL639','174107054','AVITI KATARE','aviti174107054'),
 ('CL639','174107057','ADITYA KONERU','adity174107057'),
 ('CL639','176107106','Nabendu  Paul','adity174107057');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL639','140102062','TATIPAMULA SRIRAGHAV GOUD','tatipamula'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL639','140102062','TATIPAMULA SRIRAGHAV GOUD','tatipamula'),
 ('CL639','140107004','ABHISHEK MURARAKA','a.muraraka'),
 ('CL639','140107009','AMLAN JYOTI DAS','d.amlan'),
 ('CL639','140107010','ANAND KUMAR','anand.kumar'),
@@ -62723,7 +62723,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL639','140102062
 ('CL639','174107054','AVITI KATARE','aviti174107054'),
 ('CL639','174107057','ADITYA KONERU','adity174107057'),
 ('CL639','176107106','Nabendu  Paul','adity174107057');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL639','140102062','TATIPAMULA SRIRAGHAV GOUD','tatipamula'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL639','140102062','TATIPAMULA SRIRAGHAV GOUD','tatipamula'),
 ('CL639','140107004','ABHISHEK MURARAKA','a.muraraka'),
 ('CL639','140107009','AMLAN JYOTI DAS','d.amlan'),
 ('CL639','140107010','ANAND KUMAR','anand.kumar'),
@@ -62740,7 +62740,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL639','14010206
 ('CL639','174107054','AVITI KATARE','aviti174107054'),
 ('CL639','174107057','ADITYA KONERU','adity174107057'),
 ('CL639','176107106','Nabendu  Paul','adity174107057');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL210','160107001','ADITYA JAISWAL','aditya2016'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL210','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL210','160107002','ADVAIT GANGAL','advait98'),
 ('CL210','160107003','AKASH SONOWAL','akash.sonowal'),
 ('CL210','160107004','AKSHAT JAIN','akshatjain'),
@@ -62787,7 +62787,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL210','160107001','AD
 ('CL210','160107066','UMANG KUMAR BAJAJ','umangbajaj66'),
 ('CL210','160107067','VIKAS GEHLOT','vikas01'),
 ('CL210','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL210','160107001','ADITYA JAISWAL','aditya2016'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL210','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL210','160107002','ADVAIT GANGAL','advait98'),
 ('CL210','160107003','AKASH SONOWAL','akash.sonowal'),
 ('CL210','160107004','AKSHAT JAIN','akshatjain'),
@@ -62834,7 +62834,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL210','160107001
 ('CL210','160107066','UMANG KUMAR BAJAJ','umangbajaj66'),
 ('CL210','160107067','VIKAS GEHLOT','vikas01'),
 ('CL210','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL210','160107001','ADITYA JAISWAL','aditya2016'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL210','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL210','160107002','ADVAIT GANGAL','advait98'),
 ('CL210','160107003','AKASH SONOWAL','akash.sonowal'),
 ('CL210','160107004','AKSHAT JAIN','akshatjain'),
@@ -62881,10 +62881,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL210','16010700
 ('CL210','160107066','UMANG KUMAR BAJAJ','umangbajaj66'),
 ('CL210','160107067','VIKAS GEHLOT','vikas01'),
 ('CL210','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL498','130107058','SIDDHARTH TIKOO','s.tikoo');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL498','130107058','SIDDHARTH TIKOO','s.tikoo');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL498','130107058','SIDDHARTH TIKOO','s.tikoo');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL315','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL498','130107058','SIDDHARTH TIKOO','s.tikoo');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL498','130107058','SIDDHARTH TIKOO','s.tikoo');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL498','130107058','SIDDHARTH TIKOO','s.tikoo');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL315','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL315','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL315','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
 ('CL315','150107001','AABHAS KARNAWAT','a.karnawat'),
@@ -62946,7 +62946,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL315','120107060','SO
 ('CL315','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL315','150107067','VISHAL SINGH','vishal.2015'),
 ('CL315','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL315','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL315','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL315','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL315','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
 ('CL315','150107001','AABHAS KARNAWAT','a.karnawat'),
@@ -63008,7 +63008,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL315','120107060
 ('CL315','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL315','150107067','VISHAL SINGH','vishal.2015'),
 ('CL315','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL315','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL315','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL315','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL315','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
 ('CL315','150107001','AABHAS KARNAWAT','a.karnawat'),
@@ -63070,7 +63070,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL315','12010706
 ('CL315','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL315','150107067','VISHAL SINGH','vishal.2015'),
 ('CL315','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL211','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL211','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL211','130107034','NAMRATA DAS','n.das'),
 ('CL211','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL211','160107002','ADVAIT GANGAL','advait98'),
@@ -63126,7 +63126,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL211','120107060','SO
 ('CL211','160107067','VIKAS GEHLOT','vikas01'),
 ('CL211','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL211','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL211','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL211','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL211','130107034','NAMRATA DAS','n.das'),
 ('CL211','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL211','160107002','ADVAIT GANGAL','advait98'),
@@ -63182,7 +63182,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL211','120107060
 ('CL211','160107067','VIKAS GEHLOT','vikas01'),
 ('CL211','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL211','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL211','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL211','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL211','130107034','NAMRATA DAS','n.das'),
 ('CL211','160107001','ADITYA JAISWAL','aditya2016'),
 ('CL211','160107002','ADVAIT GANGAL','advait98'),
@@ -63238,7 +63238,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL211','12010706
 ('CL211','160107067','VIKAS GEHLOT','vikas01'),
 ('CL211','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL211','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL314','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL314','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL314','130107034','NAMRATA DAS','n.das'),
 ('CL314','130107069','VIVEK REGMI','v.regmi'),
 ('CL314','140107001','AADITYA BECHHOTE','aaditya'),
@@ -63306,7 +63306,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL314','130107012','CH
 ('CL314','150107068','VISHAP KUMAR','vishap'),
 ('CL314','176107007','SAIPRASAD PATI','SAIPRASAD'),
 ('CL314','X170104081','JULES FOURNIER','SAIPRASAD');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL314','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL314','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL314','130107034','NAMRATA DAS','n.das'),
 ('CL314','130107069','VIVEK REGMI','v.regmi'),
 ('CL314','140107001','AADITYA BECHHOTE','aaditya'),
@@ -63374,7 +63374,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL314','130107012
 ('CL314','150107068','VISHAP KUMAR','vishap'),
 ('CL314','176107007','SAIPRASAD PATI','SAIPRASAD'),
 ('CL314','X170104081','JULES FOURNIER','SAIPRASAD');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL314','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL314','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL314','130107034','NAMRATA DAS','n.das'),
 ('CL314','130107069','VIVEK REGMI','v.regmi'),
 ('CL314','140107001','AADITYA BECHHOTE','aaditya'),
@@ -63442,7 +63442,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL314','13010701
 ('CL314','150107068','VISHAP KUMAR','vishap'),
 ('CL314','176107007','SAIPRASAD PATI','SAIPRASAD'),
 ('CL314','X170104081','JULES FOURNIER','SAIPRASAD');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL499','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL499','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL499','120107067','VIJAY KUMAR MEENA','somkuwar'),
 ('CL499','130107034','NAMRATA DAS','n.das'),
 ('CL499','130107069','VIVEK REGMI','v.regmi'),
@@ -63502,7 +63502,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL499','120107060','SO
 ('CL499','140107070','VIBHAV YADAV','vibhav'),
 ('CL499','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL499','140107072','VIKAS YADAV','vikas.yadav');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL499','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL499','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL499','120107067','VIJAY KUMAR MEENA','somkuwar'),
 ('CL499','130107034','NAMRATA DAS','n.das'),
 ('CL499','130107069','VIVEK REGMI','v.regmi'),
@@ -63562,7 +63562,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL499','120107060
 ('CL499','140107070','VIBHAV YADAV','vibhav'),
 ('CL499','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL499','140107072','VIKAS YADAV','vikas.yadav');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL499','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL499','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL499','120107067','VIJAY KUMAR MEENA','somkuwar'),
 ('CL499','130107034','NAMRATA DAS','n.das'),
 ('CL499','130107069','VIVEK REGMI','v.regmi'),
@@ -63622,7 +63622,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL499','12010706
 ('CL499','140107070','VIBHAV YADAV','vibhav'),
 ('CL499','140107071','VIKAS KUMAR','vikas.2014'),
 ('CL499','140107072','VIKAS YADAV','vikas.yadav');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL308','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL308','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL308','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL308','130107034','NAMRATA DAS','n.das'),
 ('CL308','130107069','VIVEK REGMI','v.regmi'),
@@ -63686,7 +63686,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL308','120107060','SO
 ('CL308','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL308','150107067','VISHAL SINGH','vishal.2015'),
 ('CL308','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL308','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL308','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL308','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL308','130107034','NAMRATA DAS','n.das'),
 ('CL308','130107069','VIVEK REGMI','v.regmi'),
@@ -63750,7 +63750,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL308','120107060
 ('CL308','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL308','150107067','VISHAL SINGH','vishal.2015'),
 ('CL308','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL308','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL308','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL308','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL308','130107034','NAMRATA DAS','n.das'),
 ('CL308','130107069','VIVEK REGMI','v.regmi'),
@@ -63814,10 +63814,10 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL308','12010706
 ('CL308','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL308','150107067','VISHAL SINGH','vishal.2015'),
 ('CL308','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL698','164107005','VARSHA  PANDEY','varsha.pandey');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL698','164107005','VARSHA  PANDEY','varsha.pandey');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL698','164107005','VARSHA  PANDEY','varsha.pandey');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL205','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL698','164107005','VARSHA  PANDEY','varsha.pandey');
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL698','164107005','VARSHA  PANDEY','varsha.pandey');
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL698','164107005','VARSHA  PANDEY','varsha.pandey');
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL205','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL205','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('CL205','140106038','MD SHAHNAWAZ ALAM','shahnawaz.alam'),
 ('CL205','150106017','DHRUV GURURANI','dhruv.gururani'),
@@ -63911,7 +63911,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL205','120107060','SO
 ('CL205','160107067','VIKAS GEHLOT','vikas01'),
 ('CL205','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL205','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL205','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL205','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL205','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('CL205','140106038','MD SHAHNAWAZ ALAM','shahnawaz.alam'),
 ('CL205','150106017','DHRUV GURURANI','dhruv.gururani'),
@@ -64005,7 +64005,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL205','120107060
 ('CL205','160107067','VIKAS GEHLOT','vikas01'),
 ('CL205','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL205','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL205','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL205','120107060','SOMKUWAR SOURABH RAMCHANDRA','somkuwar'),
 ('CL205','130106046','SRIKANTH DOMMATI','s.dommati'),
 ('CL205','140106038','MD SHAHNAWAZ ALAM','shahnawaz.alam'),
 ('CL205','150106017','DHRUV GURURANI','dhruv.gururani'),
@@ -64099,16 +64099,16 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL205','12010706
 ('CL205','160107067','VIKAS GEHLOT','vikas01'),
 ('CL205','160107068','VIKRAM DOLEY','my_email.vikram98'),
 ('CL205','160107069','YOGESH KUMAR','iamyogesh');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL619','140107001','AADITYA BECHHOTE','aaditya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL619','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL619','140107042','PRAKASH SINGH','prakash.singh'),
 ('CL619','140107053','SANJAY RAGHUWANSHI','sanjay.2014');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL619','140107001','AADITYA BECHHOTE','aaditya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL619','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL619','140107042','PRAKASH SINGH','prakash.singh'),
 ('CL619','140107053','SANJAY RAGHUWANSHI','sanjay.2014');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL619','140107001','AADITYA BECHHOTE','aaditya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL619','140107001','AADITYA BECHHOTE','aaditya'),
 ('CL619','140107042','PRAKASH SINGH','prakash.singh'),
 ('CL619','140107053','SANJAY RAGHUWANSHI','sanjay.2014');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL504','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL504','174107001','VAIBHAV SONI','soni174107001'),
 ('CL504','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL504','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL504','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -64153,7 +64153,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL504','174107001','VA
 ('CL504','176107102','Ananya Bardhan','roush176107019'),
 ('CL504','176107105','Nikhil   Kumar','roush176107019'),
 ('CL504','176107106','Nabendu  Paul','roush176107019');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL504','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL504','174107001','VAIBHAV SONI','soni174107001'),
 ('CL504','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL504','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL504','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -64198,7 +64198,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL504','174107001
 ('CL504','176107102','Ananya Bardhan','roush176107019'),
 ('CL504','176107105','Nikhil   Kumar','roush176107019'),
 ('CL504','176107106','Nabendu  Paul','roush176107019');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL504','174107001','VAIBHAV SONI','soni174107001'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL504','174107001','VAIBHAV SONI','soni174107001'),
 ('CL504','174107005','ADHWARSHU BHATTACHARYYA','bhatt174107005'),
 ('CL504','174107010','KOKKILIGADDA RAMU','ramu174107010'),
 ('CL504','174107014','VIKASH KUMAR YADAV','kumar174107014'),
@@ -64243,7 +64243,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL504','17410700
 ('CL504','176107102','Ananya Bardhan','roush176107019'),
 ('CL504','176107105','Nikhil   Kumar','roush176107019'),
 ('CL504','176107106','Nabendu  Paul','roush176107019');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL625','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL625','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL625','150107002','ABHISHEK TOMAR','abhishek.tomar'),
 ('CL625','150107003','ADARSH K SIVARAM','adarsh.sivaram'),
 ('CL625','150107006','ANANT VAISHNAV','a.vaishnav'),
@@ -64293,7 +64293,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL625','130107012','CH
 ('CL625','174107054','AVITI KATARE','aviti174107054'),
 ('CL625','174107057','ADITYA KONERU','adity174107057'),
 ('CL625','176107016','TANUSREE GHOSHAL','ghosh176107016');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL625','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL625','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL625','150107002','ABHISHEK TOMAR','abhishek.tomar'),
 ('CL625','150107003','ADARSH K SIVARAM','adarsh.sivaram'),
 ('CL625','150107006','ANANT VAISHNAV','a.vaishnav'),
@@ -64343,7 +64343,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL625','130107012
 ('CL625','174107054','AVITI KATARE','aviti174107054'),
 ('CL625','174107057','ADITYA KONERU','adity174107057'),
 ('CL625','176107016','TANUSREE GHOSHAL','ghosh176107016');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL625','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL625','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL625','150107002','ABHISHEK TOMAR','abhishek.tomar'),
 ('CL625','150107003','ADARSH K SIVARAM','adarsh.sivaram'),
 ('CL625','150107006','ANANT VAISHNAV','a.vaishnav'),
@@ -64393,7 +64393,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL625','13010701
 ('CL625','174107054','AVITI KATARE','aviti174107054'),
 ('CL625','174107057','ADITYA KONERU','adity174107057'),
 ('CL625','176107016','TANUSREE GHOSHAL','ghosh176107016');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL309','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL309','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL309','130107034','NAMRATA DAS','n.das'),
 ('CL309','130107069','VIVEK REGMI','v.regmi'),
 ('CL309','140107001','AADITYA BECHHOTE','aaditya'),
@@ -64457,7 +64457,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL309','130107012','CH
 ('CL309','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL309','150107067','VISHAL SINGH','vishal.2015'),
 ('CL309','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL309','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL309','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL309','130107034','NAMRATA DAS','n.das'),
 ('CL309','130107069','VIVEK REGMI','v.regmi'),
 ('CL309','140107001','AADITYA BECHHOTE','aaditya'),
@@ -64521,7 +64521,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL309','130107012
 ('CL309','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL309','150107067','VISHAL SINGH','vishal.2015'),
 ('CL309','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL309','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL309','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL309','130107034','NAMRATA DAS','n.das'),
 ('CL309','130107069','VIVEK REGMI','v.regmi'),
 ('CL309','140107001','AADITYA BECHHOTE','aaditya'),
@@ -64585,7 +64585,7 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL309','13010701
 ('CL309','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL309','150107067','VISHAL SINGH','vishal.2015'),
 ('CL309','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL307','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL307','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL307','130107034','NAMRATA DAS','n.das'),
 ('CL307','130107069','VIVEK REGMI','v.regmi'),
 ('CL307','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
@@ -64648,7 +64648,7 @@ INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL307','130107012','CH
 ('CL307','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL307','150107067','VISHAL SINGH','vishal.2015'),
 ('CL307','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL307','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL307','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL307','130107034','NAMRATA DAS','n.das'),
 ('CL307','130107069','VIVEK REGMI','v.regmi'),
 ('CL307','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
@@ -64711,7 +64711,7 @@ INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL307','130107012
 ('CL307','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL307','150107067','VISHAL SINGH','vishal.2015'),
 ('CL307','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL307','130107012','CHIRAG BENIWAL','c.beniwal'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL307','130107012','CHIRAG BENIWAL','c.beniwal'),
 ('CL307','130107034','NAMRATA DAS','n.das'),
 ('CL307','130107069','VIVEK REGMI','v.regmi'),
 ('CL307','140107025','DURLOV JYOTI PEGU','durlov.pegu'),
@@ -64774,15 +64774,15 @@ INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL307','13010701
 ('CL307','150107066','VINAY HANUMANT KOPNAR','vinay.kopnar'),
 ('CL307','150107067','VISHAL SINGH','vishal.2015'),
 ('CL307','150107068','VISHAP KUMAR','vishap');
-INSERT INTO cwls (cid, roll_number, name, email) VALUES ('CL622','140107003','ABHIGYAN MALVIYA','a.malviya'),
+INSERT INTO cwls (course_id, roll_number, name, email) VALUES ('CL622','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('CL622','140107020','CHETAN MEENA','chetan.meena'),
 ('CL622','140107070','VIBHAV YADAV','vibhav'),
 ('CL622','174107031','KULDEEP SINGH','singh174107031');
-INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ('CL622','140107003','ABHIGYAN MALVIYA','a.malviya'),
+INSERT INTO cwls_temp (course_id, roll_number, name, email) VALUES ('CL622','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('CL622','140107020','CHETAN MEENA','chetan.meena'),
 ('CL622','140107070','VIBHAV YADAV','vibhav'),
 ('CL622','174107031','KULDEEP SINGH','singh174107031');
-INSERT INTO cwls_clone (cid, roll_number, name, email) VALUES ('CL622','140107003','ABHIGYAN MALVIYA','a.malviya'),
+INSERT INTO cwls_clone (course_id, roll_number, name, email) VALUES ('CL622','140107003','ABHIGYAN MALVIYA','a.malviya'),
 ('CL622','140107020','CHETAN MEENA','chetan.meena'),
 ('CL622','140107070','VIBHAV YADAV','vibhav'),
 ('CL622','174107031','KULDEEP SINGH','singh174107031');

@@ -399,3 +399,26 @@ int main(){
 	printf("Finished processing.    \n");
 	return 0;
 }
+/*
+Clashes count = 17
+1)Timetable Clash found for student DINESH JAT (140108013) in courses EE634 & EE625
+2)Timetable Clash found for student MALOTHU HARI KISHAN (140108020) in courses EE634 & EE385
+3)Timetable Clash found for student SUMIT KUMAR (140108037) in courses EE634 & EE625
+4)Timetable Clash found for student LIYEN PERMEY (140108019) in courses EE673 & EE634
+5)Timetable Clash found for student SUJESHA SHARMA (140108036) in courses EE673 & EE634
+6)Timetable Clash found for student VEMULURI NAGESWARA HEMANTH (140108041) in courses EE673 & EE634
+7)Timetable Clash found for student BADUGU PREMKUMAR (174102010) in courses EE664 & EE580
+8)Timetable Clash found for student ADITYA AGRAWAL (174102037) in courses EE664 & EE580
+9)Timetable Clash found for student Tinka Singh (176152101) in courses BT601 & HS623
+10)Timetable Clash found for student PINGKU BRAHMA (140106040) in courses BT202 & HS422
+11)Timetable Clash found for student V JASWANTH KUMAR REDDY (174103004) in courses ME616 & ME665
+12)Timetable Clash found for student SHYAM KUTUM (174103125) in courses ME522 & ME672
+13)Timetable Clash found for student SWRANG THOMAS NARZARY (174103123) in courses ME554 & ME680
+14)Timetable Clash found for student NILUTPAL DEORI (174103040) in courses ME662 & ME532
+15)Timetable Clash found for student PRASOON  (174103103) in courses ME662 & ME532
+16)Timetable Clash found for student SWRANG THOMAS NARZARY (174103123) in courses ME662 & ME532
+17)Timetable Clash found for student ABHISHEK KUMAR YADAV (140121003) in courses PH443 & BT632
+
+
+CreditsExceed Count = 1082
+*/
