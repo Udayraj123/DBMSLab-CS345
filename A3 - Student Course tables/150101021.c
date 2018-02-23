@@ -56,8 +56,9 @@ void printCreditInserts(FILE* fp,FILE* fp_out,char* startline){
 	while(!feof(fp)){
 		fseek(fp,-1,SEEK_CUR);
 		fscanf(fp,"%[^,],%d",course_id, &credits); 
+		fgetc(fp);//capture ' '
 		fgetc(fp);//capture \n
-		fgetc(fp); fgetc(fp);//compensate fseek
+		fgetc(fp);//compensate fseek
 		// printf("->%s<-%d\n", course_id, credits);
 		fprintf(fp_out,"('%s',%d),\n",course_id,credits ); 
 	}
@@ -125,21 +126,32 @@ void printCWLSInserts(FILE* fp,FILE* fp_out,char* course_id,char* startline){
 	char roll[ROLL_LEN], name[MAX_STR_LEN], email[MAX_STR_LEN];
 
 	fseek(fp,0,SEEK_SET);//reset to starting position
-	fgetc(fp);
+	fgetc(fp);//Files end with a newline, to consume it
 	while(!feof(fp)){
 		fseek(fp,-1,SEEK_CUR);
-		// this da bug - there's a space at end!
+		strcpy(roll,"");
 		fscanf(fp,"%d,%[^,],%[^,],%[^\n]",&serialno,roll, name,email);
-		email[strlen(email)-1]='\0';//remove captured space and '\n'
-		fgetc(fp);//compensate fseek
-		fprintf(fp_out," ('%s','%s','%s','%s'),\n", course_id, roll, name,email);
+		if(strcmp(roll,"")!=0){// skip last line
+			email[strlen(email)]='\0';//remove captured '\n'
+			fgetc(fp);//compensate fseek
+			// printf(">>%s<<\n",email );
+			fprintf(fp_out,"('%s','%s','%s','%s'),\n", course_id, roll, name,email);
+		}
 	}
 	fseek(fp_out,-2,SEEK_CUR);//goto comma
-	fprintf(fp_out,"%s",";\n");// replace comma with semicolon
+	fprintf(fp_out,";\n");// replace comma with semicolon
 }
 void addEntries(char * course_id,char * filepath){
 	FILE* fp = fopen(filepath,"r");
-	FILE* fp_out = fopen("150101021_cwls.sql","a");
+	/*
+CAUTION : using Append mode makes fseek of no use for writing! It always writes at the end!!
+ (though reading can be done at other pos, write resets the pointer to file end)
+ TO OPEN FOR WRITING WITHOUT FLUSHING, USE "r+" mode, just the drawback of this is that the file must exist (in our case it is)
+
+	*/
+	// FILE* fp_out = fopen("150101021_cwls.sql","a");
+	FILE* fp_out = fopen("150101021_cwls.sql","r+");
+	fseek(fp_out,0,SEEK_END);
 	// dprintf("scanning %s\n", course_id);
 	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls (cid, roll_number, name, email) VALUES ");
 	printCWLSInserts(fp,fp_out,course_id,"INSERT INTO cwls_temp (cid, roll_number, name, email) VALUES ");
@@ -216,25 +228,35 @@ int main(){
 }
 /*
 
-mysql> SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
-Note : These counts will be a rough estimate of counts only
+SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
 +------------+------------+
 | table_name | table_rows |
 +------------+------------+
 | cc         |        445 | *3 = 1335
-| cwls       |      19388 | *3 = 58164
+| cwls       |      17913 | *3 = ~54000
 | ett        |        708 | *3 = 2124
 +------------+------------+
+Note : These counts will be a rough estimate of counts only according to mysql
 
-mysql> select count(*) from cwls;
+select count(*) from cwls;
 +----------+
 | count(*) |
 +----------+
-|    21580 | *3 = 64740
+|    21119 | *3 = 63357
 +----------+
 
+^ THIS ONE HAS LESSER ENTRIES BECAUSE OF ENCODING ERROR- 
+ERROR 1366 (HY000): Incorrect string value: '\xA0\xA0TULS...' for column 'name' at row 2
 
-wc -l 150101021_cc.sql 150101021_cwls.sql 150101021_ett.sql 
+('ME513','174103120','MAHESH??TULSHIRAM??JUNGADE','mahes174103120'),
+('ME522','174103078','VIJAY??BABURAO??SHAHAPURE','vijay174103078'),
+('ME522','174103081','SAURABH??KUMAR??SINGH','saura174103081'),
+('BT504','174106041','PAUSHALI??MUKHERJEE','paush174106041'),
+
+Solution(Not working) - added this in create table - DEFAULT CHARACTER SET=utf8mb4;
+
+
+system wc -l 150101021_cc.sql 150101021_cwls.sql 150101021_ett.sql 
    1335 150101021_cc.sql
    2124 150101021_ett.sql
   64788 150101021_cwls.sql
