@@ -109,17 +109,17 @@ Done = 3. Source the sqls into DB, check for constraint errors for clean(which u
 
 CRITICAL BUG-
 departmental Entries into Slotbased  doesn't necessarily have tutorial slots!
-CHANGE SCRIPT TO HAVE TUTS ONLY FOR DIVISION COURSES and FOLLOWING-
-	BT>Only BT208 has tut and that too only on Wed (Slot D)
-	CE>Only CE222 has tut and that too only on Fri (Slot B)
-	CH>Tuts(Msc courses?): CH411, CH421,CH432,CH433,CH501 others mention (Other than xDay xTime)
+Done- CHANGE SCRIPT TO HAVE TUTS ONLY FOR DIVISION COURSES and FOLLOWING-
+	.BT>BT208,BT302,etc... have tut 
+	.CE>Only CE222 has tut and that too only on Fri (Slot B)
+	.CH>Tuts(Msc 3-1-0-8 courses): CH411, CH421,CH432,CH433,CH501 others mention (Other than xDay xTime)
 NOTE: Electives are 3-0-0-6 = No tut
-	CL>Tuts:CL204 (),CL401 (),
-	>check1 this shud get removed (tut) - ,('BT205','NA','C','Thursday','BT','4102')
+	.CL>Tuts:CL204 (),CL401 (),etc... put into script
+	>bugcheck1 this shud get removed (tut) - ,('BT205','NA','C','Thursday','BT','4102')
 
 WRONG DATA for CL612/CL642
- - It is a K(5-6PM) slot Elective, WRONG IN IMAGE OF CL.pdf coz otherwise Friday 8AM will conflict with CL206 in 4203.
-
+ - It is a K(5-6PM) slot Elective (CL pdf says MWF 8am), taking Friday 8AM will conflict with CL206 in 4203.
+ - Taken K slot currently
 
 ++Exceptions-
 (table-image conflicts - dark colored courses)
