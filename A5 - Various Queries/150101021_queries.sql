@@ -1,9 +1,9 @@
 /*
-Ask - 
-"slots" means slot_letter only ??
-"courses" means course_id or course_id + division ? 
-DD should be completely removed from DB?
--- select * from Course c join ScheduledIn s on c.course_id = s.course_id and c.division = s.course_division;
+Assumptions - The more natural meanings are taken for following terms
+1. "slots" means slot_letter + slot_day (not just slot_letter)
+2. "courses" means course_id only (and not course_id + division)
+3. DD is completely removed from DB (Departments table will not have Design Department in it as it affects the answer of queries below)
+
 */
 -- (a) : 5 rows
 select distinct(course_id) from ScheduledIn where room_number='2001';
@@ -49,4 +49,7 @@ drop table if exists dept_slots;
 create temporary table dept_slots select distinct department_id,slot_day,slot_letter as assignedSlots from ScheduledIn;
 select department_id,day,letter from Slot,Department where (department_id,day,letter) not in (select * from dept_slots) order by department_id,day,letter;
 
+
+-- ROUGH: 
 -- GROUPED - select department_id,group_concat(day,letter) from Slot,Department where (department_id,day,letter) not in (select * from dept_slots) group by department_id;
+-- JOIN -  select * from Course c join ScheduledIn s on c.course_id = s.course_id and c.division = s.course_division;
