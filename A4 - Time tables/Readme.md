@@ -4,8 +4,9 @@ source loadAll.sql
 # TODO 
 [ ] Restore the ignored ME654 to demonstrate insert errors (See below)
 [-] Handle "Other than Thursday" type cases (Ignored previously)
-[ ] Check - courses with A1,etc instead of K slot
-[ ] Can you generate any useful visuals?
+[-] Check - courses with A1,etc instead of K slot (CE.pdf may have some Lab tuts not into K)
+[-] Check - Tutorials of Lab courses be present
+[ ] Generate any useful visuals?
 
 # Notes made during processing 
 /*
@@ -15,7 +16,7 @@ Some of the depts have given in ScheduleIn format directly. Those cases need to 
 Strategy-
 1. Converted all pdfs to xlsx (makes it easy to copy data)
 2. Extract the tables containing schedules (remove extra clutters) and store it in a separate sheet.
-3. Remove courses in lab slots
+3. Remove courses in lab slots (BUT NOT THEIR TUTORIALS)
 
 Special cases-
 Design dept : much work (will insert later, first complete the code)
@@ -113,19 +114,19 @@ Done- CHANGE SCRIPT TO HAVE TUTS ONLY FOR DIVISION COURSES and FOLLOWING-
 	.BT>BT208,BT302,etc... have tut 
 	.CE>Only CE222 has tut and that too only on Fri (Slot B)
 	.CH>Tuts(Msc 3-1-0-8 courses): CH411, CH421,CH432,CH433,CH501 others mention (Other than xDay xTime)
-NOTE: Electives are 3-0-0-6 = No tut
 	.CL>Tuts:CL204 (),CL401 (),etc... put into script
-	>bugcheck1 this shud get removed (tut) - ,('BT205','NA','C','Thursday','BT','4102')
+	.added>bugcheck1 this shud get removed (tut) - ,('BT205','NA','C','Thursday','BT','4102')
+NOTE: Electives are 3-0-0-6 = No tut
 
 WRONG DATA for CL612/CL642
- - It is a K(5-6PM) slot Elective (CL pdf says MWF 8am), taking Friday 8AM will conflict with CL206 in 4203.
- - Taken K slot currently
+ -CL pdf says MWF 8am (taken) in image, in table : slot K(5-6PM) slot Elective 
+ Nope, Removed CL206 as it's a lab course without tutorials(1-0-3-5)
 
 ++Exceptions-
 (table-image conflicts - dark colored courses)
 	CL309 Has 'I' slot as well as C1(Mon) . Soln- Moved it to Mon,Tue,Thur.csv
 	Similarly, following handled manually(moved out of slotbased) -
-	>CL206	C	4203
+	>CL206	C	4203(lab venue) (LAB COURSE!! ONLY KEPT TUTORIAL)
 	>CL207	D	4203
 	>CL309	C1	4203
 	>CL314	D1	4203
@@ -136,9 +137,19 @@ WRONG DATA for CL612/CL642
 	>CL639	C	1G1 (ELECTIVE)
 Venue conflict>> In institute.pdf CL625 has two venues, 4001 taken
 
+++LabTutorials
+CS558 Mon(K) 2204
+CS244 Mon(G) 1201
+
+
 Also hadn't noted these Notes:
 	that BT205 has mentioned two venues - both taken 4102& 4207
 	CL642^ has approval pending, ignored
+
+Note: CL205 and CL207 Have 2-1-0-6 ()
+Corrections-
+Lab courses removed - PH516 PH320 except tuts
+
 
 4. Can you generate any useful visuals?
 

@@ -1098,8 +1098,6 @@ INSERT INTO ScheduledIn (course_id, course_division, slot_letter, slot_day, depa
 ,('ME325','NA','E1','Thursday','ME','1005')
 ,('ME325','NA','E1','Wednesday','ME','1003')
 ,('ME325','NA','E1','Wednesday','ME','1005')
-,('CL309','NA','Unnamed: 11','Tuesday','CL','4203')
-,('CL309','NA','I','Thursday','CL','4203')
 ,('CE648','NA','E','Thursday','CE','4201')
 ,('CE648','NA','E','Wednesday','CE','4201')
 ,('CE648','NA','E','Friday','CE','4201')
@@ -1160,4 +1158,5 @@ INSERT INTO ScheduledIn (course_id, course_division, slot_letter, slot_day, depa
 ,('ME670','NA','D1','Thursday','ME','1203')
 ,('ME670','NA','E1','Wednesday','ME','1203')
 ,('CE402','NA','H','Thursday','CE','4211')
+,('CL309','NA','I','Thursday','CL','4203')
 ;
