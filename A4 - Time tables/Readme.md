@@ -1,11 +1,13 @@
-#How to use
+# How to use
 source loadAll.sql
 
-#TODO 
-[] Restore the ignored ME654 to demonstrate insert errors (See below)
+# TODO 
+[ ] Restore the ignored ME654 to demonstrate insert errors (See below)
 [-] Handle "Other than Thursday" type cases (Ignored previously)
+[ ] Check - courses with A1,etc instead of K slot
+[ ] Can you generate any useful visuals?
 
-#Notes made during processing 
+# Notes made during processing 
 /*
 CSV files-
 They have different formats, hence they have to be manually rearranged to follow a standard format. 
@@ -50,10 +52,10 @@ The weekday-based needs to be checked once for conflict of slot change (esp in M
 
 Notes A course may not necessarily stick to one slot all week e.g : EE270, me 522 (always 5-6 everyday)       
 A course can happen at multiple location at same time, e.g Tutorial courses Slot A       
-Some courses have slots, but venue undecourse_ided e.g. BSBE open electives       
+Some courses have slots, but venue undecided e.g. BSBE open electives       
 Institute courses mentioned on dept pdf are ignored, they will be picked from institute pdf only       
 
-Institute Levels  Make single sheet for institute levels as they are less in number     
+Institute Levels: Make single sheet for institute levels as they are less in number     
 These strictly stick to the slot given. Can use special code for this      
 Make the "SlotBased" sheet for above      
 
@@ -98,12 +100,46 @@ SelfNote: Another issue found :
 		EE671	C	2102
 		PH443	C	4G4
 		PH446	E1	4005		
-	 Above are exactly the Intersection of Elective courses in Insitute.pdf and those mentioned by depts (EE,CE and PH) in their own timetable. Hence these need to be removed from one of the places, prefererring Institute one as it's easier (added count checks too).
-	 CSE has mentioned too, but they have only one intersection CS526 which was removed from dept csv coz of venue conflict.
+	 Above are exactly the Intersection of Elective courses in Insitute.pdf and those mentioned by depts (EE,CE and PH) in their own timetable. Hence these need to be removed from one of the places, prefererring Institute one(Slotbased) as it's easier (added count bugchecks too).
 
+	 CSE has mentioned too, but they have only one intersection CS526 which was removed from dept csv coz of venue conflict.
 	 CH643 had "same venue as" CH438 - 4005 : manually added
 
 Done = 3. Source the sqls into DB, check for constraint errors for clean(which u thought) ones, then separately add inconsitents.
+
+CRITICAL BUG-
+departmental Entries into Slotbased  doesn't necessarily have tutorial slots!
+CHANGE SCRIPT TO HAVE TUTS ONLY FOR DIVISION COURSES and FOLLOWING-
+	BT>Only BT208 has tut and that too only on Wed (Slot D)
+	CE>Only CE222 has tut and that too only on Fri (Slot B)
+	CH>Tuts(Msc courses?): CH411, CH421,CH432,CH433,CH501 others mention (Other than xDay xTime)
+NOTE: Electives are 3-0-0-6 = No tut
+	CL>Tuts:CL204 (),CL401 (),
+	>check1 this shud get removed (tut) - ,('BT205','NA','C','Thursday','BT','4102')
+
+WRONG DATA for CL612/CL642
+ - It is a K(5-6PM) slot Elective, WRONG IN IMAGE OF CL.pdf coz otherwise Friday 8AM will conflict with CL206 in 4203.
+
+
+++Exceptions-
+(table-image conflicts - dark colored courses)
+	CL309 Has 'I' slot as well as C1(Mon) . Soln- Moved it to Mon,Tue,Thur.csv
+	Similarly, following handled manually(moved out of slotbased) -
+	>CL206	C	4203
+	>CL207	D	4203
+	>CL309	C1	4203
+	>CL314	D1	4203
+	>CL617	C1	4209
+	>CL622	D1	4002
+	>CL623	C1	4002
+	>CL625	E1	4001 (ELECTIVE!! Dept precedence taken)
+	>CL639	C	1G1 (ELECTIVE)
+Venue conflict>> In institute.pdf CL625 has two venues, 4001 taken
+
+Also hadn't noted these Notes:
+	that BT205 has mentioned two venues - both taken 4102& 4207
+	CL642^ has approval pending, ignored
+
 4. Can you generate any useful visuals?
 
 My Queries when this completes -         

@@ -11,3 +11,4 @@ INSERT into Department (department_id,name) values ('HS','Department Of Humaniti
 INSERT into Department (department_id,name) values ('RT','Centre for Rural Technology');
 INSERT into Department (department_id,name) values ('EN','Center for Energy');
 INSERT into Department (department_id,name) values ('LS','Centre for Linguistic Science and Technology');
+    -- Ignored "# 'DD': \"Department of Design\" ,\n",
