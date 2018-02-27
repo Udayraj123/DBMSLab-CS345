@@ -75,8 +75,8 @@ As the Queries in Asgn 2 also get conflicted because of this, I’ll first run m
 #Now I have processed csvs - Mon Tue Wed Thur Fri and Slotbased
 Steps to follow - 
 Done = 1. Write a py script that checks for slot-consistencies accross the weekday-based files, Separate inconsitent ones to highlight, put others in Slotbased.
-Found 99 MultiSlot Courses- in txt file in this directory
-There exist 27 multiroom courses as well.
+Found 97 MultiSlot Courses- in txt file in this directory
+There exist 26 multiroom courses as well.
 SelfNote: 
 	Typo found during scripting - ME321 instead of ME321M, was showing 1 class perweek, corrected
 	Also found interesting data - CE 402 has exactly one class per week.
@@ -93,7 +93,7 @@ SelfNote: Another issue found :
 	12 common courses found in MA - had one entry each for BTech and MSc (with same rooms)
 	1 Actual Conflict for CS526 - CSE.pdf says 2204, while Institute says L4, >> taking Institute one
 
-	Significance of these 7 duplicates-
+	Significance of these 7 duplicates (now removed from slotbased.csv)-
 		CE552	C	4G3
 		CE616	C	4001
 		EE657	E1	L1
@@ -123,21 +123,20 @@ WRONG DATA for CL612/CL642
  Nope, Removed CL206 as it's a lab course without tutorials(1-0-3-5)
 
 ++Exceptions-
-(table-image conflicts - dark colored courses)
-	CL309 Has 'I' slot as well as C1(Mon) . Soln- Moved it to Mon,Tue,Thur.csv
-	Similarly, following handled manually(moved out of slotbased) -
-	>CL206	C	4203(lab venue) (LAB COURSE!! ONLY KEPT TUTORIAL)
-	>CL207	D	4203
-	>CL309	C1	4203
-	>CL314	D1	4203
-	>CL617	C1	4209
-	>CL622	D1	4002
-	>CL623	C1	4002
-	>CL625	E1	4001 (ELECTIVE!! Dept precedence taken)
-	>CL639	C	1G1 (ELECTIVE)
-Venue conflict>> In institute.pdf CL625 has two venues, 4001 taken
+(cause: table-image inconsitency was not attended - dark colored courses)
+	following handled manually(moved out of slotbased) -
+	>CL309 Has 'I' slot as well as C1(Mon) . Soln- Moved it to Mon,Tue,Thur.csv
+	.>CL309	C1	4203
+	.>CL207	D	4203
+	.>CL314	D1	4203
+	.>CL617	C1	4209
+	.>CL622	D1	4002
+	.>CL623	C1	4002
+	.>CL625	E1	4001 (ELECTIVE!! Dept precedence taken)
+	.>CL639	C	1G1 (ELECTIVE)	
+**Venue conflict: In Institute.pdf CL625 has two venues, 4001 taken
 
-++LabTutorials
+++LabTutorials-
 CS558 Mon(K) 2204
 CS244 Mon(G) 1201
 
@@ -146,9 +145,11 @@ Also hadn't noted these Notes:
 	that BT205 has mentioned two venues - both taken 4102& 4207
 	CL642^ has approval pending, ignored
 
-Note: CL205 and CL207 Have 2-1-0-6 ()
+Note: CL205 and CL207 Have 2-1-0-6 as LTPC
+
 Corrections-
-Lab courses removed - PH516 PH320 except tuts
+Lab courses removed - PH412 PH516 PH320 except tuts if any
+NOTE: slot of above two is unclear(A1/K,D1/K)
 
 
 4. Can you generate any useful visuals?
