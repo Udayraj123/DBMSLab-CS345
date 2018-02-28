@@ -101,9 +101,10 @@ int loadExamTimeTable(){
 	FILE* fp = fopen("exam-time-table.csv","r");
 	FILE* fp_out = fopen("150101021_ett.sql","w");
 	printf("Adding Timetables...\n");
-	printETTInserts(fp,fp_out,"INSERT INTO ett (course_id,exam_date,start_time,end_time) VALUES ");
-	printETTInserts(fp,fp_out,"INSERT INTO ett_temp (course_id,exam_date,start_time,end_time) VALUES ");
-	printETTInserts(fp,fp_out,"INSERT INTO ett_clone (course_id,exam_date,start_time,end_time) VALUES ");
+	// As ETT has duplicates already, but the load should not stop
+	printETTInserts(fp,fp_out,"INSERT IGNORE INTO ett (course_id,exam_date,start_time,end_time) VALUES ");
+	printETTInserts(fp,fp_out,"INSERT IGNORE INTO ett_temp (course_id,exam_date,start_time,end_time) VALUES ");
+	printETTInserts(fp,fp_out,"INSERT IGNORE INTO ett_clone (course_id,exam_date,start_time,end_time) VALUES ");
 	fclose(fp);
 	fclose(fp_out);
 }

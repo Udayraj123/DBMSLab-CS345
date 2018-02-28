@@ -52,9 +52,11 @@ check(roll_number regexp '^X?\d{9}')-- checking for valid roll number e.g. X1701
 /*
 Good discussion- https://stackoverflow.com/questions/548541/insert-ignore-vs-insert-on-duplicate-key-update
 */
+-- REPLACE THESE IN FINAL SUBMISSION, put source loadAll-
+SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
 
 insert into ett (course_id,exam_date,start_time,end_time) select (course_id,exam_date,start_time,end_time) from 25jan2018.ett as b ON DUPLICATE KEY UPDATE course_id=b.course_id;
--- 657 unique rows out of 708 total
+-- 657 unique rows out of 708 total (rest 51 are insert errors coz of primary key constraints)
 
 insert into cc (course_id,number_of_credits) select (course_id,number_of_credits) from 25jan2018.cc as b ON DUPLICATE KEY UPDATE course_id=b.course_id;
 -- 445 unique rows

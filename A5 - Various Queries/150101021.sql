@@ -1,11 +1,10 @@
+use 09feb2018;
 /*
 Assumptions - The more natural meanings are taken for following terms
 1. "slots" means slot_letter + slot_day (not just slot_letter)
 2. "courses" means course_id only (and not course_id + division)
 3. DD is completely removed from DB (Departments table will not have Design Department in it as it affects the answer of queries below)
-
 */
-
 
 -- (a) : 5 rows
 select distinct(course_id) from ScheduledIn where room_number='2001';
@@ -22,8 +21,6 @@ select distinct(course_id) from ScheduledIn where room_number='2001';
 5 rows in set (0.00 sec)
 */
 
-
-
 -- (b) : 56 rows
 select distinct(course_id) from ScheduledIn where slot_letter='C';
 /*
@@ -36,7 +33,6 @@ select distinct(course_id) from ScheduledIn where slot_letter='C';
 +-----------+
 56 rows in set (0.00 sec)
 */
-
 
 -- (c) : 4 rows
 select distinct(course_division) from ScheduledIn where room_number in ('L2','L3');
@@ -52,12 +48,9 @@ select distinct(course_division) from ScheduledIn where room_number in ('L2','L3
 4 rows in set (0.00 sec)
 */
 
-
-
 -- (d) : 32 rows
-select course_id from ScheduledIn group by course_id having count(distinct room_number) > 1;
+select course_id from ScheduledIn group by course_id having count(distinct room_number) > 1 order by course_id;
 /*
-| PH102     |
 | PH521     |
 | PH531     |
 | PH544     |
@@ -66,9 +59,10 @@ select course_id from ScheduledIn group by course_id having count(distinct room_
 32 rows in set (0.00 sec)
 */
 
-
 -- (e) : 8 rows
-select distinct(name) from Department where department_id in (select department_id from ScheduledIn where room_number in ('L2','L3','L1','L4'));
+select distinct(name) 
+from Department 
+where department_id in (select department_id from ScheduledIn where room_number in ('L2','L3','L1','L4'));
 /*
 +------------------------------------------------------+
 | name                                                 |
@@ -85,7 +79,6 @@ select distinct(name) from Department where department_id in (select department_
 8 rows in set (0.00 sec)
 */
 
-
 -- (f) : 5 rows
 select distinct(name) from Department where department_id not in (select department_id from ScheduledIn where room_number in ('L2','L1'));
 /*
@@ -101,21 +94,29 @@ select distinct(name) from Department where department_id not in (select departm
 5 rows in set (0.00 sec)
 */
 
-
 -- (g) : 0 rows
-set @totalSlots := (select count(*) from Slot);
-select department_id,count(distinct slot_letter,slot_day) as slotCount from ScheduledIn group by department_id having slotCount = @totalSlots;
+SET @totalSlots :=
+  (SELECT count(*)
+   FROM Slot);
+
+SELECT department_id, count(DISTINCT slot_letter,slot_day) AS slotCount
+FROM ScheduledIn
+GROUP BY department_id
+HAVING slotCount = @totalSlots;
 /*
 Empty set (0.00 sec)
-
 Note: ME has maximum = 47 slots occupied. but not all
 */
 -- checker: All Dept wise slotcounts:  select department_id,count(distinct slot_letter,slot_day) as slotCount from ScheduledIn group by department_id order by slotCount;
 
-
-
 -- (h) : 55 rows
-select slot_letter,slot_day,count(distinct course_id,course_division) as courseCount from ScheduledIn group by slot_letter,slot_day order by courseCount;
+SELECT slot_letter,
+slot_day,
+count(DISTINCT course_id,course_division) AS courseCount
+FROM ScheduledIn
+GROUP BY slot_letter,
+slot_day
+ORDER BY courseCount;
 /*
 | C           | Monday    |          35 |
 | A           | Thursday  |          36 |
@@ -124,12 +125,13 @@ select slot_letter,slot_day,count(distinct course_id,course_division) as courseC
 | A           | Tuesday   |          41 |
 +-------------+-----------+-------------+
 55 rows in set (0.01 sec)
-*/
-
-
-
+*/ 
 -- (i) : 55 rows
-select room_number,count(distinct course_id,course_division) as courseCount from ScheduledIn group by room_number order by courseCount;
+SELECT room_number,
+count(DISTINCT course_id,course_division) AS courseCount
+FROM ScheduledIn
+GROUP BY room_number
+ORDER BY courseCount;
 /*
 | 1002          |          11 |
 | 4208          |          11 |
@@ -140,14 +142,24 @@ select room_number,count(distinct course_id,course_division) as courseCount from
 | 4004          |          14 |
 +---------------+-------------+
 55 rows in set (0.01 sec)
-*/
-
-
+*/ 
 -- (j) : 1 rows
-drop table if exists allassigned;
-create temporary table allassigned as (select slot_letter,count(distinct course_id,course_division) as courseCount from ScheduledIn group by slot_letter order by courseCount);
-set @min := (select min(courseCount) from allassigned);
-select slot_letter,courseCount from allassigned where courseCount = @min;	
+DROP TABLE IF EXISTS allassigned;
+CREATE
+TEMPORARY TABLE allassigned AS
+(SELECT slot_letter, count(DISTINCT course_id,course_division) AS courseCount
+	FROM ScheduledIn
+	GROUP BY slot_letter
+	ORDER BY courseCount);
+
+SET @min :=
+(SELECT min(courseCount)
+	FROM allassigned);
+
+SELECT slot_letter,
+courseCount
+FROM allassigned
+WHERE courseCount = @min;
 /*
 +-------------+-------------+
 | slot_letter | courseCount |
@@ -155,11 +167,13 @@ select slot_letter,courseCount from allassigned where courseCount = @min;
 | I           |           2 |
 +-------------+-------------+
 1 row in set (0.00 sec)
-*/
-
-
+*/ 
 -- (k) : 10 rows
-select distinct course_id as Minor,GROUP_CONCAT(slot_day,"-",slot_letter) as assignedSlots from ScheduledIn where course_id like '_____M' group by course_id;
+SELECT DISTINCT course_id AS Minor,
+GROUP_CONCAT(slot_day,"-",slot_letter) AS assignedSlots
+FROM ScheduledIn
+WHERE course_id LIKE '_____M'
+GROUP BY course_id;
 /*
 +--------+-------------------------------+
 | Minor  | assignedSlots                 |
@@ -176,14 +190,23 @@ select distinct course_id as Minor,GROUP_CONCAT(slot_day,"-",slot_letter) as ass
 | PH382M | Monday-G,Wednesday-G,Friday-G |
 +--------+-------------------------------+
 10 rows in set (0.00 sec)
-*/
-
-
+*/ 
 -- (l) : 322 rows (without DD)
-drop table if exists dept_slots;
-create temporary table dept_slots select distinct department_id,slot_day,slot_letter from ScheduledIn;
+DROP TABLE IF EXISTS dept_slots;
+
+CREATE
+TEMPORARY TABLE dept_slots
+SELECT DISTINCT department_id, slot_day, slot_letter
+FROM ScheduledIn;
 -- Without group_concat-
-select department_id,day,letter from Slot,Department where (department_id,day,letter) not in (select * from dept_slots) order by department_id,day,letter;
+SELECT department_id, DAY, letter
+FROM Slot,
+Department
+WHERE (department_id, DAY, letter) NOT IN
+(SELECT * FROM dept_slots)
+ORDER BY department_id,
+DAY,
+letter;
 /*
 | RT            | Friday    | K      |
 | RT            | Friday    | B1     |
@@ -192,27 +215,36 @@ select department_id,day,letter from Slot,Department where (department_id,day,le
 | RT            | Friday    | E1     |
 +---------------+-----------+--------+
 322 rows in set (0.01 sec)
-*/
-
-
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ALTERNATIVES for (l) -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-
--- group_concat Gives a one-page view for the same:
-select department_id,group_concat(substr(day,1,3),letter) as unusedSlots from Slot,Department where (department_id,day,letter) not in (select * from dept_slots) group by department_id order by unusedSlots;
+*/ 
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ALTERNATIVES for (l) -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+ -- group_concat Gives a one-page view for the same:
+ SELECT department_id, group_concat(substr(DAY,1,3),letter) AS unusedSlots
+ FROM Slot,
+ Department
+ WHERE (department_id, DAY, letter) NOT IN
+ (SELECT * FROM dept_slots)
+ GROUP BY department_id
+ ORDER BY unusedSlots;
 /*
 | EE            | TueJ,WedK,FriB1,ThuI,TueL,WedD1,ThuC1,TueE1,MonK,MonA1,TueI,FriK,ThuJ,ThuL                                                                                                                                                                                                                        |
 | CH            | WedK,FriG,MonF,ThuI,TueE,MonG,MonA1,WedF,TueH,TueI,MonK,FriK,WedG,ThuJ,FriF,TueJ,ThuH                                                                                                                                                                                                             |
 --------------------------------------------------------------------------------------------------------
 13 rows in set (0.01 sec)
-*/
--- Even prettier: 
-select department_id,group_concat(letter,concat('(',substr(day,1,if(day like 'T%',2,1)),')')) as unusedSlots from Slot,Department where (department_id,day,letter) not in (select * from dept_slots) group by department_id order by unusedSlots;
+*/ 
+-- Even prettier:
+SELECT department_id,
+group_concat(letter,concat('(',substr(DAY,1,if(DAY LIKE 'T%',2,1)),')')) AS unusedSlots
+FROM Slot,
+Department
+WHERE (department_id, DAY, letter) NOT IN
+(SELECT * FROM dept_slots)
+GROUP BY department_id
+ORDER BY unusedSlots;
 /*
 | EE            | K(M),B1(F),J(Th),D1(W),A1(M),L(Th),I(Tu),K(F),I(Th),L(Tu),C1(Th),E1(Tu),J(Tu),K(W)                                                                                                                                                                                                                                       |
 | ME            | L(Th),I(Tu),I(Th),L(Tu),K(F),J(Tu),K(W),E1(F),K(M),J(Th)                                                                                                                                                                                                                                                                 |
 +---------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 13 rows in set (0.01 sec)
-
-*/
--- ROUGH: 
+*/ 
+-- ROUGH:
 -- JOIN -  select * from Course c join ScheduledIn s on c.course_id = s.course_id and c.division = s.course_division;

@@ -1,4 +1,4 @@
-INSERT INTO ett (course_id,exam_date,start_time,end_time) VALUES ('CE222','2018-02-25','09:00','11:00'),
+INSERT IGNORE INTO ett (course_id,exam_date,start_time,end_time) VALUES ('CE222','2018-02-25','09:00','11:00'),
 ('PH202','2018-02-25','09:00','11:00'),
 ('EE626','2018-02-25','09:00','11:00'),
 ('ME532','2018-02-25','09:00','11:00'),

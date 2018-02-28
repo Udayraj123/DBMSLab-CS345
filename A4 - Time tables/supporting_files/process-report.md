@@ -2,7 +2,6 @@
 source loadAll.sql
 
 # TODO 
-[ ] Restore the ignored ME654 to demonstrate insert errors (See below)
 [-] Handle "Other than Thursday" type cases (Ignored previously)
 [-] Check - courses with A1,etc instead of K slot (CE.pdf may have some Lab tuts not into K)
 [-] Check - Tutorials of Lab courses be present
