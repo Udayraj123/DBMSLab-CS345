@@ -52,7 +52,7 @@ check(roll_number regexp '^X?\d{9}')-- checking for valid roll number e.g. X1701
 /*
 Good discussion- https://stackoverflow.com/questions/548541/insert-ignore-vs-insert-on-duplicate-key-update
 */
--- REPLACE THESE IN FINAL SUBMISSION, put source loadAll-
+-- Nope: Not to submit this file finally, submit the dump -- REPLACE THESE IN FINAL SUBMISSION, put source loadAll-
 SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
 
 insert into ett (course_id,exam_date,start_time,end_time) select (course_id,exam_date,start_time,end_time) from 25jan2018.ett as b ON DUPLICATE KEY UPDATE course_id=b.course_id;

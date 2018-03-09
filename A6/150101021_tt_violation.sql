@@ -26,6 +26,7 @@ Nope- Bruteforce -
 .
 */
 
+-- Override previous definition if exists
 DROP PROCEDURE if exists tt_violation;
 DROP PROCEDURE if exists check_overlap;
 DELIMITER $$ ;
@@ -65,6 +66,7 @@ COMMENT 'Lists the student roll number, student name and the two courses_id’s 
 
     	set outer_finished = 0; -- Good habit.
     	
+    	-- drop previous temp table if it exists
     	drop table if exists output;
     	create temporary table output (clashCounter int(4), roll_number varchar(11), name varchar(80), course1 varchar(6), course2 varchar(6),Overlap varchar(30));
 
@@ -90,19 +92,19 @@ COMMENT 'Lists the student roll number, student name and the two courses_id’s 
 				        select pairNumber+1 into pairNumber;
 
 			        	call check_overlap(course1,course2,overLapCount);
-				        	if overLapCount > 0 then 
-					        	-- Now, List students enrolled in both courses
-					        	 -- Method1(extensible easily) - groupBy and count :  Less eff
-					        	 -- select IF(overLapCount = 1,"Either MS or ES","Both ES and MS") as Overlap,roll_number,name,course1,course2 from cwls where roll_number in (select roll_number from cwls where course_id like course1 or course_id like course2 group by roll_number having count(*)>1) group by roll_number,name;
-					        	 
-					        	 -- Method2 -INTERSECT USING IN :  size(cwls)^2 (but a course can't have all students, hence this is much closer to size(cwls))
-						        	select count(roll_number) into validCount from cwls where course_id like course1 and roll_number in (select roll_number from cwls where course_id like course2);
-						        	if validCount > 0 then
-								        select clashCounter+validCount into clashCounter;
-							        	insert into output select clashCounter,roll_number,name,course1,course2,IF(overLapCount = 1,"Either of MS or ES","Both ES and MS clash") as Overlap
-							        	 from cwls where course_id like course1 and roll_number in (select roll_number from cwls where course_id like course2);
-						        	end if;
-				        	end if;
+			        	if overLapCount > 0 then 
+				        	-- Now, List students enrolled in both courses
+				        	 -- Method1(extensible easily) - groupBy and count :  Less eff
+				        	 -- select IF(overLapCount = 1,"Either MS or ES","Both ES and MS") as Overlap,roll_number,name,course1,course2 from cwls where roll_number in (select roll_number from cwls where course_id like course1 or course_id like course2 group by roll_number having count(*)>1) group by roll_number,name;
+				        	 
+				        	 -- Method2 -INTERSECT USING IN :  size(cwls)^2 (but a course can't have all students, hence this is much closer to size(cwls))
+					        	select count(roll_number) into validCount from cwls where course_id like course1 and roll_number in (select roll_number from cwls where course_id like course2);
+					        	if validCount > 0 then
+							        select clashCounter+validCount into clashCounter;
+						        	insert into output select clashCounter,roll_number,name,course1,course2,IF(overLapCount = 1,"Either of MS or ES","Both ES and MS clash") as Overlap
+						        	 from cwls where course_id like course1 and roll_number in (select roll_number from cwls where course_id like course2);
+					        	end if;
+			        	end if;
 				    end inner_block;
 			    end loop inner_loop;
 			    close cur2;
