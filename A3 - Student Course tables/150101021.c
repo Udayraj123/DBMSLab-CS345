@@ -260,7 +260,7 @@ After replacing the encoding -
 +----------+
 1 row in set (0.02 sec)
 
-SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
+(ROUGH!)SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
 +------------+------------+
 | table_name | table_rows |
 +------------+------------+

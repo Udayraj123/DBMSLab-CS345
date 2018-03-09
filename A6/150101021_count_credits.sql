@@ -26,12 +26,16 @@ COMMENT 'Lists the student roll number, student name and total number of credits
   END$$
 DELIMITER ; $$
 
+
+select "Calling procedure: count_credits" as 'CURRENT ACTION:';
+CALL count_credits(); -- can do it from terminal
+
 /*
 ROUGH 
 if have to use cursor, Single roll no query -
-	set @roll = '176153102';
-	select * from cwls where roll_number like @roll group by roll_number,course_id;
-	select count(number_of_credits) from cc where course_id in (select course_id from cwls where roll_number like @roll group by roll_number,course_id);
+  set @roll = '176153102';
+  select * from cwls where roll_number like @roll group by roll_number,course_id;
+  select count(number_of_credits) from cc where course_id in (select course_id from cwls where roll_number like @roll group by roll_number,course_id);
 
 SelfNotes: 
 Viewing - SELECT NAME FROM MYSQL.PROC; or SHOW PROCEDURE STATUS;
@@ -42,7 +46,7 @@ MySQL support for recursive procedures begins from version>=5.0, can also specif
 Procedures require the CREATE ROUTINE privilege
 
 Using semicolon (;) as a delimiter causes problem in stored procedure because a procedure can have many statements,
-	and every one of them must end with a semicolon. 
+  and every one of them must end with a semicolon. 
 
 Performance - MySQL stored procedures are compiled on demand. After compiling a stored procedure, MySQL puts it into a cache of that mysql connection
 */

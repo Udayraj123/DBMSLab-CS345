@@ -1,6 +1,6 @@
 -- THIS FILE IS NOT TO BE SUBMITTED, use mysqldump for final submission
 drop database if exists 150101021_23feb2018;
-create database 150101021_23feb2018 CHARACTER SET utf8mb4;
+create database 150101021_23feb2018;
 -- The if not exists clauses allow to re-run this file during debugging
 use 150101021_23feb2018;
 
@@ -22,7 +22,7 @@ end_time TIME not NULL comment "As its format follows SQL TIME format, it is adv
 primary key(course_id,exam_date,start_time,end_time),
 check(course_id regexp '^\w\w\d\d\dM?')
 -- This charset is required to accept \xa0 character in given csv file (see bottom of .c file for more details)
-) DEFAULT CHARACTER SET utf8mb4;
+);
 
 /* cc table
 course_id here will be primary key.
@@ -31,7 +31,7 @@ create table cc (
 course_id varchar(6) primary key comment "as course code can be at max 6 characters, and it is unique and non-null throughout the table",
 number_of_credits tinyint(1) not NULL comment "The tinyint range is sufficient (0-255)",
 check(course_id regexp '^\w\w\d\d\dM?')-- checking for valid course code
-) DEFAULT CHARACTER SET utf8mb4;
+);
 
 /* cwls table
 Each entry of cwls table will describe a student-to-course relation 'Credits'
@@ -47,19 +47,27 @@ email varchar(50) default NULL comment "this one may be NULL as observed previou
 primary key(course_id,roll_number), 
 check(course_id regexp '^\w\w\d\d\dM?'),-- checking for valid course code
 check(roll_number regexp '^X?\d{9}')-- checking for valid roll number e.g. X170104081, 150101021
-) DEFAULT CHARACTER SET utf8mb4;
+);
 
 /*
 Good discussion- https://stackoverflow.com/questions/548541/insert-ignore-vs-insert-on-duplicate-key-update
 */
 -- Nope: Not to submit this file finally, submit the dump -- REPLACE THESE IN FINAL SUBMISSION, put source loadAll-
-SELECT table_name, table_rows from information_schema.tables where table_name in ('cc','ett','cwls');
+-- Just run this file, then make the dump. And add it to submission
 
-insert into ett (course_id,exam_date,start_time,end_time) select (course_id,exam_date,start_time,end_time) from 25jan2018.ett as b ON DUPLICATE KEY UPDATE course_id=b.course_id;
+-- SelfNote: Never put () just after select!
+insert into 150101021_23feb2018.ett (course_id,exam_date,start_time,end_time) select course_id,exam_date,start_time,end_time from 25jan2018.ett as b 
+	ON DUPLICATE KEY UPDATE course_id=b.course_id;
 -- 657 unique rows out of 708 total (rest 51 are insert errors coz of primary key constraints)
 
-insert into cc (course_id,number_of_credits) select (course_id,number_of_credits) from 25jan2018.cc as b ON DUPLICATE KEY UPDATE course_id=b.course_id;
+insert into 150101021_23feb2018.cc ( course_id,number_of_credits) select course_id,number_of_credits from 25jan2018.cc as b 
+	ON DUPLICATE KEY UPDATE course_id=b.course_id;
 -- 445 unique rows
 
-insert into cwls (course_id,roll_number,name,email) select (course_id,roll_number,name,email) from 25jan2018.cwls as b ON DUPLICATE KEY UPDATE course_id=b.course_id;
+insert into 150101021_23feb2018.cwls (course_id,roll_number,name,email) select course_id,roll_number,name,email from 25jan2018.cwls as b 
+	ON DUPLICATE KEY UPDATE course_id=b.course_id;
 -- 21596 unique rows
+
+select count(*) from ett;
+select count(*) from cc;
+select count(*) from cwls;
