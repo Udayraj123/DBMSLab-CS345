@@ -1,0 +1,73 @@
+
+sudo apt-get install php7.1-dev libgmp-dev libpcre3-dev g++ make cmake libssl-dev openssl
+
+echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list 
+curl https://www.apache.org/dist/cassandra/KEYS | sudo -E apt-key add -
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update 
+sudo apt-get install oracle-java8-set-default
+
+sudo apt-get install cassandra
+
+java -version
+sudo service cassandra status
+sudo nodetool status
+# ^ In the output, UN means it's Up and Normal:
+cqlsh
+
+mkdir temp_dir; cd temp_dir;
+
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/dependencies/libuv/v1.18.0/libuv_1.18.0-1_amd64.deb
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/dependencies/libuv/v1.18.0/libuv-dev_1.18.0-1_amd64.deb
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/cassandra/v2.8.1/cassandra-cpp-driver_2.8.1-1_amd64.deb
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/cassandra/v2.8.1/cassandra-cpp-driver-dev_2.8.1-1_amd64.deb
+
+# Note: If you have node/npm installed, the libuv library may cause conflict with it. 
+# You shall uninstall libuv (which'd also remove node) by `sudo apt-get remove libuv libuv-dev`
+
+# Also, if you've already run below commands, you should run `sudo apt --fix-broken install`
+sudo dpkg -i libuv_1.18.0-1_amd64.deb
+sudo dpkg -i libuv-dev_1.18.0-1_amd64.deb
+sudo dpkg -i cassandra-cpp-driver_2.8.1-1_amd64.deb
+sudo dpkg -i cassandra-cpp-driver-dev_2.8.1-1_amd64.deb
+
+sudo -E pecl install cassandra
+sudo sh -c 'echo "extension=cassandra.so" > /etc/php/7.1/mods-available/cassandra.ini'
+sudo phpenmod cassandra
+
+# Test Commands and their outputs
+
+php -i | grep -A 10 -e "^cassandra$"
+
+# Cassandra support => enabled
+# C/C++ driver version => 2.8.1
+# Persistent Clusters => 0
+# Persistent Sessions => 0
+# 
+# Directive => Local Value => Master Value
+# cassandra.log => cassandra.log => cassandra.log
+# cassandra.log_level => ERROR => ERROR
+#
+
+sudo service cassandra status
+
+# ● cassandra.service - LSB: distributed storage system for structured data
+#    Loaded: loaded (/etc/init.d/cassandra; generated; vendor preset: enabled)
+#    Active: active (exited) since Wed 2018-03-28 15:59:47 IST; 1h 2min ago
+#      Docs: man:systemd-sysv-generator(8)
+#     Tasks: 0 (limit: 4915)
+#    CGroup: /system.slice/cassandra.service
+# 
+# Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+#
+
+sudo nodetool status
+
+# Datacenter: datacenter1
+# =======================
+# Status=Up/Down
+# |/ State=Normal/Leaving/Joining/Moving
+# --  Address    Load       Tokens       Owns (effective)  Host ID                               Rack
+# UN  127.0.0.1  159.98 KiB  256          100.0%            60f92719-4241-47b6-ade1-78f30283d8b8  rack1
+#
