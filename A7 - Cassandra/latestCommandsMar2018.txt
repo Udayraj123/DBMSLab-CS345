@@ -10,12 +10,27 @@ sudo apt-get install oracle-java8-set-default
 
 sudo apt-get install cassandra
 
+# add JAVA_HOME and CASSANDRA_HOME env variables
+
 java -version
 sudo service cassandra status
 sudo nodetool status
 # ^ In the output, UN means it's Up and Normal:
 cqlsh
 
+# Configure Cassandra (conf is found in /etc/cassandra/ when installed using apt-get, else in the zip if you've extracted from a zip)
+sudo subl /etc/cassandra/cassandra.yaml
+
+# give permissions to data directory if you are using ~/cassandra as its directory
+sudo chown -R cassandra:cassandra ~/cassandra
+
+# Now in a new shell/tab you can start the cassandra server in foreground mode
+sudo -u cassandra cassandra -f
+
+# Python driver
+sudo -E -H pip  install cassandra-driver
+
+## CPP and PHP DRIVER INSTALLATION (note: php driver needs cpp driver)
 mkdir temp_dir; cd temp_dir;
 
 wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/dependencies/libuv/v1.18.0/libuv_1.18.0-1_amd64.deb
@@ -23,10 +38,13 @@ wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/dependencies/libuv/v1
 wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/cassandra/v2.8.1/cassandra-cpp-driver_2.8.1-1_amd64.deb
 wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/cassandra/v2.8.1/cassandra-cpp-driver-dev_2.8.1-1_amd64.deb
 
-# Note: If you have node/npm installed, the libuv library may cause conflict with it. 
-# You shall uninstall libuv (which'd also remove node) by `sudo apt-get remove libuv libuv-dev`
+# Note: If you have node/npm installed, the libuv library may cause an error in the dpkg command like
+# trying to overwrite '/usr/lib/x86_64-linux-gnu/libuv.so.1.0.0', which is also in package libuv 1.18.0-1
+# If you don't need libuv, You may uninstall it(which'd also remove node) by `sudo apt-get remove libuv libuv-dev`
+# Else on assumption that the two packages actually have same content in the .so file,
+# you can add the --force-overwrite flag in the dpkg commands
 
-# Also, if you've already run below commands, you should run `sudo apt --fix-broken install`
+# Also, if you've run below commands once before, you should run `sudo apt --fix-broken install`
 sudo dpkg -i libuv_1.18.0-1_amd64.deb
 sudo dpkg -i libuv-dev_1.18.0-1_amd64.deb
 sudo dpkg -i cassandra-cpp-driver_2.8.1-1_amd64.deb
@@ -71,3 +89,4 @@ sudo nodetool status
 # --  Address    Load       Tokens       Owns (effective)  Host ID                               Rack
 # UN  127.0.0.1  159.98 KiB  256          100.0%            60f92719-4241-47b6-ade1-78f30283d8b8  rack1
 #
+
