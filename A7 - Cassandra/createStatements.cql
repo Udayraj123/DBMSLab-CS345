@@ -14,7 +14,7 @@ CREATE TABLE twitter_table (
 	lang text,
 	like_count bigint,
 	location text,
-	media_list map,
+	media_list map, -- dict types
 	mentions list,
 	quote_count bigint,
 	quoted_source_id bigint,
