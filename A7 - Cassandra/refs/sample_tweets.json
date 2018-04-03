@@ -7,14 +7,6 @@
       "Islam", 
       "ThursdayThoughts"
     ], 
-    "media_list": {
-      "0": {
-        "media_id": "933805064405135361", 
-        "media_type": "photo", 
-        "display_url": "pic.twitter.com/Rc1O380xXZ", 
-        "media_url": "https://pbs.twimg.com/media/DPWKwjFUMAESeSH.jpg"
-      }
-    }, 
     "keywords_processed_list": [
       "tomorrow", 
       "tomorrow", 
@@ -23,6 +15,20 @@
     "mentions": [
       "GottaLaff"
     ], 
+    "media_list": {
+      "0": {
+        "media_id": "933805064405135361", 
+        "media_type": "photo", 
+        "display_url": "pic.twitter.com/Rc1O380xXZ", 
+        "media_url": "https://pbs.twimg.com/media/DPWKwjFUMAESeSH.jpg"
+      },
+      "1": {
+        "media_type": "photo", 
+        "display_url": "pic.twitter.com/Seyum8mMZ4", 
+        "media_id": "943626283744878592", 
+        "media_url": "https://pbs.twimg.com/media/DRhvGwNV4AAim27.jpg"
+      }, 
+    }, 
 
     "tid": "1234933135074013185", 
     "quoted_source_id": "933892903818194945", 
@@ -45,6 +51,9 @@
     "date": "2017-11-26", 
     "verified": "False" 
   },
+
+
+  
   "934934503604174848": {
     "quote_count": 0, 
     "reply_count": 2, 

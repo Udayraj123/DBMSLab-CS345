@@ -10,7 +10,11 @@ sudo apt-get install oracle-java8-set-default
 
 sudo apt-get install cassandra
 
-# add JAVA_HOME and CASSANDRA_HOME env variables
+# add CASSANDRA_HOME env variable (put this in /etc/bash.bashrc)
+export CASSANDRA_HOME="/usr/share/cassandra";
+
+# If JAVA_HOME is not set (usually it's set automatically after installation), you can set it as-
+# export JAVA_HOME="/usr/lib/jvm/java-8-oracle";
 
 java -version
 sudo service cassandra status
@@ -21,7 +25,9 @@ cqlsh
 # Configure Cassandra (conf is found in /etc/cassandra/ when installed using apt-get, else in the zip if you've extracted from a zip)
 sudo subl /etc/cassandra/cassandra.yaml
 
-# give permissions to data directory if you are using ~/cassandra as its directory
+# give permissions to data directory change
+sudo chown -R cassandra:cassandra /var/lib/cassandra
+# If you've configured using ~/cassandra as data directory 
 sudo chown -R cassandra:cassandra ~/cassandra
 
 # Now in a new shell/tab you can start the cassandra server in foreground mode
@@ -90,3 +96,7 @@ sudo nodetool status
 # UN  127.0.0.1  159.98 KiB  256          100.0%            60f92719-4241-47b6-ade1-78f30283d8b8  rack1
 #
 
+# Further you can add aliases-
+alias startcass="sudo service cassandra status && sudo -u cassandra cassandra -f";
+alias checkcass="sudo service cassandra status && sudo nodetool status";
+alias cqlshell="cqlsh --debug --color --request-timeout=30";
