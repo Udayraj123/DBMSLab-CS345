@@ -71,3 +71,9 @@ ORDER BY clauses can select a single column only. That column has to be the seco
 
 In table comments
 --Using special characters like & or \' will give error:Incomplete statement at end of file
+
+https://docs.datastax.com/en/cql/3.3/cql/ddl/dataModelingApproach.html
+ "Data in Cassandra is often arranged as one query per table, and data is repeated amongst many tables, a process known as denormalization. Relational databases instead normalize data, removing as much duplication as possible. The relationship of the entities is important, because the order in which data is stored in Cassandra can greatly affect the ease and speed of data retrieval. The schema design captures much of the relationship between entities by including related attributes in the same table. Client-side joins in application code is used only when table schema cannot capture the complexity of the relationships."
+
+ https://datastax.github.io/python-driver/_modules/uuid.html
+	 uuid is not an int, its a hex string like UUID('a8098c1a-f86e-11da-bd1a-00112444be1e')!
