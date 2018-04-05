@@ -109,11 +109,11 @@ AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 
 -- Multiple Inserts per tweet maybe required
 CREATE TABLE twitterdb.tids_by_mention (
-	m_author text,
+	mention text,--mentioned author
 	tid bigint, --128 bit integer
 	tweet_date TIMESTAMP,
 	tweet_datetime TIMESTAMP,
-	primary key( m_author, tweet_date, tweet_datetime, tid) -- tid ensures uniqueness
+	primary key( mention, tweet_date, tweet_datetime, tid) -- tid ensures uniqueness
 ) WITH comment='Contains tweets partitioned by mentioned author, used for queries of type 4'
 AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 
