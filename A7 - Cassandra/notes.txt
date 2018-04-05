@@ -1,0 +1,73 @@
+MySQL vs Cassandra
+> The rows and columns in NoSQLDBs are (kinda) interchanged!
+> In a crude manner, In MySQL you create and display data when requested, In Cassandra you write expected queries beforehand and then simply display them when requested.
+
+Column
+Each column is an entry in the cassandra records.
+Furthermore, Cassandra defines the concept of Super Columns. Super Columns are columns that themselves consist of a set of columns. A column can also have a Time-To-Live (TTL). After the TTL has expired the entry is deleted asynchronously.
+
+
+Column Family (or Table)
+A column family is a set of rows. Each column family must define a primary key that can consist of a single column or of a composite of multiple columns. The primary key is used to determine the storage location for the row. The columns of a row are never split across several Casandra nodes.
+
+Row
+A row is an ordered set of columns.
+
+
+When data is inserted into the cluster, the first step is to apply a hash function to the partition key. The output is used to determine what node (and replicas) will get the data. Cassandra utilizes Murmur3 to create a consistent token value. That token value will be inside the range of tokens owned by single node.
+	>> A partition key controls data locality, it’s probably best to not use just one
+
+	Since using a JOIN isn’t possible with Cassandra, we have much less complexity creating data 
+	models. The complexity trade-off for Apache Cassandra is in knowing about your queries and data 
+	access patterns ahead of time. 
+	
+	-- Partition key(aka Super Column key) should be uniformly distributed in its domain 
+	(Nope, there are many other tables that have to be modified by the same inserts, so overall the nodes won't be inactive- Cannot be date, else each day only one node will be active for inserts)
+	Candidates in our case are: 
+		author_id(in large scales)(It's a group of tweets that can be frequently queried together), 
+		tweet_date (For non-live data, OR COMBINE IT WITH OTHER CANDIDATES WHICH'D MAKE IT THE BEST ONE)
+		tid (in small scales)(As it evenly spreads),
+		location* (but it is Nullable, hence not valid)
+
+^^ similar thoughts are reflected in discussion here: https://stackoverflow.com/questions/37512446/cassandra-data-modeling-for-a-social-network
+
+(First Iteration)With single table: (tweet_date, author_id, like_count, tweet_datetime, tid) as:
+	1 is a full cluster scan always as it needs tweets for all days,
+	2,3,4 are full cluster scans always as partitioning by hashtags, keywords or mention_list won't narrow down no of nodes to search in, The ordering is handled by tweet_datetime, like_count.	
+	6 is full table coz location can be Null, hence not a key.
+	5,7,8 read/delete queries will be only one-node focused, hence optimal.
+
+Conclusion: This can be made much better if we make a separate table for each type of queries
+> But for like 3, keeping full tweet data with the hashtag isnt a wise choice. It's too much of duplicate data to deal with. Making hashtag a partition key and tids with it will do. Better to read through all nodes.
+> Precalculation is recommended:
+https://www.quora.com/I-want-to-save-sales-record-in-Cassandra-and-generate-daily-weekly-and-monthly-sales-reports-should-I-store-them-in-one-table-or-multiple-tables/answer/Peter-Nierop
+( Cassandra  is a NoSQL database that essentially only supports Key-Value access), 
+
+Separate table for popular hashtags,
+
+
+??	-- How to ensure tid stays unique??
+??  -- What if mentioned author changes username(what'd twitter do)
+	Remember, the usual values of LIMIT directive in the query would be small i.e. still the no of partitions looked up will be less.
+
+	-- Clustering key is the per-cluster index for ordering inside the physical node.
+	Candidates in our case are: tid, tweet_date, tweet_datetime<<,
+
+
+https://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling
+Rule 1: Spread Data Evenly Around the Cluster  <-
+Rule 2: Minimize the Number of Partitions Read <-
+***Remember, data duplication is okay. Many of your tables may repeat the same data.
+You will use roughly one table per query pattern. If you need to support multiple query patterns, you usually need more than one table.
+
+
+imple Notes:
+The counter solves the problem of concurrent writes-
+Before counter: https://stackoverflow.com/questions/3935915/how-to-create-auto-increment-ids-in-cassandra
+Now: https://docs.datastax.com/en/cql/3.1/cql/cql_using/use_counter_t.html
+
+https://stackoverflow.com/questions/27235061/	error-creating-table-in-cassandra-bad-request-only-clustering-key-columns-can
+ORDER BY clauses can select a single column only. That column has to be the second column in a compound PRIMARY KEY. This also applies to tables with more than two column components in the primary key.
+
+In table comments
+--Using special characters like & or \' will give error:Incomplete statement at end of file

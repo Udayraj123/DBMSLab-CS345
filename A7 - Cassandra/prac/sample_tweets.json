@@ -1,0 +1,227 @@
+{
+  "1234933135074013185" : {
+    "url_list": [
+      "https://t.co/ZUSgXoAYfw"
+    ], 
+    "hashtags": [
+      "Islam", 
+      "ThursdayThoughts"
+    ], 
+    "keywords_processed_list": [
+      "tomorrow", 
+      "tomorrow", 
+      "tomorrow"
+    ], 
+    "mentions": [
+      "GottaLaff"
+    ], 
+    "media_list": {
+      "0": {
+        "media_id": "933805064405135361", 
+        "media_type": "photo", 
+        "display_url": "pic.twitter.com/Rc1O380xXZ", 
+        "media_url": "https://pbs.twimg.com/media/DPWKwjFUMAESeSH.jpg"
+      },
+      "1": {
+        "media_type": "photo", 
+        "display_url": "pic.twitter.com/Seyum8mMZ4", 
+        "media_id": "943626283744878592", 
+        "media_url": "https://pbs.twimg.com/media/DRhvGwNV4AAim27.jpg"
+      }, 
+    }, 
+
+    "tid": "1234933135074013185", 
+    "quoted_source_id": "933892903818194945", 
+    "retweet_source_id": "934930336756015106", 
+    "replyto_source_id": "934932163069440001",
+    "author_id": "4893575203", 
+    "author_screen_name": "emunoz8_munoz", 
+    "lang": "en", 
+    "author": "Julio Munoz", 
+    "location": "Arizona, USA", 
+    "type": "retweet", 
+    "tweet_text": "RT @GottaLaff: Tomorrow, tomorrow, I love ya\nTomorrow!\n\nYou're always a day away. https://t.co/ZUSgXoAYfw", 
+    "author_profile_image": "https://pbs.twimg.com/profile_images/813593251458510848/pjaAJh75_normal.jpg", 
+    "quote_count": 0, 
+    "reply_count": 0, 
+    "like_count": 0, 
+    "sentiment": 1, 
+    "retweet_count": 0, 
+    "date": "2017-11-26", 
+    "datetime": "2017-11-26 23:53:24", 
+    "verified": "False" 
+  },
+
+
+  
+  "934934503604174848": {
+    "quote_count": 0, 
+    "reply_count": 2, 
+    "hashtags": [
+      "MissUniverse", 
+      "Thailand"
+    ], 
+    "datetime": "2017-11-26 23:58:50", 
+    "date": "2017-11-26", 
+    "like_count": 38, 
+    "verified": "False", 
+    "sentiment": 0, 
+    "author": "P'Hmee7.5", 
+    "location": "Bangkok, Thailand", 
+    "tid": "934934503604174848", 
+    "retweet_count": 105, 
+    "type": "Tweet", 
+    "media_list": null, 
+    "quoted_source_id": null, 
+    "url_list": null, 
+    "tweet_text": "รอโหวต มรญ #MissUniverse #Thailand", 
+    "author_profile_image": "https://pbs.twimg.com/profile_images/924152815143890944/qS42dA8X_normal.jpg", 
+    "author_screen_name": "Peehmee75", 
+    "author_id": "700720806972624897", 
+    "lang": "th", 
+    "keywords_processed_list": null, 
+    "retweet_source_id": null, 
+    "mentions": null, 
+    "replyto_source_id": null
+  }, 
+  "934934336381636608": {
+    "quote_count": 0, 
+    "reply_count": 0, 
+    "hashtags": null, 
+    "datetime": "2017-11-26 23:58:10", 
+    "date": "2017-11-26", 
+    "like_count": 0, 
+    "verified": "False", 
+    "sentiment": 0, 
+    "author": "selfresqingprncess", 
+    "location": "Maine, USA", 
+    "tid": "934934336381636608", 
+    "retweet_count": 0, 
+    "type": "retweet", 
+    "media_list": null, 
+    "quoted_source_id": null, 
+    "url_list": null, 
+    "tweet_text": "RT @kylegriffin1: Reminder: The Senate Judiciary Committee gave Jared Kushner a November 27 deadline to turn over the missing records… ", 
+    "author_profile_image": "https://pbs.twimg.com/profile_images/908666316533436416/0_bQCsZE_normal.jpg", 
+    "author_screen_name": "slfresqngprncss", 
+    "author_id": "100536014", 
+    "lang": "en", 
+    "keywords_processed_list": [
+      "reminder", 
+      "senate judiciary committee", 
+      "kushner november", 
+      "deadline"
+    ], 
+    "retweet_source_id": "934872065471115264", 
+    "mentions": [
+      "kylegriffin1"
+    ], 
+    "replyto_source_id": null
+  }, 
+  "934934417411371009": {
+    "quote_count": 0, 
+    "reply_count": 0, 
+    "hashtags": [
+      "Muhajir", 
+      "Sindhi", 
+      "Baloch"
+    ], 
+    "datetime": "2017-11-26 23:58:30", 
+    "date": "2017-11-26", 
+    "like_count": 0, 
+    "verified": "False", 
+    "sentiment": 0, 
+    "author": "ashfaq solangi", 
+    "location": null, 
+    "tid": "934934417411371009", 
+    "retweet_count": 0, 
+    "type": "retweet", 
+    "media_list": null, 
+    "quoted_source_id": null, 
+    "url_list": null, 
+    "tweet_text": "RT @husainhaqqani: Interesting that army never ‘recommends’ handling #Muhajir, #Sindhi, #Baloch protestors peacefully. There it is ‘sh… ", 
+    "author_profile_image": "https://pbs.twimg.com/profile_images/378800000655045637/c3910a618d4ae40fddd20e07d7d9f1b6_normal.jpeg", 
+    "author_screen_name": "solangiashfaq", 
+    "author_id": "400619298", 
+    "lang": "en", 
+    "keywords_processed_list": [
+      "army", 
+      "handling protestors", 
+      "interesting"
+    ], 
+    "retweet_source_id": "934787328907890689", 
+    "mentions": [
+      "husainhaqqani"
+    ], 
+    "replyto_source_id": null
+  }, 
+  "934933379602112515": {
+    "quote_count": 0, 
+    "reply_count": 0, 
+    "hashtags": null, 
+    "datetime": "2017-11-26 23:54:22", 
+    "date": "2017-11-26", 
+    "like_count": 0, 
+    "verified": "False", 
+    "sentiment": 0, 
+    "author": "Catherine Keller", 
+    "location": "Austin, TX", 
+    "tid": "934933379602112515", 
+    "retweet_count": 0, 
+    "type": "retweet", 
+    "media_list": null, 
+    "quoted_source_id": null, 
+    "url_list": null, 
+    "tweet_text": "RT @kylegriffin1: Reminder: The Senate Judiciary Committee gave Jared Kushner a November 27 deadline to turn over the missing records… ", 
+    "author_profile_image": "https://pbs.twimg.com/profile_images/1239698600/little_sleeping_Blue_normal.jpg", 
+    "author_screen_name": "cjkeller", 
+    "author_id": "18588943", 
+    "lang": "en", 
+    "keywords_processed_list": [
+      "reminder", 
+      "senate judiciary committee", 
+      "kushner november", 
+      "deadline"
+    ], 
+    "retweet_source_id": "934872065471115264", 
+    "mentions": [
+      "kylegriffin1"
+    ], 
+    "replyto_source_id": null
+  }, 
+  "934933651967504389": {
+    "quote_count": 0, 
+    "reply_count": 0, 
+    "hashtags": [
+      "MissUniverse"
+    ], 
+    "datetime": "2017-11-26 23:55:27", 
+    "date": "2017-11-26", 
+    "like_count": 0, 
+    "verified": "False", 
+    "sentiment": 0, 
+    "author": "yan yan", 
+    "location": "Cabuyao, Calabarzon", 
+    "tid": "934933651967504389", 
+    "retweet_count": 0, 
+    "type": "retweet", 
+    "media_list": null, 
+    "quoted_source_id": null, 
+    "url_list": null, 
+    "tweet_text": "RT @MissUniverse: Learn some of the #MissUniverse contestants rituals before they take on the stage! Tune in tomorrow at 7PM from… ", 
+    "author_profile_image": "https://pbs.twimg.com/profile_images/933356134768943105/YL13LOKk_normal.jpg", 
+    "author_screen_name": "OnzaBry", 
+    "author_id": "904533716172660736", 
+    "lang": "en", 
+    "keywords_processed_list": [
+      "contestants rituals", 
+      "stage", 
+      "tomorrow"
+    ], 
+    "retweet_source_id": "934693215084486656", 
+    "mentions": [
+      "MissUniverse"
+    ], 
+    "replyto_source_id": null
+  }
+}

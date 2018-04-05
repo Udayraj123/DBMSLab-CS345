@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'), url(https://web.archive.org/web/20131225234528im_/http://themes.googleusercontent.com/static/fonts/droidserif/v3/0AKsP294HTD-nvJgucYTaJ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(https://web.archive.org/web/20131225234528im_/http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwZ_TkvowlIOtbR7ePgFOpF4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(https://web.archive.org/web/20131225234528im_/http://themes.googleusercontent.com/static/fonts/droidserif/v3/cj2hUnSRBhwmSPr9kS589-LrC4Du4e_yfTJ8Ol60xk0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), url(https://web.archive.org/web/20131225234528im_/http://themes.googleusercontent.com/static/fonts/droidserif/v3/c92rD_x0V1LslSFt3-QEpmsGzsqhEorxQDpu60nfWEc.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 23:45:28 Dec 25, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:36:33 Apr 05, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 163.49 (3)
+  esindex: 0.01
+  captures_list: 189.417
+  CDXLines.iter: 15.14 (3)
+  PetaboxLoader3.datanode: 51.548 (4)
+  exclusion.robots: 0.545
+  exclusion.robots.policy: 0.399
+  RedisCDXSource: 3.909
+  PetaboxLoader3.resolve: 274.586
+  load_resource: 305.855
+*/
