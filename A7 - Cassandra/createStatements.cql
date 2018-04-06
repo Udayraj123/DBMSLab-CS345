@@ -156,4 +156,4 @@ CREATE TABLE twitterdb.popular_hashtags (
 	hashtag_count bigint,
 	primary key( hash_date, hashtag_count, hashtag)
 ) WITH comment='Contains popular hashtags partitioned by a date, used for queries of type 7'
-AND CLUSTERING ORDER BY (hashtag_count DESC,hash_date DESC);
+AND CLUSTERING ORDER BY (hashtag_count DESC,hashtag ASC);

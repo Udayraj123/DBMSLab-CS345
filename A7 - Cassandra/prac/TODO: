@@ -1,0 +1,17 @@
+TODO:
+> resolve query 5
+>   make popular_hashtags workable
+	algo: (assumption(true)-files are consecutive in dates)
+	sort expanded_records by date, hashtag
+	for each day, count num occurences for each value and store it in separate df- accum_sum
+	now in that df, move a N-wide sliding window on columns
+	>Then store the day, (top 20) hashtags, count entries (113 * 200K+)
+
+> change tables to load whole tweets
+> load full data	
+
+
+Extras: 
+> Counters, 
+> Likes
+> Hash prefixes?

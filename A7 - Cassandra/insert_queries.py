@@ -11,7 +11,8 @@ columns['tids_by_mention']=('mention', 'tid', 'tweet_date', 'tweet_datetime' )
 columns['tids_by_keyword']=('keyword', 'tid', 'like_count' ) 
 
 # Needs completely diff function
-columns['popular_hashtags']=( 'hash_date', 'hashtag_count', 'hashtag' ) 
+# columns['popular_hashtags']=( 'hash_date', 'hashtag_count', 'hashtag' ) 
+
 statements={}
 for table in columns.keys():
 	cols=columns[table]
