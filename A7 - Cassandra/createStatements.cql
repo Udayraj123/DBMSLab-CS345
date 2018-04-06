@@ -46,7 +46,7 @@ AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 CREATE TABLE twitterdb.tweets_by_author (
 	author text,
 	author_id bigint, -- fixed for a user
-	author_screen_name text, --changable by user 
+	author_screen_name text, --changable by user, fyi
 	lang text,
 	location text,
 	tid bigint, --128 bit integer
@@ -71,31 +71,19 @@ CREATE TABLE twitterdb.tweets_by_author (
 	type text,
 	url_list list<text>,
 	verified boolean,
-	primary key( author_id, tweet_date, tweet_datetime, tid )-- tid ensures uniqueness 
-) WITH comment='Contains tweets partitioned by an author_id, used for queries of type 1'
-AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
-
--- There is no foreign key constraint in NoSQL, but still one can fetch them
-CREATE TABLE twitterdb.tids_by_author (
-	author text,
-	author_id bigint, -- fixed for a user
-	author_screen_name text, --changable by user 
-	tid bigint, --128 bit integer
-	tweet_date TIMESTAMP,
-	tweet_datetime TIMESTAMP,
-	primary key( author_id, tweet_date, tweet_datetime, tid) -- tid ensures uniqueness
-) WITH comment='Contains tids partitioned by an author_id, used for queries of type 1'
+	primary key( author_screen_name, tweet_date, tweet_datetime, tid )-- tid ensures uniqueness 
+) WITH comment='Contains tweets partitioned by an author_screen_name, used for queries of type 1'
 AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 
 
-CREATE TABLE twitterdb.tids_by_date (
-	tweet_date TIMESTAMP,
-	tweet_datetime TIMESTAMP,
+-- Multiple Inserts per tweet maybe required
+CREATE TABLE twitterdb.tids_by_keyword (
+	keyword text,
+	like_count bigint,
 	tid bigint, --128 bit integer
-	primary key( tweet_date, tweet_datetime, tid) -- tid ensures uniqueness
-) WITH comment='Contains tweets partitioned by dates, used for queries of type 2 and 5'
--- Using special characters like & or \' is not allowed in comments
-AND CLUSTERING ORDER BY (tweet_datetime DESC,tid DESC);
+	primary key( keyword, like_count, tid ) -- tid ensures uniqueness
+) WITH comment='Contains an entry for each keyword processed from a tweet, used for queries of type 2'
+AND CLUSTERING ORDER BY (like_count DESC, tid DESC);
 
 -- Multiple Inserts per tweet maybe required
 CREATE TABLE twitterdb.tids_by_hashtag (
@@ -117,6 +105,16 @@ CREATE TABLE twitterdb.tids_by_mention (
 ) WITH comment='Contains tweets partitioned by mentioned author, used for queries of type 4'
 AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 
+-- One insert per tweet
+CREATE TABLE twitterdb.tids_by_date (
+	tweet_date TIMESTAMP,
+	tweet_datetime TIMESTAMP,
+	like_count bigint,
+	tid bigint, --128 bit integer
+	primary key( tweet_date, like_count, tweet_datetime, tid) -- tid ensures uniqueness
+) WITH comment='Contains tweets partitioned by dates, used for queries of type 5'
+AND CLUSTERING ORDER BY (like_count DESC, tweet_datetime DESC,tid DESC);
+
 -- Multiple Inserts per tweet maybe required
 -- and Non-nulls shouldn't be inserted
 CREATE TABLE twitterdb.tids_by_location (
@@ -130,7 +128,13 @@ AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 
 
 
--- Indexing is required before using the CONTAINS keyword
+-- Proper Indexing is required before using the CONTAINS or LIKE or '=' on strings
+-- PRIMARY KEYS are already indexed (supports '='), but not properly(like or contains)
+-- CREATE CUSTOM INDEX location_search_en ON tids_by_location (location) 
+-- USING 'org.apache.cassandra.index.sasi.SASIIndex'
+-- WITH OPTIONS = {'analyzer_class': 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer', 
+-- 				'case_sensitive': 'false'};
+-- CREATE INDEX location_search_en ON tids_by_location(location);
 -- CREATE INDEX hashtags_search_en ON tweets_by_date(hashtags);
 -- CREATE INDEX mentions_search_en ON tweets_by_date(mentions);
 
@@ -145,12 +149,11 @@ AND CLUSTERING ORDER BY (tweet_date DESC, tweet_datetime DESC);
 -- http://grokbase.com/t/cassandra/user/13a2mrms0q/issue-with-source-command-and-utf8-file
 
 -- Multiple Inserts per tweet maybe required
-CREATE TABLE twitterdb.hashtag_counter (
-	-- Keeps daily count so that any range of days can be queried
-	hash_week TIMESTAMP, -- Reduces to max 2 nodes from max 7.
+CREATE TABLE twitterdb.popular_hashtags (
+	-- Keeps pre-calculated 7 day counts for all (or top N) hashtags that are used in the duration
 	hash_date TIMESTAMP,
 	hashtag text,
 	hashtag_count bigint,
-	primary key( hash_week, hash_date, hashtag)
-) WITH comment='Contains tweets partitioned by an location, used for queries of type 6'
-AND CLUSTERING ORDER BY (hash_date DESC, hashtag ASC);
+	primary key( hash_date, hashtag_count, hashtag)
+) WITH comment='Contains popular hashtags partitioned by a date, used for queries of type 7'
+AND CLUSTERING ORDER BY (hashtag_count DESC,hash_date DESC);
