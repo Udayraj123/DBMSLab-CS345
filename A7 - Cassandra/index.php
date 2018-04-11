@@ -1,56 +1,64 @@
-<?php
-function fetchArray($inFile){
-	if(is_file($inFile)){
-		return include $inFile;
+<div align="center">
+	<?php
+	function fetchArray($inFile){
+		$all_cols=['author', 'author_id', 'author_profile_image', 'author_screen_name', 'hashtags', 'keywords_processed_list', 'lang', 'like_count', 'location', 'media_list', 'mentions', 'quote_count', 'quoted_source_id', 'reply_count', 'replyto_source_id', 'retweet_count', 'retweet_source_id', 'sentiment', 'tid', 'tweet_text', 'tweet_date', 'tweet_datetime', 'type', 'url_list', 'verified' ];
+		$normal_cols_str='author_screen_name,author,tid,tweet_text,location,lang,tweet_datetime';
+		$cols1='hashtag,location,location_count';
+		$cols2='hashtag,mention,count(*) as pair_count';
+		return array(
+			'query01'=> "select $cols1 from twitterdb.locations_by_hashtag where hashtag = ?",
+			'query02'=> "select $cols2 from twitterdb.hashtag_mentions where tweet_date = ? group by hashtag,mention",
+			);
+	// if(is_file($inFile)){
+	// 	return include $inFile;
+	// }
+	// else return False;
 	}
-	else return False;
-}
 
-function printRow($row,$header=0){
-	echo "<tr>";
-	if($header==1){
-		foreach ($row as $k=>$r)
-			echo "<th> $k </th>";
+	function printRow($row,$header=0){
+		echo "<tr>";
+		if($header==1){
+			foreach ($row as $k=>$r)
+				echo "<th> $k </th>";
+		}
+		else{
+			foreach ($row as $k=>$r)
+				echo "<td> $r </td>";
+		}
+		echo "</tr>";
 	}
-	else{
-		foreach ($row as $k=>$r)
-			echo "<td> $r </td>";
-	}
-	echo "</tr>";
-}
 // Printing stuff
-function printResult($result){
-	echo "<table border=\"1\">";
-	printRow($result[0],1);
-	foreach ($result as $row)
-		printRow($row,0);
-	echo "</table>";
-}
+	function printResult($result){
+		echo "<table border=\"1\">";
+		printRow($result[0],1);
+		foreach ($result as $row)
+			printRow($row,0);
+		echo "</table>";
+	}
 
-?>
-<form action="" method="post">
-	
-	<label> Your input query text: <input type="text" name="query" required value="kwall337"></label>
-	<br>
-	<br>
-	<label> <input type="radio" name="type" required value="query0"> Query 0</label>
-	<!-- <label> <input type="radio" name="type" required value="query1" checked="checked"> Query 1</label> -->
-	<label> <input type="radio" name="type" required value="query1"> Query 1</label>
-	<label> <input type="radio" name="type" required value="query2"> Query 2</label>
-	<label> <input type="radio" name="type" required value="query3"> Query 3</label>
-	<label> <input type="radio" name="type" required value="query4"> Query 4</label>
-	<label> <input type="radio" name="type" required value="query5"> Query 5</label>
-	<label> <input type="radio" name="type" required value="query6"> Query 6</label>
-	<label> <input type="radio" name="type" required value="query7"> Query 7</label>
-	<label> <input type="radio" name="type" required value="query8"> Query 8</label>
-	<br>
-	<br>
-	<input type="submit" value="Submit">
-</form>
+	?>
+	<script type="text/javascript">
+		function setVal(text){
+			document.getElementById('inp').value=text;
+		}
+	</script>
+	<form action="" method="post">
+		
+		<label> Your input query text: <input id="inp" type="text" name="query" required placeholder="Your query here.."></label>
+		<br>
+		<br>
+		<!-- <label> <input type="radio" name="type" required value="query1" checked="checked"> Query 1</label> -->
+		<label> <input type="radio" name="type" required onclick="setVal('BoxingDay')" value="query01"> Query 1</label>
+		<label> <input type="radio" name="type" required  onclick="setVal('2018-01-15')" value="query02"> Query 2</label>
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
 
+	<hr>
+	<hr>
 
-
-<?php
+	<?php
 /*
 By default, Cassandra uses 7000 for cluster communication (7001 if SSL is enabled), 9042 for native protocol clients, and 7199 for JMX. The internode communication and native protocol ports are configurable in the Cassandra Configuration File. The JMX port is configurable in cassandra-env.sh (through JVM options). All ports are TCP.
 */
@@ -93,3 +101,4 @@ if(isset($_POST['query'])){
 	echo "<pre>(Connection closed...)</pre>";
 }
 ?>
+</div>

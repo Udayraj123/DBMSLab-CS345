@@ -1,4 +1,26 @@
 TODO:
+> Make for Current questions
+> change tables to load whole tweets
+> load full data	
+
+frequent locations with an hashtag _/
+Hashtag - loc - countLocForHash
+^count in pandas...
+
+Find ALL hashtag-mention pairs of all the tweets in Given date
+Date - h-m - pair_count
+^count in pandas...
+
+
+Think^Calculation has to be in python program any way, why not do it after loading the lists!
+
+Extras: 
+> Counters, 
+> Likes -> Add case insensitive
+
+> Hash prefixes?
+
+Later-
 > resolve query 5
 >   make popular_hashtags workable
 	algo: (assumption(true)-files are consecutive in dates)
@@ -7,11 +29,10 @@ TODO:
 	now in that df, move a N-wide sliding window on columns
 	>Then store the day, (top 20) hashtags, count entries (113 * 200K+)
 
-> change tables to load whole tweets
-> load full data	
 
 
-Extras: 
-> Counters, 
-> Likes
-> Hash prefixes?
+-- TODO if time-
+-- Possible visualizations: 
+-- Distribution of column values:
+--	 To justify the choice of partition keys in each table.
+--	 To justify the non-choice of combined-with-date partition keys
