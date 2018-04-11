@@ -1,19 +1,18 @@
-
 #### Install the dependencies
 ```bash
 sudo -E apt-get install php7.1-dev libgmp-dev libpcre3-dev g++ make cmake libssl-dev openssl
 ```
 
-#### Add Cassandra Keys
+#### Add Repos/Keys and Update
 ```bash
 echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list 
 curl https://www.apache.org/dist/cassandra/KEYS | sudo -E apt-key add -
+sudo -E add-apt-repository ppa:webupd8team/java
+sudo -E apt-get update 
 ```
 
 #### Install Java
 ```bash
-sudo -E add-apt-repository ppa:webupd8team/java
-sudo -E apt-get update 
 sudo -E apt-get install oracle-java8-set-default
 ```
 
@@ -22,9 +21,9 @@ sudo -E apt-get install oracle-java8-set-default
 sudo -E apt-get install cassandra
 ```
 
-#### add CASSANDRA_HOME env variable (put this in /etc/bash.bashrc)
+#### add CASSANDRA_HOME env variable (put this line in /etc/bash.bashrc)
 ```bash
-export CASSANDRA_HOME="/usr/share/cassandra";
+export CASSANDRA_HOME="/var/lib/cassandra";
 ```
 
 #### If JAVA_HOME is not set (usually it's set automatically after installation), you can set it as-
@@ -34,7 +33,7 @@ export JAVA_HOME="/usr/lib/jvm/java-8-oracle";
 
 #### Test everything is working till now
 ```bash
-# Check Java is running and accessible
+# Check Java is installed and accessible
 java -version
 
 # Check Cassandra service is running
@@ -43,8 +42,6 @@ sudo service cassandra status
 # Check Nodetool status: UN means it's Up and Normal:
 sudo nodetool status
 
-# Check cassandra connection and version
-cqlsh
 ```
 
 #### Configure Cassandra (conf is found in /etc/cassandra/ when installed using apt-get, else in the zip if you've extracted from 
@@ -52,23 +49,27 @@ cqlsh
 sudo subl /etc/cassandra/cassandra.yaml
 ```
 
-#### give permissions to data directory change
+#### Give permissions to data directory before starting cassandra
 ```bash
-sudo chown -R cassandra:cassandra /var/lib/cassandra```
+sudo chown -R cassandra:cassandra /var/lib/cassandra
+# And if you've configured using ~/cassandra as data directory, give permission to it
+# sudo chown -R cassandra:cassandra ~/cassandra
 
-#### If you've configured using ~/cassandra as data directory 
-```bash
-sudo chown -R cassandra:cassandra ~/cassandra
 ```
-
-#### Now in a new shell/tab you can start the cassandra server in foreground mode
+#### Now in a new tab(Ctrl+Shift+T) you can start the cassandra server in foreground mode
 ```bash
 sudo -u cassandra cassandra -f
 ```
 
-#### Python driver
+#### In another tab check connection
 ```bash
-sudo -E -H pip  install cassandra-driver
+# Check cassandra connection and version
+cqlsh --color --debug
+```
+
+#### Python driver (use pip instead of pip3 if using python2)
+```bash
+sudo -E -H pip3  install cassandra-driver
 ```
 
 #### CPP and PHP DRIVER INSTALLATION (note: php driver needs cpp driver)
