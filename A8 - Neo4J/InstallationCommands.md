@@ -6,7 +6,7 @@ Following is referred mainly from https://neo4j.com/docs/operations-manual/curre
 For debian installations
 
 #### Add Repos/Keys and Update
-```bash
+```console
 wget -O - https://debian.neo4j.org/neotechnology.gpg.key | sudo apt-key add -
 echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee /etc/apt/sources.list.d/neo4j.list
 sudo -E add-apt-repository ppa:webupd8team/java
@@ -57,8 +57,7 @@ sudo service neo4j status
 >    Loaded: loaded (/lib/systemd/system/neo4j.service; disabled; vendor preset: enabled)
 >    Active: inactive (dead)
 
-We can start the service just by `sudo -u neo4j neo4j start`, but before that we need to give it some permissions so that it runs smoothly.
-
+We can start the service now, but before that we need to give it some permissions so that it runs smoothly.
 
 #### Give permissions to data directory
 ```bash
@@ -70,7 +69,33 @@ sudo chown -R neo4j:neo4j /var/run/neo4j
 sudo chown -R neo4j:neo4j /var/log/neo4j
 
 ```
-#### Increase maximum open files limit*
+
+#### Starting Neo4j
+```bash
+# May take about 10 seconds to start sometimes-
+sudo -u neo4j neo4j start
+# Command to check the log 
+journalctl -e -u neo4j
+```
+It also starts Web Interface. Now you can access the neo4j web server at http://localhost:7474/. All the basics you need to know are present here. It has an awesome interactive coding tutorial under Jump into code section, do check it out after going thru the intro. 
+
+#### Hello World on Cypher!
+```bash
+# Initial username is neo4j and password is neo4j.
+cypher-shell -u neo4j -p neo4j
+# Inside the shell, create your first node in Neo4j's database
+CREATE (m:Movie { title:"The Matrix",released:1997 }) RETURN m;
+```
+> +------------------------------------------------+
+ | m                                              |
+ +------------------------------------------------+
+ | (:Movie {title: "The Matrix", released: 1997}) |
+ +------------------------------------------------+ 
+> 1 row available after 55 ms, consumed after another 3 ms
+> Added 1 nodes, Set 2 properties, Added 1 labels
+
+
+#### Increasing maximum open files limit*
 * yet to make it work...
 
 For neo4j user only so that other functionalities of your PC are not affected.
@@ -91,32 +116,6 @@ session    required   pam_limits.so
 # A restart is required for the settings to take effect.
 sudo shutdown -r +0
 ```
-
-#### Hello World!
-```bash
-# Initial username is neo4j and password is neo4j.
-cypher-shell -u neo4j -p neo4j
-# Inside the shell, create your first node in Neo4j's database
-CREATE (m:Movie { title:"The Matrix",released:1997 }) RETURN m;
-```
-> +------------------------------------------------+
- | m                                              |
- +------------------------------------------------+
- | (:Movie {title: "The Matrix", released: 1997}) |
- +------------------------------------------------+ 
-> 1 row available after 55 ms, consumed after another 3 ms
-> Added 1 nodes, Set 2 properties, Added 1 labels
-
-
-#### Starting Neo4j
-```bash
-# May take about 10 seconds to start sometimes-
-sudo -u neo4j neo4j start
-# Command to check the log 
-journalctl -e -u neo4j
-```
-It also starts Web Interface. Now you can access the neo4j web server at http://localhost:7474/. All the basics you need to know are present here. It has an awesome interactive coding tutorial under Jump into code section, do check it out after going thru the intro. 
-
 
 #### Neo4j server in foreground mode
 Type this in a new tab(Ctrl+Shift+T) 
@@ -160,7 +159,7 @@ subl helloNeo4j.py
 and change the username and password to your credentials.
 Then you can run -
 ```bash
-python helloNeo4j.py 
+python3 helloNeo4j.py 
 ```
 > Hello World, from node 61
 
@@ -196,8 +195,10 @@ python helloNeo4j.py
 
 #### Changing password
 It can be changed via the browser interface when you login for the first time( default username is neo4j and password is neo4j.)
-Just for its coolness, you may use `xdg-open http://localhost:7474/` to open the link in default browser via terminal.
-
+Just for its coolness, you may use following command to open the link in default browser via terminal.
+```bash
+xdg-open http://localhost:7474/
+```
 OR you can follow the shell method-
 ```bash
 # It can be changed as below
@@ -209,13 +210,13 @@ Here if you get the error:
 Refer here : https://stackoverflow.com/questions/47530154/neo4j-command-failed-initial-password-was-not-set-because-live-neo4j-users-wer?rq=1
 
 #### Further 
-You can add aliases (replace mypassword with yours)-
-```bash
-alias startneo4j="sudo -u neo4j neo4j status && sudo -u neo4j neo4j console";
-alias checkneo4j="sudo service neo4j status && sudo -u neo4j neo4j status";
-
-# replace mypassword with yours
-alias cypher-login="cypher-shell --debug -u neo4j -p mypassword";
-```
-Sublime text 2 package-
-https://github.com/kollhof/sublime-cypher
+1. You can add aliases (replace mypassword with yours)-
+	```bash
+	alias startneo4j="sudo -u neo4j neo4j status && sudo -u neo4j neo4j console";
+	alias checkneo4j="sudo service neo4j status && sudo -u neo4j neo4j status";
+	
+	# replace mypassword with yours
+	alias cypher-login="cypher-shell --debug -u neo4j -p mypassword";
+	```
+2. Sublime text 2 package-
+	https://github.com/kollhof/sublime-cypher
