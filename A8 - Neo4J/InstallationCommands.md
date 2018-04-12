@@ -1,12 +1,13 @@
 #### Install the (common) dependencies
+Use `python` for python2 -
 ```bash
-sudo -E apt-get install php7.1-dev libgmp-dev libpcre3-dev g++ make cmake libssl-dev openssl
+sudo -E apt-get install python3 python3-pip  php7.1-dev libgmp-dev libpcre3-dev g++ make cmake libssl-dev openssl
 ```
 Following is referred mainly from https://neo4j.com/docs/operations-manual/current/installation/
 For debian installations
 
 #### Add Repos/Keys and Update
-```console
+```bash
 wget -O - https://debian.neo4j.org/neotechnology.gpg.key | sudo apt-key add -
 echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee /etc/apt/sources.list.d/neo4j.list
 sudo -E add-apt-repository ppa:webupd8team/java
@@ -53,9 +54,12 @@ Also,
 ```bash
 sudo service neo4j status
 ```
-> ● neo4j.service - Neo4j Graph Database
->    Loaded: loaded (/lib/systemd/system/neo4j.service; disabled; vendor preset: enabled)
->    Active: inactive (dead)
+```console
+ $
+ ● neo4j.service - Neo4j Graph Database
+    Loaded: loaded (/lib/systemd/system/neo4j.service; disabled; vendor preset: enabled)
+    Active: inactive (dead)
+```
 
 We can start the service now, but before that we need to give it some permissions so that it runs smoothly.
 
