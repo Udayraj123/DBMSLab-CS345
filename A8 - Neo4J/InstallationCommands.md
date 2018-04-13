@@ -45,25 +45,28 @@ java -version
 neo4j version
 cypher-shell -v
 
-# Check neo4j service current status (would be currently inactive)
+# Check neo4j service current status (may be currently inactive)
 sudo -u neo4j neo4j status
 ```
 > Neo4j is not running
 
-Also,
+Also, service status: 
 ```bash
 sudo service neo4j status
+# Alter: sudo systemctl status neo4j
 ```
 ```console
- $
  ● neo4j.service - Neo4j Graph Database
     Loaded: loaded (/lib/systemd/system/neo4j.service; disabled; vendor preset: enabled)
     Active: inactive (dead)
 ```
+^It can be active already in some cases. If it is so, turn it off so that we can do some additional changes below.
+```bash
+sudo systemctl stop neo4j
+```
+We need to give it some permissions before starting it so that it runs smoothly.
 
-We can start the service now, but before that we need to give it some permissions so that it runs smoothly.
-
-#### Give permissions to data directory
+#### Give permissions to neo4j's directories
 ```bash
 # Create /var/run/neo4j if not exists
 sudo test -d /var/run/neo4j || (sudo mkdir /var/run/neo4j && echo Directory created.)
@@ -74,29 +77,36 @@ sudo chown -R neo4j:neo4j /var/log/neo4j
 
 ```
 
-#### Starting Neo4j
+#### Starting/Stopping Neo4j
 ```bash
+# Stop existing runs
+sudo systemctl stop neo4j
 # May take about 10 seconds to start sometimes-
 sudo -u neo4j neo4j start
 # Command to check the log 
 journalctl -e -u neo4j
 ```
-It also starts Web Interface. Now you can access the neo4j web server at http://localhost:7474/. All the basics you need to know are present here. It has an awesome interactive coding tutorial under Jump into code section, do check it out after going thru the intro. 
+It starts the server for browser interface at http://localhost:7474/. 
+You can login there with Initial *username neo4j and password also neo4j*.
+All the basics you need to know are present here. It also has an awesome interactive coding tutorial under Jump into code section, do check it out after going thru the intro. 
+It also starts neo4j server at bolt://localhost:7687 to which we can connect with drivers later.
 
 #### Hello World on Cypher!
+Once you've set the password above, you can login to cypher-shell with write privileges.
 ```bash
-# Initial username is neo4j and password is neo4j.
-cypher-shell -u neo4j -p neo4j
+cypher-shell -u neo4j -p yourpassword
 # Inside the shell, create your first node in Neo4j's database
 CREATE (m:Movie { title:"The Matrix",released:1997 }) RETURN m;
 ```
-> +------------------------------------------------+
+```console
+ +------------------------------------------------+
  | m                                              |
  +------------------------------------------------+
  | (:Movie {title: "The Matrix", released: 1997}) |
  +------------------------------------------------+ 
-> 1 row available after 55 ms, consumed after another 3 ms
-> Added 1 nodes, Set 2 properties, Added 1 labels
+ 1 row available after 55 ms, consumed after another 3 ms
+ Added 1 nodes, Set 2 properties, Added 1 labels
+```
 
 
 #### Increasing maximum open files limit*
@@ -138,12 +148,15 @@ This command also starts the neo4j web server.
 
 # start/restart service
 sudo systemctl restart neo4j
-sudo service neo4j status
+sudo systemctl status neo4j
+# Alternative: sudo service neo4j status
 ```
-> ● neo4j.service - Neo4j Graph Database
->    Loaded: loaded (/lib/systemd/system/neo4j.service; disabled; vendor preset: enabled)
->    Active: active (running) since Wed 2018-04-11 17:38:30 IST; 31min ago
+```console
+ ● neo4j.service - Neo4j Graph Database
+    Loaded: loaded (/lib/systemd/system/neo4j.service; disabled; vendor preset: enabled)
+    Active: active (running) since Wed 2018-04-11 17:38:30 IST; 31min ago
 
+```
 ```bash
 sudo -u neo4j neo4j status
 ```
@@ -165,7 +178,9 @@ Then you can run -
 ```bash
 python3 helloNeo4j.py 
 ```
-> Hello World, from node 61
+```console
+ Hello World, from node 61
+```
 
 
 #### Common errors
@@ -206,7 +221,7 @@ xdg-open http://localhost:7474/
 OR you can follow the shell method-
 ```bash
 # It can be changed as below
-neo4j-admin set-initial-password mypassword
+neo4j-admin set-initial-password yourpassword
 ```
 Here if you get the error:
 > command failed: initial password was not set because live Neo4j-users were detected.
@@ -214,13 +229,24 @@ Here if you get the error:
 Refer here : https://stackoverflow.com/questions/47530154/neo4j-command-failed-initial-password-was-not-set-because-live-neo4j-users-wer?rq=1
 
 #### Further 
-1. You can add aliases (replace mypassword with yours)-
+1. You can add aliases-
 	```bash
 	alias startneo4j="sudo -u neo4j neo4j status && sudo -u neo4j neo4j console";
 	alias checkneo4j="sudo service neo4j status && sudo -u neo4j neo4j status";
 	
-	# replace mypassword with yours
-	alias cypher-login="cypher-shell --debug -u neo4j -p mypassword";
+	alias cypher-login="cypher-shell --debug -u neo4j -p yourpassword";
 	```
 2. Sublime text 2 package-
 	https://github.com/kollhof/sublime-cypher
+
+3. Some FAQ
+	Taken from https://neo4j.com/blog/recap-intro-to-graph-databases-webinar-series-1/
+    The neo is from Neo Technology, What does the 4j in neo4j stand for? -Anonymous
+	> “For Java”. As Neo4j is written in Java and provides a native API for the JVM. Other languages can access Neo4j Databases via a RESTful server protocol. 
+    How does CAP theorem apply to neo4j? -MK
+	> Neo4j is not partition tolerant. Automatic, domain agnostic graph sharding is still a problem that we have to solve to scale out
+
+    Is the traversal asynchronous? -NV
+	> Right now traversals are synchronous. And so far they were fast enough. But we’ve been thinking about providing parallel traversals.
+
+	> "There are no nulls in the nodes. If a value for some attribute is to be NULL, that attribute just won't be present in that node"

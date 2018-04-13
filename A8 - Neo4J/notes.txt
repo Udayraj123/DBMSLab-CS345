@@ -1,0 +1,142 @@
+## Sample:
+{
+"1234933135074013185" : {
+"url_list": ["https://t.co/ZUSgXoAYfw"],
+"hashtags": ["Islam", ],
+"mentions": ["GottaLaff"],
+"keywords_processed_list": ["tomorrow", ],
+"media_list": {
+"0": {
+"media_id": "933805064405135361", 
+"media_type": "photo", 
+"display_url": "pic.twitter.com/Rc1O380xXZ", 
+"media_url": "https://pbs.twimg.com/media/DPWKwjFUMAESeSH.jpg"
+},
+}, 
+"tid": "1234933135074013185", 
+"quoted_source_id": "933892903818194945", 
+"retweet_source_id": "934930336756015106", 
+"replyto_source_id": "934932163069440001",
+"author_id": "4893575203", 
+"author_screen_name": "emunoz8_munoz", 
+"lang": "en", 
+"author": "#MicDropRemix by BTS — 🌙🌟", 
+"location": "Arizona, USA", 
+"type": "retweet", 
+"tweet_text": "RT @GottaLaff: Tomorrow, tomorrow https://t.co/ZUSgXoAYfw", 
+"author_profile_image": "https://pbs.twimg.com/profile_images/813593251458510848/pjaAJh75_normal.jpg", 
+"quote_count": 0, 
+"reply_count": 0, 
+"like_count": 0, 
+"sentiment": 1, 
+"retweet_count": 0, 
+"date": "2017-11-26", 
+"datetime": "2017-11-26 23:53:24", 
+"verified": "False" 
+},
+
+
+^Neo4J won't have repetitions like cassandra. So you shall separate the chunked data into multiple nodes.
+
+
+## Node types- 
+Author:
+author_id
+author
+author_screen_name
+author_profile_image
+
+Tweet:
+tid
+type
+tweet_text
+location
+"quote_count": 0, 
+"reply_count": 0, 
+"like_count": 0, 
+"sentiment": 1, 
+"retweet_count": 0, 
+"date": "2017-11-26", 
+"datetime": "2017-11-26 23:53:24", 
+"verified": "False" 
+
+Media:
+"media_id": "933805064405135361", 
+"media_type": "photo", 
+"display_url": "pic.twitter.com/Rc1O380xXZ", 
+"media_url": "https://pbs.twimg.com/media/DPWKwjFUMAESeSH.jpg"
+
+Url:
+url
+
+Keyword:
+keyword
+
+Location:
+location
+
+Hashtag:
+hashtag
+
+
+"""
+## Possible relations in our data:
+Author-[:WROTE]->Tweet
+Author-[:MENTIONED]->Author
+
+Tweet-[:AT]->Location
+Tweet-[:HAS_KEYWORD]->Keyword
+Tweet-[:HAS_URL]->Url
+Tweet-[:HAS_HASHTAG]->Hashtag
+Tweet-[:HAS_MEDIA]->Media
+Tweet-[:QUOTED]->Tweet
+Tweet-[:RETWEET_OF]->Tweet
+Tweet-[:REPLY_TO]->Tweet
+"""
+
+Method used:
+Create Relational tables, put em into csv, import using neo4j-import
+https://neo4j.com/blog/import-10m-stack-overflow-questions/
+https://neo4j.com/docs/operations-manual/current/tools/import/file-header-format/
+	Use one of int, long, float, double, boolean, byte, short, char, string to designate the data type for properties. If no data type is given, this defaults to string.
+
+Constraints-
+The _ids are unique.
+The _counts are indexable
+
+Consistency checks-
+each tweet has unique tuple (author_id, author ,author_screen_name ,author_profile_image)
+and (media_id, media_type, display_url, media_url)
+
+
+
+# Cypher
+Clauses are chained together, and they feed intermediate result sets between each other. For example, the matching variables from one MATCH clause will be the context that the next clause exists in.
+
+In an updating query, the semantics are that all the reading will be done before any writing actually happens. 
+
+To increase modularity and reduce repetition, Cypher allows patterns to be assigned to variables. This allows the matching paths to be inspected, used in other expressions, and more.
+
+	MATCH cast = (:Person)-[:ACTED_IN]->(:Movie) RETURN cast;
+
+Deleting node and all its relations- 
+	MATCH (me:Person {name:"My Name"})
+	OPTIONAL MATCH (me)-[r]-()
+DELETE me,r
+
+As this is a frequent task, DETACH DELETE was added to Cypher, which deletes a node with all its relationships.
+
+
+MATCH path = allShortestPaths((u:User {name:"Darin Dimitrov"})-[*]-(me:User {name:"Michael Hunger"})) RETURN path;
+
+"Friend of Friend is myself?"
+> In this query, Cypher makes sure to not return matches where the pattern relationships r1 and r2 point to the same graph relationship. 
+	MATCH (user:User { name: 'Adam' })-[r1:FRIEND]-()-[r2:FRIEND]-(friend_of_a_friend) 
+	RETURN friend_of_a_friend.name AS fofName
+> If the query should return the user, it is possible to spread the matching over multiple MATCH clauses, like so:
+	MATCH (user:User { name: 'Adam' })-[r1:FRIEND]-(friend)
+	MATCH (friend)-[r2:FRIEND]-(friend_of_a_friend)
+	RETURN friend_of_a_friend.name AS fofName
+
+Before running our query to connect movies and countries we’ll create an index for the name property on the Country label to ensure the query runs as fast as it can:
+CREATE INDEX ON :Country(name)

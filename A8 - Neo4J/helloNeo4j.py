@@ -26,3 +26,4 @@ class HelloWorldExample(object):
 
 h = HelloWorldExample("bolt://127.0.0.1:7687",username,password)
 h.print_greeting("Hello World")
+h.close()
