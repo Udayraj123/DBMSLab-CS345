@@ -1,0 +1,1654 @@
+[
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Mention",
+          "Shadow"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51939,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32945,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32945,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:09",
+          "verified": true,
+          "lang": "fr",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Joyeux Anniversaire (French) @justinbieber #HappyBirthdayJustinBieber #JB24 https://t.co/kH232KgdAy",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1709948926,
+            "high": 225612670
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51937,
+          "high": 0
+        },
+        "start": {
+          "low": 32945,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51942,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32947,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32947,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 1,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:10",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "In honor of @justinbieber birthday, comment your favorite picture of him with the hashtag #HappyBirthdayJustinBieber",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1936281600,
+            "high": 225612671
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51941,
+          "high": 0
+        },
+        "start": {
+          "low": 32947,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51968,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32964,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32964,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:25",
+          "verified": true,
+          "lang": "es",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Y después de tanto seguiré apoyando a lo más precioso de mi vida @justinbieber #HappyBirthdayJustinBieber https://t.co/JQEJ599ug8",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 2002124800,
+            "high": 225612686
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51967,
+          "high": 0
+        },
+        "start": {
+          "low": 32964,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51954,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32956,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32956,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:18",
+          "verified": true,
+          "lang": "pt",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "@justinbieber #HappyBirthdayJustinBieber bro 😭😭😭😭😭😭 im so emoooo",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -2053881856,
+            "high": 225612679
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51953,
+          "high": 0
+        },
+        "start": {
+          "low": 32956,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51883,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32911,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32911,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:58:49",
+          "verified": true,
+          "lang": "tl",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Birthday na naman ni @justinbieber ang bilis mo tumanda uy wait moko HAHAHAHAHAHAHHAHAHA\n#HappyBirthdayJustinBieber",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 1406525440,
+            "high": 225612651
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51882,
+          "high": 0
+        },
+        "start": {
+          "low": 32911,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51972,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32967,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32967,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 1,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:27",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Happy magical birthday to the most person I luv 🖤🖤🖤🖤🌈\n@justinbieber \n#HappyBirthdayJustinBieber https://t.co/zn8Dvbye2b",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 1712836608,
+            "high": 225612688
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51971,
+          "high": 0
+        },
+        "start": {
+          "low": 32967,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51987,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32977,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32977,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:33",
+          "verified": true,
+          "lang": "pt",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "#HappyBirthdayJustinBieber #JFCJustinBieber @justinbieber o mundo pode estra caindo pra mim, mas eu só quero que vo… https://t.co/EzQSJJ6eBi",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 1377259521,
+            "high": 225612694
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51985,
+          "high": 0
+        },
+        "start": {
+          "low": 32977,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 52081,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 33036,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 33036,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-03-01",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-03-01 23:59:38",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "@justinbieber I LOVE YOU #HappyBirthdayJustinBieber",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1797877760,
+            "high": 225697073
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 52080,
+          "high": 0
+        },
+        "start": {
+          "low": 33036,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 52041,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 33008,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 33008,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:59:49",
+          "verified": true,
+          "lang": "de",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Alles Gute zum Geburtstag (German) @justinbieber #HappyBirthdayJustinBieber #JB24 https://t.co/xHfN1Mou7h",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 13905920,
+            "high": 225612710
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 52039,
+          "high": 0
+        },
+        "start": {
+          "low": 33008,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51761,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32840,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32840,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:56:57",
+          "verified": true,
+          "lang": "pt",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Justin está prestes a fazer 24 anos e essas garotas achando que to pensando nelas KKKKKKKKK @justinbieber  #HappyBirthdayJustinBieber",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1592299520,
+            "high": 225612541
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51760,
+          "high": 0
+        },
+        "start": {
+          "low": 32840,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51839,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32890,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32890,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:58:16",
+          "verified": true,
+          "lang": "es",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Justin tiene la sonrisa más bonita de todo el universo @justinbieber \n#HappyBirthdayJustinBieber https://t.co/hMsU0VotvT",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 1,
+            "high": 0
+          },
+          "tid": {
+            "low": 1628762112,
+            "high": 225612619
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51838,
+          "high": 0
+        },
+        "start": {
+          "low": 32890,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51784,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32857,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32857,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:57:09",
+          "verified": true,
+          "lang": "in",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Suk San Wan Keut (Thai) @justinbieber #HappyBirthdayJustinBieber #JB24 https://t.co/CIjOnmlbwG",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1454030848,
+            "high": 225612553
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51782,
+          "high": 0
+        },
+        "start": {
+          "low": 32857,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51897,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32917,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32917,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:58:57",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Haapppyyy birthday justinnnnn 💕😍🎶 #HappyBirthdayJustinBieber  @justinbieber https://t.co/HAvRCeE509",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 1993617408,
+            "high": 225612659
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51896,
+          "high": 0
+        },
+        "start": {
+          "low": 32917,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "m",
+      "mt",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32842,
+          "high": 0
+        },
+        "labels": [
+          "Shadow",
+          "Mention"
+        ],
+        "properties": {
+          "mention": "justinbieber"
+        }
+      },
+      {
+        "identity": {
+          "low": 51902,
+          "high": 0
+        },
+        "start": {
+          "low": 32842,
+          "high": 0
+        },
+        "end": {
+          "low": 32921,
+          "high": 0
+        },
+        "type": "MENTIONED_IN",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32921,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-28 23:58:59",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "DAMN 😩 @justinbieber\n\n#HappyBirthdayJustinBieber https://t.co/7nikiV8TWz",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 1653997569,
+            "high": 225612661
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51901,
+          "high": 0
+        },
+        "start": {
+          "low": 32921,
+          "high": 0
+        },
+        "end": {
+          "low": 32826,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32826,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "HappyBirthdayJustinBieber"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "m": 0,
+      "mt": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  }
+]

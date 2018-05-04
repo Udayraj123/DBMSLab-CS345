@@ -1,0 +1,177 @@
+[
+  {
+    "keys": [
+      "Hashtag",
+      "User",
+      "tweet_ids",
+      "tweetCount"
+    ],
+    "length": 4,
+    "_fields": [
+      "MondayMotivation",
+      "nickystevo",
+      [
+        {
+          "low": 64241664,
+          "high": 219530394
+        },
+        {
+          "low": -799686656,
+          "high": 221900122
+        },
+        {
+          "low": 1750458368,
+          "high": 222146169
+        },
+        {
+          "low": 2002075649,
+          "high": 222145828
+        },
+        {
+          "low": -1206583296,
+          "high": 222068787
+        },
+        {
+          "low": -1395269632,
+          "high": 222152783
+        },
+        {
+          "low": -1638596608,
+          "high": 222152998
+        },
+        {
+          "low": -1332396032,
+          "high": 222152140
+        },
+        {
+          "low": 1414873089,
+          "high": 220711624
+        },
+        {
+          "low": -1709850624,
+          "high": 220715141
+        },
+        {
+          "low": 93700096,
+          "high": 220714039
+        },
+        {
+          "low": -1894510592,
+          "high": 220714348
+        },
+        {
+          "low": -724299776,
+          "high": 220713941
+        },
+        {
+          "low": 806739969,
+          "high": 225352090
+        },
+        {
+          "low": -766185471,
+          "high": 225351124
+        },
+        {
+          "low": -409677824,
+          "high": 225350296
+        }
+      ],
+      {
+        "low": 16,
+        "high": 0
+      }
+    ],
+    "_fieldLookup": {
+      "Hashtag": 0,
+      "User": 1,
+      "tweet_ids": 2,
+      "tweetCount": 3
+    }
+  },
+  {
+    "keys": [
+      "Hashtag",
+      "User",
+      "tweet_ids",
+      "tweetCount"
+    ],
+    "length": 4,
+    "_fields": [
+      "MondayMotivation",
+      "astitvapandey3",
+      [
+        {
+          "low": 2115293184,
+          "high": 225357276
+        },
+        {
+          "low": 1331011584,
+          "high": 225357249
+        },
+        {
+          "low": 2098475009,
+          "high": 225357219
+        },
+        {
+          "low": -246087678,
+          "high": 225357182
+        },
+        {
+          "low": -560660480,
+          "high": 225356530
+        }
+      ],
+      {
+        "low": 5,
+        "high": 0
+      }
+    ],
+    "_fieldLookup": {
+      "Hashtag": 0,
+      "User": 1,
+      "tweet_ids": 2,
+      "tweetCount": 3
+    }
+  },
+  {
+    "keys": [
+      "Hashtag",
+      "User",
+      "tweet_ids",
+      "tweetCount"
+    ],
+    "length": 4,
+    "_fields": [
+      "MondayMotivation",
+      "ErickJongo",
+      [
+        {
+          "low": 630468608,
+          "high": 217765772
+        },
+        {
+          "low": -749387775,
+          "high": 217850029
+        },
+        {
+          "low": -78299136,
+          "high": 217850110
+        },
+        {
+          "low": 1658167296,
+          "high": 217850181
+        }
+      ],
+      {
+        "low": 4,
+        "high": 0
+      }
+    ],
+    "_fieldLookup": {
+      "Hashtag": 0,
+      "User": 1,
+      "tweet_ids": 2,
+      "tweetCount": 3
+    }
+  }
+]

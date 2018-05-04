@@ -1,0 +1,3939 @@
+[
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31539,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "apnaplan",
+          "author_id": {
+            "low": 954351156,
+            "high": 0
+          },
+          "author_profile_image": "https://pbs.twimg.com/profile_images/490410031603384320/wrq7IDd1_normal.jpeg",
+          "author": "Amit"
+        }
+      },
+      {
+        "identity": {
+          "low": 49797,
+          "high": 0
+        },
+        "start": {
+          "low": 31539,
+          "high": 0
+        },
+        "end": {
+          "low": 31540,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31540,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2017-12-16",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2017-12-16 23:53:50",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Use Challan 280 to Pay Self A https://t.co/YsRn5gcwZ4 #MondayMotivation #TuesdayThoughts #WednesdayWisdom #FridayFeeling #ThursdayThoughts",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -292073472,
+            "high": 219368608
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 49799,
+          "high": 0
+        },
+        "start": {
+          "low": 31540,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 49845,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 31581,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31581,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2017-12-18",
+          "like_count": {
+            "low": 16,
+            "high": 0
+          },
+          "tweet_datetime": "2017-12-18 21:54:58",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "#Kindness begins with me! 💕😃👍🏻 #JoyTrain #Defstar5 #MakeYourOwnLane #MondayMotivation #InspireThemRetweetTuesday… https://t.co/1bEFhRubsj",
+          "quote_count": {
+            "low": 2,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 13,
+            "high": 0
+          },
+          "tid": {
+            "low": 64241664,
+            "high": 219530394
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 49851,
+          "high": 0
+        },
+        "start": {
+          "low": 31581,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31269,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "ErickJongo",
+          "author_id": {
+            "low": 611512229,
+            "high": 0
+          },
+          "author": "Erick Jongo",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/888136008629407745/E8wKAuph_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 49469,
+          "high": 0
+        },
+        "start": {
+          "low": 31269,
+          "high": 0
+        },
+        "end": {
+          "low": 31270,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31270,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2017-11-27",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2017-11-27 23:58:45",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Politics: Theresa May rules out making Prince Harry and Meghan Markle's wedding https://t.co/xjm28PY7Sq #CyberMonday2017 #MondayMotivation",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 630468608,
+            "high": 217765772
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 49472,
+          "high": 0
+        },
+        "start": {
+          "low": 31270,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31269,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "ErickJongo",
+          "author_id": {
+            "low": 611512229,
+            "high": 0
+          },
+          "author": "Erick Jongo",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/888136008629407745/E8wKAuph_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 49478,
+          "high": 0
+        },
+        "start": {
+          "low": 31269,
+          "high": 0
+        },
+        "end": {
+          "low": 31279,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31279,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 1,
+            "high": 0
+          },
+          "tweet_date": "2017-11-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2017-11-28 23:56:45",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "The incredible career of Jeff Bezos' wife MacKenzie, an acclaimed novelist who w https://t.co/HhqsQzCfw4 #CyberMonday2017 #MondayMotivation",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -749387775,
+            "high": 217850029
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 49481,
+          "high": 0
+        },
+        "start": {
+          "low": 31279,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31269,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "ErickJongo",
+          "author_id": {
+            "low": 611512229,
+            "high": 0
+          },
+          "author": "Erick Jongo",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/888136008629407745/E8wKAuph_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 49487,
+          "high": 0
+        },
+        "start": {
+          "low": 31269,
+          "high": 0
+        },
+        "end": {
+          "low": 31285,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31285,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 1,
+            "high": 0
+          },
+          "tweet_date": "2017-11-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2017-11-28 23:58:08",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "North Korea's missile launch showed the kind of tactic and skill they'd use to t https://t.co/f3U9oGqG9v #CyberMonday2017 #MondayMotivation",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -78299136,
+            "high": 217850110
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 49490,
+          "high": 0
+        },
+        "start": {
+          "low": 31285,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31269,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "ErickJongo",
+          "author_id": {
+            "low": 611512229,
+            "high": 0
+          },
+          "author": "Erick Jongo",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/888136008629407745/E8wKAuph_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 49496,
+          "high": 0
+        },
+        "start": {
+          "low": 31269,
+          "high": 0
+        },
+        "end": {
+          "low": 31291,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31291,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2017-11-28",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2017-11-28 23:59:20",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Sports: Legendary sports radio host Mike Francesa melts down over Giants' decisi https://t.co/KvBZr98mze #CyberMonday2017 #MondayMotivation",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 1658167296,
+            "high": 217850181
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 49499,
+          "high": 0
+        },
+        "start": {
+          "low": 31291,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31539,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "apnaplan",
+          "author_id": {
+            "low": 954351156,
+            "high": 0
+          },
+          "author_profile_image": "https://pbs.twimg.com/profile_images/490410031603384320/wrq7IDd1_normal.jpeg",
+          "author": "Amit"
+        }
+      },
+      {
+        "identity": {
+          "low": 50748,
+          "high": 0
+        },
+        "start": {
+          "low": 31539,
+          "high": 0
+        },
+        "end": {
+          "low": 32216,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32216,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-16",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-16 23:53:31",
+          "verified": true,
+          "lang": "fr",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "8 Questions about Tax Exempti https://t.co/EFTuWVChQH #MondayMotivation #TuesdayThoughts #WednesdayWisdom #FridayFeeling #ThursdayThoughts",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -275382271,
+            "high": 221984215
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50750,
+          "high": 0
+        },
+        "start": {
+          "low": 32216,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50716,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32193,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32193,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-15",
+          "like_count": {
+            "low": 14,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-15 23:58:20",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "A true #friend  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/kdMbWFly2s",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 15,
+            "high": 0
+          },
+          "tid": {
+            "low": -799686656,
+            "high": 221900122
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50723,
+          "high": 0
+        },
+        "start": {
+          "low": 32193,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50776,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32226,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32226,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-18",
+          "like_count": {
+            "low": 7,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-18 21:57:32",
+          "verified": true,
+          "lang": "und",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "I am #psyched 👍🏻👏🏻  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/Wl89Cbwa7j",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 5,
+            "high": 0
+          },
+          "tid": {
+            "low": 1750458368,
+            "high": 222146169
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50783,
+          "high": 0
+        },
+        "start": {
+          "low": 32226,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50764,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32220,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32220,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-18",
+          "like_count": {
+            "low": 11,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-18 21:51:43",
+          "verified": true,
+          "lang": "und",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "#Live #love #care #speak  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/3zFClQCKwJ",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 5,
+            "high": 0
+          },
+          "tid": {
+            "low": 2002075649,
+            "high": 222145828
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50774,
+          "high": 0
+        },
+        "start": {
+          "low": 32220,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50756,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32218,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32218,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-17",
+          "like_count": {
+            "low": 13,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-17 23:56:53",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 2,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "I 👀 within  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/FmrCUposUA",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 15,
+            "high": 0
+          },
+          "tid": {
+            "low": -1206583296,
+            "high": 222068787
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50762,
+          "high": 0
+        },
+        "start": {
+          "low": 32218,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50827,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32257,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32257,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-18",
+          "like_count": {
+            "low": 21,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-18 23:50:25",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 1,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "You become what you #believe  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/5VBkJ5CZYR",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 18,
+            "high": 0
+          },
+          "tid": {
+            "low": -1395269632,
+            "high": 222152783
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50834,
+          "high": 0
+        },
+        "start": {
+          "low": 32257,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50836,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32260,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32260,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-18",
+          "like_count": {
+            "low": 28,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-18 23:54:05",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "#Money can buy,  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/33nkAwFlG0",
+          "quote_count": {
+            "low": 1,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 18,
+            "high": 0
+          },
+          "tid": {
+            "low": -1638596608,
+            "high": 222152998
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50843,
+          "high": 0
+        },
+        "start": {
+          "low": 32260,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50818,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32254,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32254,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-18",
+          "like_count": {
+            "low": 5,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-18 23:39:26",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Your BIG #opportunity  💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/zRmm9MH6xY",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 7,
+            "high": 0
+          },
+          "tid": {
+            "low": -1332396032,
+            "high": 222152140
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50825,
+          "high": 0
+        },
+        "start": {
+          "low": 32254,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31539,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "apnaplan",
+          "author_id": {
+            "low": 954351156,
+            "high": 0
+          },
+          "author_profile_image": "https://pbs.twimg.com/profile_images/490410031603384320/wrq7IDd1_normal.jpeg",
+          "author": "Amit"
+        }
+      },
+      {
+        "identity": {
+          "low": 50934,
+          "high": 0
+        },
+        "start": {
+          "low": 31539,
+          "high": 0
+        },
+        "end": {
+          "low": 32313,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32313,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-02",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-02 23:57:56",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Wrong Maths to Fool Investors https://t.co/x0OIQnjE2z #MondayMotivation #TuesdayThoughts #WednesdayWisdom #FridayFeeling #ThursdayThoughts",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1843965952,
+            "high": 223418849
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50936,
+          "high": 0
+        },
+        "start": {
+          "low": 32313,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50344,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 31964,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31964,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": -1,
+            "high": -1
+          },
+          "tweet_date": "2018-01-01",
+          "like_count": {
+            "low": 8,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-01 21:54:37",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "If you miss #happiness 😃 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/484IZ8yJhm",
+          "quote_count": {
+            "low": 1,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 12,
+            "high": 0
+          },
+          "tid": {
+            "low": 1414873089,
+            "high": 220711624
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50351,
+          "high": 0
+        },
+        "start": {
+          "low": 31964,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50424,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32011,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32011,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-01",
+          "like_count": {
+            "low": 10,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-01 22:54:39",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Sometimes #memories 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/Kt8ZCQLEQK",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 9,
+            "high": 0
+          },
+          "tid": {
+            "low": -1709850624,
+            "high": 220715141
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50431,
+          "high": 0
+        },
+        "start": {
+          "low": 32011,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50395,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 31998,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31998,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-01",
+          "like_count": {
+            "low": 8,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-01 22:35:50",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Don’t forget #Magic 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/8kBtjRAZSZ",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 7,
+            "high": 0
+          },
+          "tid": {
+            "low": 93700096,
+            "high": 220714039
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50402,
+          "high": 0
+        },
+        "start": {
+          "low": 31998,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50409,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32005,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32005,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-01",
+          "like_count": {
+            "low": 11,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-01 22:41:07",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Don’t let, 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/e2tSyPw8Zb",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 15,
+            "high": 0
+          },
+          "tid": {
+            "low": -1894510592,
+            "high": 220714348
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50415,
+          "high": 0
+        },
+        "start": {
+          "low": 32005,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 50386,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 31995,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31995,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-01-01",
+          "like_count": {
+            "low": 14,
+            "high": 0
+          },
+          "tweet_datetime": "2018-01-01 22:34:11",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 1,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Stay close 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/2zP4rMfSvF",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 9,
+            "high": 0
+          },
+          "tid": {
+            "low": -724299776,
+            "high": 220713941
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 50392,
+          "high": 0
+        },
+        "start": {
+          "low": 31995,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31803,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "rtinewsonline",
+          "author_id": {
+            "low": -1722366430,
+            "high": 0
+          },
+          "author": "RTI News",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/635678711908401152/ORwz8K7P_normal.png"
+        }
+      },
+      {
+        "identity": {
+          "low": 51717,
+          "high": 0
+        },
+        "start": {
+          "low": 31803,
+          "high": 0
+        },
+        "end": {
+          "low": 32811,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32811,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-27",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-27 23:57:35",
+          "verified": true,
+          "lang": "hi",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "'इंदिरा के गरीबी हटाओ प्रस्ताव जैसा है मेट्रो प्रोजेक्ट'\n - https://t.co/wukizjtyRR #Sridevi #MondayMotivation… https://t.co/Ukw7L933Yc",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -2053783552,
+            "high": 225528203
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51720,
+          "high": 0
+        },
+        "start": {
+          "low": 32811,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32784,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "astitvapandey3",
+          "author_id": {
+            "low": 1124744869,
+            "high": 0
+          },
+          "author": "Astitva Pandey",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/844285075084718080/srGpNj_5_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51693,
+          "high": 0
+        },
+        "start": {
+          "low": 32784,
+          "high": 0
+        },
+        "end": {
+          "low": 32799,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32799,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 2,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 23:20:25",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 1,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Be inspired.\n\n#MotivationSundayWithDes\n#ThinkBIGSundayWithMarsha\n#IQRTG #Success \n#MondayMotivation\n#Leadership… https://t.co/xsxVmylRze",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 2,
+            "high": 0
+          },
+          "tid": {
+            "low": 2115293184,
+            "high": 225357276
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51699,
+          "high": 0
+        },
+        "start": {
+          "low": 32799,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32784,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "astitvapandey3",
+          "author_id": {
+            "low": 1124744869,
+            "high": 0
+          },
+          "author": "Astitva Pandey",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/844285075084718080/srGpNj_5_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51683,
+          "high": 0
+        },
+        "start": {
+          "low": 32784,
+          "high": 0
+        },
+        "end": {
+          "low": 32797,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32797,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 9,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 23:19:57",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Be inspired.\n\n#MotivationSundayWithDes\n#ThinkBIGSundayWithMarsha\n#IQRTG #Success \n#MondayMotivation\n#Leadership… https://t.co/mSMfWuri96",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 2,
+            "high": 0
+          },
+          "tid": {
+            "low": 1331011584,
+            "high": 225357249
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51689,
+          "high": 0
+        },
+        "start": {
+          "low": 32797,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32784,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "astitvapandey3",
+          "author_id": {
+            "low": 1124744869,
+            "high": 0
+          },
+          "author": "Astitva Pandey",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/844285075084718080/srGpNj_5_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51673,
+          "high": 0
+        },
+        "start": {
+          "low": 32784,
+          "high": 0
+        },
+        "end": {
+          "low": 32795,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32795,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 6,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 23:19:27",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Be inspired.\n\n#MotivationSundayWithDes\n#ThinkBIGSundayWithMarsha\n#IQRTG #Success \n#MondayMotivation\n#Leadership… https://t.co/5TMT1EaItl",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 5,
+            "high": 0
+          },
+          "tid": {
+            "low": 2098475009,
+            "high": 225357219
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51679,
+          "high": 0
+        },
+        "start": {
+          "low": 32795,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32784,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "astitvapandey3",
+          "author_id": {
+            "low": 1124744869,
+            "high": 0
+          },
+          "author": "Astitva Pandey",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/844285075084718080/srGpNj_5_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51663,
+          "high": 0
+        },
+        "start": {
+          "low": 32784,
+          "high": 0
+        },
+        "end": {
+          "low": 32792,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32792,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 4,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 23:18:49",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Be inspired. \n#MotivationSundayWithDes\n#ThinkBIGSundayWithMarsha\n#IQRTG #Success \n#MondayMotivation\n#Leadership… https://t.co/ts4s70eI2u",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 2,
+            "high": 0
+          },
+          "tid": {
+            "low": -246087678,
+            "high": 225357182
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51669,
+          "high": 0
+        },
+        "start": {
+          "low": 32792,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 32784,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "astitvapandey3",
+          "author_id": {
+            "low": 1124744869,
+            "high": 0
+          },
+          "author": "Astitva Pandey",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/844285075084718080/srGpNj_5_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51654,
+          "high": 0
+        },
+        "start": {
+          "low": 32784,
+          "high": 0
+        },
+        "end": {
+          "low": 32785,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32785,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 5,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 23:07:42",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Be Inspired! \n\n#MotivationSundayWithDes\n#ThinkBIGSundayWithMarsha\n#IQRTG #Success \n#MondayMotivation\n#Leadership… https://t.co/yS4sa8L6jh",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 4,
+            "high": 0
+          },
+          "tid": {
+            "low": -560660480,
+            "high": 225356530
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51660,
+          "high": 0
+        },
+        "start": {
+          "low": 32785,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51606,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32753,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32753,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 8,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 21:51:55",
+          "verified": true,
+          "lang": "und",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "I do! 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/AB7a52Tnsc",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 8,
+            "high": 0
+          },
+          "tid": {
+            "low": 806739969,
+            "high": 225352090
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51612,
+          "high": 0
+        },
+        "start": {
+          "low": 32753,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51577,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32737,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32737,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 13,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 21:35:26",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 1,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "I #hope you do! 💕🦋 #JoyTrain #Defstar5 #MakeYourOwnLane  #ThinkBIGSundayWithMarsha #MondayMotivation… https://t.co/fYCQWzUx4d",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 9,
+            "high": 0
+          },
+          "tid": {
+            "low": -766185471,
+            "high": 225351124
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51584,
+          "high": 0
+        },
+        "start": {
+          "low": 32737,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31580,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "nickystevo",
+          "author_id": {
+            "low": 429142016,
+            "high": 168121420
+          },
+          "author": "Nichola L Stephenson",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/901029077615656961/YSLWkbNU_normal.jpg"
+        }
+      },
+      {
+        "identity": {
+          "low": 51562,
+          "high": 0
+        },
+        "start": {
+          "low": 31580,
+          "high": 0
+        },
+        "end": {
+          "low": 32729,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32729,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-25",
+          "like_count": {
+            "low": 4,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-25 21:21:18",
+          "verified": true,
+          "lang": "und",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "I do! #coffee 👍🏻👏🏻 💕🦋 #JoyTrain #Defstar5   #ThinkBIGSundayWithMarsha #MondayMotivation #InspireThemRetweetTuesday… https://t.co/rJYDOIVSYP",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 6,
+            "high": 0
+          },
+          "tid": {
+            "low": -409677824,
+            "high": 225350296
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51568,
+          "high": 0
+        },
+        "start": {
+          "low": 32729,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31803,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "rtinewsonline",
+          "author_id": {
+            "low": -1722366430,
+            "high": 0
+          },
+          "author": "RTI News",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/635678711908401152/ORwz8K7P_normal.png"
+        }
+      },
+      {
+        "identity": {
+          "low": 51508,
+          "high": 0
+        },
+        "start": {
+          "low": 31803,
+          "high": 0
+        },
+        "end": {
+          "low": 32690,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32690,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-19",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-19 23:58:09",
+          "verified": true,
+          "lang": "hi",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "कर्नाटक का 2 दिवसीय दौरा पर प्रधानमंत्री नरेन्द्र मोदी\n - https://t.co/I7P7WyuXzd #MondayMotivation #ShivajiJayanti… https://t.co/uMW5BNMjbX",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 85311488,
+            "high": 224853237
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51510,
+          "high": 0
+        },
+        "start": {
+          "low": 32690,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31803,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "rtinewsonline",
+          "author_id": {
+            "low": -1722366430,
+            "high": 0
+          },
+          "author": "RTI News",
+          "author_profile_image": "https://pbs.twimg.com/profile_images/635678711908401152/ORwz8K7P_normal.png"
+        }
+      },
+      {
+        "identity": {
+          "low": 51514,
+          "high": 0
+        },
+        "start": {
+          "low": 31803,
+          "high": 0
+        },
+        "end": {
+          "low": 32694,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 32694,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-02-19",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-02-19 23:58:46",
+          "verified": true,
+          "lang": "hi",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "कर्नाटक के किसान नेता और विधायक के. एस. पुत्तानैया का निधन\n - https://t.co/bWOZVm00v5 #MondayMotivation… https://t.co/Wr8yIkcuea",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": -1848270845,
+            "high": 224853273
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 51516,
+          "high": 0
+        },
+        "start": {
+          "low": 32694,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  },
+  {
+    "keys": [
+      "a",
+      "at",
+      "t",
+      "th",
+      "h"
+    ],
+    "length": 5,
+    "_fields": [
+      {
+        "identity": {
+          "low": 31539,
+          "high": 0
+        },
+        "labels": [
+          "Author"
+        ],
+        "properties": {
+          "author_screen_name": "apnaplan",
+          "author_id": {
+            "low": 954351156,
+            "high": 0
+          },
+          "author_profile_image": "https://pbs.twimg.com/profile_images/490410031603384320/wrq7IDd1_normal.jpeg",
+          "author": "Amit"
+        }
+      },
+      {
+        "identity": {
+          "low": 52544,
+          "high": 0
+        },
+        "start": {
+          "low": 31539,
+          "high": 0
+        },
+        "end": {
+          "low": 33296,
+          "high": 0
+        },
+        "type": "WROTE",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 33296,
+          "high": 0
+        },
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "sentiment": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_date": "2018-03-05",
+          "like_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tweet_datetime": "2018-03-05 23:59:38",
+          "verified": true,
+          "lang": "en",
+          "reply_count": {
+            "low": 0,
+            "high": 0
+          },
+          "type": "Tweet",
+          "tweet_text": "Sovereign Gold Bond Scheme https://t.co/frTfPQLmxI #MondayMotivation #TuesdayThoughts #WednesdayWisdom #FridayFeeling #ThursdayThoughts",
+          "quote_count": {
+            "low": 0,
+            "high": 0
+          },
+          "retweet_count": {
+            "low": 0,
+            "high": 0
+          },
+          "tid": {
+            "low": 899117056,
+            "high": 226034574
+          }
+        }
+      },
+      {
+        "identity": {
+          "low": 52546,
+          "high": 0
+        },
+        "start": {
+          "low": 33296,
+          "high": 0
+        },
+        "end": {
+          "low": 31273,
+          "high": 0
+        },
+        "type": "HAS_HASHTAG",
+        "properties": {}
+      },
+      {
+        "identity": {
+          "low": 31273,
+          "high": 0
+        },
+        "labels": [
+          "Hashtag",
+          "Shadow"
+        ],
+        "properties": {
+          "hashtag": "MondayMotivation"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "a": 0,
+      "at": 1,
+      "t": 2,
+      "th": 3,
+      "h": 4
+    }
+  }
+]
+
